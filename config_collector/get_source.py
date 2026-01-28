@@ -36,7 +36,7 @@ def get_source():
         try:
             for i, url in enumerate(links, start=1):
                 if url != "":
-                    print(f"URL : {url}")
+                    #print(f"URL : {url}")
                     executor.submit(get, url, session, i)
         except Exception as e:
             print(e)
