@@ -67,16 +67,7 @@ jobs:
         mkdir -p data/working_url
         echo "Created directory structure:"
         find data -type d
-
-    - name: Execute Python proxy collector
-      id: python-collector
-      run: |
-        echo "Starting Python proxy collection..."
-        cd config_collector
-        python main.py
-        echo "Python proxy collection completed"
-      continue-on-error: true
-
+        
     - name: Get GeoIP
       id: get-geoip
       run: |
@@ -84,6 +75,15 @@ jobs:
         rm -rf xray_test/Country-without-asn.mmdb
         wget -P xray_test/ https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-without-asn.mmdb
         echo "Get GeoIP Database completed"
+      continue-on-error: true
+      
+    - name: Execute Python proxy collector
+      id: python-collector
+      run: |
+        echo "Starting Python proxy collection..."
+        cd config_collector
+        python main.py
+        echo "Python proxy collection completed"
       continue-on-error: true
 
     - name: Execute Go proxy tester
