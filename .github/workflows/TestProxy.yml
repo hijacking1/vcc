@@ -72,9 +72,16 @@ jobs:
       id: get-geoip
       run: |
         echo "Starting Get GeoIP Database..."
-        rm -rf xray_test/Country-without-asn.mmdb
-        wget -P xray_test/ https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-without-asn.mmdb
+        wget -P xray_test/tmp.mmdb https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-without-asn.mmdb
         echo "Get GeoIP Database completed"
+        if [ -e "xray_test/tmp.mmdb" ]; then
+          echo "Update GeoIP Database..."
+          rm -rf xray_test/Country-without-asn.mmdb
+          mv xray_test/tmp.mmdb xray_test/Country-without-asn.mmdb
+          git add xray_test/Country-without-asn.mmdb || true
+          git commit -m "Update mmdb $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+          echo "Update GeoIP Database completed"
+        fi
       continue-on-error: true
       
     - name: Execute Python proxy collector
