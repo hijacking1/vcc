@@ -82,7 +82,7 @@ jobs:
       run: |
         echo "Starting Get GeoIP Database..."
         rm -rf xray_test/Country-without-asn.mmdb
-        curl -L "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-without-asn.mmdb" -o xray_test/Country-without-asn.mmdb
+        wget -P xray_test/ https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-without-asn.mmdb
         echo "Get GeoIP Database completed"
       continue-on-error: true
 
