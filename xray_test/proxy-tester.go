@@ -445,6 +445,7 @@ func getGeoInfoFromGeoIP(ip_str string, client *http.Client) (*GeoIPInfo, error)
 		return nil, fmt.Errorf("getGeoInfoFromGeoIP db.Lookup failed: %w", err)
 	}
 
+	log.Printf("Get GeoIP %s:%s:%s", ip_str, record.Country.Names["en"], record.Country.ISOCode)
 
 	return &GeoIPInfo{
 		CountryCode: record.Country.ISOCode,
