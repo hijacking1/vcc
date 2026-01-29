@@ -5,7 +5,7 @@ import (
 	"context"
 	"crypto/md5"
 	"encoding/base64"
-    "encoding/hex"
+	"encoding/hex"
 	"encoding/json"
 	"fmt"
 	"io"
@@ -13,6 +13,7 @@ import (
 	"math/rand"
 	"net"
 	"net/http"
+	"net/netip"
 	"net/url"
 	"os"
 	"os/exec"
@@ -27,6 +28,7 @@ import (
 	"syscall"
 	"time"
 
+	"github.com/oschwald/maxminddb-golang/v2"
 	"golang.org/x/net/proxy"
 )
 
@@ -415,10 +417,47 @@ func getGeoInfoFromIPInfo(ip string, client *http.Client) (*GeoIPInfo, error) {
 	}, nil
 }
 
+// Provider 5: from GeoIP mmdb
+func getGeoInfoFromGeoIP(ip_str string, client *http.Client) (*GeoIPInfo, error) {
+	db, err := maxminddb.Open("Country-without-asn.mmdb")
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer db.Close()
+
+	var record struct {
+		Country struct {
+			ISOCode string            `maxminddb:"iso_code"`
+			Names	map[string]string `maxminddb:"names"`
+		} `maxminddb:"country"`
+		City struct {
+			Names	map[string]string `maxminddb:"names"`
+		} `maxminddb:"city"`
+	}
+	
+	ip_parse, err := netip.ParseAddr(ip_str)
+	if err != nil {
+		return nil, fmt.Errorf("getGeoInfoFromGeoIP ParseAddr failed: %w", err)
+	}
+
+	err = db.Lookup(ip_parse).Decode(&record)
+	if err != nil {
+		return nil, fmt.Errorf("getGeoInfoFromGeoIP db.Lookup failed: %w", err)
+	}
+
+
+	return &GeoIPInfo{
+		CountryCode: record.Country.ISOCode,
+		CountryName: record.Country.Names["en"],
+		CountryFlag: countryCodeToFlag(record.Country.ISOCode),
+	}, nil
+}
+
 func (nt *NetworkTester) GetCountryInfo(ip string) (*GeoIPInfo, error) {
 	client := &http.Client{Timeout: 5 * time.Second}
 
 	providers := []func(string, *http.Client) (*GeoIPInfo, error){
+		getGeoInfoFromGeoIP,
 		getGeoInfoFromIPAPI,
 		getGeoInfoFromIPWho,
 		getGeoInfoFromFreeGeoIP,
