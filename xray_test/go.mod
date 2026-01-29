@@ -1,6 +1,6 @@
 module proxy-tester
 
-go 1.25.1
+go 1.25.6
 
 require (
 	github.com/oschwald/maxminddb-golang/v2 v2.1.1
