@@ -55,19 +55,6 @@ jobs:
         go mod download
         go mod verify
 
-    - name: Clear and prepare data folder
-      run: |
-        echo "Clearing and preparing data folder..."
-        if [ -d "data" ]; then
-          rm -rf data/*
-        else
-          mkdir -p data
-        fi
-        # Create all necessary subdirectories
-        mkdir -p data/working_url
-        echo "Created directory structure:"
-        find data -type d
-        
     - name: Get GeoIP
       id: get-geoip
       run: |
@@ -91,6 +78,19 @@ jobs:
             fi
         fi
       continue-on-error: true
+      
+    - name: Clear and prepare data folder
+      run: |
+        echo "Clearing and preparing data folder..."
+        if [ -d "data" ]; then
+          rm -rf data/*
+        else
+          mkdir -p data
+        fi
+        # Create all necessary subdirectories
+        mkdir -p data/working_url
+        echo "Created directory structure:"
+        find data -type d
       
     - name: Execute Python proxy collector
       id: python-collector
