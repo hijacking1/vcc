@@ -78,11 +78,15 @@ jobs:
           echo "Update GeoIP Database..."
           rm -rf xray_test/Country-without-asn.mmdb
           mv xray_test/tmp.mmdb xray_test/Country-without-asn.mmdb
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add xray_test/Country-without-asn.mmdb || true
-          git commit -m "Update mmdb $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
-          echo "Update GeoIP Database completed"
+            if [ -e "xray_test/Country-without-asn.mmdb" ]; then
+              git config --global user.name 'github-actions[bot]'
+              git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+              git add Country-without-asn.mmdb
+              git commit -m "Update mmdb $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+              echo "Update GeoIP Database completed"
+            else
+              echo "Update GeoIP Database Failed"
+            fi
         fi
       continue-on-error: true
       
