@@ -52,7 +52,6 @@ def decode_base64(s: str) -> str:
         decoded = base64.urlsafe_b64decode(padded_data).decode('utf-8')
     except Exception as e:
         raise ValueError(f"Failed to decode get_source -> decode_base64: {str(e)}")
-    finally:
         return decoded
         
 def is_base64(s: str) -> bool:
