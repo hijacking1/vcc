@@ -71,12 +71,14 @@ jobs:
               git config --global user.name 'github-actions[bot]'
               git config --global user.email 'github-actions[bot]@users.noreply.github.com'
               git add xray_test/Country-without-asn.mmdb
-              git commit -a -m "Update mmdb $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
-              git push origin "${{ github.ref_name }}"
+              git commit -m "Update mmdb $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+              git push
               echo "Update GeoIP Database completed"
             else
               echo "Update GeoIP Database Failed"
             fi
+        else
+          echo "Get GeoIP Database Failed"
         fi
       continue-on-error: true
       
