@@ -59,31 +59,25 @@ jobs:
       id: get-geoip
       run: |
         echo "Starting Get GeoIP Database..."
-        cd xray_test
-        if [ -e "Country-without-asn.mmdb" ]; then
+        if [ -e "xray_test/Country-without-asn.mmdb" ]; then
           echo "GeoIP Database Find..."
         fi
-        ls
-        pwd
-        rm -rf tmp
-        wget -P tmp https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-without-asn.mmdb
+        rm -rf xray_test/tmp
+        wget -P xray_test/tmp https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-without-asn.mmdb
         echo "Get GeoIP Database Download completed"
-        if [ -e "tmp/Country-without-asn.mmdb" ]; then
-        ls
-        pwd
+        if [ -e "xray_test/tmp/Country-without-asn.mmdb" ]; then
           echo "Find tmp GeoIP Database..." 
           echo "Update GeoIP Database..."
-          rm -rf Country-without-asn.mmdb
-          mv tmp/Country-without-asn.mmdb Country-without-asn.mmdb
+          rm -rf xray_test/Country-without-asn.mmdb
+          mv xray_test/tmp/Country-without-asn.mmdb xray_test/Country-without-asn.mmdb
           rm -rf tmp
-            if [ -e "Country-without-asn.mmdb" ]; then
-        ls
-        pwd
-              git config --global user.name 'github-actions[bot]'
-              git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-              git add Country-without-asn.mmdb
-              git commit -m "Update $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
-              echo "Update GeoIP Database completed"
+            if [ -e "xray_test/Country-without-asn.mmdb" ]; then
+                cd xray_test
+                git config --global user.name 'github-actions[bot]'
+                git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+                git add Country-without-asn.mmdb || true
+                git commit -m "Update $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+                echo "Update GeoIP Database completed"
             else
               echo "Update GeoIP Database Failed"
             fi
