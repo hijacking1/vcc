@@ -66,7 +66,7 @@ jobs:
         if [ -e "tmp/Country-without-asn.mmdb" ]; then
           echo "Update GeoIP Database..."
           rm -rf Country-without-asn.mmdb
-          mv tmp/Country-without-asn.mmdb xray_test/Country-without-asn.mmdb
+          mv tmp/Country-without-asn.mmdb Country-without-asn.mmdb
           rm -rf tmp
             if [ -e "Country-without-asn.mmdb" ]; then
               git config --global user.name 'github-actions[bot]'
