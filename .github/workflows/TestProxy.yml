@@ -61,17 +61,24 @@ jobs:
         echo "Starting Get GeoIP Database..."
         cd xray_test
         if [ -e "Country-without-asn.mmdb" ]; then
-          echo "mmdb Find..."
+          echo "GeoIP Database Find..."
         fi
+        ls
+        pwd
         rm -rf tmp
         wget -P tmp https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-without-asn.mmdb
-        echo "Get GeoIP Database completed"
+        echo "Get GeoIP Database Download completed"
         if [ -e "tmp/Country-without-asn.mmdb" ]; then
+        ls
+        pwd
+          echo "Find tmp GeoIP Database..." 
           echo "Update GeoIP Database..."
           rm -rf Country-without-asn.mmdb
           mv tmp/Country-without-asn.mmdb Country-without-asn.mmdb
           rm -rf tmp
             if [ -e "Country-without-asn.mmdb" ]; then
+        ls
+        pwd
               git config --global user.name 'github-actions[bot]'
               git config --global user.email 'github-actions[bot]@users.noreply.github.com'
               git add Country-without-asn.mmdb
