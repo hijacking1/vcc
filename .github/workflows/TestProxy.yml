@@ -72,10 +72,9 @@ jobs:
           mv xray_test/tmp/Country-without-asn.mmdb xray_test/Country-without-asn.mmdb
           rm -rf tmp
             if [ -e "xray_test/Country-without-asn.mmdb" ]; then
-                cd xray_test
                 git config --global user.name 'github-actions[bot]'
                 git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-                git add Country-without-asn.mmdb || true
+                git add xray_test/Country-without-asn.mmdb || true
                 git commit -m "Update $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
                 echo "Update GeoIP Database completed"
             else
