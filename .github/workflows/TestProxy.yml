@@ -71,7 +71,7 @@ jobs:
             if [ -e "Country-without-asn.mmdb" ]; then
               git config --global user.name 'github-actions[bot]'
               git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-              git add Country-without-asn.mmdb
+              git add .
               git commit -m "Update $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
               echo "Update GeoIP Database completed"
             else
