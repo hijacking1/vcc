@@ -1,502 +1,478 @@
 # Working VLESS Configurations (URL Format)
-# Generated at: 2026-03-19 13:11:47
+# Generated at: 2026-03-19 19:03:30
 # Format: Each line contains one working configuration as URL
 
-# Tested at: 2026-03-19 14:25:21 | Response: 0.183s | IP: 104.28.165.228 | Country: 🇺🇸 United States - US
-vless://4307e484-6c8b-46d0-9df4-8b3983ab27b4@173.245.59.244:8080?host=029.electrocellco-cf-029.workers.dev&path=%2FeyJqdW5rIjoiZUZpQ3M1WlYxYjlJTHlXNSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjc3LjIzOC4yMzEuMTc5IiwiMzEuNDQuMi41NyJdfQ%3D%3D%3Fed%3D2560&sni=173.245.59.244&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-fa8997015734bb516b99cfc0e51db52a
-
-# Tested at: 2026-03-19 14:25:29 | Response: 1.920s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@104.16.250.22:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-0d55a7c19eee5e9a1133fd591f8ae0f6
-
-# Tested at: 2026-03-19 14:27:46 | Response: 0.528s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@104.21.224.5:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-02f145ab134460125e8072de3ff8578f
-
-# Tested at: 2026-03-19 14:28:18 | Response: 0.322s | IP: 104.28.159.163 | Country: 🇺🇸 United States - US
-vless://4307e484-6c8b-46d0-9df4-8b3983ab27b4@198.41.193.151:80?host=029.electrocellco-cf-029.workers.dev&path=%2FeyJqdW5rIjoibWNPczJHelJTUmpXIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNzcuMjM4LjIzMS4xNzkiLCIzMS40NC4yLjU3Il19%3Fed%3D2560&sni=198.41.193.151&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-b5ee3445e41d415dcfb0bdcd938111aa
-
-# Tested at: 2026-03-19 14:28:19 | Response: 0.218s | IP: 104.28.162.252 | Country: 🇺🇸 United States - US
-vless://8973c3c2-803f-41db-9efa-fbef67d47567@104.19.96.214:80?host=018.electrocellco-cf-018.workers.dev&path=%2FeyJqdW5rIjoiUG43S1ZuZGxVOWo5IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ%3D%3D%3Fed%3D2560&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-0573bb8dbcc58dc34097b311e9114ccb
-
-# Tested at: 2026-03-19 14:28:34 | Response: 4.584s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@v3.dabache.top:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F%3Fed&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-55eaf93e863dbb034f001e8d40d17035
-
-# Tested at: 2026-03-19 14:29:12 | Response: 0.109s | IP: 104.28.152.203 | Country: 🇺🇸 United States - US
-vless://c9b45f2f-6cbe-4a86-b4d2-a327f4055a59@198.41.222.50:8080?host=001.electrocellco-cf-001.workers.dev&path=%2FeyJqdW5rIjoiRzBvTDBuZEFVIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIxMy4yMTEuMjkiLCIzMS40NC4yLjU3IiwiNzcuMjQ2LjEwOC4xMzAiXX0%3D%3Fed%3D2560&sni=198.41.222.50&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-7889a526caeb988043b4789f8975846b
-
-# Tested at: 2026-03-19 14:29:57 | Response: 0.237s | IP: 45.82.251.195 | Country: 🇨🇾 Cyprus - CY
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.195:8880?type=grpc#%F0%9F%87%A8%F0%9F%87%BECY-497fd0250a046935aab7dd8808f32e89
-
-# Tested at: 2026-03-19 14:30:32 | Response: 0.317s | IP: 104.28.159.167 | Country: 🇺🇸 United States - US
-vless://636de463-b509-4631-adc6-400b21733278@104.21.59.114:8880?host=index.harmony510.workers.dev&path=%2Frlg2mgmxyyu4n5a8&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-bcfebe8ee4138b042667fa6eb6d0d89c
-
-# Tested at: 2026-03-19 14:30:33 | Response: 0.187s | IP: 104.28.162.253 | Country: 🇺🇸 United States - US
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.17.138.164:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-9570b3f1e707f96d9466832fefedb6e6
-
-# Tested at: 2026-03-19 14:30:33 | Response: 0.171s | IP: 104.28.152.207 | Country: 🇺🇸 United States - US
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.20.63.52:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-88daf6c02cdffef1a53d38eeff170709
-
-# Tested at: 2026-03-19 14:30:33 | Response: 0.118s | IP: 2a09:bac6:d6e0:2628::3cd:48 | Country: 🇺🇸 United States - US
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@162.159.36.20:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-7c33945a4aa1f10ff3f1141dcd7adf2e
-
-# Tested at: 2026-03-19 14:30:40 | Response: 0.552s | IP: 74.220.27.192 | Country: 🇩🇪 Germany - DE
-vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.146.68:80?host=tt.andishehparenting.com&path=%2F&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-3d529c2c5d4b4e782d321d67b4b09dd8
-
-# Tested at: 2026-03-19 14:30:42 | Response: 0.147s | IP: 31.172.69.16 | Country: 🇺🇸 United States - US
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.17.152.254:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-429c6993f44cc20bd0f651b548c1390d
-
-# Tested at: 2026-03-19 14:32:10 | Response: 0.312s | IP: 104.28.152.229 | Country: 🇺🇸 United States - US
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.17.156.229:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-52b4c5d03a64f1eadbc1506da0fca576
-
-# Tested at: 2026-03-19 14:32:44 | Response: 0.244s | IP: 104.28.165.225 | Country: 🇺🇸 United States - US
-vless://623d675e-8748-4881-ac0f-dc1a10b595b1@104.18.4.46:8880?host=vahidasd1988-se08ot-3.vahidasd1988.workers.dev&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-d2c0a318dd2dec2af12b38c9962583ad
-
-# Tested at: 2026-03-19 14:33:29 | Response: 0.282s | IP: 104.28.165.227 | Country: 🇺🇸 United States - US
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@172.66.47.45:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-4d92acdbcc39a46fc76df25e0345a2ef
-
-# Tested at: 2026-03-19 14:33:35 | Response: 1.325s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.146.198:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-ccd00a5f2bb71cdffd01875211211ccb
-
-# Tested at: 2026-03-19 14:33:37 | Response: 0.861s | IP: 37.27.218.190 | Country: 🇫🇮 Finland - FI
-vless://e44c9ff3-5a05-4ee9-b050-b8fbc7c1af04@104.21.227.134:80?host=turbooserver-roeg-fastly.flinkywoo.com&path=%2Fed%3D2560&type=ws#%F0%9F%87%AB%F0%9F%87%AEFI-96ac359f3f72c6c5c83553127125cc45
-
-# Tested at: 2026-03-19 14:33:38 | Response: 0.274s | IP: 185.184.68.94 | Country: 🇺🇸 United States - US
-vless://13ad36e6-c091-43f2-8505-47d868dd544c@bhy7.ae1autumn.dpdns.org:80?host=bhy7.ae1autumn.dpdns.org&path=%2FXR8So0uqFVa3vY9ZbxgW4&sni=bhy7.ae1autumn.dpdns.org&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-9eabcc722f9c5b1dc6f3cfb6a42644fe
-
-# Tested at: 2026-03-19 14:33:45 | Response: 2.537s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.146.102:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-8928ae6d3c21924d4dbfa3232ff7794b
-
-# Tested at: 2026-03-19 14:34:13 | Response: 0.311s | IP: 104.28.165.227 | Country: 🇺🇸 United States - US
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.17.150.99:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-48380b3be8ae2d2a8d8973f15bf9f8bc
-
-# Tested at: 2026-03-19 14:34:14 | Response: 0.414s | IP: 185.184.68.94 | Country: 🇺🇸 United States - US
-vless://13ad36e6-c091-43f2-8505-47d868dd544c@104.21.94.245:80?host=ghju.apocalypse.cc.cd&path=%2FXR8So0uqFVa3vY9ZbxgW4&sni=ghju.apocalypse.cc.cd&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-7b01fcee6b2aedf7460458e30765148d
-
-# Tested at: 2026-03-19 14:35:48 | Response: 2.537s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.146.153:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-2c896762bdc8a4caba373c83261c9392
-
-# Tested at: 2026-03-19 14:36:31 | Response: 1.400s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.66.44.211:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-a47213e2f293dd1acdc5ac7d296fc641
-
-# Tested at: 2026-03-19 14:36:42 | Response: 3.931s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@104.18.185.26:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-00b69bc4a13fa5a3059cf04f451b67fc
-
-# Tested at: 2026-03-19 14:37:08 | Response: 0.477s | IP: 104.28.165.225 | Country: 🇺🇸 United States - US
-vless://787b3724-16c8-4e58-a038-2b8013cdc6d9@172.64.155.209:80?host=c3linogp4x20x5acoguup217nstesdu1.nobodyface4b13.workers.dev&path=%2FeyJqdW5rIjoiTG1jRlUwNjNwVUxvYyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0%3D%3Fed%3D2560&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-9fc34179efaa49b5376c9c438ec70f5c
-
-# Tested at: 2026-03-19 14:37:09 | Response: 0.574s | IP: 91.99.218.107 | Country: 🇩🇪 Germany - DE
-vless://0341d8f2-99e0-4f6c-af0a-345ac26815cf@91.99.218.107:51269?type=grpc#%F0%9F%87%A9%F0%9F%87%AADE-71f14e30a452be0797edf1ebbb6d2165
-
-# Tested at: 2026-03-19 14:37:23 | Response: 0.092s | IP: 2a09:bac1:76a0:56b0::f:3de | Country: 🇺🇸 United States - US
-vless://4307e484-6c8b-46d0-9df4-8b3983ab27b4@188.114.97.222:8080?host=029.electrocellco-cf-029.workers.dev&path=%2FeyJqdW5rIjoiTzZZQ2dpUW1WIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNzcuMjM4LjIzMS4xNzkiLCIzMS40NC4yLjU3Il19%3Fed%3D2560&sni=188.114.97.222&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-70fa26f71a6b73a2866ede095aded49a
-
-# Tested at: 2026-03-19 14:38:02 | Response: 0.154s | IP: 104.28.152.229 | Country: 🇺🇸 United States - US
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@172.64.147.223:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-c5da66fa05678ec8ae18cbb30fdff88b
-
-# Tested at: 2026-03-19 14:38:37 | Response: 0.459s | IP: 104.28.162.254 | Country: 🇺🇸 United States - US
-vless://73d17f62-d0c0-4c90-903c-a2b3f3806cca@104.19.151.106:80?host=fragrant-tooth-a5b7.cajeba6448.workers.dev&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-d193adbe507da451b1f326235b9cb983
-
-# Tested at: 2026-03-19 14:38:56 | Response: 2.393s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+# Tested at: 2026-03-19 20:16:46 | Response: 1.260s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
 vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@162.159.36.5:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-4ffc280934b7584a24f0a8e01e685edd
 
-# Tested at: 2026-03-19 14:39:32 | Response: 2.134s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.146.161:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-de4077ff073f82b0cb3b1fd803561f00
-
-# Tested at: 2026-03-19 14:40:52 | Response: 3.566s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@v2.dabache.top:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-ffd8740ec903c7657a8a0f93a159be21
-
-# Tested at: 2026-03-19 14:41:37 | Response: 3.159s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.146.27:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-717565d891b20b32cf2d50e9c3760559
-
-# Tested at: 2026-03-19 14:41:43 | Response: 0.250s | IP: 45.82.251.116 | Country: 🇨🇾 Cyprus - CY
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@yesok42v2.ip4exordir.shop:8880?type=grpc#%F0%9F%87%A8%F0%9F%87%BECY-55929b2437c29ddff29fd899a38546fc
-
-# Tested at: 2026-03-19 14:43:03 | Response: 0.757s | IP: 2a01:4f9:c010:aa6f::1 | Country: 🇩🇪 Germany - DE
-vless://e44c9ff3-5a05-4ee9-b050-b8fbc7c1af04@172.64.147.255:80?host=turbooserver-roeg-fastly.flinkywoo.com&path=%2Fed%3D2560&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-3e1e1bd5ff678109614c81f38999533e
-
-# Tested at: 2026-03-19 14:43:03 | Response: 0.271s | IP: 104.28.162.252 | Country: 🇺🇸 United States - US
-vless://55cb8179-ce11-4ec8-a03c-333f797265f9@162.159.14.88:80?host=long-forest-ac72.salari1382m.workers.dev&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-c14b199f15a2ef5d9f127b451fae3659
-
-# Tested at: 2026-03-19 14:43:12 | Response: 0.641s | IP: 185.184.68.94 | Country: 🇺🇸 United States - US
-vless://13ad36e6-c091-43f2-8505-47d868dd544c@ghj.ae1autumn.cc.cd:80?host=ghj.ae1autumn.cc.cd&path=%2FXR8So0uqFVa3vY9ZbxgW4&sni=ghj.ae1autumn.cc.cd&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-ba362093e2c19bcf3f1cdb31917f383d
-
-# Tested at: 2026-03-19 14:44:30 | Response: 0.469s | IP: 185.236.232.117 | Country: 🇲🇩 Moldova - MD
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@185.236.232.117:8880?sni=pqh30v3.globalfymain.com&type=grpc#%F0%9F%87%B2%F0%9F%87%A9MD-f882fae4c54b4628563977817ec49822
-
-# Tested at: 2026-03-19 14:44:32 | Response: 1.798s | IP: 74.220.27.192 | Country: 🇩🇪 Germany - DE
-vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.147.224:80?host=tt.andishehparenting.com&path=%2F&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-1aeae64f5ee7f03d2542b3b4f50b10bf
-
-# Tested at: 2026-03-19 14:44:33 | Response: 1.042s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@104.21.227.134:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-41c8e93251c319ec9b4e3c27fe877483
-
-# Tested at: 2026-03-19 14:45:15 | Response: 0.255s | IP: 209.126.84.189 | Country: 🇺🇸 United States - US
-vless://0417be58-2ea8-49de-8083-9eff9b0137e5@209.126.84.189:443?host=v2ray.codefyinc.com&path=%2Fvlessws&sni=v2ray.codefyinc.com&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-6fa63b0a2ceeef847f5dbe7581e12468
-
-# Tested at: 2026-03-19 14:45:15 | Response: 0.930s | IP: 103.245.237.124 | Country: 🇻🇳 Vietnam - VN
-vless://cca053d5-7123-4a87-83d6-babe4e9c8115@103.245.237.124:58202?path=%2F&type=ws#%F0%9F%87%BB%F0%9F%87%B3VN-545b2ee847f53af24bb907f8998d3fee
-
-# Tested at: 2026-03-19 14:45:19 | Response: 3.846s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.146.211:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-eb80e53b5fc10d9ae2144d752b081e6c
-
-# Tested at: 2026-03-19 14:45:25 | Response: 4.569s | IP: 213.136.69.8 | Country: 🇫🇷 France - FR
-vless://15cbab96-197e-46a5-9042-073b3980c798@fsdns.ectunnelvpn.me:80?host=fsdns.ectunnelvpn.me&path=%2Fvless&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-a6074aa504fdf85c8cfaa468d5355538
-
-# Tested at: 2026-03-19 14:45:35 | Response: 1.697s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.146.129:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-bb12a00d2185b848326260a448cbcd9a
-
-# Tested at: 2026-03-19 14:46:09 | Response: 1.064s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.146.199:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-7aeb01184977bd9e2813c3c5cf8f671e
-
-# Tested at: 2026-03-19 14:46:43 | Response: 0.392s | IP: 45.82.251.115 | Country: 🇨🇾 Cyprus - CY
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@yesok42v1.ip4exordir.shop:8880?type=grpc#%F0%9F%87%A8%F0%9F%87%BECY-df6b409bcb44a74a10585f0c0655fa96
-
-# Tested at: 2026-03-19 14:46:43 | Response: 0.113s | IP: 2a09:bac5:bf0f:96::f:383 | Country: 🇺🇸 United States - US
-vless://f929cc78-e2a1-4ce3-8051-3e9538405144@104.17.15.87:80?host=britain.xydcqd.workers.dev&path=%2F%40WireXnet%3Fed%3D2048&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-a68cc3abd7d24ad9907654230521cfde
-
-# Tested at: 2026-03-19 14:46:43 | Response: 0.220s | IP: 104.28.165.227 | Country: 🇺🇸 United States - US
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@172.66.44.211:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-ce4f0d03c9955c9b20b00f0b808bace7
-
-# Tested at: 2026-03-19 14:46:46 | Response: 1.961s | IP: 104.28.152.218 | Country: 🇺🇸 United States - US
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@v3.dabache.top:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-9b635c09206a0ad0de109e16505c28cf
-
-# Tested at: 2026-03-19 14:47:30 | Response: 0.630s | IP: 77.83.245.135 | Country: 🇹🇷 Türkiye - TR
-vless://d37c7e48-2a8d-432f-a3ce-8da4cc203b2c@77.83.245.135:34205#%F0%9F%87%B9%F0%9F%87%B7TR-231d1f775f475daa5404bd8fb90d35dd
-
-# Tested at: 2026-03-19 14:47:36 | Response: 0.617s | IP: 2a06:1301:4050:45:148:31:: | Country: 🇩🇰 Denmark - DK
-vless://e4fc4761-154f-490e-bbaa-b4fa193f1073@45.148.31.0:15855?host=Join---V2rayBaaz---Join---V2rayBaaz---Join---V2rayBaaz&path=%2F&type=ws#%F0%9F%87%A9%F0%9F%87%B0DK-75b12cde23a12264f3b3a41e2544e634
-
-# Tested at: 2026-03-19 14:48:11 | Response: 0.629s | IP: 185.132.125.20 | Country: 🇭🇰 Hong Kong - HK
-vless://217e8d75-528f-4198-8217-ae2885ac9dba@185.132.125.20:9873#%F0%9F%87%AD%F0%9F%87%B0HK-e12f80ae48b84538b524506eefe3c57d
-
-# Tested at: 2026-03-19 14:48:56 | Response: 0.443s | IP: 2001:41d0:701:1100::4395 | Country: 🇩🇪 Germany - DE
-vless://1e97f262-296c-45cf-afc0-6ed86f768013@57.129.119.115:443?path=%2F&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-f608dec201d8dcd495fdfa461c61b42b
-
-# Tested at: 2026-03-19 14:49:01 | Response: 0.954s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.147.255:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-408eb8f148d0aa2d2680a8351729daf5
-
-# Tested at: 2026-03-19 14:49:44 | Response: 0.271s | IP: 104.28.159.167 | Country: 🇺🇸 United States - US
-vless://636de463-b509-4631-adc6-400b21733278@172.67.148.40:2095?host=index.harmony510.workers.dev&path=%2Fjx5xtzn0w1utdm35&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-bd96f85ca8375b7770c7b48d851e35c6
-
-# Tested at: 2026-03-19 14:49:50 | Response: 1.941s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.147.252:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-2f59337a969d5615088e95a8c2d421e7
-
-# Tested at: 2026-03-19 14:49:57 | Response: 1.824s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@vip1.kaixincloud.top:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-260becb9b3e4250e6fdf499f27a344e2
-
-# Tested at: 2026-03-19 14:50:24 | Response: 0.558s | IP: 146.103.102.82 | Country: 🇳🇱 The Netherlands - NL
-vless://e08f1ad7-0c60-446d-baec-08b3b69bb3d0@146.103.102.82:80?path=%2FgetWorkerUpdates&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-729e8fc4a26480b18e173af865a3a523
-
-# Tested at: 2026-03-19 14:51:09 | Response: 0.205s | IP: 104.28.152.204 | Country: 🇺🇸 United States - US
-vless://73d17f62-d0c0-4c90-903c-a2b3f3806cca@104.17.25.132:80?host=fragrant-tooth-a5b7.cajeba6448.workers.dev&path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-0825211d80e808d90960cf2e3b920efb
-
-# Tested at: 2026-03-19 14:51:26 | Response: 3.434s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.145.202:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-97646f3626326153364b85ffd19f72d9
-
-# Tested at: 2026-03-19 14:52:04 | Response: 1.285s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.145.158:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-4f2cd3978b5cbd747825b1b3bcb1675f
-
-# Tested at: 2026-03-19 14:52:39 | Response: 0.242s | IP: 104.28.165.227 | Country: 🇺🇸 United States - US
-vless://53342b53-157e-4475-9f3a-40439434e689@172.64.156.188:80?host=c.iamdt.dpdns.org&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-95b80ff96d7b579fb6b020edb31c97b7
-
-# Tested at: 2026-03-19 14:53:23 | Response: 0.712s | IP: 47.82.1.12 | Country: 🇸🇬 Singapore - SG
-vless://ca0e8520-42cd-49db-cfec-1295834b9e21@47.82.1.12:59100#%F0%9F%87%B8%F0%9F%87%ACSG-f85856e2c11de2edffd89c47beed21f1
-
-# Tested at: 2026-03-19 14:53:26 | Response: 2.744s | IP: 45.82.251.195 | Country: 🇨🇾 Cyprus - CY
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@pqh18v7.viripdirect.shop:8880?type=grpc#%F0%9F%87%A8%F0%9F%87%BECY-55268bf12f604cb46f33d48b28be9be5
-
-# Tested at: 2026-03-19 14:54:07 | Response: 0.540s | IP: 74.220.27.192 | Country: 🇩🇪 Germany - DE
-vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.67.155.172:80?host=tt.andishehparenting.com&path=%2F&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-f509cee0a1fd0e325f0ef52ed2cd115e
-
-# Tested at: 2026-03-19 14:54:16 | Response: 0.318s | IP: 104.28.152.211 | Country: 🇺🇸 United States - US
-vless://b38b778b-06f0-4161-91b2-1f0b220b7df4@172.67.73.163:8080?host=015.electrocellco-cf-015.workers.dev&path=%2FeyJqdW5rIjoiQm5nNGZUVWwiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTMuMTcwLjE1Ny4xIl19%3Fed%3D2560%26join-hallakechiVPN---join-hallakechiVPN---join-hallakechiVPN---join-hallakechiVPN---join-hallakechiVPN---join-hallakechiVPN---&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-b7aaf5726706dadc7b2a1630aa24a947
-
-# Tested at: 2026-03-19 14:54:16 | Response: 2.090s | IP: 74.220.27.192 | Country: 🇩🇪 Germany - DE
-vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@vip1.kaixincloud.top:80?host=tt.andishehparenting.com&path=%2F&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-fd4c9240efad23dfa1adf7f6dbfae547
-
-# Tested at: 2026-03-19 14:54:19 | Response: 3.278s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.147.119:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-4e826441ebf5df3ba41c4b900df4f3c2
-
-# Tested at: 2026-03-19 14:57:03 | Response: 0.798s | IP: 2001:880:0:9::414 | Country: 🇩🇪 Germany - DE
-vless://c031d6c7-5132-4d81-8efc-3b13a947984e@81.88.25.20:59029#%F0%9F%87%A9%F0%9F%87%AADE-8607832107980c5e9b989804006d275b
-
-# Tested at: 2026-03-19 14:57:04 | Response: 1.255s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.147.166:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-0788bd442db9412866e54e2830557486
-
-# Tested at: 2026-03-19 14:57:08 | Response: 3.559s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.146.43:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-f2acfcc937980ded46349cb30fe10917
-
-# Tested at: 2026-03-19 14:57:47 | Response: 0.468s | IP: 178.173.250.59 | Country: 🇳🇱 The Netherlands - NL
-vless://f2a806c6-f36b-4cd9-8bb6-7addb218ad2d@178.173.250.59:443?path=%2F&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-b7e023fa035fdd53ca93ba78155b6b44
-
-# Tested at: 2026-03-19 14:57:54 | Response: 1.927s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.146.1:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-1c970d7ddf3e81868a3c052eea39adc5
-
-# Tested at: 2026-03-19 14:57:56 | Response: 1.196s | IP: 74.220.27.192 | Country: 🇩🇪 Germany - DE
-vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.154.211:80?host=tt.andishehparenting.com&path=%2F&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-db3d9bba672a419df2265d701ba22343
-
-# Tested at: 2026-03-19 15:00:00 | Response: 1.065s | IP: 91.99.218.107 | Country: 🇩🇪 Germany - DE
-vless://0341d8f2-99e0-4f6c-af0a-345ac26815cf@ab.fxgoldensignals.com:51269?type=grpc#%F0%9F%87%A9%F0%9F%87%AADE-68f30d1193904217646223420a89574b
-
-# Tested at: 2026-03-19 15:00:01 | Response: 0.899s | IP: 185.184.68.94 | Country: 🇺🇸 United States - US
-vless://13ad36e6-c091-43f2-8505-47d868dd544c@cvfg.ae1autumn.cc.cd:80?host=cvfg.ae1autumn.cc.cd&path=%2FXR8So0uqFVa3vY9ZbxgW4&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-a93b71675229af428d4af83ab419b3a6
-
-# Tested at: 2026-03-19 15:00:10 | Response: 0.147s | IP: 104.28.158.204 | Country: 🇺🇸 United States - US
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@162.159.38.62:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-6da77679412927ef0dadfac6712d2655
-
-# Tested at: 2026-03-19 15:00:45 | Response: 0.503s | IP: 146.103.102.82 | Country: 🇳🇱 The Netherlands - NL
-vless://e08f1ad7-0c60-446d-baec-08b3b69bb3d0@nl-90w-c.southnetworks.cloud:80?host=nl-90w-c.southnetworks.cloud&path=%2FgetWorkerUpdates&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-d62c6c6e51a7fa9bc349496a91da8db5
-
-# Tested at: 2026-03-19 15:00:45 | Response: 0.486s | IP: 51.158.151.24 | Country: 🇳🇱 The Netherlands - NL
-vless://a02e0f63-d96e-4b0f-8270-56c28caef171@51.158.151.24:31727#%F0%9F%87%B3%F0%9F%87%B1NL-4993684592fdcb09e6ff5aa687b0303a
-
-# Tested at: 2026-03-19 15:00:49 | Response: 1.801s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@104.18.35.15:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-921d6c5c2b222fb992a087dc28e57d0e
-
-# Tested at: 2026-03-19 15:02:57 | Response: 0.497s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.152.241:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-7463ae1958b5e655b1f3f295d8bc14f7
-
-# Tested at: 2026-03-19 15:02:57 | Response: 0.257s | IP: 185.184.68.94 | Country: 🇺🇸 United States - US
-vless://13ad36e6-c091-43f2-8505-47d868dd544c@172.67.184.67:80?host=bhy7.ae1autumn.dpdns.org&path=%2FXR8So0uqFVa3vY9ZbxgW4&sni=bhy7.ae1autumn.dpdns.org&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-ee482727b4830659f4852592caa29964
-
-# Tested at: 2026-03-19 15:03:03 | Response: 0.325s | IP: 185.184.68.94 | Country: 🇺🇸 United States - US
-vless://13ad36e6-c091-43f2-8505-47d868dd544c@cdfr.ae1autumn.dpdns.org:80?host=cdfr.ae1autumn.dpdns.org&path=%2FXR8So0uqFVa3vY9ZbxgW4&sni=cdfr.ae1autumn.dpdns.org&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-ce5a259cd3044cfa7ee9bc519df9fa89
-
-# Tested at: 2026-03-19 15:03:06 | Response: 0.968s | IP: 94.242.51.174 | Country: 🇷🇺 Russia - RU
-vless://f2a806c6-f36b-4cd9-8bb6-7addb218ad2d@94.242.51.174:443?path=%2F&type=ws#%F0%9F%87%B7%F0%9F%87%BARU-fe7755011f36b303ff9f95de1a83d984
-
-# Tested at: 2026-03-19 15:03:41 | Response: 0.431s | IP: 2a09:bac6:d6e7:96::f:31d | Country: 🇺🇸 United States - US
-vless://14e1775b-d92c-455b-8db3-e6c6d61909e0@172.67.172.86:80?host=vpnpro.eshghiabolfazl2009.workers.dev&path=%F0%9F%94%92&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-71da816c8d9fdb99c724113f81a06871
-
-# Tested at: 2026-03-19 15:04:26 | Response: 0.788s | IP: 104.28.162.252 | Country: 🇺🇸 United States - US
+# Tested at: 2026-03-19 20:16:52 | Response: 0.089s | IP: 2a09:bac5:c82e:1678::23d:93 | Country: 🇺🇸 United States - US
 vless://94671f42-fdd3-4503-a3e6-bda4a2527560@104.21.22.213:80?host=019.electrocellco-cf-019.workers.dev&path=%2FeyJqdW5rIjoibUVFb0RQcHJZZSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjM0LjI1My4yMzQuNjIiXX0%3D%3Fed%3D2560&sni=019.electrocellco-cf-019.workers.dev&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-d7f6b387ed9eb2a9342095e576ea57c1
 
-# Tested at: 2026-03-19 15:04:27 | Response: 0.068s | IP: 45.82.251.33 | Country: 🇨🇾 Cyprus - CY
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.33:8880?type=grpc#%F0%9F%87%A8%F0%9F%87%BECY-1d8acd76ff4dce5f0ea1b2bcb26ffe00
-
-# Tested at: 2026-03-19 15:05:56 | Response: 0.528s | IP: 2a03:6f02::1:237d | Country: 🇳🇱 The Netherlands - NL
-vless://217e8d75-528f-4198-8217-ae2885ac9dba@147.45.100.198:9883#%F0%9F%87%B3%F0%9F%87%B1NL-24745da3058dfa5e1234d2d3e77ec040
-
-# Tested at: 2026-03-19 15:06:39 | Response: 0.629s | IP: 185.184.68.94 | Country: 🇺🇸 United States - US
-vless://13ad36e6-c091-43f2-8505-47d868dd544c@rgt.ae1autumn.dpdns.org:80?host=rgt.ae1autumn.dpdns.org&path=%2FXR8So0uqFVa3vY9ZbxgW4&sni=rgt.ae1autumn.dpdns.org&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-58a988756758b24552de950bfa3d85bd
-
-# Tested at: 2026-03-19 15:06:54 | Response: 0.681s | IP: 2a00:1838:37:50a::6397 | Country: 🇷🇺 Russia - RU
-vless://f2a806c6-f36b-4cd9-8bb6-7addb218ad2d@77.73.67.94:443?path=%2F&type=ws#%F0%9F%87%B7%F0%9F%87%BARU-643619aa787a6f7ebf0b9cd329b899de
-
-# Tested at: 2026-03-19 15:07:23 | Response: 0.324s | IP: 185.184.68.94 | Country: 🇺🇸 United States - US
-vless://13ad36e6-c091-43f2-8505-47d868dd544c@1qw.ae1autumn.cc.cd:80?host=1qw.ae1autumn.cc.cd&path=%2FXR8So0uqFVa3vY9ZbxgW4&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-f2f5ca51b57a0e2d2a2aacff99083c06
-
-# Tested at: 2026-03-19 15:08:21 | Response: 3.409s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.147.165:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-c610dbc9ba9932cdd15ff5fdc4a3992b
-
-# Tested at: 2026-03-19 15:09:00 | Response: 0.352s | IP: 185.236.232.117 | Country: 🇲🇩 Moldova - MD
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@pqh30v3.globalfymain.com:8880?sni=pqh30v3.globalfymain.com&type=grpc#%F0%9F%87%B2%F0%9F%87%A9MD-a496ec233e7ef83f76537dfb3daefe13
-
-# Tested at: 2026-03-19 15:09:02 | Response: 2.489s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.147.85:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-aec8a9449222757709dbef93024ecae2
-
-# Tested at: 2026-03-19 15:09:37 | Response: 0.644s | IP: 185.184.68.94 | Country: 🇺🇸 United States - US
-vless://13ad36e6-c091-43f2-8505-47d868dd544c@ghju.apocalypse.cc.cd:80?host=ghju.apocalypse.cc.cd&path=%2FXR8So0uqFVa3vY9ZbxgW4&sni=ghju.apocalypse.cc.cd&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-f7eced4d1f3f375d8dbc63b5638dba98
-
-# Tested at: 2026-03-19 15:10:23 | Response: 2.122s | IP: 168.222.16.102 | Country: 🇹🇭 Thailand - TH
-vless://4dc817f7-2595-4330-a1b0-e35e7c6b803a@www.ptnk.sry-vpn.com:80?host=www.ptnk.sry-vpn.com&path=%2Fvless&type=ws#%F0%9F%87%B9%F0%9F%87%ADTH-617f58d58ef1a977d591864bd3b75d00
-
-# Tested at: 2026-03-19 15:10:30 | Response: 0.910s | IP: 213.142.149.3 | Country: 🇹🇷 Türkiye - TR
-vless://636de463-b509-4631-adc6-400b21733278@172.67.137.47:2086?host=index.harmony510.workers.dev&path=%2F1qrxwiek8tujvr6h&type=ws#%F0%9F%87%B9%F0%9F%87%B7TR-0ee5ba513468c4ffb69d8f56775c55cc
-
-# Tested at: 2026-03-19 15:10:35 | Response: 0.968s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.146.163:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-7f5c589daf94b5e594e4d8581a7659df
-
-# Tested at: 2026-03-19 15:11:07 | Response: 3.157s | IP: 185.184.68.94 | Country: 🇺🇸 United States - US
-vless://13ad36e6-c091-43f2-8505-47d868dd544c@172.67.141.220:80?host=ghju.apocalypse.cc.cd&path=%2FXR8So0uqFVa3vY9ZbxgW4&sni=ghju.apocalypse.cc.cd&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-eb70e92613e8187189778151101f5108
-
-# Tested at: 2026-03-19 15:11:14 | Response: 0.619s | IP: 2a12:bec4:19a4:1020:: | Country: 🇦🇹 Austria - AT
-vless://f2a806c6-f36b-4cd9-8bb6-7addb218ad2d@91.244.70.205:443?path=%2F&type=ws#%F0%9F%87%A6%F0%9F%87%B9AT-ab74c0ce2b7285f9fd70c2ac79a7c6b9
-
-# Tested at: 2026-03-19 15:13:18 | Response: 0.762s | IP: 37.27.218.190 | Country: 🇫🇮 Finland - FI
-vless://e44c9ff3-5a05-4ee9-b050-b8fbc7c1af04@104.21.72.233:80?host=turbooserver-roeg-fastly.flinkywoo.com&path=%2Fed%3D2560&type=ws#%F0%9F%87%AB%F0%9F%87%AEFI-d8d313721c4cb881682744bc87c1d967
-
-# Tested at: 2026-03-19 15:13:26 | Response: 0.185s | IP: 104.28.159.163 | Country: 🇺🇸 United States - US
-vless://b38b778b-06f0-4161-91b2-1f0b220b7df4@104.26.15.85:8080?host=015.electrocellco-cf-015.workers.dev&path=%2FeyJqdW5rIjoiQm5nNGZUVWwiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTMuMTcwLjE1Ny4xIl19%3Fed%3D2560%26join-hallakechiVPN---join-hallakechiVPN---join-hallakechiVPN---join-hallakechiVPN---join-hallakechiVPN---join-hallakechiVPN---&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-4252bf781f2a1b02f1fe9040826e2640
-
-# Tested at: 2026-03-19 15:13:27 | Response: 0.089s | IP: 45.82.251.115 | Country: 🇨🇾 Cyprus - CY
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.115:8880?type=grpc#%F0%9F%87%A8%F0%9F%87%BECY-dc31386dd8ed28c9110f7a2c8abb6958
-
-# Tested at: 2026-03-19 15:13:35 | Response: 4.976s | IP: 185.72.9.200 | Country: 🇹🇷 Türkiye - TR
-vless://9bde09b3-09b5-4d7a-b5fd-3fae8dfeed5a@185.72.9.200:56126#%F0%9F%87%B9%F0%9F%87%B7TR-3c931c26ba11f431e98f5f823fb199d4
-
-# Tested at: 2026-03-19 15:14:55 | Response: 0.679s | IP: 2a01:4f8:c010:4f9b::1 | Country: 🇩🇪 Germany - DE
-vless://98fb333c-3d84-4fa4-b1f7-1683b509f65a@ab.fxgoldensignals.com:36454#%F0%9F%87%A9%F0%9F%87%AADE-96bfc085c072933694d5203d70102a6c
-
-# Tested at: 2026-03-19 15:15:07 | Response: 1.557s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@104.18.43.174:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-e8bce49b5e46ce14e8bee3085367af65
-
-# Tested at: 2026-03-19 15:16:14 | Response: 0.784s | IP: 185.184.68.94 | Country: 🇺🇸 United States - US
-vless://13ad36e6-c091-43f2-8505-47d868dd544c@172.64.80.1:80?host=ghj.ae1autumn.cc.cd&path=%2FXR8So0uqFVa3vY9ZbxgW4&sni=ghj.ae1autumn.cc.cd&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-fbd507363309b19d4de3a15891315000
-
-# Tested at: 2026-03-19 15:16:21 | Response: 2.156s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@v1.dabache.top:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-8b830d88b6e394bbb864fcf2b06942f5
-
-# Tested at: 2026-03-19 15:16:24 | Response: 1.335s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.154.211:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-92ee079259163e146a7c32fa9427134e
-
-# Tested at: 2026-03-19 15:16:26 | Response: 3.313s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@vip3.kaixincloud.top:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-59992d65a8526c205e12d5317322d25b
-
-# Tested at: 2026-03-19 15:16:59 | Response: 0.729s | IP: 168.222.16.102 | Country: 🇹🇭 Thailand - TH
-vless://4dc817f7-2595-4330-a1b0-e35e7c6b803a@168.222.16.102:80?host=www.ptnk.sry-vpn.com&path=%2Fvless&type=ws#%F0%9F%87%B9%F0%9F%87%ADTH-c3b70ee181b7a06b2dca475afad92647
-
-# Tested at: 2026-03-19 15:16:59 | Response: 0.983s | IP: 185.184.68.94 | Country: 🇺🇸 United States - US
-vless://13ad36e6-c091-43f2-8505-47d868dd544c@104.21.32.69:80?host=bhy7.ae1autumn.dpdns.org&path=%2FXR8So0uqFVa3vY9ZbxgW4&sni=bhy7.ae1autumn.dpdns.org&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-b0abeef5aee33d27167790404a373ba4
-
-# Tested at: 2026-03-19 15:17:00 | Response: 0.423s | IP: 104.28.152.155 | Country: 🇺🇸 United States - US
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@162.159.45.207:80?host=vip.yaml7.ggff.net&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-004664e574ed8490463b95bbfaa485ca
-
-# Tested at: 2026-03-19 15:17:12 | Response: 3.019s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.147.137:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-7e003bf7542d5eb564cce59097db57c4
-
-# Tested at: 2026-03-19 15:18:28 | Response: 0.184s | IP: 2a09:bac6:d6e7:2632::3ce:38 | Country: 🇺🇸 United States - US
-vless://14e1775b-d92c-455b-8db3-e6c6d61909e0@vpnpro.eshghiabolfazl2009.workers.dev:80?host=vpnpro.eshghiabolfazl2009.workers.dev&path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-1f698b1c69508a77110a247f9f80bd48
-
-# Tested at: 2026-03-19 15:19:11 | Response: 1.006s | IP: 162.19.228.119 | Country: 🇫🇷 France - FR
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?host=de.vpnbase.net&path=%2Fhttp&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-95793bfd78c23436c5714075d20909b3
-
-# Tested at: 2026-03-19 15:19:13 | Response: 0.567s | IP: 74.220.27.192 | Country: 🇩🇪 Germany - DE
+# Tested at: 2026-03-19 20:17:29 | Response: 1.719s | IP: 74.220.27.192 | Country: 🇩🇪 Germany - DE
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@v1.dabache.top:80?host=tt.andishehparenting.com&path=%2F&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-8f295cdfbad401dcbd1cc9a46c70a66a
 
-# Tested at: 2026-03-19 15:19:16 | Response: 0.315s | IP: 104.28.159.168 | Country: 🇺🇸 United States - US
-vless://5f4845b4-11dc-41d6-9508-4ff6a02e36c1@45.131.4.192:80?host=silent-paper-fa57.fipiyag989.workers.dev&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-68d9e438c647e527cdd317f04dafeb98
+# Tested at: 2026-03-19 20:18:12 | Response: 0.579s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@104.16.250.22:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-0d55a7c19eee5e9a1133fd591f8ae0f6
 
-# Tested at: 2026-03-19 15:19:55 | Response: 1.382s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@104.18.33.45:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-ab374add2dca5eab5baacf5b1be81bce
+# Tested at: 2026-03-19 20:18:56 | Response: 1.282s | IP: 74.220.27.192 | Country: 🇩🇪 Germany - DE
+vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@104.17.25.173:80?host=tt.andishehparenting.com&path=%2F&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-86407b352bad83afa57620936efdad14
 
-# Tested at: 2026-03-19 15:20:10 | Response: 1.540s | IP: 138.124.107.35 | Country: 🇹🇷 Türkiye - TR
-vless://636de463-b509-4631-adc6-400b21733278@172.67.143.113:8880?host=index.harmony510.workers.dev&path=%2FJoin---i10VPN---Join---i10VPN---Join---i10VPN---Join---i10VPN&type=ws#%F0%9F%87%B9%F0%9F%87%B7TR-c6c10d04392afb549be9b7b7d7d0370e
-
-# Tested at: 2026-03-19 15:20:40 | Response: 0.906s | IP: 185.184.68.94 | Country: 🇺🇸 United States - US
-vless://13ad36e6-c091-43f2-8505-47d868dd544c@dr.ae1autumn.dpdns.org:80?host=dr.ae1autumn.dpdns.org&path=%2FXR8So0uqFVa3vY9ZbxgW4&sni=dr.ae1autumn.dpdns.org&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-d84a371a54783b22b71eb120ffbf52d1
-
-# Tested at: 2026-03-19 15:20:51 | Response: 2.040s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.67.155.172:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-917cb990ad1ad25fa19834abf9015160
-
-# Tested at: 2026-03-19 15:21:23 | Response: 1.068s | IP: 74.220.27.192 | Country: 🇩🇪 Germany - DE
-vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.146.27:80?host=tt.andishehparenting.com&path=%2F&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-4277f5ac24928c6a65c64670f3133181
-
-# Tested at: 2026-03-19 15:21:24 | Response: 0.778s | IP: 2a09:bac5:bf0c:1c64::2d4:8d | Country: 🇺🇸 United States - US
-vless://b38b778b-06f0-4161-91b2-1f0b220b7df4@tgju.org:8080?host=015.electrocellco-cf-015.workers.dev&path=%2FeyJqdW5rIjoiQm5nNGZUVWwiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTMuMTcwLjE1Ny4xIl19%3Fed%3D2560%26join-hallakechiVPN---join-hallakechiVPN---join-hallakechiVPN---join-hallakechiVPN---join-hallakechiVPN---join-hallakechiVPN---&sni=www.speedtest.net&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-af404a519d46ca5a16b03cc0aaddcba0
-
-# Tested at: 2026-03-19 15:23:02 | Response: 0.133s | IP: 104.28.152.203 | Country: 🇺🇸 United States - US
-vless://e8d06b09-acd9-448c-9874-3c36151d36ee@104.26.3.125:2052?host=icy-wildflower-2590.lihuifeng595.workers.dev&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-47976f1a9f0557aedfea9795f2268297
-
-# Tested at: 2026-03-19 15:24:30 | Response: 0.166s | IP: 104.28.165.214 | Country: 🇺🇸 United States - US
+# Tested at: 2026-03-19 20:19:39 | Response: 0.680s | IP: 64.188.27.145 | Country: 🇺🇸 United States - US
 vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.17.138.160:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-1b9f3ac77c2f1b300e6f53d166c35487
 
-# Tested at: 2026-03-19 15:24:31 | Response: 0.304s | IP: 185.184.68.94 | Country: 🇺🇸 United States - US
-vless://13ad36e6-c091-43f2-8505-47d868dd544c@172.67.197.251:80?host=ghj.ae1autumn.cc.cd&path=%2FXR8So0uqFVa3vY9ZbxgW4&sni=ghj.ae1autumn.cc.cd&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-e304522566911b56a7c05c55f87d7ba1
+# Tested at: 2026-03-19 20:20:35 | Response: 2.441s | IP: 74.220.27.192 | Country: 🇩🇪 Germany - DE
+vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@vip1.kaixincloud.top:80?host=tt.andishehparenting.com&path=%2F&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-fd4c9240efad23dfa1adf7f6dbfae547
 
-# Tested at: 2026-03-19 15:25:06 | Response: 0.608s | IP: 188.253.22.2 | Country: 🇱🇻 Latvia - LV
-vless://f2a806c6-f36b-4cd9-8bb6-7addb218ad2d@188.253.22.2:443?path=%2F&type=ws#%F0%9F%87%B1%F0%9F%87%BBLV-6e73060a3a4305dab0105038a7f9e369
+# Tested at: 2026-03-19 20:21:07 | Response: 0.552s | IP: 185.171.80.124 | Country: 🇳🇱 The Netherlands - NL
+vless://217e8d75-528f-4198-8217-ae2885ac9dba@147.45.100.198:9883#%F0%9F%87%B3%F0%9F%87%B1NL-24745da3058dfa5e1234d2d3e77ec040
 
-# Tested at: 2026-03-19 15:25:06 | Response: 1.058s | IP: 74.220.27.192 | Country: 🇩🇪 Germany - DE
-vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@vip2.kaixincloud.top:80?host=tt.andishehparenting.com&path=%2F&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-4598df766c31ee67de7dff3f2e53d0b9
+# Tested at: 2026-03-19 20:21:51 | Response: 0.783s | IP: 74.220.27.192 | Country: 🇩🇪 Germany - DE
+vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@104.21.72.233:80?host=tt.andishehparenting.com&path=%2F&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-d8d313721c4cb881682744bc87c1d967
 
-# Tested at: 2026-03-19 15:25:07 | Response: 1.187s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.147.210:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-aac8d7dd47168c5b493a29becc0c8052
+# Tested at: 2026-03-19 20:22:44 | Response: 0.074s | IP: 45.82.251.195 | Country: 🇨🇾 Cyprus - CY
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@pqh18v7.viripdirect.shop:8880?type=grpc#%F0%9F%87%A8%F0%9F%87%BECY-55268bf12f604cb46f33d48b28be9be5
 
-# Tested at: 2026-03-19 15:26:01 | Response: 1.376s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.147.131:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-a6b864db8fcbb5c25475c89c5986337f
+# Tested at: 2026-03-19 20:24:03 | Response: 0.572s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.146.1:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-1c970d7ddf3e81868a3c052eea39adc5
 
-# Tested at: 2026-03-19 15:27:26 | Response: 0.288s | IP: 209.126.84.189 | Country: 🇺🇸 United States - US
-vless://0417be58-2ea8-49de-8083-9eff9b0137e5@v2ray.codefyinc.com:443?host=v2ray.codefyinc.com&path=%2Fvlessws&sni=v2ray.codefyinc.com&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-efb88ea2728927321d786f2043631ab1
-
-# Tested at: 2026-03-19 15:28:03 | Response: 0.635s | IP: 74.220.27.192 | Country: 🇩🇪 Germany - DE
-vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@162.159.36.5:80?host=tt.andishehparenting.com&path=%2F&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-2f231c3102ea6d35adea11f89927ec74
-
-# Tested at: 2026-03-19 15:28:03 | Response: 0.231s | IP: 104.28.162.252 | Country: 🇺🇸 United States - US
-vless://94671f42-fdd3-4503-a3e6-bda4a2527560@019.electrocellco-cf-019.workers.dev:80?host=019.electrocellco-cf-019.workers.dev&path=%2FeyJqdW5rIjoibUVFb0RQcHJZZSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjM0LjI1My4yMzQuNjIiXX0%3D%3Fed%3D2560&sni=019.electrocellco-cf-019.workers.dev&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-24a026238c6835a18d2d14ebae762ad9
-
-# Tested at: 2026-03-19 15:28:50 | Response: 2.720s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.146.37:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-12d589121c80931846faa919154475bb
-
-# Tested at: 2026-03-19 15:29:34 | Response: 2.094s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@104.18.42.98:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-323d38086c02be63fcf1b651163ac8fc
-
-# Tested at: 2026-03-19 15:29:40 | Response: 3.048s | IP: 150.241.80.231 | Country: 🇳🇱 The Netherlands - NL
-vless://932130c7-197b-4b37-af26-d550c47ba8f4@45.151.62.23:443#%F0%9F%87%B3%F0%9F%87%B1NL-db0a6b796227d493a19aee670c4216ef
-
-# Tested at: 2026-03-19 15:30:26 | Response: 0.282s | IP: 104.28.159.166 | Country: 🇺🇸 United States - US
-vless://12d75b7d-8fdf-4785-8d62-d836854e7e63@chatgpt.com:2052?host=parking-nfchbwa1-v2.parking-1ab.workers.dev&path=%2F%3Fed&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-bba12d32020d89d6fce6bb5116d47f2b
-
-# Tested at: 2026-03-19 15:31:10 | Response: 1.096s | IP: 213.136.69.8 | Country: 🇫🇷 France - FR
-vless://15cbab96-197e-46a5-9042-073b3980c798@213.136.69.8:80?host=fsdns.ectunnelvpn.me&path=%2Fvless&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-382ebf5c0aadf579c1ff19653a262f6a
-
-# Tested at: 2026-03-19 15:31:48 | Response: 2.964s | IP: 45.82.251.116 | Country: 🇨🇾 Cyprus - CY
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.116:8880?type=grpc#%F0%9F%87%A8%F0%9F%87%BECY-f425a96217c75d8b26ad67138ea19b68
-
-# Tested at: 2026-03-19 15:31:54 | Response: 0.287s | IP: 104.28.165.216 | Country: 🇺🇸 United States - US
-vless://14e1775b-d92c-455b-8db3-e6c6d61909e0@104.21.80.5:80?host=vpnpro.eshghiabolfazl2009.workers.dev&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-3461a2a467a6540743844c569e7e4a90
-
-# Tested at: 2026-03-19 15:32:30 | Response: 0.151s | IP: 104.28.165.225 | Country: 🇺🇸 United States - US
-vless://94671f42-fdd3-4503-a3e6-bda4a2527560@172.67.207.29:80?host=019.electrocellco-cf-019.workers.dev&path=%2FeyJqdW5rIjoibUVFb0RQcHJZZSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjM0LjI1My4yMzQuNjIiXX0%3D%3Fed%3D2560&sni=019.electrocellco-cf-019.workers.dev&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-92e989e93bcefe58e24294846cc0ee4b
-
-# Tested at: 2026-03-19 15:32:30 | Response: 1.363s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.146.68:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-ff79fe98831e6a64bceed50381e5cf43
-
-# Tested at: 2026-03-19 15:32:32 | Response: 2.778s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@104.18.42.54:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-a00352acff0ae79fa24897c8a19fef3b
-
-# Tested at: 2026-03-19 15:33:15 | Response: 0.846s | IP: 206.189.147.22 | Country: 🇸🇬 Singapore - SG
-vless://ca73d911-29f4-42d8-ada5-81dee679e96a@206.189.147.22:80?host=vps.zakir.web.id&path=vless&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-ab82955565826645a40808af5f94be05
-
-# Tested at: 2026-03-19 15:34:02 | Response: 3.298s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.147.183:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-6739917b7f7dd3fd4f65f5d95a9671b4
-
-# Tested at: 2026-03-19 15:34:43 | Response: 0.568s | IP: 162.19.228.119 | Country: 🇫🇷 France - FR
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@162.19.228.119:80?host=google.com&path=%2Fhttp%23Telegram%40V2ray_Alpha%2F%3Fed%3D2560&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-87dcabe220cbad357637ad2974a31add
-
-# Tested at: 2026-03-19 15:34:45 | Response: 0.402s | IP: 185.184.68.94 | Country: 🇺🇸 United States - US
+# Tested at: 2026-03-19 20:24:03 | Response: 0.140s | IP: 185.184.68.94 | Country: 🇺🇸 United States - US
 vless://13ad36e6-c091-43f2-8505-47d868dd544c@104.21.76.174:80?host=ghj.ae1autumn.cc.cd&path=%2FXR8So0uqFVa3vY9ZbxgW4&sni=ghj.ae1autumn.cc.cd&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-822c71738820b6a0bf99dba169bdd01a
 
-# Tested at: 2026-03-19 15:34:55 | Response: 3.051s | IP: 94.158.218.63 | Country: 🇱🇻 Latvia - LV
-vless://f2a806c6-f36b-4cd9-8bb6-7addb218ad2d@94.158.218.63:443?path=%2F&type=ws#%F0%9F%87%B1%F0%9F%87%BBLV-0b0ca21b0f5a3dfaa1ac0c43a38a5045
+# Tested at: 2026-03-19 20:24:47 | Response: 0.785s | IP: 185.132.125.20 | Country: 🇭🇰 Hong Kong - HK
+vless://217e8d75-528f-4198-8217-ae2885ac9dba@185.132.125.20:9873#%F0%9F%87%AD%F0%9F%87%B0HK-e12f80ae48b84538b524506eefe3c57d
 
-# Tested at: 2026-03-19 15:37:43 | Response: 2.697s | IP: 74.220.27.192 | Country: 🇩🇪 Germany - DE
-vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@v2.dabache.top:80?host=tt.andishehparenting.com&path=%2F&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-91ce8b85539e5beecd461a7d1f4a52a3
+# Tested at: 2026-03-19 20:24:47 | Response: 0.184s | IP: 104.28.164.204 | Country: 🇺🇸 United States - US
+vless://787b3724-16c8-4e58-a038-2b8013cdc6d9@172.64.155.209:80?host=c3linogp4x20x5acoguup217nstesdu1.nobodyface4b13.workers.dev&path=%2FeyJqdW5rIjoiTG1jRlUwNjNwVUxvYyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0%3D%3Fed%3D2560&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-9fc34179efaa49b5376c9c438ec70f5c
 
-# Tested at: 2026-03-19 15:38:24 | Response: 0.477s | IP: 91.99.218.107 | Country: 🇩🇪 Germany - DE
-vless://98fb333c-3d84-4fa4-b1f7-1683b509f65a@91.99.218.107:36454#%F0%9F%87%A9%F0%9F%87%AADE-e76bb990a817382557afb6694f29c6ab
-
-# Tested at: 2026-03-19 15:38:28 | Response: 1.900s | IP: 74.220.27.192 | Country: 🇩🇪 Germany - DE
-vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@vip3.kaixincloud.top:80?host=tt.andishehparenting.com&path=%2F&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-21fd1e49f2330478e3a852cf50c3e3fd
-
-# Tested at: 2026-03-19 15:38:31 | Response: 2.138s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.66.47.45:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-aa094e772b2abcfc4c9500cda724098e
-
-# Tested at: 2026-03-19 15:39:10 | Response: 0.769s | IP: 2a01:4f9:c010:aa6f::1 | Country: 🇩🇪 Germany - DE
-vless://e44c9ff3-5a05-4ee9-b050-b8fbc7c1af04@188.114.98.0:80?host=turbooserver-roeg-fastly.flinkywoo.com&path=%2Fed%3D2560&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-6ce89bca8b3e12c0b0352082c2e7a463
-
-# Tested at: 2026-03-19 15:39:14 | Response: 0.632s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.66.44.52:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-21ae7617b62f49b03ed03dccb82d152e
-
-# Tested at: 2026-03-19 15:39:18 | Response: 1.144s | IP: 74.220.27.192 | Country: 🇩🇪 Germany - DE
-vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.146.163:80?host=tt.andishehparenting.com&path=%2F&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-35fe2c545ea955f22fa7b8be45dc2180
-
-# Tested at: 2026-03-19 15:40:03 | Response: 0.706s | IP: 206.189.147.22 | Country: 🇸🇬 Singapore - SG
-vless://ca73d911-29f4-42d8-ada5-81dee679e96a@vps.zakir.web.id:80?host=vps.zakir.web.id&path=vless&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-6956081a3f3e44489bc321072cd16a07
-
-# Tested at: 2026-03-19 15:40:03 | Response: 0.725s | IP: 104.28.159.163 | Country: 🇺🇸 United States - US
+# Tested at: 2026-03-19 20:24:56 | Response: 0.609s | IP: 205.172.57.27 | Country: 🇺🇸 United States - US
 vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.17.145.59:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-4c33641fd2aca2b182e2727ae8c5d736
 
-# Tested at: 2026-03-19 15:40:38 | Response: 1.071s | IP: 57.128.183.225 | Country: 🇫🇷 France - FR
-vless://25efc727-e853-49ba-9609-3c20009d0e7a@104.18.13.229:2052?host=winbiss-0tpka6-v1.winbiss.workers.dev&path=%2F&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-b849c1f0ff6046538b8746690e4aa0ba
+# Tested at: 2026-03-19 20:25:30 | Response: 0.323s | IP: 185.184.68.94 | Country: 🇺🇸 United States - US
+vless://13ad36e6-c091-43f2-8505-47d868dd544c@172.67.184.67:80?host=bhy7.ae1autumn.dpdns.org&path=%2FXR8So0uqFVa3vY9ZbxgW4&sni=bhy7.ae1autumn.dpdns.org&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-ee482727b4830659f4852592caa29964
 
-# Tested at: 2026-03-19 15:41:23 | Response: 0.324s | IP: 52.189.99.17 | Country: 🇺🇸 United States - US
-vless://53342b53-157e-4475-9f3a-40439434e689@104.18.173.174:80?host=c.iamdt.dpdns.org&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-e9965da5d1b3ec3c0a29d465eee63502
+# Tested at: 2026-03-19 20:25:31 | Response: 0.329s | IP: 185.184.68.94 | Country: 🇺🇸 United States - US
+vless://13ad36e6-c091-43f2-8505-47d868dd544c@104.21.32.69:80?host=dr.ae1autumn.dpdns.org&path=%2FXR8So0uqFVa3vY9ZbxgW4&sni=dr.ae1autumn.dpdns.org&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-b0abeef5aee33d27167790404a373ba4
 
-# Tested at: 2026-03-19 15:41:26 | Response: 4.846s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.147.2:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-bdd6598a674fe235214821c9b3999d5a
+# Tested at: 2026-03-19 20:25:31 | Response: 0.426s | IP: 146.103.102.82 | Country: 🇳🇱 The Netherlands - NL
+vless://e08f1ad7-0c60-446d-baec-08b3b69bb3d0@146.103.102.82:80?path=%2FgetWorkerUpdates&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-729e8fc4a26480b18e173af865a3a523
 
-# Tested at: 2026-03-19 15:41:26 | Response: 4.115s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+# Tested at: 2026-03-19 20:25:32 | Response: 1.573s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@vip2.kaixincloud.top:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-98cc18932e3cbf756f5298ed105473de
+
+# Tested at: 2026-03-19 20:25:40 | Response: 0.163s | IP: 185.236.232.117 | Country: 🇲🇩 Moldova - MD
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@pqh30v3.globalfymain.com:8880?sni=pqh30v3.globalfymain.com&type=grpc#%F0%9F%87%B2%F0%9F%87%A9MD-a496ec233e7ef83f76537dfb3daefe13
+
+# Tested at: 2026-03-19 20:26:16 | Response: 1.012s | IP: 188.253.22.2 | Country: 🇱🇻 Latvia - LV
+vless://f2a806c6-f36b-4cd9-8bb6-7addb218ad2d@188.253.22.2:443?path=%2F&type=ws#%F0%9F%87%B1%F0%9F%87%BBLV-6e73060a3a4305dab0105038a7f9e369
+
+# Tested at: 2026-03-19 20:26:23 | Response: 0.434s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@104.18.42.98:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-323d38086c02be63fcf1b651163ac8fc
+
+# Tested at: 2026-03-19 20:26:24 | Response: 1.062s | IP: 185.72.9.200 | Country: 🇹🇷 Türkiye - TR
+vless://9bde09b3-09b5-4d7a-b5fd-3fae8dfeed5a@185.72.9.200:56126#%F0%9F%87%B9%F0%9F%87%B7TR-3c931c26ba11f431e98f5f823fb199d4
+
+# Tested at: 2026-03-19 20:26:24 | Response: 0.849s | IP: 146.103.102.82 | Country: 🇳🇱 The Netherlands - NL
+vless://e08f1ad7-0c60-446d-baec-08b3b69bb3d0@nl-90w-c.southnetworks.cloud:80?host=nl-90w-c.southnetworks.cloud&path=%2FgetWorkerUpdates&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-d62c6c6e51a7fa9bc349496a91da8db5
+
+# Tested at: 2026-03-19 20:26:58 | Response: 0.308s | IP: 2605:a140:2273:7184::1 | Country: 🇺🇸 United States - US
+vless://0417be58-2ea8-49de-8083-9eff9b0137e5@v2ray.codefyinc.com:443?host=v2ray.codefyinc.com&path=%2Fvlessws&sni=v2ray.codefyinc.com&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-efb88ea2728927321d786f2043631ab1
+
+# Tested at: 2026-03-19 20:26:58 | Response: 0.577s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.67.155.172:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-917cb990ad1ad25fa19834abf9015160
+
+# Tested at: 2026-03-19 20:26:59 | Response: 0.536s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.147.165:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-c610dbc9ba9932cdd15ff5fdc4a3992b
+
+# Tested at: 2026-03-19 20:26:59 | Response: 0.344s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.146.43:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-f2acfcc937980ded46349cb30fe10917
+
+# Tested at: 2026-03-19 20:27:01 | Response: 3.002s | IP: 168.222.16.102 | Country: 🇹🇭 Thailand - TH
+vless://4dc817f7-2595-4330-a1b0-e35e7c6b803a@www.ptnk.sry-vpn.com:80?host=www.ptnk.sry-vpn.com&path=%2Fvless&type=ws#%F0%9F%87%B9%F0%9F%87%ADTH-617f58d58ef1a977d591864bd3b75d00
+
+# Tested at: 2026-03-19 20:27:42 | Response: 0.584s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.147.119:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-4e826441ebf5df3ba41c4b900df4f3c2
+
+# Tested at: 2026-03-19 20:28:27 | Response: 0.606s | IP: 2a06:1301:4050:45:148:31:: | Country: 🇩🇰 Denmark - DK
+vless://e4fc4761-154f-490e-bbaa-b4fa193f1073@45.148.31.0:15855?host=Join---V2rayBaaz---Join---V2rayBaaz---Join---V2rayBaaz&path=%2F&type=ws#%F0%9F%87%A9%F0%9F%87%B0DK-75b12cde23a12264f3b3a41e2544e634
+
+# Tested at: 2026-03-19 20:28:35 | Response: 0.116s | IP: 45.82.251.115 | Country: 🇨🇾 Cyprus - CY
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@yesok42v1.ip4exordir.shop:8880?type=grpc#%F0%9F%87%A8%F0%9F%87%BECY-df6b409bcb44a74a10585f0c0655fa96
+
+# Tested at: 2026-03-19 20:29:10 | Response: 0.634s | IP: 185.184.68.94 | Country: 🇺🇸 United States - US
+vless://13ad36e6-c091-43f2-8505-47d868dd544c@188.114.97.3:80?host=cvfg.ae1autumn.cc.cd&path=%2FXR8So0uqFVa3vY9ZbxgW4&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-5d7da9a647dee6976a73f670a51195bf
+
+# Tested at: 2026-03-19 20:29:11 | Response: 0.639s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@104.18.185.26:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-00b69bc4a13fa5a3059cf04f451b67fc
+
+# Tested at: 2026-03-19 20:29:20 | Response: 0.972s | IP: 206.189.147.22 | Country: 🇸🇬 Singapore - SG
+vless://ca73d911-29f4-42d8-ada5-81dee679e96a@vps.zakir.web.id:80?host=vps.zakir.web.id&path=vless&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-6956081a3f3e44489bc321072cd16a07
+
+# Tested at: 2026-03-19 20:30:03 | Response: 0.463s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.146.129:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-bb12a00d2185b848326260a448cbcd9a
+
+# Tested at: 2026-03-19 20:30:04 | Response: 0.260s | IP: 209.126.84.189 | Country: 🇺🇸 United States - US
+vless://0417be58-2ea8-49de-8083-9eff9b0137e5@209.126.84.189:443?host=v2ray.codefyinc.com&path=%2Fvlessws&sni=v2ray.codefyinc.com&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-6fa63b0a2ceeef847f5dbe7581e12468
+
+# Tested at: 2026-03-19 20:30:43 | Response: 0.060s | IP: 104.28.157.170 | Country: 🇺🇸 United States - US
+vless://94671f42-fdd3-4503-a3e6-bda4a2527560@172.67.207.29:80?host=019.electrocellco-cf-019.workers.dev&path=%2FeyJqdW5rIjoibUVFb0RQcHJZZSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjM0LjI1My4yMzQuNjIiXX0%3D%3Fed%3D2560&sni=019.electrocellco-cf-019.workers.dev&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-92e989e93bcefe58e24294846cc0ee4b
+
+# Tested at: 2026-03-19 20:30:48 | Response: 0.407s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@104.18.42.54:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-a00352acff0ae79fa24897c8a19fef3b
+
+# Tested at: 2026-03-19 20:32:58 | Response: 0.121s | IP: 104.28.164.151 | Country: 🇺🇸 United States - US
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.20.63.52:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-88daf6c02cdffef1a53d38eeff170709
+
+# Tested at: 2026-03-19 20:33:41 | Response: 0.513s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
 vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@104.21.72.233:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-b7d8767b78ea02f64170572c9089783a
 
-# Tested at: 2026-03-19 15:41:33 | Response: 2.531s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@vip2.kaixincloud.top:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-98cc18932e3cbf756f5298ed105473de
+# Tested at: 2026-03-19 20:33:42 | Response: 0.370s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.146.211:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-eb80e53b5fc10d9ae2144d752b081e6c
+
+# Tested at: 2026-03-19 20:34:17 | Response: 0.315s | IP: 2a09:bac5:c82e:166e::23c:6b | Country: 🇺🇸 United States - US
+vless://94671f42-fdd3-4503-a3e6-bda4a2527560@019.electrocellco-cf-019.workers.dev:80?host=019.electrocellco-cf-019.workers.dev&path=%2FeyJqdW5rIjoibUVFb0RQcHJZZSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjM0LjI1My4yMzQuNjIiXX0%3D%3Fed%3D2560&sni=019.electrocellco-cf-019.workers.dev&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-24a026238c6835a18d2d14ebae762ad9
+
+# Tested at: 2026-03-19 20:34:18 | Response: 0.448s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.146.198:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-ccd00a5f2bb71cdffd01875211211ccb
+
+# Tested at: 2026-03-19 20:35:01 | Response: 0.120s | IP: 104.28.153.224 | Country: 🇺🇸 United States - US
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@162.159.36.20:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-7c33945a4aa1f10ff3f1141dcd7adf2e
+
+# Tested at: 2026-03-19 20:35:04 | Response: 2.515s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@v3.dabache.top:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F%3Fed&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-55eaf93e863dbb034f001e8d40d17035
+
+# Tested at: 2026-03-19 20:35:15 | Response: 3.100s | IP: 185.184.68.94 | Country: 🇺🇸 United States - US
+vless://13ad36e6-c091-43f2-8505-47d868dd544c@172.64.80.1:80?host=ghj.ae1autumn.cc.cd&path=%2FXR8So0uqFVa3vY9ZbxgW4&sni=ghj.ae1autumn.cc.cd&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-fbd507363309b19d4de3a15891315000
+
+# Tested at: 2026-03-19 20:35:25 | Response: 0.188s | IP: 104.28.164.204 | Country: 🇺🇸 United States - US
+vless://5f4845b4-11dc-41d6-9508-4ff6a02e36c1@45.131.4.192:80?host=silent-paper-fa57.fipiyag989.workers.dev&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-68d9e438c647e527cdd317f04dafeb98
+
+# Tested at: 2026-03-19 20:35:46 | Response: 0.949s | IP: 206.189.147.22 | Country: 🇸🇬 Singapore - SG
+vless://ca73d911-29f4-42d8-ada5-81dee679e96a@206.189.147.22:80?host=vps.zakir.web.id&path=vless&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-ab82955565826645a40808af5f94be05
+
+# Tested at: 2026-03-19 20:36:32 | Response: 2.238s | IP: 74.220.27.192 | Country: 🇩🇪 Germany - DE
+vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@v2.dabache.top:80?host=tt.andishehparenting.com&path=%2F&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-91ce8b85539e5beecd461a7d1f4a52a3
+
+# Tested at: 2026-03-19 20:37:14 | Response: 0.221s | IP: 185.184.68.94 | Country: 🇺🇸 United States - US
+vless://13ad36e6-c091-43f2-8505-47d868dd544c@1qw.ae1autumn.cc.cd:80?host=1qw.ae1autumn.cc.cd&path=%2FXR8So0uqFVa3vY9ZbxgW4&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-f2f5ca51b57a0e2d2a2aacff99083c06
+
+# Tested at: 2026-03-19 20:37:58 | Response: 0.430s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.146.68:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-ff79fe98831e6a64bceed50381e5cf43
+
+# Tested at: 2026-03-19 20:37:58 | Response: 0.682s | IP: 2a12:bec4:19a4:1020:: | Country: 🇦🇹 Austria - AT
+vless://f2a806c6-f36b-4cd9-8bb6-7addb218ad2d@91.244.70.205:443?path=%2F&type=ws#%F0%9F%87%A6%F0%9F%87%B9AT-ab74c0ce2b7285f9fd70c2ac79a7c6b9
+
+# Tested at: 2026-03-19 20:37:58 | Response: 0.634s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.152.241:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-7463ae1958b5e655b1f3f295d8bc14f7
+
+# Tested at: 2026-03-19 20:38:50 | Response: 0.975s | IP: 74.220.27.192 | Country: 🇩🇪 Germany - DE
+vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.154.211:80?host=tt.andishehparenting.com&path=%2F&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-db3d9bba672a419df2265d701ba22343
+
+# Tested at: 2026-03-19 20:39:26 | Response: 0.267s | IP: 104.28.161.244 | Country: 🇺🇸 United States - US
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@172.64.147.223:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-c5da66fa05678ec8ae18cbb30fdff88b
+
+# Tested at: 2026-03-19 20:39:26 | Response: 0.648s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.146.199:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-7aeb01184977bd9e2813c3c5cf8f671e
+
+# Tested at: 2026-03-19 20:39:27 | Response: 0.511s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@v2.dabache.top:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-ffd8740ec903c7657a8a0f93a159be21
+
+# Tested at: 2026-03-19 20:40:11 | Response: 0.470s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.146.161:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-de4077ff073f82b0cb3b1fd803561f00
+
+# Tested at: 2026-03-19 20:40:55 | Response: 0.453s | IP: 74.220.27.192 | Country: 🇩🇪 Germany - DE
+vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@104.21.224.5:80?host=tt.andishehparenting.com&path=%2F&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-f937a809da1764b6a613d1fe28e89515
+
+# Tested at: 2026-03-19 20:41:04 | Response: 1.060s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@v1.dabache.top:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-8b830d88b6e394bbb864fcf2b06942f5
+
+# Tested at: 2026-03-19 20:41:38 | Response: 0.657s | IP: 74.220.27.192 | Country: 🇩🇪 Germany - DE
+vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@vip3.kaixincloud.top:80?host=tt.andishehparenting.com&path=%2F&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-21fd1e49f2330478e3a852cf50c3e3fd
+
+# Tested at: 2026-03-19 20:41:46 | Response: 0.466s | IP: 74.220.27.192 | Country: 🇩🇪 Germany - DE
+vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@104.18.185.26:80?host=tt.andishehparenting.com&path=%2F&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-02e1771cab534d5d948c3c96e5714409
+
+# Tested at: 2026-03-19 20:43:14 | Response: 0.273s | IP: 185.184.68.94 | Country: 🇺🇸 United States - US
+vless://13ad36e6-c091-43f2-8505-47d868dd544c@rgt.ae1autumn.dpdns.org:80?host=rgt.ae1autumn.dpdns.org&path=%2FXR8So0uqFVa3vY9ZbxgW4&sni=rgt.ae1autumn.dpdns.org&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-58a988756758b24552de950bfa3d85bd
+
+# Tested at: 2026-03-19 20:43:59 | Response: 1.004s | IP: 74.220.27.192 | Country: 🇩🇪 Germany - DE
+vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@vip2.kaixincloud.top:80?host=tt.andishehparenting.com&path=%2F&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-4598df766c31ee67de7dff3f2e53d0b9
+
+# Tested at: 2026-03-19 20:44:33 | Response: 0.182s | IP: 104.28.161.62 | Country: 🇨🇦 Canada - CA
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@162.159.45.207:80?host=vip.yaml7.ggff.net&type=ws#%F0%9F%87%A8%F0%9F%87%A6CA-004664e574ed8490463b95bbfaa485ca
+
+# Tested at: 2026-03-19 20:44:35 | Response: 0.491s | IP: 74.220.27.192 | Country: 🇩🇪 Germany - DE
+vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.146.68:80?host=tt.andishehparenting.com&path=%2F&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-3d529c2c5d4b4e782d321d67b4b09dd8
+
+# Tested at: 2026-03-19 20:45:25 | Response: 0.443s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@104.18.43.174:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-e8bce49b5e46ce14e8bee3085367af65
+
+# Tested at: 2026-03-19 20:45:26 | Response: 0.490s | IP: 47.82.1.12 | Country: 🇸🇬 Singapore - SG
+vless://ca0e8520-42cd-49db-cfec-1295834b9e21@47.82.1.12:59100#%F0%9F%87%B8%F0%9F%87%ACSG-f85856e2c11de2edffd89c47beed21f1
+
+# Tested at: 2026-03-19 20:45:26 | Response: 0.435s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@104.21.224.5:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-02f145ab134460125e8072de3ff8578f
+
+# Tested at: 2026-03-19 20:46:00 | Response: 0.181s | IP: 45.82.251.116 | Country: 🇨🇾 Cyprus - CY
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@yesok42v2.ip4exordir.shop:8880?type=grpc#%F0%9F%87%A8%F0%9F%87%BECY-55929b2437c29ddff29fd899a38546fc
+
+# Tested at: 2026-03-19 20:46:10 | Response: 0.355s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.146.27:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-717565d891b20b32cf2d50e9c3760559
+
+# Tested at: 2026-03-19 20:46:10 | Response: 0.556s | IP: 162.19.228.119 | Country: 🇫🇷 France - FR
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?host=de.vpnbase.net&path=%2Fhttp&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-95793bfd78c23436c5714075d20909b3
+
+# Tested at: 2026-03-19 20:46:10 | Response: 0.723s | IP: 23.94.43.51 | Country: 🇺🇸 United States - US
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@172.66.44.211:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-ce4f0d03c9955c9b20b00f0b808bace7
+
+# Tested at: 2026-03-19 20:46:44 | Response: 0.824s | IP: 74.220.27.192 | Country: 🇩🇪 Germany - DE
+vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@162.159.36.5:80?host=tt.andishehparenting.com&path=%2F&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-2f231c3102ea6d35adea11f89927ec74
+
+# Tested at: 2026-03-19 20:46:44 | Response: 0.666s | IP: 81.88.25.20 | Country: 🇩🇪 Germany - DE
+vless://c031d6c7-5132-4d81-8efc-3b13a947984e@81.88.25.20:59029#%F0%9F%87%A9%F0%9F%87%AADE-8607832107980c5e9b989804006d275b
+
+# Tested at: 2026-03-19 20:48:21 | Response: 0.413s | IP: 2a01:4f8:c010:4f9b::1 | Country: 🇩🇪 Germany - DE
+vless://98fb333c-3d84-4fa4-b1f7-1683b509f65a@ab.fxgoldensignals.com:36454#%F0%9F%87%A9%F0%9F%87%AADE-96bfc085c072933694d5203d70102a6c
+
+# Tested at: 2026-03-19 20:49:48 | Response: 0.935s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.66.47.204:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-53a08092766ffa4419752fc3ac9b2b59
+
+# Tested at: 2026-03-19 20:50:24 | Response: 0.255s | IP: 104.28.157.172 | Country: 🇺🇸 United States - US
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.17.150.99:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-48380b3be8ae2d2a8d8973f15bf9f8bc
+
+# Tested at: 2026-03-19 20:50:24 | Response: 0.296s | IP: 2a09:bac6:d709:1678::23d:26 | Country: 🇺🇸 United States - US
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.17.138.164:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-9570b3f1e707f96d9466832fefedb6e6
+
+# Tested at: 2026-03-19 20:50:25 | Response: 0.520s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.147.137:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-7e003bf7542d5eb564cce59097db57c4
+
+# Tested at: 2026-03-19 20:50:25 | Response: 0.100s | IP: 104.28.161.246 | Country: 🇺🇸 United States - US
+vless://8973c3c2-803f-41db-9efa-fbef67d47567@104.19.96.214:80?host=018.electrocellco-cf-018.workers.dev&path=%2FeyJqdW5rIjoiUG43S1ZuZGxVOWo5IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ%3D%3D%3Fed%3D2560&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-0573bb8dbcc58dc34097b311e9114ccb
+
+# Tested at: 2026-03-19 20:50:28 | Response: 0.716s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.147.85:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-aec8a9449222757709dbef93024ecae2
+
+# Tested at: 2026-03-19 20:51:09 | Response: 0.571s | IP: 185.71.228.0 | Country: 🇺🇸 United States - US
+vless://b38b778b-06f0-4161-91b2-1f0b220b7df4@172.67.73.163:8080?host=015.electrocellco-cf-015.workers.dev&path=%2FeyJqdW5rIjoiQm5nNGZUVWwiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTMuMTcwLjE1Ny4xIl19%3Fed%3D2560%26join-hallakechiVPN---join-hallakechiVPN---join-hallakechiVPN---join-hallakechiVPN---join-hallakechiVPN---join-hallakechiVPN---&sni=www.speedtest.net&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-b7aaf5726706dadc7b2a1630aa24a947
+
+# Tested at: 2026-03-19 20:51:51 | Response: 0.784s | IP: 162.19.228.119 | Country: 🇫🇷 France - FR
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@162.19.228.119:80?host=google.com&path=%2Fhttp%23Telegram%40V2ray_Alpha%2F%3Fed%3D2560&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-87dcabe220cbad357637ad2974a31add
+
+# Tested at: 2026-03-19 20:51:52 | Response: 0.657s | IP: 2a01:4f9:c010:aa6f::1 | Country: 🇩🇪 Germany - DE
+vless://e44c9ff3-5a05-4ee9-b050-b8fbc7c1af04@172.64.147.255:80?host=turbooserver-roeg-fastly.flinkywoo.com&path=%2Fed%3D2560&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-3e1e1bd5ff678109614c81f38999533e
+
+# Tested at: 2026-03-19 20:52:44 | Response: 0.402s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.147.131:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-a6b864db8fcbb5c25475c89c5986337f
+
+# Tested at: 2026-03-19 20:53:20 | Response: 0.470s | IP: 74.220.27.192 | Country: 🇩🇪 Germany - DE
+vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.67.155.172:80?host=tt.andishehparenting.com&path=%2F&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-f509cee0a1fd0e325f0ef52ed2cd115e
+
+# Tested at: 2026-03-19 20:53:20 | Response: 0.584s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.66.44.52:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-21ae7617b62f49b03ed03dccb82d152e
+
+# Tested at: 2026-03-19 20:54:04 | Response: 1.441s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@162.159.36.20:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-4556afd84b336a5e3413f6d7b880f584
+
+# Tested at: 2026-03-19 20:54:05 | Response: 0.547s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.154.211:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-92ee079259163e146a7c32fa9427134e
+
+# Tested at: 2026-03-19 20:54:12 | Response: 0.413s | IP: 185.184.68.94 | Country: 🇺🇸 United States - US
+vless://13ad36e6-c091-43f2-8505-47d868dd544c@cvfg.ae1autumn.cc.cd:80?host=cvfg.ae1autumn.cc.cd&path=%2FXR8So0uqFVa3vY9ZbxgW4&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-a93b71675229af428d4af83ab419b3a6
+
+# Tested at: 2026-03-19 20:55:32 | Response: 0.098s | IP: 45.82.251.195 | Country: 🇨🇾 Cyprus - CY
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.195:8880?type=grpc#%F0%9F%87%A8%F0%9F%87%BECY-497fd0250a046935aab7dd8808f32e89
+
+# Tested at: 2026-03-19 20:55:32 | Response: 0.605s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.147.252:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-2f59337a969d5615088e95a8c2d421e7
+
+# Tested at: 2026-03-19 20:56:20 | Response: 0.072s | IP: 104.28.164.154 | Country: 🇺🇸 United States - US
+vless://4307e484-6c8b-46d0-9df4-8b3983ab27b4@198.41.193.151:80?host=029.electrocellco-cf-029.workers.dev&path=%2FeyJqdW5rIjoibWNPczJHelJTUmpXIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNzcuMjM4LjIzMS4xNzkiLCIzMS40NC4yLjU3Il19%3Fed%3D2560&sni=198.41.193.151&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-b5ee3445e41d415dcfb0bdcd938111aa
+
+# Tested at: 2026-03-19 20:57:44 | Response: 0.179s | IP: 104.28.161.245 | Country: 🇺🇸 United States - US
+vless://c9b45f2f-6cbe-4a86-b4d2-a327f4055a59@198.41.222.50:8080?host=001.electrocellco-cf-001.workers.dev&path=%2FeyJqdW5rIjoiRzBvTDBuZEFVIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIxMy4yMTEuMjkiLCIzMS40NC4yLjU3IiwiNzcuMjQ2LjEwOC4xMzAiXX0%3D%3Fed%3D2560&sni=198.41.222.50&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-7889a526caeb988043b4789f8975846b
+
+# Tested at: 2026-03-19 20:58:28 | Response: 0.189s | IP: 104.28.164.151 | Country: 🇺🇸 United States - US
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.17.152.254:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-429c6993f44cc20bd0f651b548c1390d
+
+# Tested at: 2026-03-19 20:58:37 | Response: 0.960s | IP: 77.83.245.135 | Country: 🇹🇷 Türkiye - TR
+vless://d37c7e48-2a8d-432f-a3ce-8da4cc203b2c@77.83.245.135:34205#%F0%9F%87%B9%F0%9F%87%B7TR-231d1f775f475daa5404bd8fb90d35dd
+
+# Tested at: 2026-03-19 20:59:12 | Response: 1.066s | IP: 74.220.27.192 | Country: 🇩🇪 Germany - DE
+vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.146.27:80?host=tt.andishehparenting.com&path=%2F&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-4277f5ac24928c6a65c64670f3133181
+
+# Tested at: 2026-03-19 20:59:56 | Response: 0.513s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.145.158:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-4f2cd3978b5cbd747825b1b3bcb1675f
+
+# Tested at: 2026-03-19 21:00:46 | Response: 1.924s | IP: 150.241.80.231 | Country: 🇳🇱 The Netherlands - NL
+vless://932130c7-197b-4b37-af26-d550c47ba8f4@cdn6.api-rutube.ru:443?sni=1sg001.476579.xyz#%F0%9F%87%B3%F0%9F%87%B1NL-b3de3706e8e708e86546c4a632ac21a0
+
+# Tested at: 2026-03-19 21:00:55 | Response: 0.793s | IP: 94.242.51.113 | Country: 🇷🇺 Russia - RU
+vless://f2a806c6-f36b-4cd9-8bb6-7addb218ad2d@94.242.51.113:443?path=%2F&type=ws#%F0%9F%87%B7%F0%9F%87%BARU-a608e662cd1fde5908f376bbf7382f94
+
+# Tested at: 2026-03-19 21:02:09 | Response: 0.696s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.147.183:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-6739917b7f7dd3fd4f65f5d95a9671b4
+
+# Tested at: 2026-03-19 21:02:10 | Response: 0.165s | IP: 104.28.159.229 | Country: 🇺🇸 United States - US
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@v3.dabache.top:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-9b635c09206a0ad0de109e16505c28cf
+
+# Tested at: 2026-03-19 21:02:17 | Response: 0.514s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.146.153:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-2c896762bdc8a4caba373c83261c9392
+
+# Tested at: 2026-03-19 21:02:18 | Response: 1.146s | IP: 94.158.218.63 | Country: 🇱🇻 Latvia - LV
+vless://f2a806c6-f36b-4cd9-8bb6-7addb218ad2d@94.158.218.63:443?path=%2F&type=ws#%F0%9F%87%B1%F0%9F%87%BBLV-0b0ca21b0f5a3dfaa1ac0c43a38a5045
+
+# Tested at: 2026-03-19 21:02:51 | Response: 1.131s | IP: 185.236.232.117 | Country: 🇲🇩 Moldova - MD
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@185.236.232.117:8880?sni=pqh30v3.globalfymain.com&type=grpc#%F0%9F%87%B2%F0%9F%87%A9MD-f882fae4c54b4628563977817ec49822
+
+# Tested at: 2026-03-19 21:02:52 | Response: 1.197s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.146.37:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-12d589121c80931846faa919154475bb
+
+# Tested at: 2026-03-19 21:03:36 | Response: 0.602s | IP: 104.28.154.66 | Country: 🇨🇦 Canada - CA
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@162.159.38.62:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%A8%F0%9F%87%A6CA-6da77679412927ef0dadfac6712d2655
+
+# Tested at: 2026-03-19 21:03:45 | Response: 0.074s | IP: 45.82.251.116 | Country: 🇨🇾 Cyprus - CY
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.116:8880?type=grpc#%F0%9F%87%A8%F0%9F%87%BECY-f425a96217c75d8b26ad67138ea19b68
+
+# Tested at: 2026-03-19 21:03:45 | Response: 1.070s | IP: 103.245.237.124 | Country: 🇻🇳 Vietnam - VN
+vless://cca053d5-7123-4a87-83d6-babe4e9c8115@103.245.237.124:58202?path=%2F&type=ws#%F0%9F%87%BB%F0%9F%87%B3VN-545b2ee847f53af24bb907f8998d3fee
+
+# Tested at: 2026-03-19 21:04:20 | Response: 0.154s | IP: 185.184.68.94 | Country: 🇺🇸 United States - US
+vless://13ad36e6-c091-43f2-8505-47d868dd544c@104.21.94.245:80?host=ghju.apocalypse.cc.cd&path=%2FXR8So0uqFVa3vY9ZbxgW4&sni=ghju.apocalypse.cc.cd&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-7b01fcee6b2aedf7460458e30765148d
+
+# Tested at: 2026-03-19 21:04:23 | Response: 0.913s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.144.82:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-bd0428815a5f8c0d8969fb321d1a8ba8
+
+# Tested at: 2026-03-19 21:05:12 | Response: 0.079s | IP: 104.28.162.93 | Country: 🇺🇸 United States - US
+vless://4307e484-6c8b-46d0-9df4-8b3983ab27b4@173.245.59.244:8080?host=029.electrocellco-cf-029.workers.dev&path=%2FeyJqdW5rIjoiZUZpQ3M1WlYxYjlJTHlXNSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjc3LjIzOC4yMzEuMTc5IiwiMzEuNDQuMi41NyJdfQ%3D%3D%3Fed%3D2560&sni=173.245.59.244&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-fa8997015734bb516b99cfc0e51db52a
+
+# Tested at: 2026-03-19 21:05:48 | Response: 0.420s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.147.210:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-aac8d7dd47168c5b493a29becc0c8052
+
+# Tested at: 2026-03-19 21:05:48 | Response: 0.335s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.66.44.211:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-a47213e2f293dd1acdc5ac7d296fc641
+
+# Tested at: 2026-03-19 21:07:24 | Response: 0.911s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.146.102:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-8928ae6d3c21924d4dbfa3232ff7794b
+
+# Tested at: 2026-03-19 21:07:59 | Response: 0.602s | IP: 91.99.218.107 | Country: 🇩🇪 Germany - DE
+vless://0341d8f2-99e0-4f6c-af0a-345ac26815cf@ab.fxgoldensignals.com:51269?type=grpc#%F0%9F%87%A9%F0%9F%87%AADE-68f30d1193904217646223420a89574b
+
+# Tested at: 2026-03-19 21:08:43 | Response: 0.063s | IP: 45.82.251.33 | Country: 🇨🇾 Cyprus - CY
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.33:8880?type=grpc#%F0%9F%87%A8%F0%9F%87%BECY-1d8acd76ff4dce5f0ea1b2bcb26ffe00
+
+# Tested at: 2026-03-19 21:08:57 | Response: 0.082s | IP: 2a09:bac5:c829:dcd::160:3f | Country: 🇺🇸 United States - US
+vless://4307e484-6c8b-46d0-9df4-8b3983ab27b4@188.114.97.222:8080?host=029.electrocellco-cf-029.workers.dev&path=%2FeyJqdW5rIjoiTzZZQ2dpUW1WIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNzcuMjM4LjIzMS4xNzkiLCIzMS40NC4yLjU3Il19%3Fed%3D2560&sni=188.114.97.222&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-70fa26f71a6b73a2866ede095aded49a
+
+# Tested at: 2026-03-19 21:09:25 | Response: 0.594s | IP: 2a01:4f8:c010:4f9b::1 | Country: 🇩🇪 Germany - DE
+vless://0341d8f2-99e0-4f6c-af0a-345ac26815cf@91.99.218.107:51269?type=grpc#%F0%9F%87%A9%F0%9F%87%AADE-71f14e30a452be0797edf1ebbb6d2165
+
+# Tested at: 2026-03-19 21:10:11 | Response: 0.688s | IP: 213.136.69.8 | Country: 🇫🇷 France - FR
+vless://15cbab96-197e-46a5-9042-073b3980c798@fsdns.ectunnelvpn.me:80?host=fsdns.ectunnelvpn.me&path=%2Fvless&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-a6074aa504fdf85c8cfaa468d5355538
+
+# Tested at: 2026-03-19 21:10:11 | Response: 0.255s | IP: 91.99.218.107 | Country: 🇩🇪 Germany - DE
+vless://98fb333c-3d84-4fa4-b1f7-1683b509f65a@91.99.218.107:36454#%F0%9F%87%A9%F0%9F%87%AADE-e76bb990a817382557afb6694f29c6ab
+
+# Tested at: 2026-03-19 21:11:06 | Response: 1.270s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@vip3.kaixincloud.top:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-59992d65a8526c205e12d5317322d25b
+
+# Tested at: 2026-03-19 21:11:39 | Response: 0.582s | IP: 74.220.27.192 | Country: 🇩🇪 Germany - DE
+vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.147.224:80?host=tt.andishehparenting.com&path=%2F&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-1aeae64f5ee7f03d2542b3b4f50b10bf
+
+# Tested at: 2026-03-19 21:12:24 | Response: 0.550s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.147.166:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-0788bd442db9412866e54e2830557486
+
+# Tested at: 2026-03-19 21:13:08 | Response: 0.963s | IP: 2a01:4f9:c010:aa6f::1 | Country: 🇩🇪 Germany - DE
+vless://e44c9ff3-5a05-4ee9-b050-b8fbc7c1af04@172.64.146.163:80?host=turbooserver-roeg-fastly.flinkywoo.com&path=%2Fed%3D2560&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-35fe2c545ea955f22fa7b8be45dc2180
+
+# Tested at: 2026-03-19 21:13:09 | Response: 0.639s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.147.255:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-408eb8f148d0aa2d2680a8351729daf5
+
+# Tested at: 2026-03-19 21:13:53 | Response: 0.615s | IP: 2a01:4f9:c010:aa6f::1 | Country: 🇩🇪 Germany - DE
+vless://e44c9ff3-5a05-4ee9-b050-b8fbc7c1af04@188.114.98.0:80?host=turbooserver-roeg-fastly.flinkywoo.com&path=%2Fed%3D2560&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-6ce89bca8b3e12c0b0352082c2e7a463
+
+# Tested at: 2026-03-19 21:14:01 | Response: 0.415s | IP: 104.28.153.224 | Country: 🇺🇸 United States - US
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@172.66.47.45:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-4d92acdbcc39a46fc76df25e0345a2ef
+
+# Tested at: 2026-03-19 21:14:36 | Response: 0.799s | IP: 74.220.27.192 | Country: 🇩🇪 Germany - DE
+vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@104.16.250.22:80?host=tt.andishehparenting.com&path=%2F&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-d29d39942e092a2c0c186f3e30820844
+
+# Tested at: 2026-03-19 21:14:45 | Response: 0.344s | IP: 185.184.68.94 | Country: 🇺🇸 United States - US
+vless://13ad36e6-c091-43f2-8505-47d868dd544c@ghj.ae1autumn.cc.cd:80?host=ghj.ae1autumn.cc.cd&path=%2FXR8So0uqFVa3vY9ZbxgW4&sni=ghj.ae1autumn.cc.cd&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-ba362093e2c19bcf3f1cdb31917f383d
+
+# Tested at: 2026-03-19 21:15:20 | Response: 0.375s | IP: 104.28.164.202 | Country: 🇺🇸 United States - US
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.17.156.229:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-52b4c5d03a64f1eadbc1506da0fca576
+
+# Tested at: 2026-03-19 21:15:20 | Response: 0.917s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.66.47.45:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-aa094e772b2abcfc4c9500cda724098e
+
+# Tested at: 2026-03-19 21:15:21 | Response: 1.042s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.145.202:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-97646f3626326153364b85ffd19f72d9
+
+# Tested at: 2026-03-19 21:16:14 | Response: 0.986s | IP: 168.222.16.102 | Country: 🇹🇭 Thailand - TH
+vless://4dc817f7-2595-4330-a1b0-e35e7c6b803a@168.222.16.102:80?host=www.ptnk.sry-vpn.com&path=%2Fvless&type=ws#%F0%9F%87%B9%F0%9F%87%ADTH-c3b70ee181b7a06b2dca475afad92647
+
+# Tested at: 2026-03-19 21:16:49 | Response: 0.319s | IP: 2001:bc8:1600:1:208:a2ff:fe0c:74b4 | Country: 🇳🇱 The Netherlands - NL
+vless://a02e0f63-d96e-4b0f-8270-56c28caef171@51.158.151.24:31727#%F0%9F%87%B3%F0%9F%87%B1NL-4993684592fdcb09e6ff5aa687b0303a
+
+# Tested at: 2026-03-19 21:17:34 | Response: 0.398s | IP: 185.184.68.94 | Country: 🇺🇸 United States - US
+vless://13ad36e6-c091-43f2-8505-47d868dd544c@dr.ae1autumn.dpdns.org:80?host=dr.ae1autumn.dpdns.org&path=%2FXR8So0uqFVa3vY9ZbxgW4&sni=dr.ae1autumn.dpdns.org&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-d84a371a54783b22b71eb120ffbf52d1
+
+# Tested at: 2026-03-19 21:18:18 | Response: 1.284s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.147.223:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-2cdb552b461dcfb437bee3d551471ba4
+
+# Tested at: 2026-03-19 21:18:18 | Response: 0.395s | IP: 185.184.68.94 | Country: 🇺🇸 United States - US
+vless://13ad36e6-c091-43f2-8505-47d868dd544c@172.67.141.220:80?host=ghju.apocalypse.cc.cd&path=%2FXR8So0uqFVa3vY9ZbxgW4&sni=ghju.apocalypse.cc.cd&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-eb70e92613e8187189778151101f5108
+
+# Tested at: 2026-03-19 21:19:01 | Response: 0.510s | IP: 2a00:1838:37:50a::6397 | Country: 🇷🇺 Russia - RU
+vless://f2a806c6-f36b-4cd9-8bb6-7addb218ad2d@77.73.67.94:443?path=%2F&type=ws#%F0%9F%87%B7%F0%9F%87%BARU-643619aa787a6f7ebf0b9cd329b899de
+
+# Tested at: 2026-03-19 21:20:29 | Response: 0.541s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.147.2:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-bdd6598a674fe235214821c9b3999d5a
+
+# Tested at: 2026-03-19 21:21:12 | Response: 0.665s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.146.163:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-7f5c589daf94b5e594e4d8581a7659df
+
+# Tested at: 2026-03-19 21:21:56 | Response: 0.840s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@104.21.227.134:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-41c8e93251c319ec9b4e3c27fe877483
+
+# Tested at: 2026-03-19 21:21:56 | Response: 0.205s | IP: 45.82.251.115 | Country: 🇨🇾 Cyprus - CY
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.115:8880?type=grpc#%F0%9F%87%A8%F0%9F%87%BECY-dc31386dd8ed28c9110f7a2c8abb6958
+
+# Tested at: 2026-03-19 21:24:08 | Response: 0.656s | IP: 185.184.68.94 | Country: 🇺🇸 United States - US
+vless://13ad36e6-c091-43f2-8505-47d868dd544c@cdfr.ae1autumn.dpdns.org:80?host=cdfr.ae1autumn.dpdns.org&path=%2FXR8So0uqFVa3vY9ZbxgW4&sni=cdfr.ae1autumn.dpdns.org&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-ce5a259cd3044cfa7ee9bc519df9fa89
+
+# Tested at: 2026-03-19 21:24:08 | Response: 0.199s | IP: 185.184.68.94 | Country: 🇺🇸 United States - US
+vless://13ad36e6-c091-43f2-8505-47d868dd544c@172.67.197.251:80?host=ghj.ae1autumn.cc.cd&path=%2FXR8So0uqFVa3vY9ZbxgW4&sni=ghj.ae1autumn.cc.cd&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-e304522566911b56a7c05c55f87d7ba1
+
+# Tested at: 2026-03-19 21:24:52 | Response: 0.612s | IP: 74.220.27.192 | Country: 🇩🇪 Germany - DE
+vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@104.21.227.134:80?host=tt.andishehparenting.com&path=%2F&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-96ac359f3f72c6c5c83553127125cc45
+
+# Tested at: 2026-03-19 21:24:53 | Response: 1.637s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@vip1.kaixincloud.top:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-260becb9b3e4250e6fdf499f27a344e2
+
+# Tested at: 2026-03-19 21:27:04 | Response: 1.050s | IP: 213.136.69.8 | Country: 🇫🇷 France - FR
+vless://15cbab96-197e-46a5-9042-073b3980c798@213.136.69.8:80?host=fsdns.ectunnelvpn.me&path=%2Fvless&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-382ebf5c0aadf579c1ff19653a262f6a
+
+# Tested at: 2026-03-19 21:27:06 | Response: 0.535s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@104.18.35.15:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-921d6c5c2b222fb992a087dc28e57d0e
+
+# Tested at: 2026-03-19 21:27:49 | Response: 1.310s | IP: 185.71.228.0 | Country: 🇺🇸 United States - US
+vless://b38b778b-06f0-4161-91b2-1f0b220b7df4@tgju.org:8080?host=015.electrocellco-cf-015.workers.dev&path=%2FeyJqdW5rIjoiQm5nNGZUVWwiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTMuMTcwLjE1Ny4xIl19%3Fed%3D2560%26join-hallakechiVPN---join-hallakechiVPN---join-hallakechiVPN---join-hallakechiVPN---join-hallakechiVPN---join-hallakechiVPN---&sni=www.speedtest.net&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-af404a519d46ca5a16b03cc0aaddcba0
+
+# Tested at: 2026-03-19 21:27:49 | Response: 1.081s | IP: 94.242.51.174 | Country: 🇷🇺 Russia - RU
+vless://f2a806c6-f36b-4cd9-8bb6-7addb218ad2d@94.242.51.174:443?path=%2F&type=ws#%F0%9F%87%B7%F0%9F%87%BARU-fe7755011f36b303ff9f95de1a83d984
+
+# Tested at: 2026-03-19 21:27:49 | Response: 0.435s | IP: 185.184.68.94 | Country: 🇺🇸 United States - US
+vless://13ad36e6-c091-43f2-8505-47d868dd544c@ghju.apocalypse.cc.cd:80?host=ghju.apocalypse.cc.cd&path=%2FXR8So0uqFVa3vY9ZbxgW4&sni=ghju.apocalypse.cc.cd&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-f7eced4d1f3f375d8dbc63b5638dba98
+
+# Tested at: 2026-03-19 21:30:03 | Response: 0.326s | IP: 178.173.250.59 | Country: 🇳🇱 The Netherlands - NL
+vless://f2a806c6-f36b-4cd9-8bb6-7addb218ad2d@178.173.250.59:443?path=%2F&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-b7e023fa035fdd53ca93ba78155b6b44
+
+# Tested at: 2026-03-19 21:30:47 | Response: 0.568s | IP: 91.225.219.109 | Country: 🇲🇩 Moldova - MD
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@104.18.33.45:2052?host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=%2F&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-ab374add2dca5eab5baacf5b1be81bce
+
+# Tested at: 2026-03-19 21:30:55 | Response: 0.199s | IP: 185.184.68.94 | Country: 🇺🇸 United States - US
+vless://13ad36e6-c091-43f2-8505-47d868dd544c@bhy7.ae1autumn.dpdns.org:80?host=bhy7.ae1autumn.dpdns.org&path=%2FXR8So0uqFVa3vY9ZbxgW4&sni=bhy7.ae1autumn.dpdns.org&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-9eabcc722f9c5b1dc6f3cfb6a42644fe
+
+# Tested at: 2026-03-19 21:32:23 | Response: 0.523s | IP: 185.71.228.0 | Country: 🇺🇸 United States - US
+vless://b38b778b-06f0-4161-91b2-1f0b220b7df4@104.26.15.85:8080?host=015.electrocellco-cf-015.workers.dev&path=%2FeyJqdW5rIjoiQm5nNGZUVWwiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTMuMTcwLjE1Ny4xIl19%3Fed%3D2560%26join-hallakechiVPN---join-hallakechiVPN---join-hallakechiVPN---join-hallakechiVPN---join-hallakechiVPN---join-hallakechiVPN---&sni=www.speedtest.net&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-4252bf781f2a1b02f1fe9040826e2640
 
