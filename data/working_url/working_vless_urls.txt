@@ -1,247 +1,544 @@
 # Working VLESS Configurations (URL Format)
-# Generated at: 2026-04-29 21:16:26
+# Generated at: 2026-04-30 03:52:38
 # Format: Each line contains one working configuration as URL
 
-# Tested at: 2026-04-29 22:35:05 | Response: 0.433s | IP: 47.91.94.112 | Country: 🇩🇪 Germany - DE
-vless://e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2@47.91.94.112:10040#%F0%9F%87%A9%F0%9F%87%AADE-45617945a1c7e6479f748b86c28d0ac4
+# Tested at: 2026-04-30 05:11:43 | Response: 0.399s | IP: 104.28.165.216 | Country: 🇺🇸 United States - US
+vless://cb213db5-803d-49dd-a7e2-46d938af0751@104.18.4.130:2082?host=amiroo-l43dac88-v2.amiroo-d8b.workers.dev&path=%2F+%40ProxyVPN11&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-c43edd2f04b9daa841853eed797c7585
 
-# Tested at: 2026-04-29 22:35:06 | Response: 0.983s | IP: 103.245.237.124 | Country: 🇻🇳 Vietnam - VN
-vless://cca053d5-7123-4a87-83d6-babe4e9c8115@103.245.237.124:58202?path=%2F&type=ws#%F0%9F%87%BB%F0%9F%87%B3VN-545b2ee847f53af24bb907f8998d3fee
+# Tested at: 2026-04-30 05:11:44 | Response: 0.143s | IP: 104.28.152.206 | Country: 🇺🇸 United States - US
+vless://fe665bb7-a558-42bc-9ba7-a59288ee4b93@104.26.13.31:80?host=floral-term-d21f.wafajax493.workers.dev&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-f744fc591087081d67cd0a2663d1962c
 
-# Tested at: 2026-04-29 22:35:51 | Response: 2.835s | IP: 2a12:5940:4d2f::2 | Country: 🇬🇧 United Kingdom - GB
-vless://d8d05386-e381-40a4-bb63-715c208b3ed3@109.120.132.142:40617#%F0%9F%87%AC%F0%9F%87%A7GB-4ebf84492e5f83abd795e1daff75bcf9
-
-# Tested at: 2026-04-29 22:36:23 | Response: 0.285s | IP: 45.82.251.33 | Country: 🇨🇾 Cyprus - CY
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.33:8880?type=grpc#%F0%9F%87%A8%F0%9F%87%BECY-1d8acd76ff4dce5f0ea1b2bcb26ffe00
-
-# Tested at: 2026-04-29 22:39:19 | Response: 0.881s | IP: 162.19.228.119 | Country: 🇫🇷 France - FR
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?host=de.vpnbase.net&path=%2Fhttp&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-95793bfd78c23436c5714075d20909b3
-
-# Tested at: 2026-04-29 22:39:27 | Response: 0.146s | IP: 2a09:bac1:7680:d28::4d0:2 | Country: 🇺🇸 United States - US
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@vip1.kaixincloud.top:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-fd4c9240efad23dfa1adf7f6dbfae547
-
-# Tested at: 2026-04-29 22:40:03 | Response: 0.761s | IP: 146.103.102.82 | Country: 🇳🇱 Netherlands - NL
-vless://e08f1ad7-0c60-446d-baec-08b3b69bb3d0@nl-90w-c.southnetworks.cloud:80?host=nl-90w-c.southnetworks.cloud&path=%2FgetWorkerUpdates&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-d62c6c6e51a7fa9bc349496a91da8db5
-
-# Tested at: 2026-04-29 22:40:47 | Response: 0.217s | IP: 104.28.166.44 | Country: 🇺🇸 United States - US
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.20.63.52:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-88daf6c02cdffef1a53d38eeff170709
-
-# Tested at: 2026-04-29 22:42:21 | Response: 0.282s | IP: 45.82.251.115 | Country: 🇨🇾 Cyprus - CY
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.115:8880?type=grpc#%F0%9F%87%A8%F0%9F%87%BECY-dc31386dd8ed28c9110f7a2c8abb6958
-
-# Tested at: 2026-04-29 22:45:11 | Response: 0.356s | IP: 104.28.166.25 | Country: 🇺🇸 United States - US
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.17.72.206:80?host=vip.yaml7.ggff.net&path=%2F+%40ProxyVPN11&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-e0ac9668e4d7a61c3b8bfb48db901ffa
-
-# Tested at: 2026-04-29 22:45:11 | Response: 0.232s | IP: 104.28.166.25 | Country: 🇺🇸 United States - US
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@172.64.149.54:80?host=vip.yaml7.ggff.net&path=%2F+%40ProxyVPN11&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-97fb55d013bb6c819bb45082a0bd15c2
-
-# Tested at: 2026-04-29 22:46:41 | Response: 0.386s | IP: 104.28.152.174 | Country: 🇺🇸 United States - US
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.17.138.164:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-9570b3f1e707f96d9466832fefedb6e6
-
-# Tested at: 2026-04-29 22:49:37 | Response: 0.691s | IP: 91.244.70.205 | Country: 🇦🇹 Austria - AT
-vless://f2a806c6-f36b-4cd9-8bb6-7addb218ad2d@91.244.70.205:443?path=%2F&type=ws#%F0%9F%87%A6%F0%9F%87%B9AT-ab74c0ce2b7285f9fd70c2ac79a7c6b9
-
-# Tested at: 2026-04-29 22:50:20 | Response: 0.740s | IP: 204.216.216.23 | Country: 🇮🇹 Italy - IT
-vless://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086#%F0%9F%87%AE%F0%9F%87%B9IT-eb8d1ef0de5eac0461fdfeeef25f54bb
-
-# Tested at: 2026-04-29 22:51:04 | Response: 0.836s | IP: 178.72.186.76 | Country: 🇷🇺 Russia - RU
-vless://75356919-6ece-455c-ba7a-9f042a60d2c5@178.72.186.76:7000?path=%2Fstream&type=ws#%F0%9F%87%B7%F0%9F%87%BARU-d3913764ef6c7cb5dc53c2f47d4fd763
-
-# Tested at: 2026-04-29 22:51:04 | Response: 0.732s | IP: 2a06:1301:4050:45:148:31:: | Country: 🇩🇰 Denmark - DK
-vless://e4fc4761-154f-490e-bbaa-b4fa193f1073@45.148.31.0:15855?host=Join---V2rayBaaz---Join---V2rayBaaz---Join---V2rayBaaz&path=%2F&type=ws#%F0%9F%87%A9%F0%9F%87%B0DK-75b12cde23a12264f3b3a41e2544e634
-
-# Tested at: 2026-04-29 22:54:55 | Response: 0.456s | IP: 45.82.251.116 | Country: 🇨🇾 Cyprus - CY
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@yesok42v2.ip4exordir.shop:8880?type=grpc#%F0%9F%87%A8%F0%9F%87%BECY-55929b2437c29ddff29fd899a38546fc
-
-# Tested at: 2026-04-29 22:55:30 | Response: 0.377s | IP: 2a09:bac1:7680:d28::1d3:3d | Country: 🇺🇸 United States - US
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.21.61.73:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-dc0ca674c0b6787fe0b07eeeca180090
-
-# Tested at: 2026-04-29 22:55:40 | Response: 1.472s | IP: 2a09:bac1:7680:1a98::3ff:70 | Country: 🇺🇸 United States - US
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@v3.dabache.top:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-9b635c09206a0ad0de109e16505c28cf
-
-# Tested at: 2026-04-29 22:56:14 | Response: 0.850s | IP: 139.59.125.84 | Country: 🇸🇬 Singapore - SG
-vless://63d7155f-a53a-4573-84cf-532d35c8127c@139.59.125.84:42821?host=m.zoom.us&path=%2FFREE+by+Tharuwa+%280767597317%29&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-b9cd591690a8c90f6df753df5489a75f
-
-# Tested at: 2026-04-29 22:58:38 | Response: 0.598s | IP: 2a0b:4141:820:14f7::2 | Country: 🇳🇱 Netherlands - NL
-vless://595ae3f9-5a91-4eaa-82a3-28a221cf8f7f@138.124.32.188:30047?path=%2F&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-675875ca16888c0631ae115cccfaf54c
-
-# Tested at: 2026-04-29 22:59:13 | Response: 0.300s | IP: 192.159.99.18 | Country: 🇺🇸 United States - US
-vless://595ae3f9-5a91-4eaa-82a3-28a221cf8f7f@192.159.99.18:30047?type=ws#%F0%9F%87%BA%F0%9F%87%B8US-147845d8e427d0912c3ad40a384e420f
-
-# Tested at: 2026-04-29 22:59:21 | Response: 0.214s | IP: 104.28.166.44 | Country: 🇺🇸 United States - US
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.17.150.99:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-48380b3be8ae2d2a8d8973f15bf9f8bc
-
-# Tested at: 2026-04-29 23:00:40 | Response: 1.337s | IP: 178.128.16.189 | Country: 🇸🇬 Singapore - SG
-vless://fac62eac-1eec-4260-a991-0cac2f8745a3@141.193.213.20:80?host=free-server.techsonic.ggff.net&path=%2F%40Tech_Sonic&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-32f374a97923127b25b351b07a9532d1
-
-# Tested at: 2026-04-29 23:01:25 | Response: 0.162s | IP: 104.28.157.109 | Country: 🇺🇸 United States - US
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@creativecommons.org:80?host=vip.yaml7.ggff.net&path=%2F+%40ProxyVPN11&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-07299b2bdf2021094a6f449a6180d6da
-
-# Tested at: 2026-04-29 23:03:37 | Response: 1.510s | IP: 154.37.216.151 | Country: 🇭🇰 Hong Kong - HK
-vless://45bbf56b-2d92-4618-a14d-66bef7287c4d@154.37.216.151:45482#%F0%9F%87%AD%F0%9F%87%B0HK-1c504b59de46aa9de6d0b87faadd63f7
-
-# Tested at: 2026-04-29 23:09:37 | Response: 0.302s | IP: 104.28.152.174 | Country: 🇺🇸 United States - US
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@8.6.112.0:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-f80e7bc6a23db886fc94b58fe39b28a3
-
-# Tested at: 2026-04-29 23:10:22 | Response: 0.622s | IP: 213.136.69.8 | Country: 🇫🇷 France - FR
-vless://15cbab96-197e-46a5-9042-073b3980c798@fsdns.ectunnelvpn.me:80?host=fsdns.ectunnelvpn.me&path=%2Fvless&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-a6074aa504fdf85c8cfaa468d5355538
-
-# Tested at: 2026-04-29 23:10:57 | Response: 0.293s | IP: 2a09:bac1:7680:d28::1d1:c9 | Country: 🇺🇸 United States - US
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@162.159.36.5:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-2f231c3102ea6d35adea11f89927ec74
-
-# Tested at: 2026-04-29 23:10:57 | Response: 0.305s | IP: 38.55.146.153 | Country: 🇺🇸 United States - US
-vless://b852270a-1283-4ea8-8a2f-5bae8e644a3e@38.55.146.153:13000#%F0%9F%87%BA%F0%9F%87%B8US-c1d2a2e2998a69b6bb080be06ea7b748
-
-# Tested at: 2026-04-29 23:14:40 | Response: 0.934s | IP: 122.248.212.51 | Country: 🇸🇬 Singapore - SG
-vless://759700eb-59a9-4523-9b65-1fe196e00b99@support.zoom.us:8080?host=finite-node.rtxconfigz.com&path=%2F&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-eead4ed570642ab95764acbc7785ab91
-
-# Tested at: 2026-04-29 23:18:31 | Response: 0.536s | IP: 104.28.157.109 | Country: 🇺🇸 United States - US
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.21.72.233:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-d8d313721c4cb881682744bc87c1d967
-
-# Tested at: 2026-04-29 23:21:21 | Response: 1.668s | IP: 8.217.231.146 | Country: 🇭🇰 Hong Kong - HK
-vless://7c15de26-a4f2-44cb-ba0c-7ee822e6696e@8.217.231.146:46964?path=%2F7c15de26&type=ws#%F0%9F%87%AD%F0%9F%87%B0HK-419dcca89028b404091e7b8382ce470d
-
-# Tested at: 2026-04-29 23:25:14 | Response: 0.173s | IP: 104.28.152.181 | Country: 🇺🇸 United States - US
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.17.156.229:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-52b4c5d03a64f1eadbc1506da0fca576
-
-# Tested at: 2026-04-29 23:28:10 | Response: 0.431s | IP: 178.104.118.247 | Country: 🇩🇪 Germany - DE
-vless://a34a5f3e-e9fa-40a6-f3af-2984adbd701b@178.104.118.247:2087?sni=178.104.118.247#%F0%9F%87%A9%F0%9F%87%AADE-17ecfb035319ca445047b2b8db0b1a33
-
-# Tested at: 2026-04-29 23:30:25 | Response: 0.853s | IP: 178.72.186.76 | Country: 🇷🇺 Russia - RU
-vless://75356919-6ece-455c-ba7a-9f042a60d2c5@st.xbs54as9c6.ru:443?host=rbc.ru&path=%2Fstream&type=ws#%F0%9F%87%B7%F0%9F%87%BARU-224249753f6bf1b0d8ccd84d4b9ce4ed
-
-# Tested at: 2026-04-29 23:33:13 | Response: 0.839s | IP: 178.128.16.189 | Country: 🇸🇬 Singapore - SG
-vless://fac62eac-1eec-4260-a991-0cac2f8745a3@141.193.213.21:80?host=free-server.techsonic.ggff.net&path=%2F%40Tech_Sonic&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-7ba86c19ad7aec4e9eeef593b98bb732
-
-# Tested at: 2026-04-29 23:34:07 | Response: 1.444s | IP: 8.219.213.195 | Country: 🇸🇬 Singapore - SG
-vless://e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2@8.219.213.195:10032#%F0%9F%87%B8%F0%9F%87%ACSG-a611aa57c6370a3fc9520024dba9b02a
-
-# Tested at: 2026-04-29 23:35:26 | Response: 0.429s | IP: 172.232.208.147 | Country: 🇮🇹 Italy - IT
-vless://d7f67e94-aa9e-4454-b1cf-ce522a0d2728@172.232.208.147:443?path=%2F#%F0%9F%87%AE%F0%9F%87%B9IT-2d32b596a2102f7237b95feffbf6dc8f
-
-# Tested at: 2026-04-29 23:36:56 | Response: 0.700s | IP: 47.79.144.103 | Country: 🇯🇵 Japan - JP
-vless://a12b0d31-f599-498e-b76e-8558a14b766b@47.79.144.103:25242?path=%2Fa12b0d31&type=ws#%F0%9F%87%AF%F0%9F%87%B5JP-168f62bca3ee3d015a8b392deacfa7ff
-
-# Tested at: 2026-04-29 23:37:05 | Response: 0.175s | IP: 104.28.166.44 | Country: 🇺🇸 United States - US
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.17.145.59:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-4c33641fd2aca2b182e2727ae8c5d736
-
-# Tested at: 2026-04-29 23:39:09 | Response: 0.755s | IP: 146.103.102.82 | Country: 🇳🇱 Netherlands - NL
-vless://e08f1ad7-0c60-446d-baec-08b3b69bb3d0@146.103.102.82:80?path=%2FgetWorkerUpdates&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-729e8fc4a26480b18e173af865a3a523
-
-# Tested at: 2026-04-29 23:39:12 | Response: 3.093s | IP: 8.216.21.135 | Country: 🇯🇵 Japan - JP
-vless://e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2@8.216.21.135:10026?path=%2F#%F0%9F%87%AF%F0%9F%87%B5JP-93fdc5ba554b6d592c43c99c50eb458e
-
-# Tested at: 2026-04-29 23:40:39 | Response: 0.522s | IP: 104.28.152.174 | Country: 🇺🇸 United States - US
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.18.16.56:80?host=vip.yaml7.ggff.net&path=%2F+%40ProxyVPN11&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-3f002a92f738632a57f2129a166802ce
-
-# Tested at: 2026-04-29 23:40:48 | Response: 0.647s | IP: 178.128.16.189 | Country: 🇸🇬 Singapore - SG
-vless://fac62eac-1eec-4260-a991-0cac2f8745a3@partner.zoom.us:80?host=free-server.techsonic.ggff.net&path=%2F%40Tech_Sonic&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-6a0e1b6a4e2d7af9b9a7235ffd3f000b
-
-# Tested at: 2026-04-29 23:42:17 | Response: 0.375s | IP: 104.28.152.151 | Country: 🇺🇸 United States - US
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@162.159.45.207:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-004664e574ed8490463b95bbfaa485ca
-
-# Tested at: 2026-04-29 23:43:02 | Response: 0.689s | IP: 104.28.152.174 | Country: 🇺🇸 United States - US
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@vip3.kaixincloud.top:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-21fd1e49f2330478e3a852cf50c3e3fd
-
-# Tested at: 2026-04-29 23:45:51 | Response: 1.013s | IP: 104.28.157.113 | Country: 🇺🇸 United States - US
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@vip.yaml7.ggff.net:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-529edc5693b4a9580e4f0d1f55cb8458
-
-# Tested at: 2026-04-29 23:46:35 | Response: 0.543s | IP: 104.28.152.116 | Country: 🇺🇸 United States - US
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@162.159.38.62:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-6da77679412927ef0dadfac6712d2655
-
-# Tested at: 2026-04-29 23:46:36 | Response: 0.286s | IP: 45.82.251.116 | Country: 🇨🇾 Cyprus - CY
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.116:8880?type=grpc#%F0%9F%87%A8%F0%9F%87%BECY-f425a96217c75d8b26ad67138ea19b68
-
-# Tested at: 2026-04-29 23:48:05 | Response: 0.147s | IP: 104.28.152.167 | Country: 🇺🇸 United States - US
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@162.159.36.20:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-7c33945a4aa1f10ff3f1141dcd7adf2e
-
-# Tested at: 2026-04-29 23:48:49 | Response: 0.554s | IP: 104.28.166.43 | Country: 🇺🇸 United States - US
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.17.152.254:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-429c6993f44cc20bd0f651b548c1390d
-
-# Tested at: 2026-04-29 23:50:20 | Response: 0.842s | IP: 2a03:6f01:1:2::2:32ad | Country: 🇷🇺 Russia - RU
-vless://13da2ef2-45b5-437a-8705-d065af82bc61@217.25.92.78:443?type=xhttp#%F0%9F%87%B7%F0%9F%87%BARU-48211e4f340785644575b007fdb46fbf
-
-# Tested at: 2026-04-29 23:51:49 | Response: 0.694s | IP: 104.28.166.25 | Country: 🇺🇸 United States - US
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.17.138.160:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-1b9f3ac77c2f1b300e6f53d166c35487
-
-# Tested at: 2026-04-29 23:52:00 | Response: 0.832s | IP: 164.90.155.235 | Country: 🇺🇸 United States - US
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@vip2.kaixincloud.top:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-4598df766c31ee67de7dff3f2e53d0b9
-
-# Tested at: 2026-04-29 23:52:44 | Response: 0.604s | IP: 213.136.69.8 | Country: 🇫🇷 France - FR
-vless://15cbab96-197e-46a5-9042-073b3980c798@213.136.69.8:80?host=fsdns.ectunnelvpn.me&path=%2Fvless&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-382ebf5c0aadf579c1ff19653a262f6a
-
-# Tested at: 2026-04-29 23:54:04 | Response: 0.178s | IP: 104.28.157.113 | Country: 🇺🇸 United States - US
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@172.67.207.57:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-6c6b4f38992d6f209c24a9bb6c4d44dc
-
-# Tested at: 2026-04-29 23:56:26 | Response: 0.195s | IP: 104.28.166.25 | Country: 🇺🇸 United States - US
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@172.64.146.198:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-e685ebd4a1af74f8d725080e30d895c0
-
-# Tested at: 2026-04-29 23:58:32 | Response: 0.642s | IP: 178.128.16.189 | Country: 🇸🇬 Singapore - SG
-vless://fac62eac-1eec-4260-a991-0cac2f8745a3@170.114.46.6:80?host=free-server.techsonic.ggff.net&path=%2F%40Tech_Sonic&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-049099c36955610f353f78e531afbd9f
-
-# Tested at: 2026-04-29 23:59:15 | Response: 0.635s | IP: 45.82.251.115 | Country: 🇨🇾 Cyprus - CY
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@yesok42v1.ip4exordir.shop:8880?type=grpc#%F0%9F%87%A8%F0%9F%87%BECY-df6b409bcb44a74a10585f0c0655fa96
-
-# Tested at: 2026-04-29 23:59:16 | Response: 1.101s | IP: 178.128.16.189 | Country: 🇸🇬 Singapore - SG
-vless://fac62eac-1eec-4260-a991-0cac2f8745a3@support.zoom.us:80?host=free-server.techsonic.ggff.net&path=%2F%40Tech_Sonic&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-9ea62e0bc3c0c01923506040227d36d0
-
-# Tested at: 2026-04-30 00:00:00 | Response: 0.224s | IP: 104.28.157.104 | Country: 🇺🇸 United States - US
-vless://53342b53-157e-4475-9f3a-40439434e689@172.64.156.188:80?host=c.iamdt.dpdns.org&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-95b80ff96d7b579fb6b020edb31c97b7
-
-# Tested at: 2026-04-30 00:00:00 | Response: 0.398s | IP: 104.28.166.30 | Country: 🇺🇸 United States - US
-vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@104.18.28.7:2095?host=cnmfangbinxing.cnmfangbinxing-k.workers.dev&path=%2F&sni=cnmfangbinxing.cnmfangbinxing-k.workers.dev&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-725825b9405fcdc548b071c88f70e72e
-
-# Tested at: 2026-04-30 00:00:01 | Response: 0.429s | IP: 104.28.152.187 | Country: 🇺🇸 United States - US
-vless://636de463-b509-4631-adc6-400b21733278@104.21.59.114:8880?host=index.harmony510.workers.dev&path=%2Frlg2mgmxyyu4n5a8&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-bcfebe8ee4138b042667fa6eb6d0d89c
-
-# Tested at: 2026-04-30 00:00:03 | Response: 1.463s | IP: 45.12.131.34 | Country: 🇵🇹 Portugal - PT
-vless://12d75b7d-8fdf-4785-8d62-d836854e7e63@104.18.12.229:2052?host=parking-nfchbwa1-v2.parking-1ab.workers.dev&path=%2F&type=ws#%F0%9F%87%B5%F0%9F%87%B9PT-f17d5a77bc341d42310c599efe4f7dc5
-
-# Tested at: 2026-04-30 00:00:08 | Response: 0.417s | IP: 104.28.166.42 | Country: 🇺🇸 United States - US
-vless://7890ce31-9a25-4fd4-90e7-80e5823ff510@172.64.146.27:8880?host=frejd.11258.workers.dev&path=%2Ftelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2540wangcai2&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-91b63b7fb5c1507cdd7242440296f015
-
-# Tested at: 2026-04-30 00:00:43 | Response: 0.583s | IP: 2a09:bac1:76c0:d28::1d3:93 | Country: 🇺🇸 United States - US
-vless://14e1775b-d92c-455b-8db3-e6c6d61909e0@104.21.80.5:80?host=vpnpro.eshghiabolfazl2009.workers.dev&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-3461a2a467a6540743844c569e7e4a90
-
-# Tested at: 2026-04-30 00:00:52 | Response: 0.718s | IP: 162.19.247.245 | Country: 🇫🇷 France - FR
-vless://ef23616d-8a9d-4b22-b2f5-9bda864de179@104.17.95.220:2052?host=index.arcane509.workers.dev&path=%2F7u2613qopnft&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-0e91ca17206b831dcb8a8bf337d656c5
-
-# Tested at: 2026-04-30 00:01:36 | Response: 0.182s | IP: 104.28.166.45 | Country: 🇺🇸 United States - US
-vless://623d675e-8748-4881-ac0f-dc1a10b595b1@104.18.4.46:8880?host=vahidasd1988-se08ot-3.vahidasd1988.workers.dev&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-d2c0a318dd2dec2af12b38c9962583ad
-
-# Tested at: 2026-04-30 00:02:11 | Response: 0.320s | IP: 104.28.157.119 | Country: 🇺🇸 United States - US
-vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@172.64.145.93:2095?host=cnmfangbinxing.cnmfangbinxing-k.workers.dev&path=%2F&sni=cnmfangbinxing.cnmfangbinxing-k.workers.dev&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-efad624353f18ad02fc71a2c36a3195d
-
-# Tested at: 2026-04-30 00:02:11 | Response: 0.361s | IP: 104.28.152.187 | Country: 🇺🇸 United States - US
-vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@www.wto.org:2095?host=cnmfangbinxing.cnmfangbinxing-k.workers.dev&path=%2F&sni=cnmfangbinxing.cnmfangbinxing-k.workers.dev&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-a8bacb5b02aa990ba8e9d3bb9f4d152e
-
-# Tested at: 2026-04-30 00:02:11 | Response: 0.338s | IP: 52.189.99.17 | Country: 🇺🇸 United States - US
-vless://0ca855d9-7c03-40eb-929b-919f934abdc3@162.159.34.235:80?host=amirvpn.amirhm00100.workers.dev&path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-74b09afe19186c5f127c7303a0cc0521
-
-# Tested at: 2026-04-30 00:02:20 | Response: 0.444s | IP: 104.28.152.174 | Country: 🇺🇸 United States - US
+# Tested at: 2026-04-30 05:11:45 | Response: 0.104s | IP: 104.28.152.207 | Country: 🇺🇸 United States - US
 vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@srv1.khatibirepair.ir:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-78006fdb557c9cb56806988b7a105e3f
 
-# Tested at: 2026-04-30 00:02:21 | Response: 0.380s | IP: 52.189.99.17 | Country: 🇺🇸 United States - US
-vless://69d38faa-21a1-4d18-82cb-796a942c181b@104.27.30.20:80?host=sfsl.ardomains1.dpdns.org&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-9dbd7bb9aac45b0575874b161b5da557
+# Tested at: 2026-04-30 05:11:46 | Response: 1.179s | IP: 5.129.219.71 | Country: 🇷🇺 Russia - RU
+vless://04969b01-ac6a-4056-b5cd-852ccf45f100@104.16.63.239:80?host=netherlands.vipserver14.workers.dev&path=%2F%F0%9F%94%92+%5BBy+EbraSha%5D&type=ws#%F0%9F%87%B7%F0%9F%87%BARU-12155492ad15a72d2b29547a1ba59539
 
-# Tested at: 2026-04-30 00:03:40 | Response: 0.748s | IP: 104.28.166.45 | Country: 🇺🇸 United States - US
-vless://a7444b2b-20fb-461f-9840-63e5c8c7d883@108.162.194.248:80?host=mute-violet-c674.poviy66273.workers.dev&path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-cadc38f9198439785ada357bac2f3714
+# Tested at: 2026-04-30 05:11:53 | Response: 0.306s | IP: 104.28.165.214 | Country: 🇺🇸 United States - US
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@172.67.207.57:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-6c6b4f38992d6f209c24a9bb6c4d44dc
 
-# Tested at: 2026-04-30 00:03:41 | Response: 0.301s | IP: 104.28.166.25 | Country: 🇺🇸 United States - US
-vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@172.67.192.124:2095?host=cnmfangbinxing.cnmfangbinxing-o.workers.dev&path=%2F&sni=cnmfangbinxing.cnmfangbinxing-o.workers.dev&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-fa11a25b394b4cee2ebe9f6edef325ea
+# Tested at: 2026-04-30 05:12:31 | Response: 1.039s | IP: 146.103.104.29 | Country: 🇳🇱 Netherlands - NL
+vless://d342d11e-d424-4583-b36e-524ab1f0afa4@104.20.6.134:2052?host=index.0x14.workers.dev&path=%2Fassets&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-93a86b06370a1e78df50bed7c2a97d43
 
-# Tested at: 2026-04-30 00:03:41 | Response: 1.174s | IP: 193.42.60.235 | Country: 🇫🇷 France - FR
-vless://cb213db5-803d-49dd-a7e2-46d938af0751@104.18.2.11:2082?host=amiroo-l43dac88-v2.amiroo-d8b.workers.dev&path=%2F&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-f75d28c0dd83bd8bb736f552985ab2fd
+# Tested at: 2026-04-30 05:12:36 | Response: 0.125s | IP: 2a09:bac1:7680:56b0::499:12 | Country: 🇺🇸 United States - US
+vless://787b3724-16c8-4e58-a038-2b8013cdc6d9@172.64.155.209:80?host=c3linogp4x20x5acoguup217nstesdu1.nobodyface4b13.workers.dev&path=%2FeyJqdW5rIjoiTG1jRlUwNjNwVUxvYyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0%3D&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-9fc34179efaa49b5376c9c438ec70f5c
 
-# Tested at: 2026-04-30 00:03:42 | Response: 1.196s | IP: 178.72.186.76 | Country: 🇷🇺 Russia - RU
-vless://75356919-6ece-455c-ba7a-9f042a60d2c5@st.xbs54as9c6.ru:7000?host=market.yandex.ru&path=%2Fstream&type=ws#%F0%9F%87%B7%F0%9F%87%BARU-4bbe0548a031b59b596068fba04832e3
+# Tested at: 2026-04-30 05:13:15 | Response: 2.167s | IP: 103.245.237.124 | Country: 🇻🇳 Vietnam - VN
+vless://cca053d5-7123-4a87-83d6-babe4e9c8115@103.245.237.124:58202?path=%2F&type=ws#%F0%9F%87%BB%F0%9F%87%B3VN-545b2ee847f53af24bb907f8998d3fee
 
-# Tested at: 2026-04-30 00:03:43 | Response: 0.589s | IP: 45.92.1.37 | Country: 🇳🇱 Netherlands - NL
+# Tested at: 2026-04-30 05:14:00 | Response: 0.676s | IP: 34.132.50.119 | Country: 🇺🇸 United States - US
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.17.138.160:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-1b9f3ac77c2f1b300e6f53d166c35487
+
+# Tested at: 2026-04-30 05:14:09 | Response: 0.474s | IP: 104.28.152.229 | Country: 🇺🇸 United States - US
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.18.12.149:80?host=vip.yaml7.ggff.net&path=%2F+%40ProxyVPN11&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-3c3b89ec8259c4da91d5174695f1a5ad
+
+# Tested at: 2026-04-30 05:14:53 | Response: 0.701s | IP: 213.136.69.8 | Country: 🇫🇷 France - FR
+vless://15cbab96-197e-46a5-9042-073b3980c798@fsdns.ectunnelvpn.me:80?host=fsdns.ectunnelvpn.me&path=%2Fvless&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-a6074aa504fdf85c8cfaa468d5355538
+
+# Tested at: 2026-04-30 05:15:29 | Response: 0.718s | IP: 2a09:bac5:bf09:2e28::499:2e | Country: 🇺🇸 United States - US
+vless://636de463-b509-4631-adc6-400b21733278@172.67.143.113:8880?host=index.harmony510.workers.dev&path=%2Fsleux65pzmk83qgr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-c6c10d04392afb549be9b7b7d7d0370e
+
+# Tested at: 2026-04-30 05:16:14 | Response: 0.115s | IP: 104.28.163.61 | Country: 🇺🇸 United States - US
+vless://2ac6e527-6410-48ce-b9ba-cc8135ee2a3b@104.16.9.24:80?host=fragrant-recipe-09f4.wopecuyubak61.workers.dev&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-271ba18db70654fb7a64986dbeb1e3f4
+
+# Tested at: 2026-04-30 05:16:57 | Response: 0.620s | IP: 104.28.165.215 | Country: 🇺🇸 United States - US
+vless://d342d11e-d424-4583-b36e-524ab1f0afa4@104.20.5.134:2086?host=index.0x15.workers.dev&path=%2FPdgTMW8NBNZYo6L23v&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-c5c98b813f3159e5749f7a108dc9d300
+
+# Tested at: 2026-04-30 05:16:58 | Response: 0.631s | IP: 94.142.240.71 | Country: 🇳🇱 Netherlands - NL
+vless://7890ce31-9a25-4fd4-90e7-80e5823ff510@wangcai3.cloudflare.182682.xyz:8880?host=frejd.11258.workers.dev&path=%2FTelegram%40freecodes%2F%3Fed%3D2560&sni=Telegram-channel-freecodes&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-f54e49018de6ced95f02d7b3f3824b66
+
+# Tested at: 2026-04-30 05:17:51 | Response: 0.360s | IP: 104.28.160.38 | Country: 🇺🇸 United States - US
+vless://73d17f62-d0c0-4c90-903c-a2b3f3806cca@104.17.25.132:80?host=fragrant-tooth-a5b7.cajeba6448.workers.dev&path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-0825211d80e808d90960cf2e3b920efb
+
+# Tested at: 2026-04-30 05:18:27 | Response: 0.286s | IP: 104.28.165.216 | Country: 🇺🇸 United States - US
+vless://636de463-b509-4631-adc6-400b21733278@104.21.59.114:8880?host=index.harmony510.workers.dev&path=%2Frlg2mgmxyyu4n5a8&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-bcfebe8ee4138b042667fa6eb6d0d89c
+
+# Tested at: 2026-04-30 05:18:27 | Response: 0.479s | IP: 2a09:bac5:bf0d:2628::3cd:48 | Country: 🇺🇸 United States - US
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@172.64.149.54:80?host=vip.yaml7.ggff.net&path=%2F+%40ProxyVPN11&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-97fb55d013bb6c819bb45082a0bd15c2
+
+# Tested at: 2026-04-30 05:19:57 | Response: 0.343s | IP: 104.28.165.217 | Country: 🇺🇸 United States - US
+vless://78c5b6bd-1cb6-463c-bcba-9f17ef70c85b@www.visa.com.sg:8880?host=square-frost-8d11.9660004.workers.dev&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-2e1c02515ee954cfbab2388ac43ee8c4
+
+# Tested at: 2026-04-30 05:20:41 | Response: 0.135s | IP: 104.28.163.58 | Country: 🇺🇸 United States - US
+vless://43158d39-8066-4df4-b74e-2ab29f207e0a@104.17.19.26:80?host=29.alij47649.workers.dev&path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-848402402aeace813835c2b36f93f509
+
+# Tested at: 2026-04-30 05:20:51 | Response: 0.411s | IP: 104.28.162.252 | Country: 🇺🇸 United States - US
+vless://7890ce31-9a25-4fd4-90e7-80e5823ff510@172.67.150.254:2095?host=iioo.iioou.workers.dev&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-7c6247f7898e991f6d05bc3cf76ebe3b
+
+# Tested at: 2026-04-30 05:21:26 | Response: 0.754s | IP: 139.59.125.84 | Country: 🇸🇬 Singapore - SG
+vless://63d7155f-a53a-4573-84cf-532d35c8127c@139.59.125.84:42821?host=m.zoom.us&path=%2FFREE+by+Tharuwa+%280767597317%29&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-b9cd591690a8c90f6df753df5489a75f
+
+# Tested at: 2026-04-30 05:22:22 | Response: 1.151s | IP: 185.232.204.189 | Country: 🇫🇮 Finland - FI
+vless://cdec8542-a21f-4377-9da3-ea60bb6d3a30@172.64.149.54:2052?host=chosenflyesqt-q3y28ipf-v2.chosen-fly-esqt.workers.dev&path=%2F+%40ProxyVPN11&type=ws#%F0%9F%87%AB%F0%9F%87%AEFI-2f6a6404b7f8527a3c5c94acc290cb59
+
+# Tested at: 2026-04-30 05:23:05 | Response: 0.218s | IP: 104.28.163.61 | Country: 🇺🇸 United States - US
+vless://e382220d-7ecb-4063-89f3-fd5a4d46ee87@newbp.amiralinorozjam.workers.dev:80?host=newbp.amiralinorozjam.workers.dev&path=%2FeyJqdW5rIjoiZVdpNEJFNzZMIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-0fbf245e7783f416ba9d32516e39934f
+
+# Tested at: 2026-04-30 05:23:41 | Response: 0.712s | IP: 104.28.152.218 | Country: 🇺🇸 United States - US
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@creativecommons.org:80?host=vip.yaml7.ggff.net&path=%2F+%40ProxyVPN11&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-07299b2bdf2021094a6f449a6180d6da
+
+# Tested at: 2026-04-30 05:24:24 | Response: 0.429s | IP: 104.28.152.218 | Country: 🇺🇸 United States - US
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.21.72.233:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-d8d313721c4cb881682744bc87c1d967
+
+# Tested at: 2026-04-30 05:24:25 | Response: 0.700s | IP: 217.25.92.78 | Country: 🇷🇺 Russia - RU
+vless://13da2ef2-45b5-437a-8705-d065af82bc61@217.25.92.78:443?type=xhttp#%F0%9F%87%B7%F0%9F%87%BARU-48211e4f340785644575b007fdb46fbf
+
+# Tested at: 2026-04-30 05:24:25 | Response: 1.460s | IP: 146.103.102.82 | Country: 🇳🇱 Netherlands - NL
+vless://e08f1ad7-0c60-446d-baec-08b3b69bb3d0@nl-90w-c.southnetworks.cloud:80?host=nl-90w-c.southnetworks.cloud&path=%2FgetWorkerUpdates&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-d62c6c6e51a7fa9bc349496a91da8db5
+
+# Tested at: 2026-04-30 05:24:26 | Response: 0.290s | IP: 104.28.162.250 | Country: 🇺🇸 United States - US
+vless://ef23616d-8a9d-4b22-b2f5-9bda864de179@104.19.222.169:2082?host=index.arcane509.workers.dev&path=%2Fgfdn0yadxgfr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-4d0c85a10d9e539fc7bfae96db076553
+
+# Tested at: 2026-04-30 05:24:34 | Response: 0.695s | IP: 178.128.16.189 | Country: 🇸🇬 Singapore - SG
+vless://fac62eac-1eec-4260-a991-0cac2f8745a3@170.114.46.6:80?host=free-server.techsonic.ggff.net&path=%2F%40Tech_Sonic&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-049099c36955610f353f78e531afbd9f
+
+# Tested at: 2026-04-30 05:24:34 | Response: 0.724s | IP: 184.174.97.38 | Country: 🇺🇸 United States - US
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.17.72.206:80?host=vip.yaml7.ggff.net&path=%2F+%40ProxyVPN11&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-e0ac9668e4d7a61c3b8bfb48db901ffa
+
+# Tested at: 2026-04-30 05:25:09 | Response: 0.390s | IP: 104.28.165.228 | Country: 🇺🇸 United States - US
+vless://ef23616d-8a9d-4b22-b2f5-9bda864de179@104.16.72.113:2086?host=index.arcane509.workers.dev&path=%2F9om0kfpk0v09&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-525751303d5d47143cd15c9e9284b448
+
+# Tested at: 2026-04-30 05:25:10 | Response: 0.330s | IP: 45.82.251.115 | Country: 🇨🇾 Cyprus - CY
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.115:8880?type=grpc#%F0%9F%87%A8%F0%9F%87%BECY-dc31386dd8ed28c9110f7a2c8abb6958
+
+# Tested at: 2026-04-30 05:26:03 | Response: 0.656s | IP: 64.181.218.67 | Country: 🇺🇸 United States - US
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.17.150.99:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-48380b3be8ae2d2a8d8973f15bf9f8bc
+
+# Tested at: 2026-04-30 05:28:06 | Response: 0.885s | IP: 104.28.162.253 | Country: 🇺🇸 United States - US
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.17.145.59:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-4c33641fd2aca2b182e2727ae8c5d736
+
+# Tested at: 2026-04-30 05:28:07 | Response: 0.090s | IP: 104.28.162.252 | Country: 🇺🇸 United States - US
+vless://43158d39-8066-4df4-b74e-2ab29f207e0a@104.18.89.89:80?host=29.alij47649.workers.dev&path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-6cd6d128d26ac92ec50ad855c6560d27
+
+# Tested at: 2026-04-30 05:28:15 | Response: 0.431s | IP: 104.28.165.214 | Country: 🇺🇸 United States - US
+vless://7890ce31-9a25-4fd4-90e7-80e5823ff510@172.64.147.85:8880?host=frejd.11258.workers.dev&path=%2Ftelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2540wangcai2&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-f249eacc5b8036042dc8307f3b8a46f0
+
+# Tested at: 2026-04-30 05:29:37 | Response: 0.616s | IP: 94.142.240.71 | Country: 🇳🇱 Netherlands - NL
+vless://7890ce31-9a25-4fd4-90e7-80e5823ff510@172.64.146.68:8880?host=frejd.11258.workers.dev&path=%2Ftelegram%F0%9F%87%A8%F0%9F%87%B3&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-1c4af3abc8d60d4ad037216c0f4f5256
+
+# Tested at: 2026-04-30 05:30:22 | Response: 0.806s | IP: 104.28.165.214 | Country: 🇺🇸 United States - US
+vless://ef23616d-8a9d-4b22-b2f5-9bda864de179@104.18.205.156:2052?host=index.arcane509.workers.dev&path=%2F4akspsofhsbt&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-0cb066824fddcb297f8a9ab23e080c71
+
+# Tested at: 2026-04-30 05:30:31 | Response: 0.273s | IP: 23.188.240.197 | Country: 🇺🇸 United States - US
+vless://78c5b6bd-1cb6-463c-bcba-9f17ef70c85b@104.18.12.229:8880?host=square-frost-8d11.9660004.workers.dev&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-8389bfe643d23977c9135e8c9578113e
+
+# Tested at: 2026-04-30 05:31:06 | Response: 0.731s | IP: 129.159.84.71 | Country: 🇺🇸 United States - US
+vless://17ebee4e-97ea-4cad-8737-cc228478ca9d@104.18.125.5:80?host=lively-brook-c471.nedena3319.workers.dev&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-347f7a8f413b7f678a019786f1a1ee88
+
+# Tested at: 2026-04-30 05:31:53 | Response: 1.388s | IP: 8.219.213.195 | Country: 🇸🇬 Singapore - SG
+vless://e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2@8.219.213.195:10032#%F0%9F%87%B8%F0%9F%87%ACSG-a611aa57c6370a3fc9520024dba9b02a
+
+# Tested at: 2026-04-30 05:33:20 | Response: 0.593s | IP: 104.28.157.221 | Country: 🇺🇸 United States - US
+vless://cb213db5-803d-49dd-a7e2-46d938af0751@www.visaeurope.at:2082?host=amiroo-l43dac88-v2.amiroo-d8b.workers.dev&path=%2F%3Fed%3D2560&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-4de3f14d814b60ddeefb1dbbb2e8d77c
+
+# Tested at: 2026-04-30 05:33:29 | Response: 0.111s | IP: 2a09:bac5:bf09:1c64::2d4:5a | Country: 🇺🇸 United States - US
+vless://f2083aa4-f27d-43da-81cf-8bab31730400@104.21.80.17:80?host=germany.vipserver14.workers.dev&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-c91ebc20660007f7a58672ad081fc2b4
+
+# Tested at: 2026-04-30 05:33:29 | Response: 0.367s | IP: 203.23.160.5 | Country: 🇺🇸 United States - US
+vless://7890ce31-9a25-4fd4-90e7-80e5823ff510@172.64.147.137:8880?host=frejd.11258.workers.dev&path=%2Ftelegram%F0%9F%87%A8%F0%9F%87%B3&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-4be1b83b643f9d22e257a841fba20559
+
+# Tested at: 2026-04-30 05:34:05 | Response: 0.181s | IP: 192.159.99.18 | Country: 🇺🇸 United States - US
+vless://595ae3f9-5a91-4eaa-82a3-28a221cf8f7f@192.159.99.18:30047?type=ws#%F0%9F%87%BA%F0%9F%87%B8US-147845d8e427d0912c3ad40a384e420f
+
+# Tested at: 2026-04-30 05:34:49 | Response: 0.460s | IP: 104.28.162.252 | Country: 🇺🇸 United States - US
+vless://43158d39-8066-4df4-b74e-2ab29f207e0a@104.19.51.118:80?host=29.alij47649.workers.dev&path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-4a03631fa12996c6e5f2fb825ca59b56
+
+# Tested at: 2026-04-30 05:34:49 | Response: 0.473s | IP: 104.28.152.219 | Country: 🇺🇸 United States - US
+vless://f2083aa4-f27d-43da-81cf-8bab31730400@cdn.tzpro.xyz:80?host=germany.vipserver14.workers.dev&path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-a1ed483a7fc2ebabdda29fbcefa1f495
+
+# Tested at: 2026-04-30 05:34:59 | Response: 0.460s | IP: 45.92.1.37 | Country: 🇳🇱 Netherlands - NL
 vless://595ae3f9-5a91-4eaa-82a3-28a221cf8f7f@45.92.1.37:30047?path=%2F&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-3ad889e7ce2f76705181344731145e9e
 
-# Tested at: 2026-04-30 00:03:46 | Response: 0.175s | IP: 104.28.157.107 | Country: 🇺🇸 United States - US
+# Tested at: 2026-04-30 05:35:34 | Response: 0.752s | IP: 156.239.245.130 | Country: 🇸🇨 Seychelles - SC
+vless://5aa7d17e-7dc2-46dd-9acf-c3c97440259b@162.159.45.88:80?host=sss.yaml7.ggff.net&path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%B8%F0%9F%87%A8SC-afb7f07cc78b508dd9e7017328861eca
+
+# Tested at: 2026-04-30 05:35:34 | Response: 0.288s | IP: 52.189.99.17 | Country: 🇺🇸 United States - US
+vless://43158d39-8066-4df4-b74e-2ab29f207e0a@92.60.74.56:80?host=29.alij47649.workers.dev&path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-b152e1bc7d1bbf60e7f5a679a28a2e93
+
+# Tested at: 2026-04-30 05:36:19 | Response: 0.642s | IP: 2a09:bac5:bf0a:96::f:3ca | Country: 🇺🇸 United States - US
+vless://93526fcb-8dbf-442e-a656-eb304f1da4ef@cf.0sm.com:80?host=lucky-voice-d6f3.difat89954-0c6.workers.dev&path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-2d43d23970adcbd36956ed7cb8fd8f9c
+
+# Tested at: 2026-04-30 05:38:30 | Response: 0.408s | IP: 104.28.159.164 | Country: 🇺🇸 United States - US
+vless://25efc727-e853-49ba-9609-3c20009d0e7a@104.18.13.229:2052?host=winbiss-0tpka6-v1.winbiss.workers.dev&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-b849c1f0ff6046538b8746690e4aa0ba
+
+# Tested at: 2026-04-30 05:38:30 | Response: 0.747s | IP: 2a09:bac5:bf08:15d7::22d:a6 | Country: 🇺🇸 United States - US
+vless://7890ce31-9a25-4fd4-90e7-80e5823ff510@wangcai157.cloudflare.182682.xyz:8880?host=frejd.11258.workers.dev&path=%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560&sni=Telegram-channel-WangCai2&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-2be47f107affa36beebdcba058dfd36f
+
+# Tested at: 2026-04-30 05:38:39 | Response: 0.432s | IP: 104.28.152.218 | Country: 🇺🇸 United States - US
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@vip2.kaixincloud.top:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-4598df766c31ee67de7dff3f2e53d0b9
+
+# Tested at: 2026-04-30 05:39:15 | Response: 0.918s | IP: 2a0b:4141:820:14f7::2 | Country: 🇳🇱 Netherlands - NL
+vless://595ae3f9-5a91-4eaa-82a3-28a221cf8f7f@138.124.32.188:30047?path=%2F&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-675875ca16888c0631ae115cccfaf54c
+
+# Tested at: 2026-04-30 05:39:25 | Response: 0.920s | IP: 91.107.251.113 | Country: 🇩🇪 Germany - DE
+vless://ef23616d-8a9d-4b22-b2f5-9bda864de179@172.67.155.231:2095?host=index.arcane509.workers.dev&path=%2Fpm1awvw769za&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-0af5baecd2a1059df312fcbb94151e71
+
+# Tested at: 2026-04-30 05:40:44 | Response: 0.458s | IP: 104.28.152.220 | Country: 🇺🇸 United States - US
+vless://7890ce31-9a25-4fd4-90e7-80e5823ff510@172.64.146.127:8880?host=frejd.11258.workers.dev&path=%2Ftelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2540wangcai2&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-6e7cb0b1d5331171093a86156064b6a1
+
+# Tested at: 2026-04-30 05:41:33 | Response: 1.389s | IP: 91.217.76.237 | Country: 🇫🇮 Finland - FI
+vless://cb213db5-803d-49dd-a7e2-46d938af0751@104.18.3.11:2082?host=amiroo-l43dac88-v2.amiroo-d8b.workers.dev&path=%2F&type=ws#%F0%9F%87%AB%F0%9F%87%AEFI-4b70f9b4dd116cdb44a1944153c2d148
+
+# Tested at: 2026-04-30 05:42:15 | Response: 0.485s | IP: 172.232.208.147 | Country: 🇮🇹 Italy - IT
+vless://d7f67e94-aa9e-4454-b1cf-ce522a0d2728@172.232.208.147:443?path=%2F#%F0%9F%87%AE%F0%9F%87%B9IT-2d32b596a2102f7237b95feffbf6dc8f
+
+# Tested at: 2026-04-30 05:42:25 | Response: 1.411s | IP: 203.23.160.5 | Country: 🇺🇸 United States - US
+vless://7890ce31-9a25-4fd4-90e7-80e5823ff510@wangcai2.000444.cn:8880?host=frejd.11258.workers.dev&path=%2Ftelegram%F0%9F%87%A8%F0%9F%87%B3%40wangcai2%2F%3Fed%3D2560&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-8e2a7b088810397da69225bba2fe371f
+
+# Tested at: 2026-04-30 05:43:01 | Response: 0.144s | IP: 104.28.152.207 | Country: 🇺🇸 United States - US
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.17.156.229:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-52b4c5d03a64f1eadbc1506da0fca576
+
+# Tested at: 2026-04-30 05:43:09 | Response: 0.125s | IP: 2a09:bac1:76e0:56b0::49c:2c | Country: 🇺🇸 United States - US
+vless://e388fffb-03b0-4227-ac2c-2b5cec1f5c34@198.41.222.191:80?host=leecher56.matinheydri.workers.dev&path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-472f8b0a74a766e71ec174295f12e791
+
+# Tested at: 2026-04-30 05:43:46 | Response: 0.502s | IP: 104.28.154.72 | Country: 🇮🇪 Ireland - IE
+vless://ede7605e-b6ce-4154-b51a-d58df0b737dd@162.159.160.219:80?host=broken-wood-c503.amiralinorozjam.workers.dev&path=%2FeyJqdW5rIjoiQWhVdnZiZHZDOEI3akw1QSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0&type=ws#%F0%9F%87%AE%F0%9F%87%AAIE-80f8943df7f4baf5a86a5122e7033a7e
+
+# Tested at: 2026-04-30 05:45:23 | Response: 0.189s | IP: 104.28.162.253 | Country: 🇺🇸 United States - US
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@172.64.146.198:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-e685ebd4a1af74f8d725080e30d895c0
+
+# Tested at: 2026-04-30 05:45:58 | Response: 0.150s | IP: 104.28.162.251 | Country: 🇺🇸 United States - US
+vless://636de463-b509-4631-adc6-400b21733278@172.67.190.131:2082?host=index.harmony510.workers.dev&path=%2Ftn1885yw1g97r1q7&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-e55320a79d548a25327ee40792d7134b
+
+# Tested at: 2026-04-30 05:46:42 | Response: 0.218s | IP: 104.28.152.222 | Country: 🇺🇸 United States - US
+vless://55cb8179-ce11-4ec8-a03c-333f797265f9@162.159.14.88:80?host=long-forest-ac72.salari1382m.workers.dev&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-c14b199f15a2ef5d9f127b451fae3659
+
+# Tested at: 2026-04-30 05:46:53 | Response: 2.082s | IP: 47.239.228.128 | Country: 🇭🇰 Hong Kong - HK
+vless://2399fe0a-b359-40a9-a3f0-b70c3c177a01@cloudflare.182682.xyz:80?host=aa.beijng.dpdns.org&path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%AD%F0%9F%87%B0HK-fee364665bf290f0a4f289be3ff98257
+
+# Tested at: 2026-04-30 05:47:33 | Response: 1.973s | IP: 178.128.16.189 | Country: 🇸🇬 Singapore - SG
+vless://fac62eac-1eec-4260-a991-0cac2f8745a3@141.193.213.21:80?host=free-server.techsonic.ggff.net&path=%2F%40Tech_Sonic&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-7ba86c19ad7aec4e9eeef593b98bb732
+
+# Tested at: 2026-04-30 05:47:35 | Response: 0.176s | IP: 104.28.165.214 | Country: 🇺🇸 United States - US
+vless://7890ce31-9a25-4fd4-90e7-80e5823ff510@172.64.146.163:8880?host=frejd.11258.workers.dev&path=%2Ftelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-489aa8b69b98ff1263548247fc01db41
+
+# Tested at: 2026-04-30 05:48:10 | Response: 0.229s | IP: 2a09:bac5:bf0e:1c64::2d4:a1 | Country: 🇺🇸 United States - US
+vless://53342b53-157e-4475-9f3a-40439434e689@104.18.173.174:80?host=c.iamdt.dpdns.org&path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-e9965da5d1b3ec3c0a29d465eee63502
+
+# Tested at: 2026-04-30 05:48:55 | Response: 0.376s | IP: 104.28.159.167 | Country: 🇺🇸 United States - US
+vless://636de463-b509-4631-adc6-400b21733278@172.67.137.47:2086?host=index.harmony510.workers.dev&path=%2F1qrxwiek8tujvr6h&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-0ee5ba513468c4ffb69d8f56775c55cc
+
+# Tested at: 2026-04-30 05:49:39 | Response: 0.621s | IP: 162.19.228.119 | Country: 🇫🇷 France - FR
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?host=de.vpnbase.net&path=%2Fhttp&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-95793bfd78c23436c5714075d20909b3
+
+# Tested at: 2026-04-30 05:49:40 | Response: 0.177s | IP: 104.28.152.206 | Country: 🇺🇸 United States - US
+vless://d342d11e-d424-4583-b36e-524ab1f0afa4@creativecommons.org:2086?host=index.0x15.workers.dev&path=%2FPdgTMW8NBNZYo6L23v&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-3f551e2eaf1a1454f9442562c6d54643
+
+# Tested at: 2026-04-30 05:49:48 | Response: 0.747s | IP: 69.63.210.157 | Country: 🇺🇸 United States - US
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@8.6.112.0:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-f80e7bc6a23db886fc94b58fe39b28a3
+
+# Tested at: 2026-04-30 05:50:22 | Response: 0.679s | IP: 104.28.152.209 | Country: 🇺🇸 United States - US
+vless://0a5ab719-2407-4398-b507-8437ef365023@172.66.44.211:8880?host=underthegun.cfd&path=%2FFCHANNEL---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-8386d65ab1f3e4e97881aa83dc6cd950
+
+# Tested at: 2026-04-30 05:50:23 | Response: 0.248s | IP: 2a09:bac5:bf0d:2e46::49c:48 | Country: 🇺🇸 United States - US
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@162.159.36.5:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-2f231c3102ea6d35adea11f89927ec74
+
+# Tested at: 2026-04-30 05:50:24 | Response: 0.307s | IP: 2a09:bac5:bf09:15e1::22e:7b | Country: 🇺🇸 United States - US
+vless://12d75b7d-8fdf-4785-8d62-d836854e7e63@chatgpt.com:2052?host=parking-nfchbwa1-v2.parking-1ab.workers.dev&path=%2F%3Fed&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-bba12d32020d89d6fce6bb5116d47f2b
+
+# Tested at: 2026-04-30 05:52:00 | Response: 0.454s | IP: 2a06:1301:4050:45:148:31:: | Country: 🇩🇰 Denmark - DK
+vless://e4fc4761-154f-490e-bbaa-b4fa193f1073@45.148.31.0:15855?host=Join---V2rayBaaz---Join---V2rayBaaz---Join---V2rayBaaz&path=%2F&type=ws#%F0%9F%87%A9%F0%9F%87%B0DK-75b12cde23a12264f3b3a41e2544e634
+
+# Tested at: 2026-04-30 05:52:02 | Response: 0.111s | IP: 2a09:bac5:bf08:96::f:370 | Country: 🇺🇸 United States - US
+vless://7890ce31-9a25-4fd4-90e7-80e5823ff510@172.64.147.227:8880?host=frejd.11258.workers.dev&path=%2Ftelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2540wangcai2&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-8fee39ac612b97a8012aafd08bc172f5
+
+# Tested at: 2026-04-30 05:54:50 | Response: 0.390s | IP: 104.28.152.213 | Country: 🇺🇸 United States - US
+vless://e8d06b09-acd9-448c-9874-3c36151d36ee@104.26.3.125:2052?host=icy-wildflower-2590.lihuifeng595.workers.dev&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-47976f1a9f0557aedfea9795f2268297
+
+# Tested at: 2026-04-30 05:55:36 | Response: 0.936s | IP: 139.60.162.211 | Country: 🇺🇸 United States - US
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.17.152.254:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-429c6993f44cc20bd0f651b548c1390d
+
+# Tested at: 2026-04-30 05:55:37 | Response: 0.257s | IP: 104.28.159.167 | Country: 🇺🇸 United States - US
+vless://636de463-b509-4631-adc6-400b21733278@172.67.148.40:2095?host=index.harmony510.workers.dev&path=%2Fjx5xtzn0w1utdm35&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-bd96f85ca8375b7770c7b48d851e35c6
+
+# Tested at: 2026-04-30 05:56:20 | Response: 0.799s | IP: 45.82.251.116 | Country: 🇨🇾 Cyprus - CY
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@yesok42v2.ip4exordir.shop:8880?type=grpc#%F0%9F%87%A8%F0%9F%87%BECY-55929b2437c29ddff29fd899a38546fc
+
+# Tested at: 2026-04-30 05:57:14 | Response: 0.610s | IP: 146.103.102.82 | Country: 🇳🇱 Netherlands - NL
+vless://e08f1ad7-0c60-446d-baec-08b3b69bb3d0@146.103.102.82:80?path=%2FgetWorkerUpdates&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-729e8fc4a26480b18e173af865a3a523
+
+# Tested at: 2026-04-30 05:57:15 | Response: 0.494s | IP: 128.1.190.67 | Country: 🇺🇸 United States - US
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@162.159.38.62:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-6da77679412927ef0dadfac6712d2655
+
+# Tested at: 2026-04-30 05:57:50 | Response: 0.333s | IP: 104.28.160.18 | Country: 🇺🇸 United States - US
+vless://7890ce31-9a25-4fd4-90e7-80e5823ff510@wangcai15.cloudflare.182682.xyz:8880?host=frejd.11258.workers.dev&path=%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560&sni=Telegram-channel-WangCai2&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-93facc31b835c046ef54ea41c30f3eed
+
+# Tested at: 2026-04-30 05:57:52 | Response: 1.422s | IP: 213.226.71.39 | Country: 🇩🇪 Germany - DE
+vless://ef23616d-8a9d-4b22-b2f5-9bda864de179@104.18.241.114:2095?host=index.arcane509.workers.dev&path=%2Fl25hqs0onbig&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-23ae9e46db012a164cb5218e41f24370
+
+# Tested at: 2026-04-30 05:57:52 | Response: 0.102s | IP: 2a09:bac5:bf08:2632::3ce:38 | Country: 🇺🇸 United States - US
+vless://7890ce31-9a25-4fd4-90e7-80e5823ff510@172.64.146.237:8880?host=frejd.11258.workers.dev&path=%2Ftelegram%F0%9F%87%A8%F0%9F%87%B3&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-91c8a05f838b4b15285958e1eabd2717
+
+# Tested at: 2026-04-30 05:59:21 | Response: 0.395s | IP: 2a09:bac1:76a0:56b0::49c:2f | Country: 🇺🇸 United States - US
+vless://f929cc78-e2a1-4ce3-8051-3e9538405144@104.18.189.112:80?host=us.xydcqd.workers.dev&path=%2F%40WireXnet%3Fed%3D2048&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-1235648195f550d939d4a1ef2fd6205b
+
+# Tested at: 2026-04-30 06:00:06 | Response: 0.306s | IP: 104.28.159.169 | Country: 🇺🇸 United States - US
+vless://ef23616d-8a9d-4b22-b2f5-9bda864de179@104.17.95.220:2052?host=index.arcane509.workers.dev&path=%2F7u2613qopnft&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-0e91ca17206b831dcb8a8bf337d656c5
+
+# Tested at: 2026-04-30 06:00:15 | Response: 0.599s | IP: 213.136.69.8 | Country: 🇫🇷 France - FR
+vless://15cbab96-197e-46a5-9042-073b3980c798@213.136.69.8:80?host=fsdns.ectunnelvpn.me&path=%2Fvless&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-382ebf5c0aadf579c1ff19653a262f6a
+
+# Tested at: 2026-04-30 06:00:50 | Response: 0.812s | IP: 104.28.152.229 | Country: 🇺🇸 United States - US
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@vip.yaml7.ggff.net:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-529edc5693b4a9580e4f0d1f55cb8458
+
+# Tested at: 2026-04-30 06:01:34 | Response: 0.209s | IP: 104.28.160.37 | Country: 🇺🇸 United States - US
+vless://ef23616d-8a9d-4b22-b2f5-9bda864de179@104.17.109.71:2082?host=index.arcane509.workers.dev&path=%2Fjeyk7gbxzfe1&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-afe89ccfb73d914e433d939f9982dbab
+
+# Tested at: 2026-04-30 06:02:20 | Response: 0.389s | IP: 104.28.152.203 | Country: 🇺🇸 United States - US
+vless://0991a0c4-0ee5-4213-af89-7ad589f853f3@104.21.227.134:80?host=elenaaaaaaaaaa.cloudns.pro&path=%2FELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY%3Fed%3D2560&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-96ac359f3f72c6c5c83553127125cc45
+
+# Tested at: 2026-04-30 06:03:49 | Response: 0.292s | IP: 104.28.162.253 | Country: 🇺🇸 United States - US
+vless://53342b53-157e-4475-9f3a-40439434e689@172.64.156.188:80?host=c.iamdt.dpdns.org&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-95b80ff96d7b579fb6b020edb31c97b7
+
+# Tested at: 2026-04-30 06:03:50 | Response: 0.475s | IP: 94.142.240.71 | Country: 🇳🇱 Netherlands - NL
+vless://7890ce31-9a25-4fd4-90e7-80e5823ff510@104.18.12.229:2095?host=iioo.iioou.workers.dev&path=%2F&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-fd55d6ba570c8964af102982c29c397f
+
+# Tested at: 2026-04-30 06:04:35 | Response: 1.415s | IP: 104.28.152.206 | Country: 🇺🇸 United States - US
+vless://5aa7d17e-7dc2-46dd-9acf-c3c97440259b@cnamefuckxxs.yuchen.icu:80?host=sss.yaml7.ggff.net&path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-db075fb0fba14f99c7d99fb83368dc45
+
+# Tested at: 2026-04-30 06:05:19 | Response: 0.219s | IP: 2a09:bac5:bf0c:15d7::22d:6f | Country: 🇺🇸 United States - US
+vless://623d675e-8748-4881-ac0f-dc1a10b595b1@104.18.4.46:8880?host=vahidasd1988-se08ot-3.vahidasd1988.workers.dev&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-d2c0a318dd2dec2af12b38c9962583ad
+
+# Tested at: 2026-04-30 06:05:21 | Response: 0.257s | IP: 2a09:bac5:bf0d:2628::3cd:48 | Country: 🇺🇸 United States - US
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@vip1.kaixincloud.top:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-fd4c9240efad23dfa1adf7f6dbfae547
+
+# Tested at: 2026-04-30 06:05:27 | Response: 0.383s | IP: 104.28.152.204 | Country: 🇺🇸 United States - US
+vless://73d17f62-d0c0-4c90-903c-a2b3f3806cca@104.19.151.106:80?host=fragrant-tooth-a5b7.cajeba6448.workers.dev&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-d193adbe507da451b1f326235b9cb983
+
+# Tested at: 2026-04-30 06:06:05 | Response: 1.703s | IP: 2a09:bac5:bf0d:15d7::22d:71 | Country: 🇺🇸 United States - US
+vless://5aa7d17e-7dc2-46dd-9acf-c3c97440259b@freeyx.cloudflare88.eu.org:80?host=sss.yaml7.ggff.net&path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-8de2605a9ca47b02fb154d52dbe4df0b
+
+# Tested at: 2026-04-30 06:06:49 | Response: 0.702s | IP: 104.28.159.169 | Country: 🇺🇸 United States - US
+vless://ef23616d-8a9d-4b22-b2f5-9bda864de179@104.17.201.245:2052?host=index.arcane509.workers.dev&path=%2Fx0o2qglxz7zu&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-c5d690958a24ce4ea93f294e81194661
+
+# Tested at: 2026-04-30 06:06:49 | Response: 0.434s | IP: 203.23.160.5 | Country: 🇺🇸 United States - US
+vless://7890ce31-9a25-4fd4-90e7-80e5823ff510@172.64.147.15:8880?host=frejd.11258.workers.dev&path=%2Ftelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2540wangcai2&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-e4fa349f50e885b98133314e725bb3c5
+
+# Tested at: 2026-04-30 06:07:41 | Response: 0.457s | IP: 109.120.132.142 | Country: 🇸🇪 Sweden - SE
+vless://d8d05386-e381-40a4-bb63-715c208b3ed3@109.120.132.142:40617#%F0%9F%87%B8%F0%9F%87%AASE-4ebf84492e5f83abd795e1daff75bcf9
+
+# Tested at: 2026-04-30 06:07:43 | Response: 0.466s | IP: 104.28.163.57 | Country: 🇺🇸 United States - US
+vless://0991a0c4-0ee5-4213-af89-7ad589f853f3@172.64.147.85:80?host=elenaaaaaaaaaa.cloudns.pro&path=%2FELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY%3Fed%3D2560&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-a3958b3a8a93676d909fd7f7ccd8cbf5
+
+# Tested at: 2026-04-30 06:07:44 | Response: 0.184s | IP: 104.28.160.37 | Country: 🇺🇸 United States - US
+vless://14e1775b-d92c-455b-8db3-e6c6d61909e0@172.66.44.211:80?host=vpnpro.eshghiabolfazl2009.workers.dev&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-ce4f0d03c9955c9b20b00f0b808bace7
+
+# Tested at: 2026-04-30 06:08:20 | Response: 0.388s | IP: 47.91.94.112 | Country: 🇩🇪 Germany - DE
+vless://e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2@47.91.94.112:10040#%F0%9F%87%A9%F0%9F%87%AADE-45617945a1c7e6479f748b86c28d0ac4
+
+# Tested at: 2026-04-30 06:08:29 | Response: 0.141s | IP: 104.28.160.22 | Country: 🇺🇸 United States - US
+vless://5aa7d17e-7dc2-46dd-9acf-c3c97440259b@cf.zhetengsha.eu.org:80?host=sss.yaml7.ggff.net&path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-af2f8cd3ab155aa9479a96bfed7bbeef
+
+# Tested at: 2026-04-30 06:09:03 | Response: 0.366s | IP: 104.28.165.228 | Country: 🇺🇸 United States - US
+vless://93526fcb-8dbf-442e-a656-eb304f1da4ef@172.67.187.145:80?host=lucky-voice-d6f3.difat89954-0c6.workers.dev&path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-576e5af214316e0786d96f4a55185764
+
+# Tested at: 2026-04-30 06:09:03 | Response: 0.376s | IP: 104.28.165.227 | Country: 🇺🇸 United States - US
+vless://f929cc78-e2a1-4ce3-8051-3e9538405144@104.17.15.87:80?host=germany.xydcqd.workers.dev&path=%2F%40WireXnet&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-a68cc3abd7d24ad9907654230521cfde
+
+# Tested at: 2026-04-30 06:09:05 | Response: 0.128s | IP: 104.28.152.216 | Country: 🇺🇸 United States - US
+vless://5aa7d17e-7dc2-46dd-9acf-c3c97440259b@162.159.237.139:80?host=sss.yaml7.ggff.net&path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-cacd9aee0e9a9e0f2e920b0f51863413
+
+# Tested at: 2026-04-30 06:09:13 | Response: 1.197s | IP: 178.128.16.189 | Country: 🇸🇬 Singapore - SG
+vless://fac62eac-1eec-4260-a991-0cac2f8745a3@support.zoom.us:80?host=free-server.techsonic.ggff.net&path=%2F%40Tech_Sonic&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-9ea62e0bc3c0c01923506040227d36d0
+
+# Tested at: 2026-04-30 06:09:47 | Response: 0.283s | IP: 104.28.152.131 | Country: 🇺🇸 United States - US
+vless://5aa7d17e-7dc2-46dd-9acf-c3c97440259b@162.159.45.210:80?host=sss.yaml7.ggff.net&path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-2949ddccf8b5ccc74149e3e481ff6852
+
+# Tested at: 2026-04-30 06:10:32 | Response: 0.226s | IP: 104.28.152.201 | Country: 🇺🇸 United States - US
+vless://12d75b7d-8fdf-4785-8d62-d836854e7e63@104.18.12.229:2052?host=parking-nfchbwa1-v2.parking-1ab.workers.dev&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-f17d5a77bc341d42310c599efe4f7dc5
+
+# Tested at: 2026-04-30 06:10:32 | Response: 0.171s | IP: 104.28.165.227 | Country: 🇺🇸 United States - US
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.21.61.73:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-dc0ca674c0b6787fe0b07eeeca180090
+
+# Tested at: 2026-04-30 06:10:33 | Response: 0.635s | IP: 2a12:bec4:19a4:1020:: | Country: 🇦🇹 Austria - AT
+vless://f2a806c6-f36b-4cd9-8bb6-7addb218ad2d@91.244.70.205:443?path=%2F&type=ws#%F0%9F%87%A6%F0%9F%87%B9AT-ab74c0ce2b7285f9fd70c2ac79a7c6b9
+
+# Tested at: 2026-04-30 06:11:15 | Response: 0.667s | IP: 45.82.251.33 | Country: 🇨🇾 Cyprus - CY
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.33:8880?type=grpc#%F0%9F%87%A8%F0%9F%87%BECY-1d8acd76ff4dce5f0ea1b2bcb26ffe00
+
+# Tested at: 2026-04-30 06:12:00 | Response: 0.440s | IP: 104.28.165.214 | Country: 🇺🇸 United States - US
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@162.159.36.20:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-7c33945a4aa1f10ff3f1141dcd7adf2e
+
+# Tested at: 2026-04-30 06:12:00 | Response: 0.312s | IP: 104.28.159.162 | Country: 🇺🇸 United States - US
+vless://14e1775b-d92c-455b-8db3-e6c6d61909e0@104.21.80.5:80?host=vpnpro.eshghiabolfazl2009.workers.dev&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-3461a2a467a6540743844c569e7e4a90
+
+# Tested at: 2026-04-30 06:12:48 | Response: 1.150s | IP: 2a0b:4140:b803::2 | Country: 🇬🇧 United Kingdom - GB
+vless://636de463-b509-4631-adc6-400b21733278@104.21.9.210:2086?host=index.harmony610.workers.dev&path=%2Fk8v2opf4b3qswgzi&type=ws#%F0%9F%87%AC%F0%9F%87%A7GB-d1928fbea9dbd559387a287dd8b516b0
+
+# Tested at: 2026-04-30 06:13:29 | Response: 0.568s | IP: 154.37.216.151 | Country: 🇭🇰 Hong Kong - HK
+vless://45bbf56b-2d92-4618-a14d-66bef7287c4d@154.37.216.151:45482#%F0%9F%87%AD%F0%9F%87%B0HK-1c504b59de46aa9de6d0b87faadd63f7
+
+# Tested at: 2026-04-30 06:14:13 | Response: 0.366s | IP: 2a09:bac5:bf08:96::f:341 | Country: 🇺🇸 United States - US
+vless://0a5ab719-2407-4398-b507-8437ef365023@104.21.31.4:8880?host=underthegun.cfd.&path=%2FFCHANNEL---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-24ffd220abab4cd21ee14ba6fd994bbf
+
+# Tested at: 2026-04-30 06:14:16 | Response: 0.265s | IP: 104.28.159.170 | Country: 🇺🇸 United States - US
+vless://53342b53-157e-4475-9f3a-40439434e689@v1.dabache.top:80?host=c.iamdt.dpdns.org&path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-8f295cdfbad401dcbd1cc9a46c70a66a
+
+# Tested at: 2026-04-30 06:14:20 | Response: 1.982s | IP: 178.128.16.189 | Country: 🇸🇬 Singapore - SG
+vless://fac62eac-1eec-4260-a991-0cac2f8745a3@partner.zoom.us:80?host=free-server.techsonic.ggff.net&path=%2F%40Tech_Sonic&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-6a0e1b6a4e2d7af9b9a7235ffd3f000b
+
+# Tested at: 2026-04-30 06:14:22 | Response: 0.242s | IP: 104.28.165.226 | Country: 🇺🇸 United States - US
+vless://78c5b6bd-1cb6-463c-bcba-9f17ef70c85b@104.18.13.229:8880?host=square-frost-8d11.9660004.workers.dev&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-0814e2ecc519552ef5059eb3f84299d8
+
+# Tested at: 2026-04-30 06:15:09 | Response: 0.238s | IP: 2a09:bac5:bf0b:2e46::49c:57 | Country: 🇺🇸 United States - US
+vless://ef23616d-8a9d-4b22-b2f5-9bda864de179@198.41.208.22:2095?host=index.arcane509.workers.dev&path=%2Fripbdigi5hdb&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-82f2f778b933520d904208662f62231a
+
+# Tested at: 2026-04-30 06:15:44 | Response: 0.134s | IP: 104.28.160.22 | Country: 🇺🇸 United States - US
+vless://5aa7d17e-7dc2-46dd-9acf-c3c97440259b@162.159.27.20:80?host=sss.yaml7.ggff.net&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-e2817f734b25bbd559d652b98465455d
+
+# Tested at: 2026-04-30 06:16:28 | Response: 0.307s | IP: 104.28.157.221 | Country: 🇺🇸 United States - US
+vless://cb213db5-803d-49dd-a7e2-46d938af0751@104.18.2.11:2082?host=amiroo-l43dac88-v2.amiroo-d8b.workers.dev&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-f75d28c0dd83bd8bb736f552985ab2fd
+
+# Tested at: 2026-04-30 06:16:29 | Response: 0.299s | IP: 203.23.160.5 | Country: 🇺🇸 United States - US
+vless://7890ce31-9a25-4fd4-90e7-80e5823ff510@104.21.224.5:8880?host=frejd.11258.workers.dev&path=%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560&sni=Telegram-channel-WangCai2&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-aad670dd3af2f3c565bf26f0833a448c
+
+# Tested at: 2026-04-30 06:16:36 | Response: 0.168s | IP: 104.28.159.169 | Country: 🇺🇸 United States - US
+vless://0991a0c4-0ee5-4213-af89-7ad589f853f3@188.114.98.112:80?host=elenaaaaaaaaaa.cloudns.pro.&path=%2FELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-75392de7078b5c4b92776e6b13ee0ac1
+
+# Tested at: 2026-04-30 06:16:37 | Response: 0.523s | IP: 104.28.163.60 | Country: 🇺🇸 United States - US
+vless://7890ce31-9a25-4fd4-90e7-80e5823ff510@wangcai139.cloudflare.182682.xyz:8880?host=frejd.11258.workers.dev&path=%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560&sni=Telegram-channel-WangCai2&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-4058beb4b0886e94918fcea62101f935
+
+# Tested at: 2026-04-30 06:16:37 | Response: 0.083s | IP: 104.28.165.225 | Country: 🇺🇸 United States - US
+vless://7890ce31-9a25-4fd4-90e7-80e5823ff510@104.18.185.26:8880?host=frejd.11258.workers.dev&path=%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560&sni=Telegram-channel-WangCai2&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-b231d328f3520274950185812aceddb6
+
+# Tested at: 2026-04-30 06:17:13 | Response: 1.023s | IP: 2a09:bac5:bf0d:2e28::499:13 | Country: 🇺🇸 United States - US
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@vip3.kaixincloud.top:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-21fd1e49f2330478e3a852cf50c3e3fd
+
+# Tested at: 2026-04-30 06:17:13 | Response: 0.138s | IP: 104.28.162.253 | Country: 🇺🇸 United States - US
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.20.63.52:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-88daf6c02cdffef1a53d38eeff170709
+
+# Tested at: 2026-04-30 06:17:59 | Response: 0.460s | IP: 2a09:bac5:bf0d:2e46::49c:48 | Country: 🇺🇸 United States - US
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@v3.dabache.top:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-9b635c09206a0ad0de109e16505c28cf
+
+# Tested at: 2026-04-30 06:17:59 | Response: 0.148s | IP: 104.28.163.60 | Country: 🇺🇸 United States - US
+vless://d342d11e-d424-4583-b36e-524ab1f0afa4@creativecommons.org:2052?host=index.0x14.workers.dev&path=%2Fassets&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-c4feb32978730076fcef1c6e29012871
+
+# Tested at: 2026-04-30 06:18:07 | Response: 0.479s | IP: 204.216.216.23 | Country: 🇮🇹 Italy - IT
+vless://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086#%F0%9F%87%AE%F0%9F%87%B9IT-eb8d1ef0de5eac0461fdfeeef25f54bb
+
+# Tested at: 2026-04-30 06:20:11 | Response: 0.865s | IP: 94.142.240.71 | Country: 🇳🇱 Netherlands - NL
+vless://7890ce31-9a25-4fd4-90e7-80e5823ff510@172.67.203.94:2086?host=iioo.iioou.workers.dev&path=%2F&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-ffcc6c921646dd457cebbb58406b22a9
+
+# Tested at: 2026-04-30 06:20:12 | Response: 0.973s | IP: 104.28.160.37 | Country: 🇺🇸 United States - US
+vless://14e1775b-d92c-455b-8db3-e6c6d61909e0@vpnpro.eshghiabolfazl2009.workers.dev:80?host=vpnpro.eshghiabolfazl2009.workers.dev&path=%F0%9F%94%92&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-1f698b1c69508a77110a247f9f80bd48
+
+# Tested at: 2026-04-30 06:21:44 | Response: 0.623s | IP: 94.142.240.71 | Country: 🇳🇱 Netherlands - NL
+vless://7890ce31-9a25-4fd4-90e7-80e5823ff510@104.16.250.22:8880?host=frejd.11258.workers.dev&path=%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-2af2b3e6ea63c4be967b7d50369ab995
+
+# Tested at: 2026-04-30 06:22:28 | Response: 0.470s | IP: 104.28.163.59 | Country: 🇺🇸 United States - US
+vless://12d75b7d-8fdf-4785-8d62-d836854e7e63@104.18.4.130:2052?host=parking-nfchbwa1-v2.parking-1ab.workers.dev&path=%2F+%40ProxyVPN11&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-613f191a0c5ea86cae4008a8d158776b
+
+# Tested at: 2026-04-30 06:22:29 | Response: 1.677s | IP: 8.217.231.146 | Country: 🇭🇰 Hong Kong - HK
+vless://7c15de26-a4f2-44cb-ba0c-7ee822e6696e@8.217.231.146:46964?path=%2F7c15de26&type=ws#%F0%9F%87%AD%F0%9F%87%B0HK-419dcca89028b404091e7b8382ce470d
+
+# Tested at: 2026-04-30 06:22:29 | Response: 0.201s | IP: 2a09:bac5:624d:183c::26a:27 | Country: 🇺🇸 United States - US
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@162.159.45.207:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-004664e574ed8490463b95bbfaa485ca
+
+# Tested at: 2026-04-30 06:23:13 | Response: 0.623s | IP: 2a09:bac5:bf0a:15eb::22f:a1 | Country: 🇺🇸 United States - US
+vless://93526fcb-8dbf-442e-a656-eb304f1da4ef@104.21.7.133:80?host=lucky-voice-d6f3.difat89954-0c6.workers.dev&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-4b572daef93064579f040b3d09917663
+
+# Tested at: 2026-04-30 06:24:06 | Response: 0.286s | IP: 104.28.160.36 | Country: 🇺🇸 United States - US
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@172.67.155.172:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-f509cee0a1fd0e325f0ef52ed2cd115e
+
+# Tested at: 2026-04-30 06:24:08 | Response: 0.146s | IP: 104.28.165.226 | Country: 🇺🇸 United States - US
+vless://43158d39-8066-4df4-b74e-2ab29f207e0a@172.64.147.131:80?host=29.alij47649.workers.dev&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-723b16ab986fe6d109bfa73001d23a13
+
+# Tested at: 2026-04-30 06:24:44 | Response: 0.981s | IP: 104.28.157.220 | Country: 🇺🇸 United States - US
+vless://5aa7d17e-7dc2-46dd-9acf-c3c97440259b@sss.yaml7.ggff.net:80?host=sss.yaml7.ggff.net&path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-e3676a17b28eb323b77331a60b2f140e
+
+# Tested at: 2026-04-30 06:24:44 | Response: 0.375s | IP: 23.188.240.197 | Country: 🇺🇸 United States - US
+vless://7890ce31-9a25-4fd4-90e7-80e5823ff510@172.64.146.1:8880?host=frejd.11258.workers.dev&path=%2Ftelegram%F0%9F%87%A8%F0%9F%87%B3%40wangcai2&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-256cd2283e8290cb84eb5ee3f7cf4a5a
+
+# Tested at: 2026-04-30 06:25:34 | Response: 2.993s | IP: 45.82.251.116 | Country: 🇨🇾 Cyprus - CY
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.116:8880?type=grpc#%F0%9F%87%A8%F0%9F%87%BECY-f425a96217c75d8b26ad67138ea19b68
+
+# Tested at: 2026-04-30 06:26:16 | Response: 0.121s | IP: 104.28.163.60 | Country: 🇺🇸 United States - US
+vless://2399fe0a-b359-40a9-a3f0-b70c3c177a01@aa.beijng.dpdns.org:80?host=aa.beijng.dpdns.org&path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-537db8a1703fcc236d1c1795e85819dd
+
+# Tested at: 2026-04-30 06:27:07 | Response: 1.209s | IP: 47.239.101.59 | Country: 🇭🇰 Hong Kong - HK
+vless://5aa7d17e-7dc2-46dd-9acf-c3c97440259b@104.17.152.49:80?host=sss.yaml7.ggff.net&path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%AD%F0%9F%87%B0HK-00129f49ce74126c4583364153bd5a1e
+
+# Tested at: 2026-04-30 06:28:29 | Response: 0.507s | IP: 104.28.152.219 | Country: 🇺🇸 United States - US
+vless://636de463-b509-4631-adc6-400b21733278@104.21.89.4:2086?host=index.harmony610.workers.dev&path=%F0%9F%94%92+%5BBy+EbraSha%5D&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-cd5aafe5e8793ac388bb2394f2975bc3
+
+# Tested at: 2026-04-30 06:28:31 | Response: 0.382s | IP: 104.28.152.219 | Country: 🇺🇸 United States - US
+vless://43158d39-8066-4df4-b74e-2ab29f207e0a@104.17.219.32:80?host=29.alij47649.workers.dev&path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-9efc68352726388449ea51d2750829bb
+
+# Tested at: 2026-04-30 06:28:37 | Response: 0.209s | IP: 104.28.152.227 | Country: 🇺🇸 United States - US
+vless://d342d11e-d424-4583-b36e-524ab1f0afa4@104.20.5.134:2052?host=index.0x14.workers.dev&path=%2Fassets&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-c443774b813f23a24b490fdea8b8f769
+
+# Tested at: 2026-04-30 06:29:14 | Response: 0.772s | IP: 2a09:bac5:bf08:2632::3ce:38 | Country: 🇺🇸 United States - US
+vless://7890ce31-9a25-4fd4-90e7-80e5823ff510@wangcai115.cloudflare.182682.xyz:8880?host=frejd.11258.workers.dev&path=%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560&sni=Telegram-channel-WangCai2&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-3f1101a9448d6cd3fb63aa9e18163f80
+
+# Tested at: 2026-04-30 06:29:14 | Response: 0.643s | IP: 104.28.152.207 | Country: 🇺🇸 United States - US
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.18.16.56:80?host=vip.yaml7.ggff.net&path=%2F+%40ProxyVPN11&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-3f002a92f738632a57f2129a166802ce
+
+# Tested at: 2026-04-30 06:29:15 | Response: 0.332s | IP: 94.142.240.71 | Country: 🇳🇱 Netherlands - NL
+vless://7890ce31-9a25-4fd4-90e7-80e5823ff510@172.64.146.116:8880?host=frejd.11258.workers.dev&path=%2Ftelegram%F0%9F%87%A8%F0%9F%87%B3&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-1d208543de43dcc8189b669726da6d8a
+
+# Tested at: 2026-04-30 06:29:22 | Response: 0.099s | IP: 2a09:bac5:bf0d:1c64::2d4:4b | Country: 🇺🇸 United States - US
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.17.138.164:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-9570b3f1e707f96d9466832fefedb6e6
+
+# Tested at: 2026-04-30 06:32:25 | Response: 1.586s | IP: 47.79.144.103 | Country: 🇯🇵 Japan - JP
+vless://a12b0d31-f599-498e-b76e-8558a14b766b@47.79.144.103:25242?path=%2Fa12b0d31&type=ws#%F0%9F%87%AF%F0%9F%87%B5JP-168f62bca3ee3d015a8b392deacfa7ff
+
+# Tested at: 2026-04-30 06:33:45 | Response: 0.150s | IP: 104.28.159.170 | Country: 🇺🇸 United States - US
+vless://d342d11e-d424-4583-b36e-524ab1f0afa4@104.20.6.134:2086?host=index.0x15.workers.dev&path=%2FPdgTMW8NBNZYo6L23v&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-1771eb58258fb7c0310ce3c055cd46a7
+
+# Tested at: 2026-04-30 06:33:46 | Response: 1.063s | IP: 8.216.21.135 | Country: 🇯🇵 Japan - JP
+vless://e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2@8.216.21.135:10026?path=%2F#%F0%9F%87%AF%F0%9F%87%B5JP-93fdc5ba554b6d592c43c99c50eb458e
+
+# Tested at: 2026-04-30 06:33:46 | Response: 0.153s | IP: 104.28.152.201 | Country: 🇺🇸 United States - US
+vless://ef23616d-8a9d-4b22-b2f5-9bda864de179@198.41.209.88:8080?host=index.arcane509.workers.dev&path=%2Fec4l307nur5g&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-6d757fde932ebdc03358472c9623eaec
+
+# Tested at: 2026-04-30 06:34:29 | Response: 0.301s | IP: 104.28.152.115 | Country: 🇺🇸 United States - US
+vless://e388fffb-03b0-4227-ac2c-2b5cec1f5c34@162.159.38.129:80?host=leecher56.matinheydri.workers.dev&path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-6ff6beb4635722e8c8a1ecc8034b7aae
+
+# Tested at: 2026-04-30 06:34:36 | Response: 2.464s | IP: 23.188.240.197 | Country: 🇺🇸 United States - US
+vless://7890ce31-9a25-4fd4-90e7-80e5823ff510@172.64.146.198:8880?host=frejd.11258.workers.dev&path=%2Ftelegram%F0%9F%87%A8%F0%9F%87%B3&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-d8dfd8d9c607399716e901fa6da079d3
+
+# Tested at: 2026-04-30 06:34:38 | Response: 0.247s | IP: 104.28.162.250 | Country: 🇺🇸 United States - US
+vless://2e71d8fc-d2e8-44fc-89bd-c8a449a193aa@104.24.45.247:80?host=odd-bread-435d.ahmadrezasteamacc.workers.dev&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-32c7758b0a0b835df404ceb28eab37e7
+
+# Tested at: 2026-04-30 06:35:14 | Response: 0.365s | IP: 23.188.240.197 | Country: 🇺🇸 United States - US
 vless://7890ce31-9a25-4fd4-90e7-80e5823ff510@172.64.147.255:8880?host=frejd.11258.workers.dev&path=%2Ftelegram%F0%9F%87%A8%F0%9F%87%B3&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-b3b2de3cb2bc0054d2b695d74b9a4ba5
 
-# Tested at: 2026-04-30 00:03:49 | Response: 0.263s | IP: 2a09:bac1:7680:d28::1d0:c5 | Country: 🇺🇸 United States - US
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@172.67.155.172:80?host=vip.yaml7.ggff.net&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-f509cee0a1fd0e325f0ef52ed2cd115e
+# Tested at: 2026-04-30 06:35:59 | Response: 0.331s | IP: 104.28.152.214 | Country: 🇺🇸 United States - US
+vless://25efc727-e853-49ba-9609-3c20009d0e7a@www.visa.com.sg:2052?host=winbiss-0tpka6-v1.winbiss.workers.dev&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-9e042ca56267714ea6e36f34d3c8b90c
+
+# Tested at: 2026-04-30 06:36:00 | Response: 0.999s | IP: 178.128.16.189 | Country: 🇸🇬 Singapore - SG
+vless://fac62eac-1eec-4260-a991-0cac2f8745a3@141.193.213.20:80?host=free-server.techsonic.ggff.net&path=%2F%40Tech_Sonic&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-32f374a97923127b25b351b07a9532d1
+
+# Tested at: 2026-04-30 06:36:43 | Response: 0.287s | IP: 2a09:bac5:bf0c:2e28::499:43 | Country: 🇺🇸 United States - US
+vless://623d675e-8748-4881-ac0f-dc1a10b595b1@104.18.5.46:8880?host=vahidasd1988-se08ot-3.vahidasd1988.workers.dev&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-506531c74f4b5598126f996731fa544d
+
+# Tested at: 2026-04-30 06:36:51 | Response: 0.482s | IP: 104.28.159.170 | Country: 🇺🇸 United States - US
+vless://7890ce31-9a25-4fd4-90e7-80e5823ff510@172.64.147.180:8880?host=frejd.11258.workers.dev&path=%2Ftelegram%F0%9F%87%A8%F0%9F%87%B3&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-6e42d93462350a72610518b57a4f3215
+
+# Tested at: 2026-04-30 06:37:27 | Response: 0.179s | IP: 104.28.160.18 | Country: 🇺🇸 United States - US
+vless://7890ce31-9a25-4fd4-90e7-80e5823ff510@172.64.146.27:8880?host=frejd.11258.workers.dev&path=%2Ftelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2540wangcai2&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-91b63b7fb5c1507cdd7242440296f015
+
+# Tested at: 2026-04-30 06:38:20 | Response: 0.166s | IP: 2a09:bac5:bf08:2628::3cd:38 | Country: 🇺🇸 United States - US
+vless://5f4845b4-11dc-41d6-9508-4ff6a02e36c1@45.131.4.192:80?host=silent-paper-fa57.fipiyag989.workers.dev&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-68d9e438c647e527cdd317f04dafeb98
+
+# Tested at: 2026-04-30 06:38:21 | Response: 0.679s | IP: 104.28.152.215 | Country: 🇺🇸 United States - US
+vless://636de463-b509-4631-adc6-400b21733278@172.67.179.152:2086?host=index.harmony510.workers.dev&path=%2F0hj0k45fc0ro1kq7&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-1cb291eb26a62c70d2df662b90f0e7dd
+
+# Tested at: 2026-04-30 06:39:42 | Response: 0.171s | IP: 104.28.159.162 | Country: 🇺🇸 United States - US
+vless://14e1775b-d92c-455b-8db3-e6c6d61909e0@172.67.172.86:80?host=vpnpro.eshghiabolfazl2009.workers.dev&path=%F0%9F%94%92&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-71da816c8d9fdb99c724113f81a06871
+
+# Tested at: 2026-04-30 06:40:26 | Response: 0.570s | IP: 94.142.240.71 | Country: 🇳🇱 Netherlands - NL
+vless://7890ce31-9a25-4fd4-90e7-80e5823ff510@172.64.147.236:8880?host=frejd.11258.workers.dev&path=%2Ftelegram%F0%9F%87%A8%F0%9F%87%B3&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-a1222f6aaeb4d03b5af39ec8b46e9895
+
+# Tested at: 2026-04-30 06:40:28 | Response: 2.202s | IP: 45.82.251.115 | Country: 🇨🇾 Cyprus - CY
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@yesok42v1.ip4exordir.shop:8880?type=grpc#%F0%9F%87%A8%F0%9F%87%BECY-df6b409bcb44a74a10585f0c0655fa96
+
+# Tested at: 2026-04-30 06:40:35 | Response: 0.139s | IP: 104.28.152.210 | Country: 🇺🇸 United States - US
+vless://636de463-b509-4631-adc6-400b21733278@104.21.233.186:2086?host=index.harmony610.workers.dev&path=%2Fvgn80ag4q5o0oxj5&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-02b8a7efab62ff1396f8b03c7b9011db
+
+# Tested at: 2026-04-30 06:41:11 | Response: 0.172s | IP: 104.28.152.203 | Country: 🇺🇸 United States - US
+vless://14e1775b-d92c-455b-8db3-e6c6d61909e0@172.66.47.45:80?host=vpnpro.eshghiabolfazl2009.workers.dev&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-4d92acdbcc39a46fc76df25e0345a2ef
+
+# Tested at: 2026-04-30 06:41:56 | Response: 0.237s | IP: 38.55.146.153 | Country: 🇺🇸 United States - US
+vless://b852270a-1283-4ea8-8a2f-5bae8e644a3e@38.55.146.153:13000#%F0%9F%87%BA%F0%9F%87%B8US-c1d2a2e2998a69b6bb080be06ea7b748
 
