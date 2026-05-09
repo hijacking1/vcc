@@ -1,598 +1,493 @@
 # Working TROJAN Configurations (URL Format)
-# Generated at: 2026-05-09 09:29:06
+# Generated at: 2026-05-09 13:44:16
 # Format: Each line contains one working configuration as URL
 
-# Tested at: 2026-05-09 12:15:58 | Response: 1.542s | IP: 104.28.166.26 | Country: 🇺🇸 United States - US
-trojan://6202b230-417c-4d8e-b624-0f71afa9c75d@162.159.153.2:443?alpn=http%2F1.1&host=sni.111000.dynv6.net&path=%2F%3Fproxyip%3Dip.111000.de5.net%253A443&security=tls&sni=sni.111000.dynv6.net&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-1ffbadaaf72c92c49bf70b0692b64958
-
-# Tested at: 2026-05-09 12:15:59 | Response: 1.313s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@104.18.32.37:443?path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-1458f0134f9a1ea6f8b73aef72745ec5
-
-# Tested at: 2026-05-09 12:16:04 | Response: 1.576s | IP: 116.80.80.121 | Country: 🇯🇵 Japan - JP
-trojan://BxceQaOe@116.80.80.121:443?security=tls&sni=t.me%2Fripaojiedian#%F0%9F%87%AF%F0%9F%87%B5JP-d069137c23b13f7499ae96577ee21b2c
-
-# Tested at: 2026-05-09 12:16:06 | Response: 4.064s | IP: 216.105.168.114 | Country: 🇺🇸 United States - US
-trojan://harz989mzcktd92m1vlf@216.105.168.115:59125?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-40ad7c5db61eefc780026c54de718e2b
-
-# Tested at: 2026-05-09 12:16:13 | Response: 1.934s | IP: 2.56.172.83 | Country: 🇨🇾 Cyprus - CY
-trojan://strong-secret-pass-777@2.56.172.83:4443?security=tls#%F0%9F%87%A8%F0%9F%87%BECY-4e2b0d9cdd0260869c9697782671c2f7
-
-# Tested at: 2026-05-09 12:16:40 | Response: 1.851s | IP: 104.28.166.26 | Country: 🇺🇸 United States - US
-trojan://bpb-trojan@wing2452.nyc.mn:443?host=wing2452.nyc.mn&path=%2Ftr%3Fed%3D2560&security=tls&sni=wing2452.nyc.mn&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-3799bac2d365324dd2de82480bcbfb62
-
-# Tested at: 2026-05-09 12:16:40 | Response: 1.555s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.147.205:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-a00d5e4b4ebe6bd78ae4abed3b8b7fe4
-
-# Tested at: 2026-05-09 12:16:41 | Response: 2.146s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.146.27:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-a0aca16b1e7ea9e0b00105ac1bd342c3
-
-# Tested at: 2026-05-09 12:16:41 | Response: 2.044s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.147.183:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-1ee029a07f3d664a70db20a47bcaf2a9
-
-# Tested at: 2026-05-09 12:16:41 | Response: 0.767s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.146.116:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-53bac9ae90ea7badab17a678cfc4dbc2
-
-# Tested at: 2026-05-09 12:16:43 | Response: 0.859s | IP: 51.158.236.36 | Country: 🇳🇱 Netherlands - NL
-trojan://humanity@162.159.17.189:443?host=www.multiplydose.com&path=%2Fassignment&security=tls&sni=www.multiplydose.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-eb706622a8c4fbc9de22d5d2a129c379
-
-# Tested at: 2026-05-09 12:16:45 | Response: 0.899s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.147.166:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-37e009313980208d84bdeb33d8188e21
-
-# Tested at: 2026-05-09 12:16:48 | Response: 0.610s | IP: 104.28.165.168 | Country: 🇯🇵 Japan - JP
-trojan://162534@43.165.190.11:42841?host=cchh2.pages.dev&path=%2F&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%AF%F0%9F%87%B5JP-11a05bbde5a1fcdc39dcdb72a98609ba
-
-# Tested at: 2026-05-09 12:17:23 | Response: 2.091s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@104.21.72.233:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-53889022518229f6789c6d4375c40007
-
-# Tested at: 2026-05-09 12:17:25 | Response: 0.208s | IP: 14.1.28.74 | Country: 🇺🇸 United States - US
-trojan://r49gssuondznyu2eex83@14.1.28.76:50740?security=tls&sni=14.1.28.76#%F0%9F%87%BA%F0%9F%87%B8US-31d82b9c589df294d672f52fda827ad2
-
-# Tested at: 2026-05-09 12:17:25 | Response: 1.050s | IP: 104.28.163.36 | Country: 🇸🇬 Singapore - SG
-trojan://162534@140.245.107.0:8443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-a1716d4fd20ee194602f4058b6faecaa
-
-# Tested at: 2026-05-09 12:17:27 | Response: 0.808s | IP: 51.15.214.201 | Country: 🇫🇷 France - FR
-trojan://humanity@sourceforge.net:443?alpn=http%2F1.1&host=www.calmloud.com&path=%2Fassignment&security=tls&sni=www.calmloud.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-9564083d3524e47038e085a8315af787
-
-# Tested at: 2026-05-09 12:18:05 | Response: 2.351s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.147.210:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-3d15fda257fdc000dd694fd2454bc5cc
-
-# Tested at: 2026-05-09 12:18:05 | Response: 1.998s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.146.28:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-fcfc0f70d2921cb6d125c6f93fc8414c
-
-# Tested at: 2026-05-09 12:18:05 | Response: 1.288s | IP: 2a05:d014:40c:fe00:c042:7601:fcf:f170 | Country: 🇩🇪 Germany - DE
-trojan://telegram-id-privatevpns@63.184.155.101:22222?alpn=http%2F1.1&security=tls&sni=trojan.burgerip.co.uk#%F0%9F%87%A9%F0%9F%87%AADE-6c05065a8ee80a1c7d71e1c2b61ff96d
-
-# Tested at: 2026-05-09 12:18:12 | Response: 1.189s | IP: 51.15.214.201 | Country: 🇫🇷 France - FR
-trojan://humanity@104.17.150.76:443?alpn=http%2F1.1&host=www.calmloud.com&path=%2Fassignment&security=tls&sni=www.calmloud.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-7d07ecbb362cbcda069b7321786496b5
-
-# Tested at: 2026-05-09 12:18:17 | Response: 2.631s | IP: 116.80.61.224 | Country: 🇯🇵 Japan - JP
-trojan://BxceQaOe@116.80.61.224:443?security=tls&sni=t.me%2Fripaojiedian#%F0%9F%87%AF%F0%9F%87%B5JP-dd1e5c2a56bda742af42659fd3bbfa2d
-
-# Tested at: 2026-05-09 12:18:47 | Response: 1.859s | IP: 138.19.79.165 | Country: 🇭🇰 Hong Kong - HK
-trojan://BxceQaOe@bb.bejkn.cn:11233?security=tls&sni=t.me%2Fripaojiedian#%F0%9F%87%AD%F0%9F%87%B0HK-d38b6d6d80c4200c4b02f7657fc2c089
-
-# Tested at: 2026-05-09 12:18:50 | Response: 0.557s | IP: 104.28.165.175 | Country: 🇯🇵 Japan - JP
-trojan://162534@198.13.37.176:443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%AF%F0%9F%87%B5JP-b8e82b2a298a86fb1d919de8dd9b5d71
-
-# Tested at: 2026-05-09 12:18:52 | Response: 0.396s | IP: 104.28.166.29 | Country: 🇺🇸 United States - US
-trojan://6202b230-417c-4d8e-b624-0f71afa9c75d@104.17.185.207:443?alpn=http%2F1.1&host=sni.111000.dynv6.net&path=%2F%3Fproxyip%3Dip.111000.de5.net%3A443&security=tls&sni=sni.111000.dynv6.net&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-045a733a9f4403b5a36d71a53a130b18
-
-# Tested at: 2026-05-09 12:18:52 | Response: 1.274s | IP: 45.149.114.75 | Country: 🇨🇾 Cyprus - CY
-trojan://strong-secret-pass-777@45.149.114.75:4443?security=tls#%F0%9F%87%A8%F0%9F%87%BECY-1b80130739de138a8382f776256f3166
-
-# Tested at: 2026-05-09 12:18:54 | Response: 0.569s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.146.1:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-037f419f00cd9172d8be494e0eba57b7
-
-# Tested at: 2026-05-09 12:19:29 | Response: 0.195s | IP: 104.28.157.117 | Country: 🇺🇸 United States - US
-trojan://bpb-trojan@104.21.59.101:443?host=wing2452.nyc.mn&path=%2Ftr%3Fed%3D2560&security=tls&sni=wing2452.nyc.mn&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-b02fd67b58b74d0097c8b50c42bdff62
-
-# Tested at: 2026-05-09 12:19:31 | Response: 0.713s | IP: 64.110.104.30 | Country: 🇯🇵 Japan - JP
-trojan://bpb-trojan@russia.com:443?host=bpb.wdgg1979.nyc.mn&path=%2Ftr&security=tls&sni=bpb.wdgg1979.nyc.mn&type=ws#%F0%9F%87%AF%F0%9F%87%B5JP-ec757f209e826c7f40f87d567a056680
-
-# Tested at: 2026-05-09 12:19:35 | Response: 0.675s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.147.223:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-aec7d1d629667ab15c5147cfa3b321fe
-
-# Tested at: 2026-05-09 12:19:36 | Response: 0.718s | IP: 2001:41d0:700:6a95:: | Country: 🇫🇷 France - FR
-trojan://03mpolj39zyewzufal2r@51.75.86.196:55646?security=tls#%F0%9F%87%AB%F0%9F%87%B7FR-fff1a4fdfd0cace17ddd1c418ebb6968
-
-# Tested at: 2026-05-09 12:20:12 | Response: 1.565s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@104.18.33.45:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-0c501f7780f78847e9b59bc45e469140
-
-# Tested at: 2026-05-09 12:20:13 | Response: 2.094s | IP: 172.104.97.39 | Country: 🇯🇵 Japan - JP
-trojan://162534@64.176.42.143:443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%AF%F0%9F%87%B5JP-2d5d5539acced776bf14533d307b3f6f
-
-# Tested at: 2026-05-09 12:20:13 | Response: 1.409s | IP: 8.221.172.1 | Country: 🇯🇵 Japan - JP
-trojan://162534@156.246.94.155:8443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%AF%F0%9F%87%B5JP-5c87ea65a290d41975b52d2fd4052a4d
-
-# Tested at: 2026-05-09 12:20:15 | Response: 0.855s | IP: 45.12.146.179 | Country: 🇨🇾 Cyprus - CY
-trojan://strong-secret-pass-777@45.12.146.179:4443?security=tls#%F0%9F%87%A8%F0%9F%87%BECY-16f8e01c103d7812458d3146ad5600ed
-
-# Tested at: 2026-05-09 12:20:17 | Response: 0.217s | IP: 64.94.95.114 | Country: 🇺🇸 United States - US
-trojan://kkzh2prsyr2ik47as615@64.94.95.115:57142?security=tls&sni=static.rutube.ru#%F0%9F%87%BA%F0%9F%87%B8US-c281a973ced5a3a91fd62a48705b1638
-
-# Tested at: 2026-05-09 12:20:18 | Response: 0.755s | IP: 151.115.74.152 | Country: 🇵🇱 Poland - PL
-trojan://humanity@www.creationlong.org:443?alpn=h2%2Chttp%2F1.1&path=%2Fassignment&security=tls&sni=www.creationlong.org&type=ws#%F0%9F%87%B5%F0%9F%87%B1PL-ede5b467769f78a0152a4f876f544483
-
-# Tested at: 2026-05-09 12:20:19 | Response: 2.037s | IP: 138.124.182.204 | Country: 🇱🇻 Latvia - LV
-trojan://6202b230-417c-4d8e-b624-0f71afa9c75d@jp.111000.cc.cd:443?alpn=http%2F1.1&host=sni.111000.dynv6.net&path=%2F%3Fproxyip%3Dip.111000.de5.net%253A443&security=tls&sni=sni.111000.dynv6.net&type=ws#%F0%9F%87%B1%F0%9F%87%BBLV-773b6deeb64f60565d628c035133d219
-
-# Tested at: 2026-05-09 12:20:19 | Response: 0.557s | IP: 146.0.79.33 | Country: 🇳🇱 Netherlands - NL
-trojan://988sR-269PKCKlb&3pMrFTEr@104.18.156.119:443?alpn=http%2F1.1&host=letiranbreath-7rrkevfu2hjbis5uhcxwztz24t5vp6trf1oka8dkrw0n.he3fmq6z0mfszsk3xy2e.workers.dev&path=%2FeyJqdW5rIjoicGpncHl4eVZoSnZQcFRTIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ%3D%3D&security=tls&sni=LetiRanbrEaTh-7RrkEvFu2HJBIs5UHCXWztz24T5Vp6trF1oka8Dkrw0n.HE3fmQ6z0mfSZSK3Xy2E.wOrkers.deV&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-0d9ee18b1dbd492f77cca2c7eeb0a819
-
-# Tested at: 2026-05-09 12:20:19 | Response: 0.772s | IP: 151.115.74.152 | Country: 🇵🇱 Poland - PL
-trojan://humanity@104.16.147.104:443?host=www.creationlong.org&path=%2Fassignment&security=tls&sni=www.creationlong.org&type=ws#%F0%9F%87%B5%F0%9F%87%B1PL-2de7f73d5bffe191ed153febb97e44ed
-
-# Tested at: 2026-05-09 12:20:20 | Response: 0.664s | IP: 151.115.74.152 | Country: 🇵🇱 Poland - PL
-trojan://humanity@172.66.44.211:443?host=www.creationlong.org&path=%2Fassignment&security=tls&sni=www.creationlong.org&type=ws#%F0%9F%87%B5%F0%9F%87%B1PL-161f3b5d01c8fc0bb5d8455d954a54ef
-
-# Tested at: 2026-05-09 12:20:54 | Response: 1.626s | IP: 104.28.166.45 | Country: 🇺🇸 United States - US
-trojan://trojan@45.192.222.112:8443?host=store.timimi.dpdns.org&path=%2F%3Fed%3D2560&security=tls&sni=store.timimi.dpdns.org&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-74af8de72761928739bc80bd04ab74fb
-
-# Tested at: 2026-05-09 12:21:00 | Response: 0.789s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.147.175:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-c662d1be66bed5dbc7c8e1ea2b8a91a4
-
-# Tested at: 2026-05-09 12:21:02 | Response: 0.659s | IP: 2a09:bac5:4437:1191::1c0:268 | Country: 🇯🇵 Japan - JP
-trojan://162534@161.33.197.118:443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%AF%F0%9F%87%B5JP-4f383ca662c1d67afcafa14576158a75
-
-# Tested at: 2026-05-09 12:21:38 | Response: 1.837s | IP: 2a01:4f8:1c17:c311::1 | Country: 🇩🇪 Germany - DE
-trojan://988sR-269PKCKlb&3pMrFTEr@104.18.155.119:443?alpn=http%2F1.1&host=letiranbreath-7rrkevfu2hjbis5uhcxwztz24t5vp6trf1oka8dkrw0n.he3fmq6z0mfszsk3xy2e.workers.dev&path=%2FeyJqdW5rIjoicGpncHl4eVZoSnZQcFRTIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ%3D%3D&security=tls&sni=LetiRanbrEaTh-7RrkEvFu2HJBIs5UHCXWztz24T5Vp6trF1oka8Dkrw0n.HE3fmQ6z0mfSZSK3Xy2E.wOrkers.deV&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-e4cd88e6b4ca1bf9f938568051e195d1
-
-# Tested at: 2026-05-09 12:21:39 | Response: 1.992s | IP: 34.131.228.210 | Country: 🇮🇳 India - IN
-trojan://M7v%w11Se*@hyfuuf6.wsone.icu:443?security=tls&sni=hyfuuf6.wsone.icu#%F0%9F%87%AE%F0%9F%87%B3IN-87eadf3c015b635e7ff622700cf10482
-
-# Tested at: 2026-05-09 12:21:44 | Response: 0.705s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.146.211:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-d8e8f0faf15deacb9158744245fc8ed7
-
-# Tested at: 2026-05-09 12:22:25 | Response: 0.791s | IP: 202.46.32.182 | Country: 🇭🇰 Hong Kong - HK
-trojan://162534@138.124.111.115:443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%AD%F0%9F%87%B0HK-180cd28946efcb1cbff83b48aa8dda04
-
-# Tested at: 2026-05-09 12:22:25 | Response: 1.764s | IP: 51.158.236.36 | Country: 🇳🇱 Netherlands - NL
-trojan://humanity@v1.dabache.top:443?host=www.multiplydose.com&path=%2Fassignment&security=tls&sni=www.multiplydose.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-0e434c196683ccb442eab82ca651f34f
-
-# Tested at: 2026-05-09 12:22:27 | Response: 1.029s | IP: 104.28.163.29 | Country: 🇸🇬 Singapore - SG
-trojan://162534@143.198.211.180:443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-38eea49ac5b89616260369a26fe225ac
-
-# Tested at: 2026-05-09 12:23:04 | Response: 1.605s | IP: 152.42.206.199 | Country: 🇸🇬 Singapore - SG
-trojan://162534@159.65.12.42:443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-f29d6fdce17807769d8f045eb74006e3
-
-# Tested at: 2026-05-09 12:23:04 | Response: 1.910s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.147.15:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-ea23a8b96e8b7330e78a3ba8923ed801
-
-# Tested at: 2026-05-09 12:23:04 | Response: 1.488s | IP: 151.115.74.152 | Country: 🇵🇱 Poland - PL
-trojan://humanity@104.18.6.147:443?path=%2Fassignment&security=tls&sni=www.creationlong.org&type=ws#%F0%9F%87%B5%F0%9F%87%B1PL-c51cd221d4512b0623953dea265d2f5e
-
-# Tested at: 2026-05-09 12:23:06 | Response: 0.732s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.147.224:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-79d3e6fe62b7a35aa2c2751ff8a7dfdc
-
-# Tested at: 2026-05-09 12:23:07 | Response: 0.664s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@104.17.131.88:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-5d6199a9779b305aff6448ae97e7f6f1
-
-# Tested at: 2026-05-09 12:23:09 | Response: 0.149s | IP: 64.94.95.114 | Country: 🇺🇸 United States - US
-trojan://kkzh2prsyr2ik47as615@64.94.95.114:57142?security=tls&sni=static.rutube.ru#%F0%9F%87%BA%F0%9F%87%B8US-a2f0b1da6d29d709385c9561d8c9b321
-
-# Tested at: 2026-05-09 12:23:10 | Response: 0.577s | IP: 104.28.162.75 | Country: 🇯🇵 Japan - JP
-trojan://162534@161.33.190.243:443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%AF%F0%9F%87%B5JP-548784234951004f287281c16a204bdd
-
-# Tested at: 2026-05-09 12:23:10 | Response: 1.255s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@104.18.185.26:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-cb152179227133af7e4b3adb80731680
-
-# Tested at: 2026-05-09 12:23:12 | Response: 1.885s | IP: 104.28.163.17 | Country: 🇸🇬 Singapore - SG
-trojan://162534@68.183.227.216:443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-0476fce083ce94b9efbba206df9f8121
-
-# Tested at: 2026-05-09 12:23:46 | Response: 1.272s | IP: 103.231.73.181 | Country: 🇲🇩 Moldova - MD
-trojan://strong-secret-pass-777@103.231.73.181:4443?security=tls#%F0%9F%87%B2%F0%9F%87%A9MD-cb4a3d3f89c0ce4809c7fe7c7bf87357
-
-# Tested at: 2026-05-09 12:23:46 | Response: 1.814s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.147.119:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-bce00e9501c1660b40b4b941cb129d45
-
-# Tested at: 2026-05-09 12:23:46 | Response: 1.520s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.146.199:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-1ab776fb85dc9005ce5dc0f517f262d1
-
-# Tested at: 2026-05-09 12:23:47 | Response: 2.508s | IP: 63.184.155.101 | Country: 🇩🇪 Germany - DE
-trojan://telegram-id-directvpn@63.184.155.101:22223?alpn=http%2F1.1&security=tls&sni=trojan.burgerip.co.uk#%F0%9F%87%A9%F0%9F%87%AADE-5dacc1eca81a6e0183d6d4a902d0a461
-
-# Tested at: 2026-05-09 12:23:47 | Response: 0.701s | IP: 51.15.214.201 | Country: 🇫🇷 France - FR
-trojan://humanity@8.6.112.6:443?alpn=http%2F1.1&host=www.calmloud.com&path=%2Fassignment&security=tls&sni=www.calmloud.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-1974417e84c106f063c8bff926424e85
-
-# Tested at: 2026-05-09 12:23:49 | Response: 0.693s | IP: 151.115.74.152 | Country: 🇵🇱 Poland - PL
-trojan://humanity@104.18.7.147:443?alpn=h2%2Chttp%2F1.1&path=%2Fassignment&security=tls&sni=www.creationlong.org&type=ws#%F0%9F%87%B5%F0%9F%87%B1PL-a035b853555dca85126b2d147cd2d9dc
-
-# Tested at: 2026-05-09 12:23:49 | Response: 0.832s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.146.163:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-2d7ca9696e6206d200f046c65dfed66b
-
-# Tested at: 2026-05-09 12:23:52 | Response: 0.785s | IP: 51.159.139.206 | Country: 🇫🇷 France - FR
-trojan://humanity@www.ignitelimit.com:443?path=%2Fassignment&security=tls&sni=www.ignitelimit.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-9a4c6d06aed6992f2c5824dc92e0038c
-
-# Tested at: 2026-05-09 12:24:28 | Response: 1.681s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.147.165:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-64caf83754f8d459dcaca2ce6be27d8c
-
-# Tested at: 2026-05-09 12:24:28 | Response: 1.723s | IP: 2a09:bac1:7680:d28::1d0:ac | Country: 🇺🇸 United States - US
-trojan://Nova-Proxy@8.39.125.191:2083?host=spring-queen-a95f.cewon19053.workers.dev&path=%2F%3Fed%3D2560&security=tls&sni=spring-queen-a95f.cewon19053.workers.dev&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-391ceed68d200f01c057a015690331b9
-
-# Tested at: 2026-05-09 12:24:33 | Response: 0.852s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@104.18.0.55:443?path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-105a20ea562bc1a92137576e4d2e9c0c
-
-# Tested at: 2026-05-09 12:25:11 | Response: 2.220s | IP: 2a09:bac5:55fb:18be::277:a1 | Country: 🇸🇬 Singapore - SG
-trojan://162534@139.59.127.117:443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-4b5e58eb08687db293a57d3843019054
-
-# Tested at: 2026-05-09 12:25:14 | Response: 0.737s | IP: 51.15.214.201 | Country: 🇫🇷 France - FR
-trojan://humanity@104.18.13.149:443?alpn=http%2F1.1&host=www.calmloud.com&path=%2Fassignment&security=tls&sni=www.calmloud.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-391db0e09652f61a9957d34ef601049a
-
-# Tested at: 2026-05-09 12:25:15 | Response: 0.605s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.155.209:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-b84b557ba05df4cec5d7c54be52d04cb
-
-# Tested at: 2026-05-09 12:25:15 | Response: 0.958s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@chatgpt.com:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-0023348fd32489540bcd970ecba17117
-
-# Tested at: 2026-05-09 12:25:16 | Response: 0.657s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.147.137:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-993abfbe633f2fe5ebadd51f001bb9e6
-
-# Tested at: 2026-05-09 12:25:53 | Response: 1.737s | IP: 104.28.166.25 | Country: 🇺🇸 United States - US
-trojan://6202b230-417c-4d8e-b624-0f71afa9c75d@172.64.146.129:443?alpn=http%2F1.1&host=sni.111000.dynv6.net&path=%2F%3Fproxyip%3Dip.111000.de5.net%253A443&security=tls&sni=sni.111000.dynv6.net&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-c9f7d239cd74ecd2041947543b1908a5
-
-# Tested at: 2026-05-09 12:25:53 | Response: 1.934s | IP: 91.210.108.201 | Country: 🇳🇱 Netherlands - NL
-trojan://JaFKnqNcvnBT63t3rquidGsln@91.210.108.201:443?path=%2F&security=tls&sni=HL-FREEDOM-1.UNDEF.NETWORK#%F0%9F%87%B3%F0%9F%87%B1NL-bbb9f66c454020d67b19607d78bdb588
-
-# Tested at: 2026-05-09 12:25:53 | Response: 1.214s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.154.211:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-4230e54502bc6cb419bb15d9e8a65a7f
-
-# Tested at: 2026-05-09 12:25:58 | Response: 0.800s | IP: 51.158.105.199 | Country: 🇫🇷 France - FR
-trojan://humanity@www.calmlunch.com:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-15e80d896db2026f0695bd180fe4bee1
-
-# Tested at: 2026-05-09 12:26:35 | Response: 1.521s | IP: 139.162.23.48 | Country: 🇸🇬 Singapore - SG
-trojan://162534@158.178.230.113:8443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-84956ebc67ee365984d3d330e7e2310d
-
-# Tested at: 2026-05-09 12:26:36 | Response: 1.602s | IP: 45.82.245.37 | Country: 🇨🇾 Cyprus - CY
-trojan://strong-secret-pass-777@45.82.245.37:4443?security=tls#%F0%9F%87%A8%F0%9F%87%BECY-0f2786147225de0d5fcb6d20a8accaef
-
-# Tested at: 2026-05-09 12:26:36 | Response: 1.040s | IP: 116.80.61.228 | Country: 🇯🇵 Japan - JP
-trojan://BxceQaOe@bb.bejkn.cn:6463?security=tls&sni=t.me%252Fripaojiedian#%F0%9F%87%AF%F0%9F%87%B5JP-a85567ad0e546e0753404c096903c65f
-
-# Tested at: 2026-05-09 12:26:40 | Response: 0.841s | IP: 78.159.131.12 | Country: 🇧🇬 Bulgaria - BG
-trojan://MeaDiUmPlkWbZJ2BON8tz@78.159.131.12:28259?security=tls&sni=ads.x5.ru#%F0%9F%87%A7%F0%9F%87%ACBG-2a1bb7c712dc3b71cce5646b5cd8f387
-
-# Tested at: 2026-05-09 12:26:40 | Response: 0.988s | IP: 151.115.74.152 | Country: 🇵🇱 Poland - PL
-trojan://humanity@188.114.96.3:443?alpn=h2%2Chttp%2F1.1&host=www.creationlong.org&path=%2Fassignment&security=tls&sni=www.creationlong.org&type=ws#%F0%9F%87%B5%F0%9F%87%B1PL-224d3999f93c5c5958a53e8d57a0b185
-
-# Tested at: 2026-05-09 12:26:40 | Response: 0.740s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@104.21.227.134:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-18a5966079ac4da9963cff83d6412009
-
-# Tested at: 2026-05-09 12:27:17 | Response: 1.939s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.146.153:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-c1af365f721ff062ac33f268c86e9620
-
-# Tested at: 2026-05-09 12:27:17 | Response: 1.721s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.146.198:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-10473f255538450807bbca696e33d83f
-
-# Tested at: 2026-05-09 12:27:18 | Response: 1.123s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@185.18.250.252:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-d7fc37e69bfa4d0c7a785d07843871b2
-
-# Tested at: 2026-05-09 12:27:21 | Response: 0.708s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.147.180:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-8e2f16159ec55a74b4ed56b555a55fd7
-
-# Tested at: 2026-05-09 12:27:23 | Response: 1.197s | IP: 151.115.74.152 | Country: 🇵🇱 Poland - PL
-trojan://humanity@172.64.152.23:443?alpn=h2%2Chttp%2F1.1&host=www.creationlong.org&path=%2Fassignment&security=tls&sni=www.creationlong.org&type=ws#%F0%9F%87%B5%F0%9F%87%B1PL-39bb87f813184b5dcb9167c641419f1c
-
-# Tested at: 2026-05-09 12:28:00 | Response: 0.132s | IP: 104.28.166.45 | Country: 🇺🇸 United States - US
-trojan://trojan@109.234.211.66:8443?host=store.timimi.dpdns.org&path=%2F&security=tls&sni=store.timimi.dpdns.org&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-aeb606fed845fd06ac929655c6c21a84
-
-# Tested at: 2026-05-09 12:28:04 | Response: 0.818s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.146.237:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-a1b5dbd94d8769798fef0a3a5e3bbd61
-
-# Tested at: 2026-05-09 12:28:06 | Response: 1.156s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.147.252:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-4e63d648fb3992c2e98b663be3eac108
-
-# Tested at: 2026-05-09 12:28:07 | Response: 0.686s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.147.227:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-81b37b02252dd9c9329ec4a70421250c
-
-# Tested at: 2026-05-09 12:28:07 | Response: 2.943s | IP: 170.168.102.234 | Country: 🇦🇲 Armenia - AM
-trojan://q2jXRWncMA7pQren_VjQKhSQfoBWK_@170.168.102.234:2083?host=xo.e0f.cx&path=%2Ftrojan-ws&security=tls&sni=xo.e0f.cx&type=ws#%F0%9F%87%A6%F0%9F%87%B2AM-0f58acbfebed0b2252e4cfadde864bcb
-
-# Tested at: 2026-05-09 12:28:43 | Response: 0.716s | IP: 2a09:bac5:6388:1232::1d0:dd | Country: 🇺🇸 United States - US
-trojan://87d1bfd4-574e-4c96-ad42-0426f27461ff@172.64.146.143:443?host=_acme-challenge.sb.cloudns.biz&path=%2F&security=tls&sni=_acme-challenge.sb.cloudns.biz&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-6c2bef1798ddda936b03681381742e98
-
-# Tested at: 2026-05-09 12:28:43 | Response: 2.052s | IP: 51.15.214.201 | Country: 🇫🇷 France - FR
-trojan://humanity@8.6.112.0:443?alpn=http%2F1.1&host=www.calmloud.com&path=%2Fassignment&security=tls&sni=www.calmloud.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-490493a70345ee00586a41c5971d25d8
-
-# Tested at: 2026-05-09 12:28:43 | Response: 1.510s | IP: 51.158.105.199 | Country: 🇫🇷 France - FR
-trojan://humanity@172.67.200.219:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-6f7e9249aa3cd19cdee80f52ae5f5347
-
-# Tested at: 2026-05-09 12:28:43 | Response: 1.820s | IP: 51.158.105.199 | Country: 🇫🇷 France - FR
-trojan://humanity@chat.openai.com:443?alpn=h2%2Chttp%2F1.1&host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-9de9492be9c6782b2dea4d27e33c9bd6
-
-# Tested at: 2026-05-09 12:28:43 | Response: 1.445s | IP: 149.33.19.105 | Country: 🇦🇷 Argentina - AR
-trojan://q2jXRWncMA7pQren_VjQKhSQfoBWK_@149.33.19.105:2083?host=xo.e0f.cx&path=%2Ftrojan-ws&security=tls&sni=xo.e0f.cx&type=ws#%F0%9F%87%A6%F0%9F%87%B7AR-9969d056473e91ce6bf5ef77072ba26f
-
-# Tested at: 2026-05-09 12:28:43 | Response: 1.975s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@www.gossipglove.com:443?path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-40da7451f41937c55551678096a9ad00
-
-# Tested at: 2026-05-09 12:28:46 | Response: 0.292s | IP: 2a09:bac5:638e:3046::4cf:5 | Country: 🇺🇸 United States - US
-trojan://bpb-trojan@172.67.174.196:443?host=wing2452.nyc.mn&path=%2Ftr&security=tls&sni=wing2452.nyc.mn&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-aae8f70463847b0d53cb5a8502c67652
-
-# Tested at: 2026-05-09 12:28:47 | Response: 0.659s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.149.54:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-8a877c175aff4e44e562aee754a2196f
-
-# Tested at: 2026-05-09 12:28:47 | Response: 0.803s | IP: 91.186.216.240 | Country: 🇬🇷 Greece - GR
-trojan://bpb-trojan@104.21.75.193:443?alpn=h3&host=mashdt.pages.dev&path=%2Ftr%3Fed%3D2560&security=tls&sni=mashdt.pages.dev&type=ws#%F0%9F%87%AC%F0%9F%87%B7GR-c6c411600461e47f86baf28e0bd337d9
-
-# Tested at: 2026-05-09 12:29:24 | Response: 1.699s | IP: 104.28.157.104 | Country: 🇺🇸 United States - US
-trojan://trojan@109.234.211.66:2087?host=store.timimi.dpdns.org&path=%2F%3FBIA_TELEGRAM%28%40AZARBAYJAB1%29TM%28%40AZARBAYJAB1%29TM%28%40AZARBAYJAB1%29TM%28%40AZARBAYJAB1%29TM%28%40AZARBAYJAB1%29TM%28%40AZARBAYJAB1%29&security=tls&sni=store.timimi.dpdns.org&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-3261de34a0b3a4fb91ba5453083acb5b
-
-# Tested at: 2026-05-09 12:29:29 | Response: 1.232s | IP: 151.115.74.152 | Country: 🇵🇱 Poland - PL
-trojan://humanity@srv1.khatibirepair.ir:443?host=www.creationlong.org&path=%252fassignment&security=tls&sni=www.creationlong.org&type=ws#%F0%9F%87%B5%F0%9F%87%B1PL-fd750d2eada709d9e20fd31b993ed2f6
-
-# Tested at: 2026-05-09 12:29:31 | Response: 0.766s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@104.21.224.5:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-ffdc7646275d1b68beff251db864a6a0
-
-# Tested at: 2026-05-09 12:30:07 | Response: 0.931s | IP: 64.94.95.114 | Country: 🇺🇸 United States - US
-trojan://kkzh2prsyr2ik47as615@64.94.95.118:57142?security=tls&sni=static.rutube.ru#%F0%9F%87%BA%F0%9F%87%B8US-b7ce4a72fd4b5809205b70c0fe4dc01a
-
-# Tested at: 2026-05-09 12:30:07 | Response: 1.406s | IP: 104.28.166.45 | Country: 🇺🇸 United States - US
-trojan://6202b230-417c-4d8e-b624-0f71afa9c75d@162.159.36.20:443?alpn=http%2F1.1&host=sni.111000.dynv6.net&path=%2F%3Fproxyip%3Dip.111000.de5.net%253A443&security=tls&sni=sni.111000.dynv6.net&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-160a9f71f3a31a9052e12be39c6144b3
-
-# Tested at: 2026-05-09 12:30:07 | Response: 1.933s | IP: 104.28.157.104 | Country: 🇺🇸 United States - US
-trojan://trojan@22b.net:2087?path=%252F%253FBIA_TELEGRAM%2520%2528%2540AZARBAYJAB1%2529%2520TM%2520%2528%2540AZARBAYJAB1%2529%2520TM%2520%2528%2540AZARBAYJAB1%2529%2520TM%2520%2528%2540AZARBAYJAB1%2529%2520TM%2520%2528%2540AZARBAYJAB1%2529%2520TM%2520%2528%2540AZARBAYJAB1%2529&security=tls&sni=store.timimi.dpdns.org&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-c824f2e2f0840e93e436fbba4b2f12fa
-
-# Tested at: 2026-05-09 12:30:07 | Response: 2.091s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@104.16.250.22:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-0843fdf2a157d41d627f788e91454ab3
-
-# Tested at: 2026-05-09 12:30:08 | Response: 1.966s | IP: 104.28.157.197 | Country: 🇭🇰 Hong Kong - HK
-trojan://823cbccd-3a71-4248-ac3c-3c460de1552d@95.40.61.115:443?alpn=h3%2Ch2%2Chttp%2F1.1&host=snll667.pages.dev&path=%2F&security=tls&sni=snll667.pages.dev&type=ws#%F0%9F%87%AD%F0%9F%87%B0HK-441eb74c9d7e5a12a32ec1c4e5699cd6
-
-# Tested at: 2026-05-09 12:30:09 | Response: 0.614s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.147.255:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-4fb9d820a0c2bdd62d8e62f6aeb4040b
-
-# Tested at: 2026-05-09 12:30:48 | Response: 1.491s | IP: 104.28.166.44 | Country: 🇺🇸 United States - US
-trojan://6202b230-417c-4d8e-b624-0f71afa9c75d@bestcf.030101.xyz:443?alpn=http%2F1.1&host=sni.111000.dynv6.net&path=%2F%3Fproxyip%3Dip.111000.de5.net%253A443&security=tls&sni=sni.111000.dynv6.net&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-c272b4d869b0d53da253023bb5d238b0
-
-# Tested at: 2026-05-09 12:30:48 | Response: 1.667s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.146.21:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-672e839a0c2c976734389f8127642107
-
-# Tested at: 2026-05-09 12:30:49 | Response: 1.063s | IP: 104.28.157.117 | Country: 🇺🇸 United States - US
-trojan://823cbccd-3a71-4248-ac3c-3c460de1552d@172.64.53.190:443?alpn=h3%2Ch2%2Chttp%2F1.1&host=snll667.pages.dev&path=%2F%252F&security=tls&sni=snll667.pages.dev&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-475467b788ed613a0f20a45614aa60da
-
-# Tested at: 2026-05-09 12:30:54 | Response: 0.509s | IP: 2a09:bac1:76e0:d28::4d0:46 | Country: 🇺🇸 United States - US
-trojan://6202b230-417c-4d8e-b624-0f71afa9c75d@104.16.80.73:443?alpn=http%2F1.1&host=sni.111000.dynv6.net&path=%2F&security=tls&sni=sni.111000.dynv6.net&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-8dc9dd9c2345626894b498e74f28903f
-
-# Tested at: 2026-05-09 12:30:54 | Response: 0.956s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.147.79:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-f17a4957f0b7b2463ee8263b8363e93b
-
-# Tested at: 2026-05-09 12:30:54 | Response: 1.240s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.146.127:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-02142f3e49fcb1c4e9049ccee0419511
-
-# Tested at: 2026-05-09 12:30:56 | Response: 0.439s | IP: 104.28.166.26 | Country: 🇺🇸 United States - US
-trojan://87d1bfd4-574e-4c96-ad42-0426f27461ff@v2.dabache.top:443?host=_acme-challenge.sb.cloudns.biz&path=%2F&security=tls&sni=_acme-challenge.sb.cloudns.biz&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-1f8c0276dd25a65d7807f76fca8f502b
-
-# Tested at: 2026-05-09 12:30:56 | Response: 0.798s | IP: 2a09:bac5:55fd:1014::19a:1eb | Country: 🇸🇬 Singapore - SG
-trojan://162534@139.180.143.248:8443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-6c089d19ea98e1fb37bb77c8b86dac3d
-
-# Tested at: 2026-05-09 12:31:30 | Response: 1.940s | IP: 194.156.99.107 | Country: 🇭🇰 Hong Kong - HK
-trojan://aff9928f-7ba3-45fb-b56d-4dec45653ca9@23.227.38.178:443?host=q6clkp794liy3y90.hktimecsgo.xyz&path=%2Fimages&security=tls&sni=q6clkp794liy3y90.hktimecsgo.xyz&type=ws#%F0%9F%87%AD%F0%9F%87%B0HK-dd0dafeb049e9f999139bd28e3c8bd26
-
-# Tested at: 2026-05-09 12:31:30 | Response: 2.454s | IP: 51.158.236.36 | Country: 🇳🇱 Netherlands - NL
-trojan://humanity@172.67.180.92:443?host=www.multiplydose.com&path=%2Fassignment&security=tls&sni=www.multiplydose.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-3a7787b301d1708e9e5d0dec7573f7f8
-
-# Tested at: 2026-05-09 12:31:31 | Response: 2.127s | IP: 104.28.157.109 | Country: 🇺🇸 United States - US
-trojan://bpb-trojan@172.67.180.227:443?alpn=h3&host=mashdt.pages.dev&path=%2Ftr%3Fed%3D2560&security=tls&sni=mashdt.pages.dev&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-51de333d4decb4f3083400ba4b8b986e
-
-# Tested at: 2026-05-09 12:31:31 | Response: 2.390s | IP: 45.120.179.89 | Country: 🇲🇩 Moldova - MD
-trojan://strong-secret-pass-777@45.120.179.89:4443?security=tls#%F0%9F%87%B2%F0%9F%87%A9MD-c7b13b5c955e89b179b0882bcd3fb174
-
-# Tested at: 2026-05-09 12:31:32 | Response: 2.190s | IP: 104.28.157.39 | Country: 🇯🇵 Japan - JP
-trojan://162534@158.101.132.216:8443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%AF%F0%9F%87%B5JP-63fdf749752dd01d57237df6130982cc
-
-# Tested at: 2026-05-09 12:31:34 | Response: 0.708s | IP: 2a09:bac1:3b00:1020::3c6:24 | Country: 🇯🇵 Japan - JP
-trojan://162534@31.57.172.187:443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%AF%F0%9F%87%B5JP-8421b81f2851968c433402bc2edc86c2
-
-# Tested at: 2026-05-09 12:31:36 | Response: 1.353s | IP: 51.158.105.199 | Country: 🇫🇷 France - FR
-trojan://humanity@104.18.9.83:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-2f94a5782e6caad570c4891df7d034ba
-
-# Tested at: 2026-05-09 12:32:13 | Response: 1.254s | IP: 104.28.166.43 | Country: 🇺🇸 United States - US
-trojan://r137979f@162.159.153.212:2087?host=sheleqaz.emotionreza.workers.dev&path=%2F&security=tls&sni=sheleqaz.emotionreza.workers.dev&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-e224ef9aa21b117affe41166fbcb3435
-
-# Tested at: 2026-05-09 12:32:13 | Response: 1.511s | IP: 104.28.166.45 | Country: 🇺🇸 United States - US
-trojan://6202b230-417c-4d8e-b624-0f71afa9c75d@162.159.36.5:443?alpn=http%2F1.1&host=sni.111000.dynv6.net&path=%2F%3Fproxyip%3Dip.111000.de5.net%253A443&security=tls&sni=sni.111000.dynv6.net&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-4771105018c5a32ceef3411f13e3c7ac
-
-# Tested at: 2026-05-09 12:32:18 | Response: 0.826s | IP: 51.158.236.36 | Country: 🇳🇱 Netherlands - NL
-trojan://humanity@104.18.10.110:443?host=www.multiplydose.com&path=%2F%2Fassignment&security=tls&sni=www.multiplydose.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-dae01905be3ead8ef579bde5d670380b
-
-# Tested at: 2026-05-09 12:32:22 | Response: 0.923s | IP: 74.48.139.81 | Country: 🇺🇸 United States - US
-trojan://67f4b8ff-15cf-3ec9-b09d-c31a4728c652@156.251.176.128:10777?security=tls&sni=windows11.dpdns.org#%F0%9F%87%BA%F0%9F%87%B8US-30615bbcf10c7732c04fc34699daca8f
-
-# Tested at: 2026-05-09 12:32:26 | Response: 2.416s | IP: 104.28.165.169 | Country: 🇯🇵 Japan - JP
-trojan://162534@138.2.31.37:443?host=cchh2.pages.dev&path=%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%AF%F0%9F%87%B5JP-b2a3850a7049cb9bdaad932177f5eda6
-
-# Tested at: 2026-05-09 12:32:56 | Response: 1.965s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.147.236:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-4e7a4f9e46ffac93e296c1e4e82e680b
-
-# Tested at: 2026-05-09 12:32:56 | Response: 1.578s | IP: 104.28.160.7 | Country: 🇺🇸 United States - US
-trojan://87d1bfd4-574e-4c96-ad42-0426f27461ff@vip2.kaixincloud.top:443?host=_acme-challenge.sb.cloudns.biz&path=%2F&security=tls&sni=_acme-challenge.sb.cloudns.biz&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-1e873d95662c64a64202421b952dd69a
-
-# Tested at: 2026-05-09 12:32:56 | Response: 3.019s | IP: 91.184.250.116 | Country: 🇨🇿 Czechia - CZ
-trojan://q2jXRWncMA7pQren_VjQKhSQfoBWK_@91.184.250.116:2083?host=xo.e0f.cx&path=%2Ftrojan-ws&security=tls&sni=xo.e0f.cx&type=ws#%F0%9F%87%A8%F0%9F%87%BFCZ-80f1af624eeb622b92f585186d1089b8
-
-# Tested at: 2026-05-09 12:32:58 | Response: 0.636s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.146.102:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-8d84776a24f2a29f404b86aefd39fd02
-
-# Tested at: 2026-05-09 12:32:58 | Response: 0.143s | IP: 2a09:bac1:76e0:d28::4cf:1d | Country: 🇺🇸 United States - US
+# Tested at: 2026-05-09 16:31:12 | Response: 0.715s | IP: 104.28.153.197 | Country: 🇺🇸 United States - US
 trojan://6202b230-417c-4d8e-b624-0f71afa9c75d@104.18.16.56:443?alpn=http%2F1.1&host=sni.111000.dynv6.net&path=%2F&security=tls&sni=sni.111000.dynv6.net&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-ae02b2682ed3c6aa22ac682912e55594
 
-# Tested at: 2026-05-09 12:32:59 | Response: 0.829s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.147.2:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-d8fc29bbba7ffbfeaaddc0e1c581a1a1
+# Tested at: 2026-05-09 16:31:23 | Response: 3.946s | IP: 51.159.139.14 | Country: 🇫🇷 France - FR
+trojan://humanity@172.64.146.211:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-d8e8f0faf15deacb9158744245fc8ed7
 
-# Tested at: 2026-05-09 12:33:38 | Response: 2.432s | IP: 51.158.105.199 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.150.28:443?alpn=h2%2Chttp%2F1.1&host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-21aa1f2eb463eb5e8677ba170bf5fbd5
+# Tested at: 2026-05-09 16:31:55 | Response: 2.642s | IP: 151.115.74.61 | Country: 🇵🇱 Poland - PL
+trojan://humanity@188.114.96.3:443?alpn=h2%2Chttp%2F1.1&host=www.creationlong.org&path=%2Fassignment&security=tls&sni=www.creationlong.org&type=ws#%F0%9F%87%B5%F0%9F%87%B1PL-224d3999f93c5c5958a53e8d57a0b185
 
-# Tested at: 2026-05-09 12:33:38 | Response: 1.296s | IP: 51.159.139.206 | Country: 🇫🇷 France - FR
-trojan://humanity@104.18.23.63:443?path=%2Fassignment&security=tls&sni=www.ignitelimit.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-29e375f1d2f17084756f0f8a9487951e
+# Tested at: 2026-05-09 16:32:00 | Response: 0.650s | IP: 51.159.148.230 | Country: 🇫🇷 France - FR
+trojan://humanity@www.calmlunch.com:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-15e80d896db2026f0695bd180fe4bee1
 
-# Tested at: 2026-05-09 12:33:41 | Response: 0.262s | IP: 104.28.166.54 | Country: 🇺🇸 United States - US
-trojan://6202b230-417c-4d8e-b624-0f71afa9c75d@104.18.12.149:8443?alpn=http%2F1.1&host=sni.111000.dynv6.net&path=%2F&security=tls&sni=sni.111000.dynv6.net&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-43d5e0ceb5b16d9035063548c28c299c
+# Tested at: 2026-05-09 16:32:05 | Response: 4.820s | IP: 51.159.139.14 | Country: 🇫🇷 France - FR
+trojan://humanity@172.64.146.116:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-53bac9ae90ea7badab17a678cfc4dbc2
 
-# Tested at: 2026-05-09 12:33:42 | Response: 0.214s | IP: 104.28.166.32 | Country: 🇺🇸 United States - US
-trojan://freedom@172.67.190.160:443?alpn=http%2F1.1&host=042.electrocellco-cf-042-fe0.workers.dev&path=%2FeyJqdW5rIjoiZ3JCVzl1T1ciLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119&security=tls&sni=042.eLEctrocElLCo-cf-042-Fe0.wOrkERs.deV&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-fab5fedac6935cd6b7cda4a2d9465429
+# Tested at: 2026-05-09 16:32:08 | Response: 4.951s | IP: 51.159.139.14 | Country: 🇫🇷 France - FR
+trojan://humanity@172.64.146.1:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-037f419f00cd9172d8be494e0eba57b7
 
-# Tested at: 2026-05-09 12:33:42 | Response: 1.164s | IP: 2a01:4f8:1c19:2519::1 | Country: 🇩🇪 Germany - DE
-trojan://mSzFVhUczD@104.20.5.134:443?alpn=http%2F1.1&host=abest.api-tel.xyz&path=%2F&security=tls&sni=abest.api-tel.xyz&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-872872358fc6677000743348f7f89099
+# Tested at: 2026-05-09 16:32:36 | Response: 1.709s | IP: 51.158.236.37 | Country: 🇳🇱 Netherlands - NL
+trojan://humanity@172.67.180.92:443?host=www.multiplydose.com&path=%2Fassignment&security=tls&sni=www.multiplydose.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-3a7787b301d1708e9e5d0dec7573f7f8
 
-# Tested at: 2026-05-09 12:33:43 | Response: 1.194s | IP: 5.34.211.150 | Country: 🇱🇻 Latvia - LV
-trojan://6202b230-417c-4d8e-b624-0f71afa9c75d@172.64.147.29:443?alpn=http%2F1.1&host=sni.111000.dynv6.net&path=%2F%3Fproxyip%3Dip.111000.de5.net%253A443&security=tls&sni=sni.111000.dynv6.net&type=ws#%F0%9F%87%B1%F0%9F%87%BBLV-cf1b905da14eb19eb3a477a5cdf4a9b0
-
-# Tested at: 2026-05-09 12:33:43 | Response: 0.948s | IP: 151.115.74.152 | Country: 🇵🇱 Poland - PL
-trojan://humanity@208.103.161.110:443?host=www.creationlong.org&path=%2Fassignment&security=tls&sni=www.creationlong.org&type=ws#%F0%9F%87%B5%F0%9F%87%B1PL-1b962157f3bc32c3e42ee1e4e91da05e
-
-# Tested at: 2026-05-09 12:33:44 | Response: 0.681s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.146.161:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-2bfef4d598727a2cd909b5bfbf7c9e21
-
-# Tested at: 2026-05-09 12:34:24 | Response: 0.805s | IP: 104.28.156.127 | Country: 🇸🇬 Singapore - SG
-trojan://162534@206.189.157.20:443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-e2b3c5bb93078b55f00e821fe0bbc394
-
-# Tested at: 2026-05-09 12:34:26 | Response: 0.660s | IP: 51.158.105.199 | Country: 🇫🇷 France - FR
-trojan://humanity@104.18.37.228:443?alpn=h2%2Chttp%2F1.1&host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-f99ae9328e1f9d85b0e2356a8abe0e6c
-
-# Tested at: 2026-05-09 12:35:03 | Response: 1.955s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.67.155.172:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-7b964425aaade283a62f9919722fb2e7
-
-# Tested at: 2026-05-09 12:35:04 | Response: 2.640s | IP: 104.28.166.42 | Country: 🇺🇸 United States - US
-trojan://6202b230-417c-4d8e-b624-0f71afa9c75d@freeyx.cloudflare88.eu.org:443?alpn=http%2F1.1&host=sni.111000.dynv6.net&path=%2F%3Fed%3D2560%26proxyip%3Dip.111000.de5.net%3A443&security=tls&sni=sni.111000.dynv6.net&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-a53267925cb136ef5f434108f46e3426
-
-# Tested at: 2026-05-09 12:35:04 | Response: 0.685s | IP: 51.158.105.199 | Country: 🇫🇷 France - FR
-trojan://humanity@185.18.250.245:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-06ef92b9d6ff68528334aacfb1f48ba5
-
-# Tested at: 2026-05-09 12:35:05 | Response: 0.784s | IP: 104.28.159.129 | Country: 🇸🇬 Singapore - SG
-trojan://162534@46.250.230.93:8443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-01eec8193886922397860d3d78071b34
-
-# Tested at: 2026-05-09 12:35:07 | Response: 0.326s | IP: 104.28.152.182 | Country: 🇺🇸 United States - US
-trojan://6202b230-417c-4d8e-b624-0f71afa9c75d@sni.111000.dynv6.net:443?alpn=http%2F1.1&path=%2F&security=tls&sni=sni.111000.dynv6.net&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-022e6ea12d5bbac7485cb91e3cc45834
-
-# Tested at: 2026-05-09 12:35:08 | Response: 0.650s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.147.133:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-29ef61c3ae53b4dcb9bb5a398438adfc
-
-# Tested at: 2026-05-09 12:35:10 | Response: 0.773s | IP: 104.28.156.127 | Country: 🇸🇬 Singapore - SG
-trojan://162534@167.172.68.31:443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-0816e4cdd2619b6eebfafc62ff4f6e28
-
-# Tested at: 2026-05-09 12:35:46 | Response: 1.715s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.147.52:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-456964c3c2dd70adb04b983a6d872e68
-
-# Tested at: 2026-05-09 12:35:46 | Response: 1.307s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.147.143:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-fc4c1ebbd34d5e84142461b39ee9bf91
-
-# Tested at: 2026-05-09 12:35:46 | Response: 0.667s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.147.24:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-ad341e1d3428ed0d2c0e1f8223d6170b
-
-# Tested at: 2026-05-09 12:35:50 | Response: 0.604s | IP: 104.28.157.115 | Country: 🇺🇸 United States - US
-trojan://Nova-Proxy@spring-tooth-7fa3.ahmadrj.workers.dev:443?path=%2F%3Fed%3D2560&security=tls&sni=spring-tooth-7fa3.ahmadrj.workers.dev&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-79abb10fa1445788f0e7be0123615507
-
-# Tested at: 2026-05-09 12:35:53 | Response: 1.469s | IP: 94.131.122.254 | Country: 🇲🇩 Moldova - MD
-trojan://mJVGfrOkZGnMywJD2uwmuXgOQ@hl-freedom-2.undef.network:443?host=hl-freedom-2.undef.network&path=%2Ff2fc2a1f&security=tls&sni=HL-FREEDOM-2.UNDEF.NETWORK&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-d961a50ec88f905d820b2ad33098cdf9
-
-# Tested at: 2026-05-09 12:35:54 | Response: 1.135s | IP: 51.158.105.199 | Country: 🇫🇷 France - FR
-trojan://humanity@104.18.8.83:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-0c057871700d79253487f212dac441aa
-
-# Tested at: 2026-05-09 12:36:28 | Response: 1.898s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@104.18.1.55:443?path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-ff48c2db51b3451120c77b5cc1a5d046
-
-# Tested at: 2026-05-09 12:36:28 | Response: 2.002s | IP: 151.115.74.152 | Country: 🇵🇱 Poland - PL
-trojan://humanity@104.17.223.49:443?alpn=h2%2Chttp%2F1.1&host=www.creationlong.org&path=%2Fassignment&security=tls&sni=www.creationlong.org&type=ws#%F0%9F%87%B5%F0%9F%87%B1PL-0b6949fa3bb8a20855496ffa19e682fa
-
-# Tested at: 2026-05-09 12:36:32 | Response: 0.869s | IP: 104.28.163.100 | Country: 🇸🇬 Singapore - SG
-trojan://162534@134.209.103.4:443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-3541027b7ce7f94b7f96a81188236f27
-
-# Tested at: 2026-05-09 12:37:11 | Response: 1.539s | IP: 51.15.214.201 | Country: 🇫🇷 France - FR
-trojan://humanity@104.20.6.134:443?alpn=http%2F1.1&host=www.calmloud.com&path=%2Fassignment&security=tls&sni=www.calmloud.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-9bd91264bb83c5fdea09914500e6fe72
-
-# Tested at: 2026-05-09 12:37:11 | Response: 2.002s | IP: 160.119.251.210 | Country: 🇿🇦 South Africa - ZA
-trojan://q2jXRWncMA7pQren_VjQKhSQfoBWK_@160.119.251.210:2083?host=xo.e0f.cx&path=%2Ftrojan-ws&security=tls&sni=xo.e0f.cx&type=ws#%F0%9F%87%BF%F0%9F%87%A6ZA-d4c31c18c73b254061ff6a767092b89f
-
-# Tested at: 2026-05-09 12:37:15 | Response: 0.646s | IP: 45.15.140.128 | Country: 🇨🇾 Cyprus - CY
-trojan://strong-secret-pass-777@45.15.140.128:4443?security=tls#%F0%9F%87%A8%F0%9F%87%BECY-a70fc8760a6c501da581f0604f5d63df
-
-# Tested at: 2026-05-09 12:37:16 | Response: 1.000s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@104.17.25.173:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-efa5f1fee95eeaefa1924401d5e6b10d
-
-# Tested at: 2026-05-09 12:37:16 | Response: 1.707s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@v3.dabache.top:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-6aa3f104ff762af95927764af9fb33f4
-
-# Tested at: 2026-05-09 12:37:17 | Response: 2.200s | IP: 35.200.141.225 | Country: 🇮🇳 India - IN
-trojan://M7v%w11Se*@amanm.wsone.icu:443?security=tls&sni=amanm.wsone.icu#%F0%9F%87%AE%F0%9F%87%B3IN-ff266970d26656efad532b92bda5b81a
-
-# Tested at: 2026-05-09 12:37:53 | Response: 0.253s | IP: 104.28.166.31 | Country: 🇺🇸 United States - US
-trojan://bpb-trojan@vip3.kaixincloud.top:443?host=mashdt.pages.dev&path=%2Ftr&security=tls&sni=mashdt.pages.dev&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-3c0b217557f761a397e5b52aadb61142
-
-# Tested at: 2026-05-09 12:37:53 | Response: 1.865s | IP: 104.28.156.127 | Country: 🇸🇬 Singapore - SG
+# Tested at: 2026-05-09 16:32:37 | Response: 2.412s | IP: 104.28.163.233 | Country: 🇸🇬 Singapore - SG
 trojan://162534@101.32.244.117:443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-510cd6c4495895bae0d4ea36ef254195
 
-# Tested at: 2026-05-09 12:37:53 | Response: 1.779s | IP: 51.158.105.199 | Country: 🇫🇷 France - FR
-trojan://humanity@104.25.109.237:443?alpn=h2%2Chttp%2F1.1&host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-43e506ab0c0cc5d330c81f00834fd174
+# Tested at: 2026-05-09 16:32:41 | Response: 0.189s | IP: 104.28.166.188 | Country: 🇺🇸 United States - US
+trojan://6202b230-417c-4d8e-b624-0f71afa9c75d@104.18.12.149:8443?alpn=http%2F1.1&host=sni.111000.dynv6.net&path=%2F&security=tls&sni=sni.111000.dynv6.net&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-43d5e0ceb5b16d9035063548c28c299c
 
-# Tested at: 2026-05-09 12:37:53 | Response: 2.368s | IP: 74.48.139.81 | Country: 🇺🇸 United States - US
-trojan://67f4b8ff-15cf-3ec9-b09d-c31a4728c652@strawberry.joe.dj:10777?security=tls&sni=windows11.dpdns.org#%F0%9F%87%BA%F0%9F%87%B8US-727d6d607f29a1d906cd07da6b66a80f
+# Tested at: 2026-05-09 16:32:45 | Response: 4.483s | IP: 51.159.139.14 | Country: 🇫🇷 France - FR
+trojan://humanity@104.17.25.173:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-efa5f1fee95eeaefa1924401d5e6b10d
 
-# Tested at: 2026-05-09 12:37:54 | Response: 1.951s | IP: 51.159.139.206 | Country: 🇫🇷 France - FR
-trojan://humanity@104.18.22.63:443?path=%2Fassignment&security=tls&sni=www.ignitelimit.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-51f3abff5124f5ccd03ce6be240b6150
+# Tested at: 2026-05-09 16:32:45 | Response: 4.904s | IP: 51.159.139.14 | Country: 🇫🇷 France - FR
+trojan://humanity@172.64.146.198:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-10473f255538450807bbca696e33d83f
 
-# Tested at: 2026-05-09 12:37:55 | Response: 0.171s | IP: 2a09:bac1:76e0:d28::1d0:e3 | Country: 🇺🇸 United States - US
-trojan://6202b230-417c-4d8e-b624-0f71afa9c75d@162.159.152.2:443?alpn=http%2F1.1&host=sni.111000.dynv6.net&path=%2F%3Fproxyip%3Dip.111000.de5.net%253A443&security=tls&sni=sni.111000.dynv6.net&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-a3c9de3a60b4150ee9c80f21b4294ebf
+# Tested at: 2026-05-09 16:33:18 | Response: 1.558s | IP: 104.28.161.243 | Country: 🇺🇸 United States - US
+trojan://bpb-trojan@vip3.kaixincloud.top:443?host=mashdt.pages.dev&path=%2Ftr&security=tls&sni=mashdt.pages.dev&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-3c0b217557f761a397e5b52aadb61142
 
-# Tested at: 2026-05-09 12:38:36 | Response: 1.642s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.147.85:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-04ced917e9b664f1592cd89f4f3cb722
-
-# Tested at: 2026-05-09 12:38:36 | Response: 1.211s | IP: 64.94.95.114 | Country: 🇺🇸 United States - US
-trojan://kkzh2prsyr2ik47as615@64.94.95.117:57142?security=tls&sni=static.rutube.ru#%F0%9F%87%BA%F0%9F%87%B8US-be029632e13403e16977f65e3faae651
-
-# Tested at: 2026-05-09 12:38:36 | Response: 1.975s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@www.host-tracker.com:443?path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-d9f273b12558247e7d981bcec884332c
-
-# Tested at: 2026-05-09 12:38:36 | Response: 1.693s | IP: 138.19.79.165 | Country: 🇭🇰 Hong Kong - HK
-trojan://BxceQaOe@54.46.5.154:11233?security=tls&sni=t.me%2Fripaojiedian#%F0%9F%87%AD%F0%9F%87%B0HK-ebb4dde38699860f7e141382a259aead
-
-# Tested at: 2026-05-09 12:38:36 | Response: 2.463s | IP: 64.188.82.86 | Country: 🇪🇪 Estonia - EE
-trojan://q2jXRWncMA7pQren_VjQKhSQfoBWK_@95.85.243.216:2083?host=xo.e0f.cx&path=%2Ftrojan-ws&security=tls&sni=xo.e0f.cx&type=ws#%F0%9F%87%AA%F0%9F%87%AAEE-0b1ddbc7f7497f8da209b335f78a4f67
-
-# Tested at: 2026-05-09 12:38:36 | Response: 2.064s | IP: 151.115.74.152 | Country: 🇵🇱 Poland - PL
-trojan://humanity@104.19.229.21:443?host=www.creationlong.org&path=%2Fassignment&security=tls&sni=www.creationlong.org&type=ws#%F0%9F%87%B5%F0%9F%87%B1PL-22541bac71f687ee56652834f595b1d7
-
-# Tested at: 2026-05-09 12:38:37 | Response: 1.824s | IP: 128.199.252.180 | Country: 🇸🇬 Singapore - SG
-trojan://13c169be-8592-4eaa-94cb-69c859e7d987@128.199.252.180:443?host=ubu.okaoclax.me&path=%2Ftrojan-ws&security=tls&sni=ubu.okaoclax.me&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-39b8f2545fb47f68f773d64d69fb4472
-
-# Tested at: 2026-05-09 12:38:39 | Response: 0.555s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@104.21.40.34:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-f1a5f3b764150959ea4ffd4b4ae18393
-
-# Tested at: 2026-05-09 12:38:39 | Response: 1.399s | IP: 51.158.236.36 | Country: 🇳🇱 Netherlands - NL
-trojan://humanity@www.multiplydose.com:443?host=www.multiplydose.com&path=%2Fassignment&security=tls&sni=www.multiplydose.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-2e8722ff5a892d87dfbbcf9b659a6f7d
-
-# Tested at: 2026-05-09 12:38:40 | Response: 0.930s | IP: 151.115.74.152 | Country: 🇵🇱 Poland - PL
+# Tested at: 2026-05-09 16:33:18 | Response: 0.668s | IP: 151.115.74.61 | Country: 🇵🇱 Poland - PL
 trojan://humanity@188.114.98.0:443?host=www.creationlong.org&path=%2Fassignment&security=tls&sni=www.creationlong.org&type=ws#%F0%9F%87%B5%F0%9F%87%B1PL-dc84b83a307437719d3d56191683fcd5
 
-# Tested at: 2026-05-09 12:38:40 | Response: 0.951s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.146.37:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-a62033c60bdfc0b4ef2bc859428bb9a8
+# Tested at: 2026-05-09 16:33:18 | Response: 0.479s | IP: 51.159.147.185 | Country: 🇫🇷 France - FR
+trojan://humanity@104.18.23.63:443?path=%2Fassignment&security=tls&sni=www.ignitelimit.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-29e375f1d2f17084756f0f8a9487951e
 
-# Tested at: 2026-05-09 12:38:41 | Response: 1.538s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.146.138:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-1500c1a9c8ed85d5576616b8a9bbf437
+# Tested at: 2026-05-09 16:33:20 | Response: 4.853s | IP: 51.159.139.14 | Country: 🇫🇷 France - FR
+trojan://humanity@172.64.146.21:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-672e839a0c2c976734389f8127642107
 
-# Tested at: 2026-05-09 12:38:43 | Response: 0.554s | IP: 2a09:bac5:4435:2e00::495:4d | Country: 🇯🇵 Japan - JP
+# Tested at: 2026-05-09 16:34:01 | Response: 0.460s | IP: 151.115.74.61 | Country: 🇵🇱 Poland - PL
+trojan://humanity@172.64.152.23:443?alpn=h2%2Chttp%2F1.1&host=www.creationlong.org&path=%2Fassignment&security=tls&sni=www.creationlong.org&type=ws#%F0%9F%87%B5%F0%9F%87%B1PL-39bb87f813184b5dcb9167c641419f1c
+
+# Tested at: 2026-05-09 16:34:02 | Response: 0.159s | IP: 104.28.164.157 | Country: 🇺🇸 United States - US
+trojan://bpb-trojan@russia.com:443?host=bpb.wdgg1979.nyc.mn&path=%2Ftr&security=tls&sni=bpb.wdgg1979.nyc.mn&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-ec757f209e826c7f40f87d567a056680
+
+# Tested at: 2026-05-09 16:34:04 | Response: 0.874s | IP: 151.115.74.61 | Country: 🇵🇱 Poland - PL
+trojan://humanity@208.103.161.110:443?host=www.creationlong.org&path=%2Fassignment&security=tls&sni=www.creationlong.org&type=ws#%F0%9F%87%B5%F0%9F%87%B1PL-1b962157f3bc32c3e42ee1e4e91da05e
+
+# Tested at: 2026-05-09 16:34:16 | Response: 4.059s | IP: 51.159.139.14 | Country: 🇫🇷 France - FR
+trojan://humanity@172.64.147.227:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-81b37b02252dd9c9329ec4a70421250c
+
+# Tested at: 2026-05-09 16:34:18 | Response: 3.687s | IP: 51.159.139.14 | Country: 🇫🇷 France - FR
+trojan://humanity@172.64.147.166:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-37e009313980208d84bdeb33d8188e21
+
+# Tested at: 2026-05-09 16:34:41 | Response: 1.413s | IP: 51.159.148.230 | Country: 🇫🇷 France - FR
+trojan://humanity@185.18.250.245:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-06ef92b9d6ff68528334aacfb1f48ba5
+
+# Tested at: 2026-05-09 16:34:41 | Response: 0.781s | IP: 91.210.108.201 | Country: 🇳🇱 Netherlands - NL
+trojan://JaFKnqNcvnBT63t3rquidGsln@91.210.108.201:443?path=%2F&security=tls&sni=HL-FREEDOM-1.UNDEF.NETWORK#%F0%9F%87%B3%F0%9F%87%B1NL-bbb9f66c454020d67b19607d78bdb588
+
+# Tested at: 2026-05-09 16:34:41 | Response: 2.641s | IP: 104.28.166.212 | Country: 🇺🇸 United States - US
+trojan://6202b230-417c-4d8e-b624-0f71afa9c75d@freeyx.cloudflare88.eu.org:443?alpn=http%2F1.1&host=sni.111000.dynv6.net&path=%2F%3Fed%3D2560%26proxyip%3Dip.111000.de5.net%3A443&security=tls&sni=sni.111000.dynv6.net&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-a53267925cb136ef5f434108f46e3426
+
+# Tested at: 2026-05-09 16:34:43 | Response: 0.775s | IP: 104.28.157.43 | Country: 🇯🇵 Japan - JP
 trojan://162534@207.65.189.9:443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%AF%F0%9F%87%B5JP-a4959656809fe21c1820f16bc20f1dc0
 
-# Tested at: 2026-05-09 12:38:43 | Response: 0.296s | IP: 104.28.152.176 | Country: 🇺🇸 United States - US
-trojan://Nova-Proxy@104.18.21.213:2096?host=persianwarrior.benjipiaggio.workers.dev&path=%2F%3Fed%3D2560&security=tls&sni=persianwarrior.benjipiaggio.workers.dev&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-3bbe1f2bd4ed7de7ec0e022165378e2b
+# Tested at: 2026-05-09 16:34:46 | Response: 1.062s | IP: 45.149.114.75 | Country: 🇨🇾 Cyprus - CY
+trojan://strong-secret-pass-777@45.149.114.75:4443?security=tls#%F0%9F%87%A8%F0%9F%87%BECY-1b80130739de138a8382f776256f3166
 
-# Tested at: 2026-05-09 12:39:18 | Response: 2.097s | IP: 51.158.236.36 | Country: 🇳🇱 Netherlands - NL
+# Tested at: 2026-05-09 16:34:46 | Response: 1.174s | IP: 194.156.99.107 | Country: 🇭🇰 Hong Kong - HK
+trojan://aff9928f-7ba3-45fb-b56d-4dec45653ca9@23.227.38.178:443?host=q6clkp794liy3y90.hktimecsgo.xyz&path=%2Fimages&security=tls&sni=q6clkp794liy3y90.hktimecsgo.xyz&type=ws#%F0%9F%87%AD%F0%9F%87%B0HK-dd0dafeb049e9f999139bd28e3c8bd26
+
+# Tested at: 2026-05-09 16:34:52 | Response: 3.287s | IP: 51.159.139.14 | Country: 🇫🇷 France - FR
+trojan://humanity@172.64.147.143:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-fc4c1ebbd34d5e84142461b39ee9bf91
+
+# Tested at: 2026-05-09 16:35:22 | Response: 1.267s | IP: 51.158.236.37 | Country: 🇳🇱 Netherlands - NL
+trojan://humanity@162.159.17.189:443?host=www.multiplydose.com&path=%2Fassignment&security=tls&sni=www.multiplydose.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-eb706622a8c4fbc9de22d5d2a129c379
+
+# Tested at: 2026-05-09 16:35:27 | Response: 0.829s | IP: 104.28.165.235 | Country: 🇯🇵 Japan - JP
+trojan://162534@161.33.197.118:443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%AF%F0%9F%87%B5JP-4f383ca662c1d67afcafa14576158a75
+
+# Tested at: 2026-05-09 16:35:28 | Response: 0.667s | IP: 2a11:3b80:1::531 | Country: 🇨🇿 Czechia - CZ
+trojan://q2jXRWncMA7pQren_VjQKhSQfoBWK_@91.184.250.116:2083?host=xo.e0f.cx&path=%2Ftrojan-ws&security=tls&sni=xo.e0f.cx&type=ws#%F0%9F%87%A8%F0%9F%87%BFCZ-80f1af624eeb622b92f585186d1089b8
+
+# Tested at: 2026-05-09 16:36:03 | Response: 0.146s | IP: 104.28.158.81 | Country: 🇺🇸 United States - US
+trojan://Nova-Proxy@8.39.125.191:2083?host=spring-queen-a95f.cewon19053.workers.dev&path=%2F%3Fed%3D2560&security=tls&sni=spring-queen-a95f.cewon19053.workers.dev&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-391ceed68d200f01c057a015690331b9
+
+# Tested at: 2026-05-09 16:36:05 | Response: 0.564s | IP: 45.120.179.89 | Country: 🇲🇩 Moldova - MD
+trojan://strong-secret-pass-777@45.120.179.89:4443?security=tls#%F0%9F%87%B2%F0%9F%87%A9MD-c7b13b5c955e89b179b0882bcd3fb174
+
+# Tested at: 2026-05-09 16:36:06 | Response: 0.711s | IP: 104.28.166.27 | Country: 🇯🇵 Japan - JP
+trojan://162534@142.91.108.54:443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%AF%F0%9F%87%B5JP-ffaf5501cb0ae052f55a984d6202d4c3
+
+# Tested at: 2026-05-09 16:36:10 | Response: 2.835s | IP: 104.28.163.235 | Country: 🇸🇬 Singapore - SG
+trojan://162534@159.65.12.42:443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-f29d6fdce17807769d8f045eb74006e3
+
+# Tested at: 2026-05-09 16:36:15 | Response: 3.143s | IP: 45.12.146.179 | Country: 🇨🇾 Cyprus - CY
+trojan://strong-secret-pass-777@45.12.146.179:4443?security=tls#%F0%9F%87%A8%F0%9F%87%BECY-16f8e01c103d7812458d3146ad5600ed
+
+# Tested at: 2026-05-09 16:36:16 | Response: 4.042s | IP: 51.159.139.14 | Country: 🇫🇷 France - FR
+trojan://humanity@104.21.40.34:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-f1a5f3b764150959ea4ffd4b4ae18393
+
+# Tested at: 2026-05-09 16:36:16 | Response: 4.580s | IP: 51.159.139.14 | Country: 🇫🇷 France - FR
+trojan://humanity@chatgpt.com:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-0023348fd32489540bcd970ecba17117
+
+# Tested at: 2026-05-09 16:36:45 | Response: 0.639s | IP: 104.28.153.214 | Country: 🇺🇸 United States - US
+trojan://trojan@45.192.222.112:8443?host=store.timimi.dpdns.org&path=%2F%3Fed%3D2560&security=tls&sni=store.timimi.dpdns.org&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-74af8de72761928739bc80bd04ab74fb
+
+# Tested at: 2026-05-09 16:36:48 | Response: 0.189s | IP: 104.28.166.187 | Country: 🇺🇸 United States - US
+trojan://6202b230-417c-4d8e-b624-0f71afa9c75d@162.159.36.5:443?alpn=http%2F1.1&host=sni.111000.dynv6.net&path=%2F%3Fproxyip%3Dip.111000.de5.net%253A443&security=tls&sni=sni.111000.dynv6.net&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-4771105018c5a32ceef3411f13e3c7ac
+
+# Tested at: 2026-05-09 16:36:53 | Response: 4.767s | IP: 51.159.139.14 | Country: 🇫🇷 France - FR
+trojan://humanity@172.64.146.153:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-c1af365f721ff062ac33f268c86e9620
+
+# Tested at: 2026-05-09 16:37:01 | Response: 0.378s | IP: 13.38.246.169 | Country: 🇫🇷 France - FR
+trojan://telegram-id-directvpn@13.38.246.169:22223?alpn=http%2F1.1&security=tls&sni=trojan.burgerip.co.uk#%F0%9F%87%AB%F0%9F%87%B7FR-51be27fbb49e1577a3a6c0237f5fcba1
+
+# Tested at: 2026-05-09 16:37:02 | Response: 4.613s | IP: 2a05:d012:f8d:2800:9d8a:97d1:b619:5173 | Country: 🇫🇷 France - FR
+trojan://telegram-id-privatevpns@13.38.246.169:22222?alpn=http%2F1.1&security=tls&sni=trojan.burgerip.co.uk#%F0%9F%87%AB%F0%9F%87%B7FR-98db46b8553aa2be5764e1ac71ae4176
+
+# Tested at: 2026-05-09 16:37:27 | Response: 1.038s | IP: 104.28.161.244 | Country: 🇺🇸 United States - US
+trojan://bpb-trojan@104.21.59.101:443?host=wing2452.nyc.mn&path=%2Ftr%3Fed%3D2560&security=tls&sni=wing2452.nyc.mn&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-b02fd67b58b74d0097c8b50c42bdff62
+
+# Tested at: 2026-05-09 16:37:27 | Response: 1.112s | IP: 51.15.222.49 | Country: 🇫🇷 France - FR
+trojan://humanity@8.6.112.6:443?alpn=http%2F1.1&host=www.calmloud.com&path=%2Fassignment&security=tls&sni=www.calmloud.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-1974417e84c106f063c8bff926424e85
+
+# Tested at: 2026-05-09 16:37:27 | Response: 1.951s | IP: 138.19.79.165 | Country: 🇭🇰 Hong Kong - HK
+trojan://BxceQaOe@bb.bejkn.cn:11233?security=tls&sni=t.me%2Fripaojiedian#%F0%9F%87%AD%F0%9F%87%B0HK-d38b6d6d80c4200c4b02f7657fc2c089
+
+# Tested at: 2026-05-09 16:37:34 | Response: 4.078s | IP: 51.159.139.14 | Country: 🇫🇷 France - FR
+trojan://humanity@172.64.147.252:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-4e63d648fb3992c2e98b663be3eac108
+
+# Tested at: 2026-05-09 16:37:34 | Response: 4.119s | IP: 51.159.139.14 | Country: 🇫🇷 France - FR
+trojan://humanity@172.64.155.209:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-b84b557ba05df4cec5d7c54be52d04cb
+
+# Tested at: 2026-05-09 16:37:38 | Response: 3.290s | IP: 74.48.139.81 | Country: 🇺🇸 United States - US
+trojan://7c9fea7c-8def-3dd5-853a-5844f9b04146@ikuai.404.mn:10777?security=tls&sni=windows11.dpdns.org#%F0%9F%87%BA%F0%9F%87%B8US-7a0df2d643a6c718e5305d7cdc58ce00
+
+# Tested at: 2026-05-09 16:38:08 | Response: 1.321s | IP: 2a09:bac5:c82c:2446::39d:c | Country: 🇺🇸 United States - US
+trojan://freedom@172.67.190.160:443?alpn=http%2F1.1&host=042.electrocellco-cf-042-fe0.workers.dev&path=%2FeyJqdW5rIjoiZ3JCVzl1T1ciLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119&security=tls&sni=042.eLEctrocElLCo-cf-042-Fe0.wOrkERs.deV&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-fab5fedac6935cd6b7cda4a2d9465429
+
+# Tested at: 2026-05-09 16:38:51 | Response: 1.158s | IP: 51.159.147.185 | Country: 🇫🇷 France - FR
+trojan://humanity@104.18.22.63:443?path=%2Fassignment&security=tls&sni=www.ignitelimit.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-51f3abff5124f5ccd03ce6be240b6150
+
+# Tested at: 2026-05-09 16:38:53 | Response: 3.769s | IP: 51.159.139.14 | Country: 🇫🇷 France - FR
+trojan://humanity@172.64.147.175:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-c662d1be66bed5dbc7c8e1ea2b8a91a4
+
+# Tested at: 2026-05-09 16:38:55 | Response: 0.415s | IP: 104.28.166.204 | Country: 🇺🇸 United States - US
+trojan://6202b230-417c-4d8e-b624-0f71afa9c75d@172.64.146.129:443?alpn=http%2F1.1&host=sni.111000.dynv6.net&path=%2F%3Fproxyip%3Dip.111000.de5.net%253A443&security=tls&sni=sni.111000.dynv6.net&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-c9f7d239cd74ecd2041947543b1908a5
+
+# Tested at: 2026-05-09 16:38:57 | Response: 1.246s | IP: 51.158.236.37 | Country: 🇳🇱 Netherlands - NL
 trojan://humanity@104.18.11.110:443?host=www.multiplydose.com&path=%2Fassignment&security=tls&sni=www.multiplydose.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-8ad6ef7adfe5f3a2e6c7e5b0559d9831
 
-# Tested at: 2026-05-09 12:39:18 | Response: 1.837s | IP: 104.28.156.99 | Country: 🇸🇬 Singapore - SG
-trojan://162534@5.223.56.239:8443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-28a9e8c9931c50d267e5b9971c24c13c
+# Tested at: 2026-05-09 16:38:57 | Response: 0.075s | IP: 104.28.159.232 | Country: 🇺🇸 United States - US
+trojan://6202b230-417c-4d8e-b624-0f71afa9c75d@sni.111000.dynv6.net:443?alpn=http%2F1.1&path=%2F&security=tls&sni=sni.111000.dynv6.net&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-022e6ea12d5bbac7485cb91e3cc45834
 
-# Tested at: 2026-05-09 12:39:21 | Response: 0.646s | IP: 51.159.134.190 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.147.131:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-e78a64b5f891e0d6b85a0ffb728a9765
+# Tested at: 2026-05-09 16:38:59 | Response: 4.877s | IP: 51.159.139.14 | Country: 🇫🇷 France - FR
+trojan://humanity@172.64.147.205:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-a00d5e4b4ebe6bd78ae4abed3b8b7fe4
 
-# Tested at: 2026-05-09 12:39:24 | Response: 0.131s | IP: 2a09:bac1:76e0:d28::4cf:8a | Country: 🇺🇸 United States - US
-trojan://6202b230-417c-4d8e-b624-0f71afa9c75d@104.18.12.149:443?alpn=http%2F1.1&host=sni.111000.dynv6.net&path=%2F&security=tls&sni=sni.111000.dynv6.net&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-5c98c672724e5a95a0e94e4b382c1d30
+# Tested at: 2026-05-09 16:39:33 | Response: 1.614s | IP: 51.159.148.230 | Country: 🇫🇷 France - FR
+trojan://humanity@104.18.37.228:443?alpn=h2%2Chttp%2F1.1&host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-f99ae9328e1f9d85b0e2356a8abe0e6c
 
-# Tested at: 2026-05-09 12:39:25 | Response: 0.128s | IP: 104.28.166.26 | Country: 🇺🇸 United States - US
-trojan://2399fe0a-b359-40a9-a3f0-b70c3c177a01@cloudflare-ip.mofashi.ltd:443?host=aa.beijng.dpdns.org&path=%2F%3Fed%3D2048&security=tls&sni=aa.beijng.dpdns.org&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-d4ef50ef503c144d68208266b912f763
+# Tested at: 2026-05-09 16:39:33 | Response: 2.408s | IP: 74.48.139.81 | Country: 🇺🇸 United States - US
+trojan://7c9fea7c-8def-3dd5-853a-5844f9b04146@ikuai.bot.nu:21777?security=tls&sni=windows11.dpdns.org#%F0%9F%87%BA%F0%9F%87%B8US-61a7db279adedc42674a008a05cda95c
 
-# Tested at: 2026-05-09 12:39:58 | Response: 0.527s | IP: 104.28.166.43 | Country: 🇺🇸 United States - US
+# Tested at: 2026-05-09 16:39:36 | Response: 0.450s | IP: 51.159.148.230 | Country: 🇫🇷 France - FR
+trojan://humanity@172.64.150.28:443?alpn=h2%2Chttp%2F1.1&host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-21aa1f2eb463eb5e8677ba170bf5fbd5
+
+# Tested at: 2026-05-09 16:40:14 | Response: 1.774s | IP: 34.131.228.210 | Country: 🇮🇳 India - IN
+trojan://M7v%w11Se*@hyfuuf6.wsone.icu:443?security=tls&sni=hyfuuf6.wsone.icu#%F0%9F%87%AE%F0%9F%87%B3IN-87eadf3c015b635e7ff622700cf10482
+
+# Tested at: 2026-05-09 16:40:14 | Response: 1.842s | IP: 139.180.203.76 | Country: 🇯🇵 Japan - JP
+trojan://162534@158.101.132.216:8443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%AF%F0%9F%87%B5JP-63fdf749752dd01d57237df6130982cc
+
+# Tested at: 2026-05-09 16:40:14 | Response: 1.680s | IP: 51.15.222.49 | Country: 🇫🇷 France - FR
+trojan://humanity@104.17.150.76:443?alpn=http%2F1.1&host=www.calmloud.com&path=%2Fassignment&security=tls&sni=www.calmloud.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-7d07ecbb362cbcda069b7321786496b5
+
+# Tested at: 2026-05-09 16:40:15 | Response: 0.131s | IP: 104.28.164.157 | Country: 🇺🇸 United States - US
+trojan://6202b230-417c-4d8e-b624-0f71afa9c75d@104.17.185.207:443?alpn=http%2F1.1&host=sni.111000.dynv6.net&path=%2F%3Fproxyip%3Dip.111000.de5.net%3A443&security=tls&sni=sni.111000.dynv6.net&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-045a733a9f4403b5a36d71a53a130b18
+
+# Tested at: 2026-05-09 16:40:15 | Response: 2.466s | IP: 74.48.139.81 | Country: 🇺🇸 United States - US
+trojan://67f4b8ff-15cf-3ec9-b09d-c31a4728c652@156.251.176.128:10777?security=tls&sni=windows11.dpdns.org#%F0%9F%87%BA%F0%9F%87%B8US-30615bbcf10c7732c04fc34699daca8f
+
+# Tested at: 2026-05-09 16:40:16 | Response: 0.851s | IP: 104.28.156.148 | Country: 🇸🇬 Singapore - SG
+trojan://162534@134.209.103.4:443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-3541027b7ce7f94b7f96a81188236f27
+
+# Tested at: 2026-05-09 16:40:18 | Response: 1.210s | IP: 8.221.172.7 | Country: 🇯🇵 Japan - JP
+trojan://162534@198.13.37.176:443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%AF%F0%9F%87%B5JP-b8e82b2a298a86fb1d919de8dd9b5d71
+
+# Tested at: 2026-05-09 16:40:19 | Response: 4.997s | IP: 51.159.139.14 | Country: 🇫🇷 France - FR
+trojan://humanity@172.64.147.165:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-64caf83754f8d459dcaca2ce6be27d8c
+
+# Tested at: 2026-05-09 16:40:22 | Response: 4.744s | IP: 51.159.139.14 | Country: 🇫🇷 France - FR
+trojan://humanity@104.18.0.55:443?path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-105a20ea562bc1a92137576e4d2e9c0c
+
+# Tested at: 2026-05-09 16:40:32 | Response: 4.998s | IP: 51.159.139.14 | Country: 🇫🇷 France - FR
+trojan://humanity@104.21.72.233:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-53889022518229f6789c6d4375c40007
+
+# Tested at: 2026-05-09 16:40:55 | Response: 1.556s | IP: 104.28.153.185 | Country: 🇺🇸 United States - US
 trojan://6202b230-417c-4d8e-b624-0f71afa9c75d@104.17.101.139:443?alpn=http%2F1.1&host=sni.111000.dynv6.net&path=%2F%3Fproxyip%3Dip.111000.de5.net%253A443&security=tls&sni=sni.111000.dynv6.net&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-35528ac73ebdf7f99f03bb4cc82f8dd5
 
-# Tested at: 2026-05-09 12:39:58 | Response: 1.042s | IP: 151.115.74.152 | Country: 🇵🇱 Poland - PL
+# Tested at: 2026-05-09 16:40:56 | Response: 1.837s | IP: 151.115.74.61 | Country: 🇵🇱 Poland - PL
+trojan://humanity@104.17.223.49:443?alpn=h2%2Chttp%2F1.1&host=www.creationlong.org&path=%2Fassignment&security=tls&sni=www.creationlong.org&type=ws#%F0%9F%87%B5%F0%9F%87%B1PL-0b6949fa3bb8a20855496ffa19e682fa
+
+# Tested at: 2026-05-09 16:40:56 | Response: 2.967s | IP: 74.48.139.81 | Country: 🇺🇸 United States - US
+trojan://67f4b8ff-15cf-3ec9-b09d-c31a4728c652@strawberry.joe.dj:10777?security=tls&sni=windows11.dpdns.org#%F0%9F%87%BA%F0%9F%87%B8US-727d6d607f29a1d906cd07da6b66a80f
+
+# Tested at: 2026-05-09 16:40:56 | Response: 2.613s | IP: 2a09:bac5:55fe:1028::19c:2ac | Country: 🇸🇬 Singapore - SG
+trojan://162534@167.172.68.31:443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-0816e4cdd2619b6eebfafc62ff4f6e28
+
+# Tested at: 2026-05-09 16:41:03 | Response: 2.778s | IP: 216.128.134.116 | Country: 🇺🇸 United States - US
+trojan://162534@43.165.190.11:42841?host=cchh2.pages.dev&path=%2F&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-11a05bbde5a1fcdc39dcdb72a98609ba
+
+# Tested at: 2026-05-09 16:41:07 | Response: 4.343s | IP: 51.159.139.14 | Country: 🇫🇷 France - FR
+trojan://humanity@172.64.147.236:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-4e7a4f9e46ffac93e296c1e4e82e680b
+
+# Tested at: 2026-05-09 16:41:08 | Response: 4.354s | IP: 51.159.139.14 | Country: 🇫🇷 France - FR
+trojan://humanity@172.64.147.223:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-aec7d1d629667ab15c5147cfa3b321fe
+
+# Tested at: 2026-05-09 16:41:12 | Response: 3.413s | IP: 51.159.139.14 | Country: 🇫🇷 France - FR
+trojan://humanity@172.64.147.131:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-e78a64b5f891e0d6b85a0ffb728a9765
+
+# Tested at: 2026-05-09 16:41:37 | Response: 2.564s | IP: 160.119.251.210 | Country: 🇿🇦 South Africa - ZA
+trojan://q2jXRWncMA7pQren_VjQKhSQfoBWK_@160.119.251.210:2083?host=xo.e0f.cx&path=%2Ftrojan-ws&security=tls&sni=xo.e0f.cx&type=ws#%F0%9F%87%BF%F0%9F%87%A6ZA-d4c31c18c73b254061ff6a767092b89f
+
+# Tested at: 2026-05-09 16:41:38 | Response: 1.537s | IP: 51.15.222.49 | Country: 🇫🇷 France - FR
+trojan://humanity@104.18.13.149:443?alpn=http%2F1.1&host=www.calmloud.com&path=%2Fassignment&security=tls&sni=www.calmloud.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-391db0e09652f61a9957d34ef601049a
+
+# Tested at: 2026-05-09 16:41:38 | Response: 1.413s | IP: 2a09:bac5:4432:2e0a::496:35 | Country: 🇯🇵 Japan - JP
+trojan://162534@156.246.94.155:8443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%AF%F0%9F%87%B5JP-5c87ea65a290d41975b52d2fd4052a4d
+
+# Tested at: 2026-05-09 16:42:20 | Response: 1.957s | IP: 64.188.82.86 | Country: 🇪🇪 Estonia - EE
+trojan://q2jXRWncMA7pQren_VjQKhSQfoBWK_@95.85.243.216:2083?host=xo.e0f.cx&path=%2Ftrojan-ws&security=tls&sni=xo.e0f.cx&type=ws#%F0%9F%87%AA%F0%9F%87%AAEE-0b1ddbc7f7497f8da209b335f78a4f67
+
+# Tested at: 2026-05-09 16:42:24 | Response: 0.697s | IP: 14.1.28.74 | Country: 🇺🇸 United States - US
+trojan://r49gssuondznyu2eex83@14.1.28.76:50740?security=tls&sni=14.1.28.76#%F0%9F%87%BA%F0%9F%87%B8US-31d82b9c589df294d672f52fda827ad2
+
+# Tested at: 2026-05-09 16:43:01 | Response: 1.273s | IP: 104.28.164.201 | Country: 🇺🇸 United States - US
+trojan://trojan@22b.net:2087?path=%252F%253FBIA_TELEGRAM%2520%2528%2540AZARBAYJAB1%2529%2520TM%2520%2528%2540AZARBAYJAB1%2529%2520TM%2520%2528%2540AZARBAYJAB1%2529%2520TM%2520%2528%2540AZARBAYJAB1%2529%2520TM%2520%2528%2540AZARBAYJAB1%2529%2520TM%2520%2528%2540AZARBAYJAB1%2529&security=tls&sni=store.timimi.dpdns.org&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-c824f2e2f0840e93e436fbba4b2f12fa
+
+# Tested at: 2026-05-09 16:43:01 | Response: 2.181s | IP: 51.159.148.230 | Country: 🇫🇷 France - FR
+trojan://humanity@172.67.200.219:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-6f7e9249aa3cd19cdee80f52ae5f5347
+
+# Tested at: 2026-05-09 16:43:02 | Response: 1.736s | IP: 151.115.74.61 | Country: 🇵🇱 Poland - PL
+trojan://humanity@104.16.147.104:443?host=www.creationlong.org&path=%2Fassignment&security=tls&sni=www.creationlong.org&type=ws#%F0%9F%87%B5%F0%9F%87%B1PL-2de7f73d5bffe191ed153febb97e44ed
+
+# Tested at: 2026-05-09 16:43:03 | Response: 0.623s | IP: 78.159.131.12 | Country: 🇧🇬 Bulgaria - BG
+trojan://MeaDiUmPlkWbZJ2BON8tz@78.159.131.12:28259?security=tls&sni=ads.x5.ru#%F0%9F%87%A7%F0%9F%87%ACBG-2a1bb7c712dc3b71cce5646b5cd8f387
+
+# Tested at: 2026-05-09 16:43:05 | Response: 0.643s | IP: 45.15.140.128 | Country: 🇨🇾 Cyprus - CY
+trojan://strong-secret-pass-777@45.15.140.128:4443?security=tls#%F0%9F%87%A8%F0%9F%87%BECY-a70fc8760a6c501da581f0604f5d63df
+
+# Tested at: 2026-05-09 16:43:45 | Response: 0.093s | IP: 104.28.166.188 | Country: 🇺🇸 United States - US
+trojan://6202b230-417c-4d8e-b624-0f71afa9c75d@172.64.147.29:443?alpn=http%2F1.1&host=sni.111000.dynv6.net&path=%2F%3Fproxyip%3Dip.111000.de5.net%253A443&security=tls&sni=sni.111000.dynv6.net&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-cf1b905da14eb19eb3a477a5cdf4a9b0
+
+# Tested at: 2026-05-09 16:43:48 | Response: 0.277s | IP: 104.28.159.229 | Country: 🇺🇸 United States - US
+trojan://trojan@109.234.211.66:2087?host=store.timimi.dpdns.org&path=%2F%3FBIA_TELEGRAM%28%40AZARBAYJAB1%29TM%28%40AZARBAYJAB1%29TM%28%40AZARBAYJAB1%29TM%28%40AZARBAYJAB1%29TM%28%40AZARBAYJAB1%29TM%28%40AZARBAYJAB1%29&security=tls&sni=store.timimi.dpdns.org&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-3261de34a0b3a4fb91ba5453083acb5b
+
+# Tested at: 2026-05-09 16:43:49 | Response: 2.073s | IP: 138.19.79.165 | Country: 🇭🇰 Hong Kong - HK
+trojan://BxceQaOe@54.46.5.154:11233?security=tls&sni=t.me%2Fripaojiedian#%F0%9F%87%AD%F0%9F%87%B0HK-ebb4dde38699860f7e141382a259aead
+
+# Tested at: 2026-05-09 16:44:25 | Response: 1.367s | IP: 104.28.164.156 | Country: 🇺🇸 United States - US
+trojan://6202b230-417c-4d8e-b624-0f71afa9c75d@162.159.153.2:443?alpn=http%2F1.1&host=sni.111000.dynv6.net&path=%2F%3Fproxyip%3Dip.111000.de5.net%253A443&security=tls&sni=sni.111000.dynv6.net&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-1ffbadaaf72c92c49bf70b0692b64958
+
+# Tested at: 2026-05-09 16:44:26 | Response: 1.703s | IP: 94.131.122.254 | Country: 🇲🇩 Moldova - MD
+trojan://mJVGfrOkZGnMywJD2uwmuXgOQ@hl-freedom-2.undef.network:443?host=hl-freedom-2.undef.network&path=%2Ff2fc2a1f&security=tls&sni=HL-FREEDOM-2.UNDEF.NETWORK&type=ws#%F0%9F%87%B2%F0%9F%87%A9MD-d961a50ec88f905d820b2ad33098cdf9
+
+# Tested at: 2026-05-09 16:44:27 | Response: 2.396s | IP: 151.115.74.61 | Country: 🇵🇱 Poland - PL
+trojan://humanity@www.creationlong.org:443?alpn=h2%2Chttp%2F1.1&path=%2Fassignment&security=tls&sni=www.creationlong.org&type=ws#%F0%9F%87%B5%F0%9F%87%B1PL-ede5b467769f78a0152a4f876f544483
+
+# Tested at: 2026-05-09 16:44:28 | Response: 1.082s | IP: 2a09:bac1:6500:8::2e5:1f | Country: 🇸🇬 Singapore - SG
+trojan://162534@143.198.211.180:443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-38eea49ac5b89616260369a26fe225ac
+
+# Tested at: 2026-05-09 16:44:31 | Response: 0.923s | IP: 45.82.245.37 | Country: 🇨🇾 Cyprus - CY
+trojan://strong-secret-pass-777@45.82.245.37:4443?security=tls#%F0%9F%87%A8%F0%9F%87%BECY-0f2786147225de0d5fcb6d20a8accaef
+
+# Tested at: 2026-05-09 16:45:09 | Response: 0.146s | IP: 104.28.162.93 | Country: 🇺🇸 United States - US
+trojan://r137979f@162.159.153.212:2087?host=sheleqaz.emotionreza.workers.dev&path=%2F&security=tls&sni=sheleqaz.emotionreza.workers.dev&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-e224ef9aa21b117affe41166fbcb3435
+
+# Tested at: 2026-05-09 16:45:10 | Response: 1.009s | IP: 104.28.153.221 | Country: 🇺🇸 United States - US
+trojan://Nova-Proxy@104.18.21.213:2096?host=persianwarrior.benjipiaggio.workers.dev&path=%2F%3Fed%3D2560&security=tls&sni=persianwarrior.benjipiaggio.workers.dev&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-3bbe1f2bd4ed7de7ec0e022165378e2b
+
+# Tested at: 2026-05-09 16:45:10 | Response: 1.344s | IP: 138.2.64.229 | Country: 🇸🇬 Singapore - SG
+trojan://162534@139.180.143.248:8443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-6c089d19ea98e1fb37bb77c8b86dac3d
+
+# Tested at: 2026-05-09 16:45:11 | Response: 0.451s | IP: 103.231.73.181 | Country: 🇲🇩 Moldova - MD
+trojan://strong-secret-pass-777@103.231.73.181:4443?security=tls#%F0%9F%87%B2%F0%9F%87%A9MD-cb4a3d3f89c0ce4809c7fe7c7bf87357
+
+# Tested at: 2026-05-09 16:45:15 | Response: 4.248s | IP: 216.105.168.114 | Country: 🇺🇸 United States - US
+trojan://harz989mzcktd92m1vlf@216.105.168.115:59125?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-40ad7c5db61eefc780026c54de718e2b
+
+# Tested at: 2026-05-09 16:45:49 | Response: 1.291s | IP: 51.159.148.230 | Country: 🇫🇷 France - FR
+trojan://humanity@104.18.9.83:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-2f94a5782e6caad570c4891df7d034ba
+
+# Tested at: 2026-05-09 16:45:49 | Response: 0.065s | IP: 104.28.166.188 | Country: 🇺🇸 United States - US
+trojan://988sR-269PKCKlb&3pMrFTEr@104.18.155.119:443?alpn=http%2F1.1&host=letiranbreath-7rrkevfu2hjbis5uhcxwztz24t5vp6trf1oka8dkrw0n.he3fmq6z0mfszsk3xy2e.workers.dev&path=%2FeyJqdW5rIjoicGpncHl4eVZoSnZQcFRTIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ%3D%3D&security=tls&sni=LetiRanbrEaTh-7RrkEvFu2HJBIs5UHCXWztz24T5Vp6trF1oka8Dkrw0n.HE3fmQ6z0mfSZSK3Xy2E.wOrkers.deV&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-e4cd88e6b4ca1bf9f938568051e195d1
+
+# Tested at: 2026-05-09 16:45:50 | Response: 2.010s | IP: 149.33.19.105 | Country: 🇦🇷 Argentina - AR
+trojan://q2jXRWncMA7pQren_VjQKhSQfoBWK_@149.33.19.105:2083?host=xo.e0f.cx&path=%2Ftrojan-ws&security=tls&sni=xo.e0f.cx&type=ws#%F0%9F%87%A6%F0%9F%87%B7AR-9969d056473e91ce6bf5ef77072ba26f
+
+# Tested at: 2026-05-09 16:45:50 | Response: 1.734s | IP: 51.159.148.230 | Country: 🇫🇷 France - FR
+trojan://humanity@104.18.8.83:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-0c057871700d79253487f212dac441aa
+
+# Tested at: 2026-05-09 16:45:54 | Response: 0.561s | IP: 104.28.166.187 | Country: 🇺🇸 United States - US
+trojan://823cbccd-3a71-4248-ac3c-3c460de1552d@172.64.53.190:443?alpn=h3%2Ch2%2Chttp%2F1.1&host=snll667.pages.dev&path=%2F%252F&security=tls&sni=snll667.pages.dev&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-475467b788ed613a0f20a45614aa60da
+
+# Tested at: 2026-05-09 16:46:32 | Response: 1.521s | IP: 104.28.162.10 | Country: 🇸🇬 Singapore - SG
+trojan://162534@46.250.230.93:8443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-01eec8193886922397860d3d78071b34
+
+# Tested at: 2026-05-09 16:46:32 | Response: 1.857s | IP: 104.28.162.10 | Country: 🇸🇬 Singapore - SG
+trojan://162534@5.223.56.239:8443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-28a9e8c9931c50d267e5b9971c24c13c
+
+# Tested at: 2026-05-09 16:47:12 | Response: 1.026s | IP: 104.28.166.196 | Country: 🇺🇸 United States - US
+trojan://bpb-trojan@104.21.75.193:443?alpn=h3&host=mashdt.pages.dev&path=%2Ftr%3Fed%3D2560&security=tls&sni=mashdt.pages.dev&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-c6c411600461e47f86baf28e0bd337d9
+
+# Tested at: 2026-05-09 16:47:14 | Response: 1.199s | IP: 104.28.163.100 | Country: 🇸🇬 Singapore - SG
+trojan://162534@140.245.107.0:8443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-a1716d4fd20ee194602f4058b6faecaa
+
+# Tested at: 2026-05-09 16:47:14 | Response: 0.964s | IP: 138.2.64.229 | Country: 🇸🇬 Singapore - SG
+trojan://162534@158.178.230.113:8443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-84956ebc67ee365984d3d330e7e2310d
+
+# Tested at: 2026-05-09 16:47:19 | Response: 0.743s | IP: 51.15.222.49 | Country: 🇫🇷 France - FR
+trojan://humanity@104.20.6.134:443?alpn=http%2F1.1&host=www.calmloud.com&path=%2Fassignment&security=tls&sni=www.calmloud.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-9bd91264bb83c5fdea09914500e6fe72
+
+# Tested at: 2026-05-09 16:47:19 | Response: 0.115s | IP: 104.28.166.210 | Country: 🇺🇸 United States - US
+trojan://6202b230-417c-4d8e-b624-0f71afa9c75d@bestcf.030101.xyz:443?alpn=http%2F1.1&host=sni.111000.dynv6.net&path=%2F%3Fproxyip%3Dip.111000.de5.net%253A443&security=tls&sni=sni.111000.dynv6.net&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-c272b4d869b0d53da253023bb5d238b0
+
+# Tested at: 2026-05-09 16:47:19 | Response: 1.984s | IP: 128.199.252.180 | Country: 🇸🇬 Singapore - SG
+trojan://13c169be-8592-4eaa-94cb-69c859e7d987@ubu.okaoclax.me:443?host=ubu.okaoclax.me&path=%2Ftrojan-ws&security=tls&sni=ubu.okaoclax.me&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-5570e006a35bda54d781d216011e4f52
+
+# Tested at: 2026-05-09 16:47:19 | Response: 0.096s | IP: 104.28.159.229 | Country: 🇺🇸 United States - US
+trojan://87d1bfd4-574e-4c96-ad42-0426f27461ff@172.64.146.143:443?host=_acme-challenge.sb.cloudns.biz&path=%2F&security=tls&sni=_acme-challenge.sb.cloudns.biz&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-6c2bef1798ddda936b03681381742e98
+
+# Tested at: 2026-05-09 16:47:25 | Response: 0.097s | IP: 2a09:bac1:76e1:62b0::50b:76 | Country: 🇺🇸 United States - US
+trojan://bpb-trojan@172.67.174.196:443?host=wing2452.nyc.mn&path=%2Ftr&security=tls&sni=wing2452.nyc.mn&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-aae8f70463847b0d53cb5a8502c67652
+
+# Tested at: 2026-05-09 16:47:54 | Response: 1.427s | IP: 104.28.157.170 | Country: 🇺🇸 United States - US
+trojan://988sR-269PKCKlb&3pMrFTEr@104.18.156.119:443?alpn=http%2F1.1&host=letiranbreath-7rrkevfu2hjbis5uhcxwztz24t5vp6trf1oka8dkrw0n.he3fmq6z0mfszsk3xy2e.workers.dev&path=%2FeyJqdW5rIjoicGpncHl4eVZoSnZQcFRTIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ%3D%3D&security=tls&sni=LetiRanbrEaTh-7RrkEvFu2HJBIs5UHCXWztz24T5Vp6trF1oka8Dkrw0n.HE3fmQ6z0mfSZSK3Xy2E.wOrkers.deV&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-0d9ee18b1dbd492f77cca2c7eeb0a819
+
+# Tested at: 2026-05-09 16:47:55 | Response: 0.153s | IP: 104.28.153.212 | Country: 🇺🇸 United States - US
+trojan://6202b230-417c-4d8e-b624-0f71afa9c75d@104.16.80.73:443?alpn=http%2F1.1&host=sni.111000.dynv6.net&path=%2F&security=tls&sni=sni.111000.dynv6.net&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-8dc9dd9c2345626894b498e74f28903f
+
+# Tested at: 2026-05-09 16:47:55 | Response: 2.064s | IP: 51.159.148.230 | Country: 🇫🇷 France - FR
+trojan://humanity@srv1.khatibirepair.ir:443?path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-fd750d2eada709d9e20fd31b993ed2f6
+
+# Tested at: 2026-05-09 16:47:58 | Response: 0.451s | IP: 2001:41d0:700:6a95:: | Country: 🇫🇷 France - FR
+trojan://03mpolj39zyewzufal2r@51.75.86.196:55646?security=tls#%F0%9F%87%AB%F0%9F%87%B7FR-fff1a4fdfd0cace17ddd1c418ebb6968
+
+# Tested at: 2026-05-09 16:47:58 | Response: 0.825s | IP: 104.28.162.160 | Country: 🇯🇵 Japan - JP
+trojan://162534@138.2.31.37:443?host=cchh2.pages.dev&path=%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%AF%F0%9F%87%B5JP-b2a3850a7049cb9bdaad932177f5eda6
+
+# Tested at: 2026-05-09 16:47:59 | Response: 0.900s | IP: 116.80.61.224 | Country: 🇯🇵 Japan - JP
+trojan://BxceQaOe@116.80.61.224:443?security=tls&sni=t.me%2Fripaojiedian#%F0%9F%87%AF%F0%9F%87%B5JP-dd1e5c2a56bda742af42659fd3bbfa2d
+
+# Tested at: 2026-05-09 16:47:59 | Response: 0.667s | IP: 51.158.236.37 | Country: 🇳🇱 Netherlands - NL
+trojan://humanity@104.18.10.110:443?host=www.multiplydose.com&path=%2F%2Fassignment&security=tls&sni=www.multiplydose.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-dae01905be3ead8ef579bde5d670380b
+
+# Tested at: 2026-05-09 16:48:36 | Response: 1.204s | IP: 64.94.95.114 | Country: 🇺🇸 United States - US
+trojan://kkzh2prsyr2ik47as615@64.94.95.115:57142?security=tls&sni=static.rutube.ru#%F0%9F%87%BA%F0%9F%87%B8US-c281a973ced5a3a91fd62a48705b1638
+
+# Tested at: 2026-05-09 16:48:37 | Response: 1.484s | IP: 51.159.147.185 | Country: 🇫🇷 France - FR
+trojan://humanity@www.ignitelimit.com:443?path=%2Fassignment&security=tls&sni=www.ignitelimit.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-9a4c6d06aed6992f2c5824dc92e0038c
+
+# Tested at: 2026-05-09 16:48:38 | Response: 0.773s | IP: 151.115.74.61 | Country: 🇵🇱 Poland - PL
+trojan://humanity@104.18.6.147:443?path=%252Fassignment&security=tls&sni=www.creationlong.org&type=ws#%F0%9F%87%B5%F0%9F%87%B1PL-c51cd221d4512b0623953dea265d2f5e
+
+# Tested at: 2026-05-09 16:48:38 | Response: 3.112s | IP: 116.80.80.121 | Country: 🇯🇵 Japan - JP
+trojan://BxceQaOe@116.80.80.121:443?security=tls&sni=t.me%2Fripaojiedian#%F0%9F%87%AF%F0%9F%87%B5JP-d069137c23b13f7499ae96577ee21b2c
+
+# Tested at: 2026-05-09 16:48:40 | Response: 0.066s | IP: 104.28.158.154 | Country: 🇺🇸 United States - US
+trojan://6202b230-417c-4d8e-b624-0f71afa9c75d@162.159.36.20:443?alpn=http%2F1.1&host=sni.111000.dynv6.net&path=%2F%3Fproxyip%3Dip.111000.de5.net%253A443&security=tls&sni=sni.111000.dynv6.net&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-160a9f71f3a31a9052e12be39c6144b3
+
+# Tested at: 2026-05-09 16:48:43 | Response: 1.045s | IP: 104.28.159.46 | Country: 🇸🇬 Singapore - SG
+trojan://162534@139.59.127.117:443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-4b5e58eb08687db293a57d3843019054
+
+# Tested at: 2026-05-09 16:48:43 | Response: 2.420s | IP: 104.28.163.55 | Country: 🇭🇰 Hong Kong - HK
+trojan://162534@138.124.111.115:443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%AD%F0%9F%87%B0HK-180cd28946efcb1cbff83b48aa8dda04
+
+# Tested at: 2026-05-09 16:48:46 | Response: 4.735s | IP: 51.159.139.14 | Country: 🇫🇷 France - FR
+trojan://humanity@172.64.147.2:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-d8fc29bbba7ffbfeaaddc0e1c581a1a1
+
+# Tested at: 2026-05-09 16:49:20 | Response: 2.065s | IP: 104.28.162.94 | Country: 🇺🇸 United States - US
+trojan://6202b230-417c-4d8e-b624-0f71afa9c75d@jp.111000.cc.cd:443?alpn=http%2F1.1&host=sni.111000.dynv6.net&path=%2F%3Fproxyip%3Dip.111000.de5.net%253A443&security=tls&sni=sni.111000.dynv6.net&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-773b6deeb64f60565d628c035133d219
+
+# Tested at: 2026-05-09 16:49:20 | Response: 1.869s | IP: 104.28.153.216 | Country: 🇺🇸 United States - US
+trojan://2399fe0a-b359-40a9-a3f0-b70c3c177a01@cloudflare-ip.mofashi.ltd:443?host=aa.beijng.dpdns.org&path=%2F%3Fed%3D2048&security=tls&sni=aa.beijng.dpdns.org&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-d4ef50ef503c144d68208266b912f763
+
+# Tested at: 2026-05-09 16:49:24 | Response: 0.740s | IP: 64.94.95.114 | Country: 🇺🇸 United States - US
+trojan://kkzh2prsyr2ik47as615@64.94.95.114:57142?security=tls&sni=static.rutube.ru#%F0%9F%87%BA%F0%9F%87%B8US-a2f0b1da6d29d709385c9561d8c9b321
+
+# Tested at: 2026-05-09 16:49:25 | Response: 0.744s | IP: 51.15.222.49 | Country: 🇫🇷 France - FR
+trojan://humanity@8.6.112.0:443?alpn=http%2F1.1&host=www.calmloud.com&path=%2Fassignment&security=tls&sni=www.calmloud.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-490493a70345ee00586a41c5971d25d8
+
+# Tested at: 2026-05-09 16:50:01 | Response: 1.336s | IP: 151.115.74.61 | Country: 🇵🇱 Poland - PL
 trojan://humanity@172.66.47.45:443?host=www.creationlong.org&path=%2Fassignment&security=tls&sni=www.creationlong.org&type=ws#%F0%9F%87%B5%F0%9F%87%B1PL-5b7576567ba9413104eee2a20b715e32
+
+# Tested at: 2026-05-09 16:50:01 | Response: 1.276s | IP: 51.159.148.230 | Country: 🇫🇷 France - FR
+trojan://humanity@chat.openai.com:443?alpn=h2%2Chttp%2F1.1&host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-9de9492be9c6782b2dea4d27e33c9bd6
+
+# Tested at: 2026-05-09 16:50:04 | Response: 0.224s | IP: 104.28.153.214 | Country: 🇺🇸 United States - US
+trojan://trojan@109.234.211.66:8443?host=store.timimi.dpdns.org&path=%2F&security=tls&sni=store.timimi.dpdns.org&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-aeb606fed845fd06ac929655c6c21a84
+
+# Tested at: 2026-05-09 16:50:05 | Response: 1.091s | IP: 104.28.161.21 | Country: 🇯🇵 Japan - JP
+trojan://162534@64.176.42.143:443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%AF%F0%9F%87%B5JP-2d5d5539acced776bf14533d307b3f6f
+
+# Tested at: 2026-05-09 16:50:06 | Response: 3.418s | IP: 170.168.102.234 | Country: 🇦🇲 Armenia - AM
+trojan://q2jXRWncMA7pQren_VjQKhSQfoBWK_@170.168.102.234:2083?host=xo.e0f.cx&path=%2Ftrojan-ws&security=tls&sni=xo.e0f.cx&type=ws#%F0%9F%87%A6%F0%9F%87%B2AM-0f58acbfebed0b2252e4cfadde864bcb
+
+# Tested at: 2026-05-09 16:50:41 | Response: 1.982s | IP: 128.199.252.180 | Country: 🇸🇬 Singapore - SG
+trojan://13c169be-8592-4eaa-94cb-69c859e7d987@128.199.252.180:443?host=ubu.okaoclax.me&path=%2Ftrojan-ws&security=tls&sni=ubu.okaoclax.me&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-39b8f2545fb47f68f773d64d69fb4472
+
+# Tested at: 2026-05-09 16:50:43 | Response: 0.172s | IP: 64.94.95.114 | Country: 🇺🇸 United States - US
+trojan://kkzh2prsyr2ik47as615@64.94.95.118:57142?security=tls&sni=static.rutube.ru#%F0%9F%87%BA%F0%9F%87%B8US-b7ce4a72fd4b5809205b70c0fe4dc01a
+
+# Tested at: 2026-05-09 16:50:43 | Response: 1.216s | IP: 2a09:bac5:55fc:2723::3e6:59 | Country: 🇸🇬 Singapore - SG
+trojan://162534@68.183.227.216:443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-0476fce083ce94b9efbba206df9f8121
+
+# Tested at: 2026-05-09 16:51:24 | Response: 2.054s | IP: 46.225.229.63 | Country: 🇩🇪 Germany - DE
+trojan://mSzFVhUczD@104.20.5.134:443?alpn=http%2F1.1&host=abest.api-tel.xyz&path=%2F&security=tls&sni=abest.api-tel.xyz&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-872872358fc6677000743348f7f89099
+
+# Tested at: 2026-05-09 16:52:05 | Response: 0.796s | IP: 64.94.95.114 | Country: 🇺🇸 United States - US
+trojan://kkzh2prsyr2ik47as615@64.94.95.117:57142?security=tls&sni=static.rutube.ru#%F0%9F%87%BA%F0%9F%87%B8US-be029632e13403e16977f65e3faae651
+
+# Tested at: 2026-05-09 16:52:11 | Response: 1.635s | IP: 51.158.236.37 | Country: 🇳🇱 Netherlands - NL
+trojan://humanity@v1.dabache.top:443?host=www.multiplydose.com&path=%2Fassignment&security=tls&sni=www.multiplydose.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-0e434c196683ccb442eab82ca651f34f
+
+# Tested at: 2026-05-09 16:52:11 | Response: 0.999s | IP: 104.28.162.78 | Country: 🇯🇵 Japan - JP
+trojan://162534@161.33.190.243:443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%AF%F0%9F%87%B5JP-548784234951004f287281c16a204bdd
+
+# Tested at: 2026-05-09 16:52:12 | Response: 0.073s | IP: 104.28.166.202 | Country: 🇺🇸 United States - US
+trojan://bpb-trojan@wing2452.nyc.mn:443?host=wing2452.nyc.mn&path=%2Ftr%3Fed%3D2560&security=tls&sni=wing2452.nyc.mn&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-3799bac2d365324dd2de82480bcbfb62
+
+# Tested at: 2026-05-09 16:52:12 | Response: 0.640s | IP: 51.15.222.49 | Country: 🇫🇷 France - FR
+trojan://humanity@sourceforge.net:443?alpn=http%2F1.1&host=www.calmloud.com&path=%2Fassignment&security=tls&sni=www.calmloud.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-9564083d3524e47038e085a8315af787
+
+# Tested at: 2026-05-09 16:52:47 | Response: 1.314s | IP: 2a09:bac1:76c1:62b0::50b:9b | Country: 🇺🇸 United States - US
+trojan://6202b230-417c-4d8e-b624-0f71afa9c75d@104.18.12.149:443?alpn=http%2F1.1&host=sni.111000.dynv6.net&path=%2F&security=tls&sni=sni.111000.dynv6.net&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-5c98c672724e5a95a0e94e4b382c1d30
+
+# Tested at: 2026-05-09 16:52:47 | Response: 1.709s | IP: 51.158.236.37 | Country: 🇳🇱 Netherlands - NL
+trojan://humanity@www.multiplydose.com:443?host=www.multiplydose.com&path=%2Fassignment&security=tls&sni=www.multiplydose.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-2e8722ff5a892d87dfbbcf9b659a6f7d
+
+# Tested at: 2026-05-09 16:52:52 | Response: 0.700s | IP: 51.159.148.230 | Country: 🇫🇷 France - FR
+trojan://humanity@104.25.109.237:443?alpn=h2%2Chttp%2F1.1&host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-43e506ab0c0cc5d330c81f00834fd174
+
+# Tested at: 2026-05-09 16:53:03 | Response: 2.579s | IP: 51.159.139.14 | Country: 🇫🇷 France - FR
+trojan://humanity@172.64.146.27:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-a0aca16b1e7ea9e0b00105ac1bd342c3
+
+# Tested at: 2026-05-09 16:53:29 | Response: 1.653s | IP: 151.115.74.61 | Country: 🇵🇱 Poland - PL
+trojan://humanity@172.66.44.211:443?host=www.creationlong.org&path=%2Fassignment&security=tls&sni=www.creationlong.org&type=ws#%F0%9F%87%B5%F0%9F%87%B1PL-161f3b5d01c8fc0bb5d8455d954a54ef
+
+# Tested at: 2026-05-09 16:53:29 | Response: 0.411s | IP: 104.28.166.200 | Country: 🇺🇸 United States - US
+trojan://6202b230-417c-4d8e-b624-0f71afa9c75d@162.159.152.2:443?alpn=http%2F1.1&host=sni.111000.dynv6.net&path=%2F%3Fproxyip%3Dip.111000.de5.net%253A443&security=tls&sni=sni.111000.dynv6.net&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-a3c9de3a60b4150ee9c80f21b4294ebf
+
+# Tested at: 2026-05-09 16:53:30 | Response: 2.766s | IP: 104.28.156.221 | Country: 🇭🇰 Hong Kong - HK
+trojan://823cbccd-3a71-4248-ac3c-3c460de1552d@95.40.61.115:443?alpn=h3%2Ch2%2Chttp%2F1.1&host=snll667.pages.dev&path=%2F&security=tls&sni=snll667.pages.dev&type=ws#%F0%9F%87%AD%F0%9F%87%B0HK-441eb74c9d7e5a12a32ec1c4e5699cd6
+
+# Tested at: 2026-05-09 16:53:30 | Response: 1.330s | IP: 35.200.141.225 | Country: 🇮🇳 India - IN
+trojan://M7v%w11Se*@amanm.wsone.icu:443?security=tls&sni=amanm.wsone.icu#%F0%9F%87%AE%F0%9F%87%B3IN-ff266970d26656efad532b92bda5b81a
+
+# Tested at: 2026-05-09 16:53:31 | Response: 2.962s | IP: 2.56.172.83 | Country: 🇨🇾 Cyprus - CY
+trojan://strong-secret-pass-777@2.56.172.83:4443?security=tls#%F0%9F%87%A8%F0%9F%87%BECY-4e2b0d9cdd0260869c9697782671c2f7
+
+# Tested at: 2026-05-09 16:53:34 | Response: 1.586s | IP: 104.28.158.154 | Country: 🇺🇸 United States - US
+trojan://87d1bfd4-574e-4c96-ad42-0426f27461ff@v2.dabache.top:443?host=_acme-challenge.sb.cloudns.biz&path=%2F&security=tls&sni=_acme-challenge.sb.cloudns.biz&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-1f8c0276dd25a65d7807f76fca8f502b
+
+# Tested at: 2026-05-09 16:53:35 | Response: 0.653s | IP: 151.115.74.61 | Country: 🇵🇱 Poland - PL
+trojan://humanity@104.19.229.21:443?host=www.creationlong.org&path=%2Fassignment&security=tls&sni=www.creationlong.org&type=ws#%F0%9F%87%B5%F0%9F%87%B1PL-22541bac71f687ee56652834f595b1d7
+
+# Tested at: 2026-05-09 16:53:43 | Response: 4.966s | IP: 51.159.139.14 | Country: 🇫🇷 France - FR
+trojan://humanity@185.18.250.252:443?host=www.gossipglove.com&path=%2Fassignment&security=tls&sni=www.gossipglove.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-d7fc37e69bfa4d0c7a785d07843871b2
+
+# Tested at: 2026-05-09 16:54:11 | Response: 0.217s | IP: 193.32.177.101 | Country: 🇺🇸 United States - US
+trojan://Nova-Proxy@spring-tooth-7fa3.ahmadrj.workers.dev:443?path=%2F%3Fed%3D2560&security=tls&sni=spring-tooth-7fa3.ahmadrj.workers.dev&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-79abb10fa1445788f0e7be0123615507
+
+# Tested at: 2026-05-09 16:54:12 | Response: 0.111s | IP: 104.28.153.183 | Country: 🇺🇸 United States - US
+trojan://87d1bfd4-574e-4c96-ad42-0426f27461ff@vip2.kaixincloud.top:443?host=_acme-challenge.sb.cloudns.biz&path=%2F&security=tls&sni=_acme-challenge.sb.cloudns.biz&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-1e873d95662c64a64202421b952dd69a
+
+# Tested at: 2026-05-09 16:54:16 | Response: 0.880s | IP: 151.115.74.61 | Country: 🇵🇱 Poland - PL
+trojan://humanity@104.18.7.147:443?alpn=h2%2Chttp%2F1.1&path=%2Fassignment&security=tls&sni=www.creationlong.org&type=ws#%F0%9F%87%B5%F0%9F%87%B1PL-a035b853555dca85126b2d147cd2d9dc
+
+# Tested at: 2026-05-09 16:54:17 | Response: 1.426s | IP: 104.28.156.127 | Country: 🇸🇬 Singapore - SG
+trojan://162534@206.189.157.20:443?host=cchh2.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=cchh2.pages.dev&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-e2b3c5bb93078b55f00e821fe0bbc394
 
