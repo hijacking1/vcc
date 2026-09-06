@@ -1,685 +1,688 @@
 # Working VLESS Configurations (URL Format)
-# Generated at: 2026-09-06 12:09:02
+# Generated at: 2026-09-06 18:16:27
 # Format: Each line contains one working configuration as URL
 
-# Tested at: 2026-09-06 13:46:10 | Response: 0.546s | IP: 162.221.196.52 | Country: 🇩🇪 Germany - DE
-vless://90da514d-8888-4a53-912e-ac2981c8c6ee@188.220.67.181:2087?host=188.220.67.181&path=%2F8f2690e2d016&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-cad974a10f81c8145720bedb5dbe2a3f
-
-# Tested at: 2026-09-06 13:47:08 | Response: 0.194s | IP: 104.28.158.206 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.24.131:2095?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-cf40cb8dc8b5d99ad39275e7b5835c06
-
-# Tested at: 2026-09-06 13:47:46 | Response: 0.983s | IP: 91.107.190.175 | Country: 🇩🇪 Germany - DE
-vless://11af1c47-865a-47c6-92ff-118013655d78@91.107.190.175:8080?path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-dbba3c6d2d2817410ca3fc9ddca802d4
-
-# Tested at: 2026-09-06 13:47:59 | Response: 0.103s | IP: 104.28.158.206 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.43.187:2082?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-5cb9a91806ea4c1df1f123274902b658
-
-# Tested at: 2026-09-06 13:49:22 | Response: 0.362s | IP: 2a09:bac1:76a0:1a98::48c:3d | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.24.131:8080?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-f5a130280683497d9e0ddb2351a1edae
-
-# Tested at: 2026-09-06 13:50:13 | Response: 0.513s | IP: 185.204.171.221 | Country: 🇩🇪 Germany - DE
-vless://5fca9c0b-5575-4e98-8af2-8cd867ab731d@185.204.171.221:443#%F0%9F%87%A9%F0%9F%87%AADE-f29f8ce7a69f828bad1ee3f25f74a6e4
-
-# Tested at: 2026-09-06 13:51:12 | Response: 0.221s | IP: 104.28.166.30 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@108.162.198.178:2082?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-5260943a312b67f501301ea8d5a350fe
-
-# Tested at: 2026-09-06 13:51:50 | Response: 1.041s | IP: 66.93.29.112 | Country: 🇺🇸 United States - US
-vless://90715c6b-6c65-4466-a50c-234660f1f531@82.24.203.70:2087?path=%2Fd51f7fbe4da2&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-f16d93da20f9f44591b9c364c4f326e5
-
-# Tested at: 2026-09-06 13:53:24 | Response: 1.063s | IP: 51.158.238.49 | Country: 🇳🇱 The Netherlands - NL
-vless://11af1c47-865a-47c6-92ff-118013655d78@51.158.238.49:8080?path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-a42afab82bf55517ef1087e389192c69
-
-# Tested at: 2026-09-06 13:53:33 | Response: 1.290s | IP: 91.107.188.158 | Country: 🇩🇪 Germany - DE
-vless://11af1c47-865a-47c6-92ff-118013655d78@91.107.188.158:8080?path=%2F%3Fed&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-d0823e6538b6b6e7e604ff1c3e48d1b6
-
-# Tested at: 2026-09-06 13:54:55 | Response: 0.348s | IP: 2a09:bac1:76a0:1a98::26a:83 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.229.170:8880?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-41c3f92d74e59b89e0f9020fd490ceb3
-
-# Tested at: 2026-09-06 13:57:15 | Response: 0.656s | IP: 2.27.205.59 | Country: 🇺🇸 United States - US
-vless://c21631d5-36c9-4664-b575-97eca17456be@neth8.lunariai.ru:443?host=neth8.lunariai.ru&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-d3305eda4159fdb8120d3bc86a155c8e
-
-# Tested at: 2026-09-06 13:57:25 | Response: 0.172s | IP: 104.28.167.62 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.0.53:2082?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-9f6c98e8d64a27929b7f96154e393fac
-
-# Tested at: 2026-09-06 13:58:12 | Response: 0.364s | IP: 23.227.196.6 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.42.85:2095?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-a091214e74bd9b31a748e6788d02e980
-
-# Tested at: 2026-09-06 13:58:13 | Response: 0.118s | IP: 2a09:bac1:76a0:1a98::48c:50 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.154.8:2052?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-e0c2b1653f0b8985da1321da9d7c6994
-
-# Tested at: 2026-09-06 14:00:26 | Response: 0.091s | IP: 104.28.165.53 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.46.234:80?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-3d0ec570bbaf9036c4ec8ad6a69063be
-
-# Tested at: 2026-09-06 14:00:34 | Response: 0.102s | IP: 2a09:bac1:76a0:1a98::4e8:63 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.53.55:2095?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-8498fa15aeb189e6c5db485faae9af84
-
-# Tested at: 2026-09-06 14:00:35 | Response: 0.093s | IP: 104.28.158.228 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.47.113:80?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-0b0aae8957a334f48d687e7fe8adbb0b
-
-# Tested at: 2026-09-06 14:02:06 | Response: 3.678s | IP: 128.0.105.211 | Country: 🇮🇷 Iran - IR
-vless://38dd06a1-e1cb-492b-bb87-218ce05d0d67@185.143.233.5:80?host=fox-a9e04bb07a-test.apps.ir-central1.arvancaas.ir&path=%2F&sni=fox-a9e04bb07a-test.apps.ir-central1.arvancaas.ir&type=ws#%F0%9F%87%AE%F0%9F%87%B7IR-a4bc02825067ecc3244842a4e31d3229
-
-# Tested at: 2026-09-06 14:04:16 | Response: 0.549s | IP: 104.28.167.25 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.24.131:8880?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-82518dd6037b584bcff0cfb150986aeb
-
-# Tested at: 2026-09-06 14:05:06 | Response: 0.284s | IP: 38.58.180.136 | Country: 🇺🇸 United States - US
-vless://5efabea4-f6d4-91fd-b8f0-17e004c89c60@38.58.180.136:3116?host=node67.lunes.host&path=%2F%40s5gydl&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-c4d91601f2961154d4788a42da0ef88c
-
-# Tested at: 2026-09-06 14:06:44 | Response: 0.183s | IP: 104.28.167.26 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.158.146:8880?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-aa6697c4d5655d82c56ae81ae81aad7c
-
-# Tested at: 2026-09-06 14:08:09 | Response: 0.693s | IP: 104.28.152.152 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.158.146:80?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-b287417710ad2902b775e4922e87cd64
-
-# Tested at: 2026-09-06 14:08:10 | Response: 0.094s | IP: 2a09:bac1:76a0:1a98::4e8:7 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.39.218:8080?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-058cb9afdb7387bf6f02948d19884e0e
-
-# Tested at: 2026-09-06 14:09:06 | Response: 0.514s | IP: 162.221.196.52 | Country: 🇩🇪 Germany - DE
-vless://90da514d-8888-4a53-912e-ac2981c8c6ee@188.220.67.224:2087?path=%2F8f2690e2d016&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-da2377521c3851d9d0031dc89bc11e10
-
-# Tested at: 2026-09-06 14:10:32 | Response: 0.609s | IP: 104.28.152.152 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.39.218:2095?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-8cbc7bd2294596a660431817ddfe79c0
-
-# Tested at: 2026-09-06 14:10:32 | Response: 0.835s | IP: 2001:1af8:5301:133:1c00:efff:fe00:203e | Country: 🇳🇱 The Netherlands - NL
-vless://05caca6c-9e97-4c0f-8edf-7b88a6e572c5@mypanel.unixzone.us:12068?path=%2F&sni=mypanel.unixzone.us&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-46491a26a145bfcaa0ef4bc728c11c27
-
-# Tested at: 2026-09-06 14:11:27 | Response: 1.349s | IP: 38.54.59.209 | Country: 🇪🇬 Egypt - EG
-vless://cd842ef8-9577-47f3-83ca-627147ed291b@38.54.59.209:2087?path=%2Fd1000b16fe76&type=ws#%F0%9F%87%AA%F0%9F%87%ACEG-40bdf29715eb4d071ad610c203701e90
-
-# Tested at: 2026-09-06 14:12:04 | Response: 0.265s | IP: 104.28.152.130 | Country: 🇺🇸 United States - US
-vless://b01cadb4-428b-42d2-8c56-d6c13e582ede@lingering-water-9e69.219.workers.dev:8880?sni=lingering-water-9e69.219.workers.dev&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-f8e6d4d375a2c3cf63162faa0534a4f4
-
-# Tested at: 2026-09-06 14:12:09 | Response: 0.222s | IP: 104.28.157.112 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@108.162.198.178:2095?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-cdfd22ba0477bf35c73f567a223203b9
-
-# Tested at: 2026-09-06 14:12:59 | Response: 0.191s | IP: 104.28.152.150 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.46.234:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-6594b17be10b57f8e0c97ea6a449c9d7
-
-# Tested at: 2026-09-06 14:14:21 | Response: 0.167s | IP: 2a09:bac1:76a0:1a98::48c:1b | Country: 🇺🇸 United States - US
+# Tested at: 2026-09-06 19:53:37 | Response: 0.417s | IP: 2a09:bac5:624b:2da5::48c:66 | Country: 🇺🇸 United States - US
 vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.32.108:2082?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-25a5f1bfd9cb411bc8414173df0233a8
 
-# Tested at: 2026-09-06 14:15:16 | Response: 0.105s | IP: 2a09:bac1:76a0:1a98::26a:dd | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.39.218:8880?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-86711b7a365871b9406814ac706ff488
-
-# Tested at: 2026-09-06 14:16:45 | Response: 0.217s | IP: 104.28.166.252 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.42.85:2082?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-5dc9e45802eb638bdc348b3cf58f4ea0
-
-# Tested at: 2026-09-06 14:17:32 | Response: 1.228s | IP: 149.130.188.248 | Country: 🇨🇴 Colombia - CO
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.188.248:62145?path=%2F#%F0%9F%87%A8%F0%9F%87%B4CO-578f92f1b4b4778a07ca4fc2801b8335
-
-# Tested at: 2026-09-06 14:17:40 | Response: 0.287s | IP: 31.169.125.12 | Country: 🇺🇸 United States - US
-vless://170e1be8-e51b-4a82-a779-3ad27b78607c@us6.lunariai.ru:443?host=us6.lunariai.ru&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-47954446400dec72018a87eb170fe850
-
-# Tested at: 2026-09-06 14:18:21 | Response: 0.284s | IP: 104.28.165.56 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.158.146:8080?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-fe5dc7fd0c5407f620d763fe455a3fff
-
-# Tested at: 2026-09-06 14:18:21 | Response: 0.128s | IP: 2a09:bac1:76a0:1a98::48c:47 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.43.187:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-2d975ec66a8cbb5925db95e7ef5db970
-
-# Tested at: 2026-09-06 14:22:29 | Response: 0.519s | IP: 162.221.196.175 | Country: 🇩🇪 Germany - DE
-vless://3165b4d0-40f7-4df0-9f59-4c89ccdac92d@82.24.203.10:2087?path=%2F3bfc3e3ed603%23%F0%9F%87%A9%F0%9F%87%AA161319+%7C+%E2%9A%A1%EF%B8%8FTelegram+%3D+t.me%2FLonUp_Mhysteria2%3A%2F%2F7nob86hyaj5rm0en%40giftcard.gateway-stream.com%3A52032%3Fsecurity%3Dtls&sni=giftcard.gateway-stream.com&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-83dd3dde70d20d231d37e138d4aee4c1
-
-# Tested at: 2026-09-06 14:23:11 | Response: 0.698s | IP: 104.28.165.52 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.32.108:8080?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-bdd9eaebc7fe8bc60a15c93fd2ff0d6d
-
-# Tested at: 2026-09-06 14:24:02 | Response: 0.960s | IP: 91.107.154.19 | Country: 🇩🇪 Germany - DE
-vless://11af1c47-865a-47c6-92ff-118013655d78@91.107.154.19:8080?path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-fdcadb1055b2ac8fc6ba8291a4659812
-
-# Tested at: 2026-09-06 14:25:39 | Response: 0.886s | IP: 104.28.167.25 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.0.53:2095?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-7c6d32857fd3d9e01c561048e7bc9b69
-
-# Tested at: 2026-09-06 14:26:27 | Response: 0.501s | IP: 104.28.165.128 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.46.234:8080?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-3a899534e8a4dc2824f81e7e3fcd658f
-
-# Tested at: 2026-09-06 14:27:20 | Response: 1.205s | IP: 51.15.57.139 | Country: 🇳🇱 The Netherlands - NL
-vless://11af1c47-865a-47c6-92ff-118013655d78@51.15.57.139:8080?path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-f18262a15ce36f8a36560813f75f2105
-
-# Tested at: 2026-09-06 14:28:15 | Response: 0.189s | IP: 104.28.152.151 | Country: 🇺🇸 United States - US
-vless://74cc6c90-3c28-4a14-9f60-c0e8201ff5b0@104.16.164.102:2095?host=polished-heart-cb1b.evil-entrap-corner.workers.dev&path=%2FE2ffFPPbBV4n%3Fed%3D2560&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-8cce906a9d2b252ca1749e71e00dbdd5
-
-# Tested at: 2026-09-06 14:28:52 | Response: 1.152s | IP: 162.221.196.52 | Country: 🇩🇪 Germany - DE
-vless://90da514d-8888-4a53-912e-ac2981c8c6ee@188.220.67.198:2087?path=%2F8f2690e2d016&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-02b761f5e6a407bbe2ac2efe92a984c8
-
-# Tested at: 2026-09-06 14:29:03 | Response: 0.152s | IP: 45.203.217.25 | Country: 🇸🇨 Seychelles - SC
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.53.55:80?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%B8%F0%9F%87%A8SC-9fed71d1bd6907eee27aeb88152dd1ce
-
-# Tested at: 2026-09-06 14:30:24 | Response: 0.194s | IP: 104.28.165.129 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.48.32:8080?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-98e75633a1ccef8740692642112578ba
-
-# Tested at: 2026-09-06 14:30:33 | Response: 0.080s | IP: 2a09:bac1:76a0:1a98::3ff:13 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@188.114.97.6:8880?host=zb1zi.s3nx.dyz.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-dbb61a8cdbc45c0606c7c6b590c41c98
-
-# Tested at: 2026-09-06 14:31:10 | Response: 0.234s | IP: 104.28.152.150 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.0.53:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-0c3e09bc8d8d8b1676620ccb5a70e27c
-
-# Tested at: 2026-09-06 14:31:10 | Response: 0.420s | IP: 104.28.166.45 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@108.162.198.178:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-d47450b75e3b1a84bed4b1622f0323db
-
-# Tested at: 2026-09-06 14:32:48 | Response: 0.519s | IP: 2a09:bac1:76a0:1a98::3ff:24 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.0.53:8080?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-d3ef9edc0ad35d5e550a79a4017a0a67
-
-# Tested at: 2026-09-06 14:32:58 | Response: 4.345s | IP: 179.61.138.124 | Country: 🇩🇪 Germany - DE
-vless://08125d23-5500-41ae-97ef-8398eaf70562@172.67.133.118:2052?host=uwu.blueknightnet.qzz.io&path=%2F%40BlueKnight_net--%40BlueKnight_net&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-13d39867c88560b7df56fc36cbca733e
-
-# Tested at: 2026-09-06 14:34:39 | Response: 0.352s | IP: 104.28.165.56 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.154.8:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-39506699783813a913e08df744adae01
-
-# Tested at: 2026-09-06 14:36:16 | Response: 0.388s | IP: 104.28.165.129 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.229.170:2082?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-c3b732b67a93376adcbe7a86b0f67b1d
-
-# Tested at: 2026-09-06 14:37:40 | Response: 1.335s | IP: 151.241.215.109 | Country: 🇮🇹 Italy - IT
-vless://699ce9a1-abbb-4525-988e-b940381352e8@151.241.215.109:443?path=%2F&type=ws#%F0%9F%87%AE%F0%9F%87%B9IT-5b063c6ef7a6fa208bacdd89a5edd8fc
-
-# Tested at: 2026-09-06 14:38:42 | Response: 0.625s | IP: 51.158.236.122 | Country: 🇳🇱 The Netherlands - NL
-vless://11af1c47-865a-47c6-92ff-118013655d78@51.158.236.122:8080?path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-68f3dc1986e793f0c1a2e9cc94e0bc4a
-
-# Tested at: 2026-09-06 14:40:05 | Response: 0.327s | IP: 104.28.166.252 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.52.6:8080?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-507a354fdcb9be060ddb2777a6464c66
-
-# Tested at: 2026-09-06 14:41:48 | Response: 0.222s | IP: 31.169.125.12 | Country: 🇺🇸 United States - US
-vless://170e1be8-e51b-4a82-a779-3ad27b78607c@31.169.125.12:443?host=us6.lunariai.ru&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-7e0c306f5c25d1108ab738010366d8d3
-
-# Tested at: 2026-09-06 14:41:51 | Response: 0.183s | IP: 104.28.167.61 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.45.19:80?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-4123cde61b84a541816ca544c5fbede1
-
-# Tested at: 2026-09-06 14:42:32 | Response: 0.728s | IP: 179.61.138.124 | Country: 🇩🇪 Germany - DE
-vless://08125d23-5500-41ae-97ef-8398eaf70562@104.21.5.128:2052?host=uwu.blueknightnet.qzz.io&path=%2F%40BlueKnight_net--%40BlueKnight_net&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-aaffbf5a329d1ec462aa9fb7a1964c3c
-
-# Tested at: 2026-09-06 14:43:22 | Response: 0.095s | IP: 104.28.152.131 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.0.53:8880?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-66529010cd1e41ee7fc24dd7a7d9ac68
-
-# Tested at: 2026-09-06 14:43:30 | Response: 3.963s | IP: 143.14.11.236 | Country: 🇹🇭 Thailand - TH
-vless://de27291c-15a9-4256-9ba7-ad517569877e@18.239.134.69:80?host=d2e1v87ko56lyw.cloudfront.net%3Aassets.opensignal.com&path=%2F&type=ws#%F0%9F%87%B9%F0%9F%87%ADTH-c4ac5cf1ddc8aab331f090998acdb648
-
-# Tested at: 2026-09-06 14:44:13 | Response: 0.337s | IP: 104.28.165.132 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.52.6:8880?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-634e88c8b9a5d2f39dda52b69f486b33
-
-# Tested at: 2026-09-06 14:45:45 | Response: 0.946s | IP: 94.183.209.43 | Country: 🇵🇱 Poland - PL
-vless://5e7ecc47-e424-4653-876e-c7515a2c82b4@94.183.209.43:443?path=%2F&type=ws#%F0%9F%87%B5%F0%9F%87%B1PL-f61f3d4c41356e04587c4ff73efbc936
-
-# Tested at: 2026-09-06 14:47:21 | Response: 0.125s | IP: 104.28.166.45 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@108.162.198.178:8880?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-8b25a777df35b510811486a20bd2b5e4
-
-# Tested at: 2026-09-06 14:47:27 | Response: 0.091s | IP: 104.28.165.128 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.39.218:2082?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-d4be7c53f65abcb1bafece39031fee82
-
-# Tested at: 2026-09-06 14:48:03 | Response: 0.145s | IP: 104.28.165.55 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@188.114.97.6:8080?host=zb1zi.s3nx.dyz.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560&sni=zb1zi.s3nx.dyz.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-c6a68e6ee1a9a65787aec02de229563f
-
-# Tested at: 2026-09-06 14:48:13 | Response: 0.096s | IP: 104.28.165.55 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.32.108:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-a2ac3c66c064604f03039cdec86bda2b
-
-# Tested at: 2026-09-06 14:48:50 | Response: 0.223s | IP: 130.94.115.231 | Country: 🇨🇦 Canada - CA
-vless://8a51f3d9-30cc-44e6-8d31-700211a29066@130.94.115.231:2087?path=%2F721740e567c7&type=ws#%F0%9F%87%A8%F0%9F%87%A6CA-cdefcffc88470a82f0fb5193d067cddf
-
-# Tested at: 2026-09-06 14:49:38 | Response: 0.472s | IP: 104.28.165.53 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.46.234:2052?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-5e3be211e1d278ff6d5fe99a7c1031d0
-
-# Tested at: 2026-09-06 14:50:29 | Response: 0.848s | IP: 104.28.158.224 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.48.32:2052?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-5793d0f63890a58877c88a129beaf523
-
-# Tested at: 2026-09-06 14:52:09 | Response: 1.054s | IP: 66.93.128.123 | Country: 🇺🇸 United States - US
-vless://bf443e4a-aa9e-4509-abf0-d0f6828d57be@178.95.170.98:2087?path=%2F4bc027a44532&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-efbed02b302b7fa4eb4a3855bf540824
-
-# Tested at: 2026-09-06 14:52:53 | Response: 0.360s | IP: 104.28.152.130 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.34.14:8080?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-26ccb59a4ae33cddd25f336448c23208
-
-# Tested at: 2026-09-06 14:53:55 | Response: 1.224s | IP: 94.183.209.42 | Country: 🇵🇱 Poland - PL
-vless://84c898c4-6990-4121-ae51-27d989f5ce39@pl3.lckdwn.ru:443?host=pl3.lckdwn.ru&path=%2F&type=ws#%F0%9F%87%B5%F0%9F%87%B1PL-d19993afd8a08efc248dc514604c266c
-
-# Tested at: 2026-09-06 14:54:30 | Response: 1.036s | IP: 94.183.170.135 | Country: 🇪🇪 Estonia - EE
-vless://06c4e938-2954-478f-a870-ca1b163e30e9@estproxy4.lockdwn.com:443?host=estproxy4.lockdwn.com&path=%2F&sni=estproxy4.lockdwn.com&type=ws#%F0%9F%87%AA%F0%9F%87%AAEE-7e8e5f00d74042d6095672700b148c7c
-
-# Tested at: 2026-09-06 14:54:31 | Response: 0.376s | IP: 104.28.160.7 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.38.127:2052?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-6076e252558233375aab556577f2e050
-
-# Tested at: 2026-09-06 14:55:16 | Response: 0.488s | IP: 162.221.196.52 | Country: 🇩🇪 Germany - DE
-vless://90da514d-8888-4a53-912e-ac2981c8c6ee@188.220.67.245:2087?host=188.220.67.245&path=%2F8f2690e2d016&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-259c72f37714fc66e990eeddfd552e25
-
-# Tested at: 2026-09-06 14:55:17 | Response: 0.495s | IP: 104.28.152.131 | Country: 🇺🇸 United States - US
-vless://e5cc16a6-ea42-46b2-82ae-ad2157e1641b@172.64.150.28:2082?host=hhlfy.twiladaphne.ndjp.net&path=%2Ffp&sni=hhlfy.twiladaphne.ndjp.net&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-7f944a154794fd73af366616fb955f6b
-
-# Tested at: 2026-09-06 14:55:27 | Response: 0.228s | IP: 205.186.76.251 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.43.187:8880?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-49cf60ae9a89725298e9e03c49b80c37
-
-# Tested at: 2026-09-06 14:56:56 | Response: 1.072s | IP: 38.60.168.98 | Country: 🇲🇾 Malaysia - MY
-vless://8a346b7c-5b95-4845-affa-0e5d9929e9ae@38.60.168.98:2087?path=%2Fdb55c40bbc75&type=ws#%F0%9F%87%B2%F0%9F%87%BEMY-2b17a59fabc40b0192916f784f449919
-
-# Tested at: 2026-09-06 14:58:28 | Response: 0.352s | IP: 104.28.152.129 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.42.85:8080?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-cc0e74baf6af95ada10904587d32b113
-
-# Tested at: 2026-09-06 15:00:14 | Response: 0.757s | IP: 189.74.97.43 | Country: 🇺🇿 Uzbekistan - UZ
-vless://10f7eb2d-d96d-4778-9d36-aff11e9d6629@189.74.97.43:2087?path=%2F73b6faea2d00&type=ws#%F0%9F%87%BA%F0%9F%87%BFUZ-9c9bfd7fe7d645fa425c56d373de0ac2
-
-# Tested at: 2026-09-06 15:00:58 | Response: 0.912s | IP: 104.28.152.173 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@188.114.97.6:2086?host=zb1zi.s3nx.dyz.hh.vavava.kdns.fr&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-9be0e40436d11151abc33f4bcf46f2dc
-
-# Tested at: 2026-09-06 15:01:50 | Response: 0.086s | IP: 104.28.165.129 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.39.218:80?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-77b4a16c7d72a43e7e0f58c4ee4d500b
-
-# Tested at: 2026-09-06 15:03:34 | Response: 0.193s | IP: 104.28.165.57 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.39.218:2052?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-1cb59fa54435066e6d2adfedb9ce4567
-
-# Tested at: 2026-09-06 15:04:25 | Response: 0.402s | IP: 38.132.122.241 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.24.131:2052?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-01ce345ed6bd8cead7dcb101a326399f
-
-# Tested at: 2026-09-06 15:04:27 | Response: 0.171s | IP: 104.28.160.7 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.0.169:8080?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-08fa868ce86087e5381ac1166c4429cb
-
-# Tested at: 2026-09-06 15:07:23 | Response: 0.963s | IP: 2a09:bac1:76a0:1a98::48c:6d | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@188.114.97.6:2052?host=zb1zi.s3nx.dyz.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-fc928bd73145b0236a4606fd50907f49
-
-# Tested at: 2026-09-06 15:09:10 | Response: 2.907s | IP: 151.243.182.249 | Country: 🇦🇪 United Arab Emirates - AE
-vless://98673856-cd6f-4aa0-b2c9-d2ec90c0f47b@151.243.182.249:443?path=%2F&sni=151.243.182.249&type=ws#%F0%9F%87%A6%F0%9F%87%AAAE-a67f6475955f5248ac1a57ae3683c492
-
-# Tested at: 2026-09-06 15:10:36 | Response: 0.706s | IP: 104.28.158.226 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.154.8:2082?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-b05ac42edefcba9783c38874de11ed23
-
-# Tested at: 2026-09-06 15:12:11 | Response: 0.511s | IP: 104.28.158.203 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.32.103:2082?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-b901962fcaec74b30d6ce65e42d9e6f5
-
-# Tested at: 2026-09-06 15:12:57 | Response: 0.423s | IP: 104.28.166.252 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.24.131:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-2d176f791d212d03d1268ada605f67cf
-
-# Tested at: 2026-09-06 15:14:41 | Response: 0.181s | IP: 2a09:bac1:76a0:d28::1d3:2e | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@108.162.198.178:80?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-c99d67de5c7f69ca414c1f3d11cdd211
-
-# Tested at: 2026-09-06 15:15:18 | Response: 0.835s | IP: 162.221.196.175 | Country: 🇩🇪 Germany - DE
-vless://3165b4d0-40f7-4df0-9f59-4c89ccdac92d@82.24.203.9:2087?path=%2F3bfc3e3ed603&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-dba246fa430b9700ccace49414887a06
-
-# Tested at: 2026-09-06 15:16:52 | Response: 0.346s | IP: 104.28.152.131 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.46.46:2082?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-4b789c6033b936f4a5603924da9b5ae8
-
-# Tested at: 2026-09-06 15:18:33 | Response: 0.180s | IP: 104.28.165.131 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.0.169:80?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-7d5b118da7c5484a1bf4e417b6227ba0
-
-# Tested at: 2026-09-06 15:18:34 | Response: 0.088s | IP: 104.28.152.128 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.39.218:2095?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-8a066c3ff9f0d7e6c046bbd706db3dbd
-
-# Tested at: 2026-09-06 15:19:19 | Response: 0.170s | IP: 2a09:bac1:76a0:1a98::3ff:72 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.42.85:8880?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-8409365cc66260281426bf7ac82a9b19
-
-# Tested at: 2026-09-06 15:20:06 | Response: 0.180s | IP: 104.28.158.228 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.52.6:2052?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-827fa58cfb94ec0c92820fa278112802
-
-# Tested at: 2026-09-06 15:23:53 | Response: 0.515s | IP: 104.28.152.152 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.46.234:2095?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-b024ea2b4fe389b246dc0404af0c9c40
-
-# Tested at: 2026-09-06 15:24:56 | Response: 0.683s | IP: 2.27.205.59 | Country: 🇺🇸 United States - US
-vless://c21631d5-36c9-4664-b575-97eca17456be@2.27.205.59:443?host=neth8.lunariai.ru&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-16915019f6ab9bbea2050626049778a4
-
-# Tested at: 2026-09-06 15:25:31 | Response: 0.360s | IP: 104.28.152.150 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.32.103:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-2de8e737b6acc104d8810c0985f3cf7b
-
-# Tested at: 2026-09-06 15:25:31 | Response: 0.326s | IP: 104.28.158.204 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.42.85:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-627e8d639c63b644df06f64b86968c72
-
-# Tested at: 2026-09-06 15:28:38 | Response: 0.303s | IP: 104.28.165.129 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.47.113:2095?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-28bdbe3cf1df3627627d61296cc3fcca
-
-# Tested at: 2026-09-06 15:28:39 | Response: 0.137s | IP: 2a09:bac1:76a0:1a98::26b:ba | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.32.103:2095?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-094cccea10a060be4aa4623d5126f16a
-
-# Tested at: 2026-09-06 15:30:15 | Response: 0.464s | IP: 2a09:bac1:76a0:1a98::3ff:57 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.45.19:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-559533af20dc4df64ff4f902de1150cd
-
-# Tested at: 2026-09-06 15:30:25 | Response: 0.571s | IP: 2a0b:21c1:600e:5f75:0:b:0:2 | Country: 🇩🇪 Germany - DE
-vless://56ba5d34-ef22-4ba6-8090-4188b807df54@163.8.195.241:2087?host=163.8.195.241&path=%2F29c8fed7ca22&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-99a0488cc0eedc35924487e5aa082636
-
-# Tested at: 2026-09-06 15:30:30 | Response: 0.692s | IP: 77.222.53.158 | Country: 🇷🇺 Russia - RU
-vless://6bd3e20b-4be0-41df-a1e0-5c147cc8fbfc@77.222.53.158:4100?host=live.ok.ru&path=%2Fv1&type=ws#%F0%9F%87%B7%F0%9F%87%BARU-e5540a8ddb548b978fd9c1f8be728112
-
-# Tested at: 2026-09-06 15:31:04 | Response: 0.732s | IP: 94.183.170.135 | Country: 🇪🇪 Estonia - EE
-vless://06c4e938-2954-478f-a870-ca1b163e30e9@94.183.170.135:443?host=estproxy4.lockdwn.com&path=%2F&type=ws#%F0%9F%87%AA%F0%9F%87%AAEE-8f34ff94942df75a39169bb7cc94e583
-
-# Tested at: 2026-09-06 15:31:52 | Response: 1.521s | IP: 193.23.194.167 | Country: 🇳🇱 The Netherlands - NL
-vless://32349ee8-8551-45fa-a265-8704cec72936@neth.lckdwn.ru:443?host=neth.lckdwn.ru&path=%2F&sni=neth.lckdwn.ru&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-3452c6a36c8c09102ebc5233424b745d
-
-# Tested at: 2026-09-06 15:32:02 | Response: 0.340s | IP: 104.28.165.129 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.52.6:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-837d7087a503e9a02228d9c5bf5eb314
-
-# Tested at: 2026-09-06 15:32:40 | Response: 0.625s | IP: 104.28.152.152 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.39.218:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-8002628fc20500179b683870c5b6b711
-
-# Tested at: 2026-09-06 15:32:49 | Response: 0.623s | IP: 2400:8901::2000:2bff:fec6:a35d | Country: 🇸🇬 Singapore - SG
-vless://6aa028bc-08a9-41d1-a397-d60ce65df081@support.zoom.us:80?host=shalana.xyz&path=%2Fshalana&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-9ea62e0bc3c0c01923506040227d36d0
-
-# Tested at: 2026-09-06 15:32:51 | Response: 0.177s | IP: 213.165.47.248 | Country: 🇺🇸 United States - US
-vless://57a2ff90-fadd-4655-9624-c51374ab6f32@213.165.47.248:8443?path=%2F&sni=us1.lunariai.ru&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-cf3d80be0b759bade7d4b5c26005f9af
-
-# Tested at: 2026-09-06 15:33:26 | Response: 0.345s | IP: 104.28.165.132 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.43.187:8080?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-286fcfeb9ebfd6f615e25e063b279774
-
-# Tested at: 2026-09-06 15:35:01 | Response: 0.862s | IP: 104.28.165.56 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.158.146:2095?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-c9f1f5ee1b3f46aa833638d0df80b976
-
-# Tested at: 2026-09-06 15:39:24 | Response: 0.821s | IP: 194.26.229.207 | Country: 🇷🇺 Russia - RU
-vless://f2d2907c-1d74-43eb-8fd2-fc55dfd92427@194.26.229.207:2200?host=rzd.ru&path=%2Fv1&type=ws#%F0%9F%87%B7%F0%9F%87%BARU-bf9f4eb1f16bc07dde340b73226f3db2
-
-# Tested at: 2026-09-06 15:40:54 | Response: 1.216s | IP: 192.145.31.5 | Country: 🇧🇬 Bulgaria - BG
-vless://9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a@neth9.lunariai.ru:443?sni=neth9.lunariai.ru&type=ws#%F0%9F%87%A7%F0%9F%87%ACBG-6d9e757a687ed43e8f18c2562ee094ff
-
-# Tested at: 2026-09-06 15:42:23 | Response: 0.579s | IP: 2a09:bac1:76a0:1a98::1bd:b5 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.48.32:2095?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-becbc955eee7a91b7af66f0cfb4e4515
-
-# Tested at: 2026-09-06 15:42:24 | Response: 0.658s | IP: 104.28.152.131 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.53.55:2052?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-e47fa7ee84025334a7d74e5c88a60e9a
-
-# Tested at: 2026-09-06 15:43:59 | Response: 0.230s | IP: 104.28.152.153 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.34.14:2095?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-66c78922e3ef07570286134366a600fc
-
-# Tested at: 2026-09-06 15:44:57 | Response: 0.179s | IP: 104.28.167.25 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.45.19:2095?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-d365a5434978d2725059cf7aa386885c
-
-# Tested at: 2026-09-06 15:45:06 | Response: 0.693s | IP: 77.222.53.218 | Country: 🇷🇺 Russia - RU
-vless://1cb011db-0211-4120-8984-13d8510a612b@77.222.53.218:2200?host=rzd.ru&path=%2Fv1&type=ws#%F0%9F%87%B7%F0%9F%87%BARU-ff37eb166cb76017b200d09d8f1b5462
-
-# Tested at: 2026-09-06 15:46:24 | Response: 0.107s | IP: 2a09:bac1:76a0:1a98::1bd:c2 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.0.169:8880?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-ce2dde0848264fa436959277dd065af0
-
-# Tested at: 2026-09-06 15:48:05 | Response: 0.373s | IP: 147.189.129.147 | Country: 🇺🇸 United States - US
-vless://090a3fa8-973f-4812-9b69-ed982082a933@147.189.129.144:2087?path=%2F4ad49ed0a3d5&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-aca65ff5133c2531ecac44a45bf0a0ee
-
-# Tested at: 2026-09-06 15:48:48 | Response: 1.562s | IP: 94.183.170.248 | Country: 🇪🇪 Estonia - EE
-vless://9d9e3421-5652-4804-85ba-238355b948ab@estproxy3.lockdwn.com:443?host=estproxy3.lockdwn.com&path=%2F&type=ws#%F0%9F%87%AA%F0%9F%87%AAEE-d03576569270ee32f8237b967e1edc47
-
-# Tested at: 2026-09-06 15:50:23 | Response: 0.707s | IP: 104.28.165.54 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.48.32:80?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-a8595fcfe9abe9bc5e075294b40c1006
-
-# Tested at: 2026-09-06 15:52:04 | Response: 0.573s | IP: 104.28.158.226 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.32.103:8880?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-305f4622f563c9b3681797d5846408a8
-
-# Tested at: 2026-09-06 15:52:04 | Response: 0.738s | IP: 104.28.158.224 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.47.113:2082?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-1be98fbedf27c4561767b168069186ab
-
-# Tested at: 2026-09-06 15:52:14 | Response: 1.599s | IP: 94.183.209.42 | Country: 🇵🇱 Poland - PL
-vless://84c898c4-6990-4121-ae51-27d989f5ce39@94.183.209.42:443?host=pl3.lckdwn.ru&path=%2F&type=ws#%F0%9F%87%B5%F0%9F%87%B1PL-f9d76f518f8ce8dbf3ccf77bc771ccf3
-
-# Tested at: 2026-09-06 15:52:19 | Response: 0.106s | IP: 104.28.158.227 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.0.169:2052?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-ed34e366d51c4edb763dc39f773652cf
-
-# Tested at: 2026-09-06 15:52:49 | Response: 0.882s | IP: 134.122.154.210 | Country: 🇸🇬 Singapore - SG
-vless://7f549a50-4655-46b6-962d-183cfc532fc9@134.122.154.210:443?path=%2F#%F0%9F%87%B8%F0%9F%87%ACSG-45463151bdefd574fe3c212b8880673a
-
-# Tested at: 2026-09-06 15:53:36 | Response: 0.371s | IP: 104.28.158.224 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.158.146:2052?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-22eb47e582a8620acca051b7243f5542
-
-# Tested at: 2026-09-06 15:53:36 | Response: 0.857s | IP: 201.24.51.241 | Country: 🇷🇺 Russia - RU
-vless://5181e3af-4a0c-47d7-8beb-7e4fa4786cdd@201.24.51.241:4100?host=live.ok.ru&path=%2Fv1&type=ws#%F0%9F%87%B7%F0%9F%87%BARU-b572bda09da987c1b91c049b0c73849c
-
-# Tested at: 2026-09-06 15:53:37 | Response: 0.420s | IP: 104.28.158.224 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.45.19:2082?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-4c43e925b03edb1e1b282940ed9eb7d2
-
-# Tested at: 2026-09-06 15:55:25 | Response: 0.233s | IP: 104.28.152.165 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@108.162.198.178:8080?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-ee6ebdf49e473203c1731fc5173dc7ed
-
-# Tested at: 2026-09-06 15:56:57 | Response: 0.136s | IP: 2a09:bac1:76a0:1a98::26a:43 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.42.85:80?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-30bdbebf50a492dd8a1b9cda4fb23381
-
-# Tested at: 2026-09-06 15:57:35 | Response: 0.233s | IP: 104.28.165.131 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.48.32:8880?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-08d17bc2dba17da14ea1f1d95aa5edf6
-
-# Tested at: 2026-09-06 15:58:22 | Response: 0.109s | IP: 104.28.158.223 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.32.108:8880?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-7483b78d0708d1f71205831e3c6058f1
-
-# Tested at: 2026-09-06 15:59:10 | Response: 0.896s | IP: 94.183.209.58 | Country: 🇵🇱 Poland - PL
-vless://78791f9e-fe09-4d4f-88ec-895764bae0d6@94.183.209.58:443?host=pl2.lckdwn.ru&path=%2F&type=ws#%F0%9F%87%B5%F0%9F%87%B1PL-3361b134f17d697b27da32bef17ce3cc
-
-# Tested at: 2026-09-06 15:59:10 | Response: 0.106s | IP: 2a09:bac1:76a0:1a98::48c:4a | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.47.113:8880?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-899d18bab5cd34e3eec97494410d2af5
-
-# Tested at: 2026-09-06 16:01:35 | Response: 0.937s | IP: 87.120.84.32 | Country: 🇩🇪 Germany - DE
-vless://93dac4b8-3879-4179-abdb-9666a9e2ca8d@87.120.84.32:8443?host=deproxy2.lckdwn.ru&path=%2F&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-2d1136eec8f1551fff14c4c9fc12f2aa
-
-# Tested at: 2026-09-06 16:01:40 | Response: 0.893s | IP: 189.74.97.47 | Country: 🇺🇿 Uzbekistan - UZ
-vless://894fe9f0-b998-49c0-8003-a5007de921e1@189.74.97.47:2087?path=%2F755276b33b6f&type=ws#%F0%9F%87%BA%F0%9F%87%BFUZ-abc002146dc87be0e4d73e6d44d96df2
-
-# Tested at: 2026-09-06 16:02:22 | Response: 0.389s | IP: 2a09:bac1:76a0:1a98::26b:58 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.229.170:2052?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-6b7ed98ed4ad49720363ceb1f3db098a
-
-# Tested at: 2026-09-06 16:04:55 | Response: 1.662s | IP: 47.237.74.17 | Country: 🇸🇬 Singapore - SG
-vless://c538c9dd-2e3f-488f-a8ca-ac5b7c0773f3@47.237.74.17:16263?path=%2F#%F0%9F%87%B8%F0%9F%87%ACSG-fdc921f95824cc91d0b28d92e13f9039
-
-# Tested at: 2026-09-06 16:05:36 | Response: 0.255s | IP: 104.28.165.128 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.0.169:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-ea52054a019b5823846bb84aa45bd63a
-
-# Tested at: 2026-09-06 16:06:33 | Response: 0.182s | IP: 104.28.158.205 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.38.127:2095?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-e2cf39b6e1358aced51ee58db19b07eb
-
-# Tested at: 2026-09-06 16:07:14 | Response: 0.596s | IP: 172.174.42.187 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.34.14:8880?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-01b5681f95e1f7d77f636e3a2c5d8bab
-
-# Tested at: 2026-09-06 16:09:41 | Response: 1.246s | IP: 149.104.109.17 | Country: 🇵🇭 Philippines - PH
-vless://9ed3dcb3-b71a-4ae1-8210-95e33615d7e6@149.104.109.17:2087?path=%2F04461917b179&type=ws#%F0%9F%87%B5%F0%9F%87%ADPH-9c0eb121d347df0a5efc53930a176788
-
-# Tested at: 2026-09-06 16:11:25 | Response: 0.188s | IP: 104.28.165.54 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.46.234:2082?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-181715e11d6332ea4bbe2e0a220e5bdf
-
-# Tested at: 2026-09-06 16:12:00 | Response: 1.625s | IP: 179.61.138.124 | Country: 🇩🇪 Germany - DE
-vless://08125d23-5500-41ae-97ef-8398eaf70562@104.21.84.167:2052?host=uwu.blueknightnet.qzz.io&path=%2F%40BlueKnight_net--%40BlueKnight_net&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-81067d796d98c25d2d18e6c92594e0a0
-
-# Tested at: 2026-09-06 16:15:17 | Response: 0.120s | IP: 104.28.152.127 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.42.85:2052?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-9c715cbdc3fd19bb846a06b48d8b5735
-
-# Tested at: 2026-09-06 16:17:06 | Response: 0.136s | IP: 2a09:bac1:76a0:d28::4cf:51 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@188.114.97.6:2082?host=zb1zi.s3nx.dyz.hh.vavava.kdns.fr&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-a0dc6ac0f27c7b5b36581e13f4367fef
-
-# Tested at: 2026-09-06 16:17:46 | Response: 0.851s | IP: 104.28.152.153 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.39.218:2052?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-656137a3678d28dfc1bd829ccb51f015
-
-# Tested at: 2026-09-06 16:19:25 | Response: 1.530s | IP: 162.221.196.52 | Country: 🇩🇪 Germany - DE
-vless://90da514d-8888-4a53-912e-ac2981c8c6ee@188.220.67.140:2087?host=188.220.67.140&path=%2F8f2690e2d016&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-9982cff3619ada30458a17ac97919a84
-
-# Tested at: 2026-09-06 16:19:25 | Response: 0.336s | IP: 104.28.165.131 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.48.32:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-3f08f371e1a9660bb5c0d452c4ac20a0
-
-# Tested at: 2026-09-06 16:19:32 | Response: 0.180s | IP: 104.28.165.54 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.158.146:2082?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-2b131ed28e95683ff0f880b0291f0b9b
-
-# Tested at: 2026-09-06 16:22:43 | Response: 0.679s | IP: 77.222.52.61 | Country: 🇷🇺 Russia - RU
-vless://d46b4fca-2352-4557-a6d5-e8c45b27618c@77.222.52.61:2200?host=rzd.ru&path=%2Fv1&type=ws#%F0%9F%87%B7%F0%9F%87%BARU-80d2bed4dc3602b5abbb8cfcf57e0675
-
-# Tested at: 2026-09-06 16:25:57 | Response: 3.197s | IP: 87.120.84.32 | Country: 🇩🇪 Germany - DE
-vless://93dac4b8-3879-4179-abdb-9666a9e2ca8d@deproxy2.lckdwn.ru:8443?host=deproxy2.lckdwn.ru&path=%2F&sni=deproxy2.lckdwn.ru&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-c66c9d96f167f6d08b25124ce76afa75
-
-# Tested at: 2026-09-06 16:26:41 | Response: 0.121s | IP: 104.28.165.132 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.229.2:8880?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-f5622a666bf32bb1e49c1f88f93b5164
-
-# Tested at: 2026-09-06 16:28:19 | Response: 0.644s | IP: 130.94.29.111 | Country: 🇰🇷 South Korea - KR
-vless://84da6391-1539-4583-a3d9-d6efd796b4d6@130.94.29.111:2087?path=%2Fe17586a75123&type=ws#%F0%9F%87%B0%F0%9F%87%B7KR-79db707c2f6671eb613e304927813b06
-
-# Tested at: 2026-09-06 16:29:07 | Response: 0.115s | IP: 2a09:bac1:76a0:1a98::1bf:e0 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.24.131:2082?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-0239fe3037d50bd82e966342b183977d
-
-# Tested at: 2026-09-06 16:29:16 | Response: 0.212s | IP: 104.28.152.129 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.47.113:2052?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-684571ef5678197b1afd411ff5957ca2
-
-# Tested at: 2026-09-06 16:29:53 | Response: 0.178s | IP: 2a09:bac1:76a0:1a98::48c:23 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.229.2:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-62b760ebcdf1fb0ebdbb031e1f777866
-
-# Tested at: 2026-09-06 16:30:50 | Response: 0.124s | IP: 2a09:bac1:76a0:1a98::3ff:4f | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.229.2:2082?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-dcd0488d45189728abdb4781afcf07d4
-
-# Tested at: 2026-09-06 16:30:50 | Response: 0.544s | IP: 31.76.76.28 | Country: 🇳🇱 The Netherlands - NL
-vless://de5906f3-df38-4463-aa9d-2b01320cc6ea@31.76.76.28:443?path=%2F&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-c668e3f839dc0aa5a61db60b07864ea6
-
-# Tested at: 2026-09-06 16:33:53 | Response: 0.800s | IP: 162.221.196.175 | Country: 🇩🇪 Germany - DE
-vless://3165b4d0-40f7-4df0-9f59-4c89ccdac92d@82.24.203.2:2087?path=%2F3bfc3e3ed603&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-aa469381b5728485467c60518bb32e17
-
-# Tested at: 2026-09-06 16:34:39 | Response: 0.590s | IP: 137.184.46.183 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.154.8:2095?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-8d91f5627ebd3607c3723a6b356ccaea
-
-# Tested at: 2026-09-06 16:34:40 | Response: 0.723s | IP: 104.28.152.152 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.38.127:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-bcf9889fb4fcdf5908e26ff1e7e1252d
-
-# Tested at: 2026-09-06 16:34:51 | Response: 2.491s | IP: 51.158.241.182 | Country: 🇳🇱 The Netherlands - NL
-vless://11af1c47-865a-47c6-92ff-118013655d78@51.158.241.182:8080?path=%2F&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-aab5bcb170ae64eb5a21c012431b4e6d
-
-# Tested at: 2026-09-06 16:35:28 | Response: 0.525s | IP: 45.203.217.25 | Country: 🇸🇨 Seychelles - SC
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.53.55:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%B8%F0%9F%87%A8SC-b74c14c3e67671929fc4378535faea07
-
-# Tested at: 2026-09-06 16:36:15 | Response: 0.634s | IP: 150.136.139.228 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.46.46:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-b7588b1a58a9bc5f64384f2cab844ce7
-
-# Tested at: 2026-09-06 16:36:16 | Response: 0.205s | IP: 104.28.165.55 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.34.14:2082?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-a33a1954b17ff2a27d836ebaf9f4d979
-
-# Tested at: 2026-09-06 16:39:26 | Response: 0.392s | IP: 104.28.152.151 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.38.127:8880?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-4f99f366db9a662a6b7b1664204db788
-
-# Tested at: 2026-09-06 16:39:27 | Response: 0.107s | IP: 2a09:bac1:76a0:1a98::26b:3d | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.0.53:2052?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-980c5f6f372fa3da8ae3d82abf453185
-
-# Tested at: 2026-09-06 16:39:27 | Response: 0.094s | IP: 2a09:bac1:76a0:1a98::1bd:f5 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.39.218:80?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-5f84f2a928950fb31fb751aec9bb685e
-
-# Tested at: 2026-09-06 16:39:28 | Response: 1.122s | IP: 157.22.133.130 | Country: 🇺🇿 Uzbekistan - UZ
-vless://e6d369db-22be-4f30-8685-455c717aaa8c@157.22.133.130:2087?path=%2F5021201ef53f&type=ws#%F0%9F%87%BA%F0%9F%87%BFUZ-1cb2a1b913596db0671395a26a43a96d
-
-# Tested at: 2026-09-06 16:44:14 | Response: 0.262s | IP: 2a09:bac1:76a0:1a98::3ff:2e | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.43.187:80?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-e94122778a14df254459bd21a376fe44
-
-# Tested at: 2026-09-06 16:45:03 | Response: 0.317s | IP: 104.28.152.154 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.47.113:8080?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-89912efc7d15a5d4848c32af1202bac7
-
-# Tested at: 2026-09-06 16:46:43 | Response: 0.303s | IP: 104.28.165.54 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.52.6:2095?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-b9f9fb418b279d41607e8c37845d37bb
-
-# Tested at: 2026-09-06 16:47:44 | Response: 2.092s | IP: 162.221.196.52 | Country: 🇩🇪 Germany - DE
-vless://90da514d-8888-4a53-912e-ac2981c8c6ee@188.220.67.161:2087?path=%2F8f2690e2d016&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-e0141ffa51b52a7db39d2472d41933ea
-
-# Tested at: 2026-09-06 16:49:09 | Response: 0.746s | IP: 104.28.165.129 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.46.46:8880?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-dd70e925d6e4f861d4989f17471ddebe
-
-# Tested at: 2026-09-06 16:49:10 | Response: 0.094s | IP: 104.28.152.153 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.229.2:80?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-46e3e0ea6efb20bcf7084357ef528370
-
-# Tested at: 2026-09-06 16:50:07 | Response: 0.402s | IP: 104.28.165.53 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.0.169:2095?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-b760d246d358c9aa8c7e22f35f30d399
-
-# Tested at: 2026-09-06 16:50:48 | Response: 0.099s | IP: 38.95.79.73 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.34.14:2052?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-21de3339710f9866691e06e8e8567e2c
-
-# Tested at: 2026-09-06 16:54:02 | Response: 0.649s | IP: 66.93.128.123 | Country: 🇺🇸 United States - US
-vless://bf443e4a-aa9e-4509-abf0-d0f6828d57be@178.95.170.83:2087?host=178.95.170.83&path=%2F4bc027a44532&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-6e6c7fc7c47b7ba65fca27a7962e592a
-
-# Tested at: 2026-09-06 16:54:02 | Response: 0.092s | IP: 2a09:bac1:76a0:1a98::48c:b | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.229.170:8080?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-16295046d9ed8dd42c363312b4f84cc9
-
-# Tested at: 2026-09-06 16:54:50 | Response: 0.718s | IP: 2a0b:21c1:600e:5f75:0:27:0:2 | Country: 🇩🇪 Germany - DE
-vless://5fcdc9b7-e70f-4a5c-85c3-e018ad818326@82.24.203.20:2087?path=%2Ffd5ba98a3970&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-20774477185fbe1346c024a27a860a8d
-
-# Tested at: 2026-09-06 16:55:00 | Response: 0.302s | IP: 2a09:bac1:76a0:1a98::26b:47 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.46.46:8080?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-71db4473f1c073d9a7b12f31cf6cb553
-
-# Tested at: 2026-09-06 16:56:38 | Response: 0.139s | IP: 2a09:bac1:76a0:1a98::3ff:61 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.229.2:2052?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-4822684b8f583dce1af5cc3b526779e0
-
-# Tested at: 2026-09-06 16:57:16 | Response: 0.507s | IP: 213.165.47.248 | Country: 🇺🇸 United States - US
-vless://57a2ff90-fadd-4655-9624-c51374ab6f32@us1.lunariai.ru:8443?host=us1.lunariai.ru&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-0820bb875726a5f4cbbbba58332e9d78
-
-# Tested at: 2026-09-06 16:57:26 | Response: 0.099s | IP: 2a09:bac1:76a0:1a98::48c:4 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.229.170:80?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-d42d6a76cd1f0ea3d574f15052f07e41
-
-# Tested at: 2026-09-06 16:58:54 | Response: 0.874s | IP: 94.183.170.248 | Country: 🇪🇪 Estonia - EE
-vless://9d9e3421-5652-4804-85ba-238355b948ab@94.183.170.248:443?path=%2F&type=ws#%F0%9F%87%AA%F0%9F%87%AAEE-91c3517db13b6ff5c650cf09270880ca
-
-# Tested at: 2026-09-06 16:59:44 | Response: 0.590s | IP: 43.153.78.145 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.45.19:2052?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-d34116810c23fdaa1f118bfa9f50e606
-
-# Tested at: 2026-09-06 16:59:45 | Response: 0.773s | IP: 103.75.119.126 | Country: 🇦🇺 Australia - AU
-vless://731f177e-00aa-480c-b935-661456139a32@103.75.119.126:2087?path=%2F7586c69d3dc9&type=ws#%F0%9F%87%A6%F0%9F%87%BAAU-07a40f82b46f43d9294e9417673f9ae9
-
-# Tested at: 2026-09-06 17:00:42 | Response: 3.107s | IP: 85.17.145.65 | Country: 🇳🇱 The Netherlands - NL
-vless://05caca6c-9e97-4c0f-8edf-7b88a6e572c5@85.17.145.65:12068?host=mypanel.unixzone.us&path=%2F&sni=mypanel.unixzone.us&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-77e3280ea6d99cde2f89387753614621
-
-# Tested at: 2026-09-06 17:01:28 | Response: 0.464s | IP: 45.144.28.39 | Country: 🇫🇷 France - FR
-vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@45.144.28.39:2096?host=usejh2.neobo-tooth.ru&path=%2F&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-b546ad75e28bd98bb6cfc74f67ae4b12
-
-# Tested at: 2026-09-06 17:02:09 | Response: 0.182s | IP: 2a09:bac1:76a0:1a98::3ff:77 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.32.108:80?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-dc0fb5886904115d68151fbb23eca1bb
-
-# Tested at: 2026-09-06 17:02:18 | Response: 0.448s | IP: 45.38.249.40 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.39.218:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-e980452085e82cc09e976adff59141f3
-
-# Tested at: 2026-09-06 17:02:22 | Response: 0.104s | IP: 2a09:bac1:76a0:1a98::3ff:43 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.0.53:80?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-6a61a274bb6a9219849ddcf0ec1f2ded
-
-# Tested at: 2026-09-06 17:07:06 | Response: 0.390s | IP: 152.69.195.67 | Country: 🇯🇵 Japan - JP
-vless://eb8613e3-8393-4cff-a3ad-6501fd4adc63@152.69.195.67:47878?sni=152.69.195.67#%F0%9F%87%AF%F0%9F%87%B5JP-f2ec95d575f0af2bef693582875a46fe
-
-# Tested at: 2026-09-06 17:07:11 | Response: 0.518s | IP: 89.36.161.222 | Country: 🇱🇻 Latvia - LV
-vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@89.36.161.222:2096?host=laoye.in-gect.fun&path=%2F&sni=laoye.in-gect.fun&type=ws#%F0%9F%87%B1%F0%9F%87%BBLV-a79156a60838ec6da6380791bfdb5abb
-
-# Tested at: 2026-09-06 17:07:23 | Response: 0.339s | IP: 104.28.152.151 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.32.103:2052?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-76b93b797bf9e1abc58681b72bda47dc
-
-# Tested at: 2026-09-06 17:10:28 | Response: 0.326s | IP: 192.220.23.93 | Country: 🇺🇸 United States - US
+# Tested at: 2026-09-06 19:53:37 | Response: 0.362s | IP: 104.28.165.55 | Country: 🇺🇸 United States - US
 vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.34.14:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-1913ae86e1eedb15cb4eb55065c46e08
 
-# Tested at: 2026-09-06 17:11:22 | Response: 1.955s | IP: 84.235.244.108 | Country: 🇦🇪 United Arab Emirates - AE
-vless://39947382-3212-41c9-bc3a-589574ac8b23@84.235.244.108:22573?host=uae.unixzone.us&path=%2F&sni=uae.unixzone.us&type=ws#%F0%9F%87%A6%F0%9F%87%AAAE-fdda29e0024b4d44d108f815b6be6b6c
+# Tested at: 2026-09-06 19:55:15 | Response: 0.092s | IP: 2a09:bac5:624b:1173::1bd:118 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.158.146:80?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-b287417710ad2902b775e4922e87cd64
 
-# Tested at: 2026-09-06 17:11:59 | Response: 0.194s | IP: 104.28.158.106 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.154.8:8080?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-fb3146555931374a977a41f18302c9af
+# Tested at: 2026-09-06 19:56:10 | Response: 0.327s | IP: 47.253.48.74 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.32.103:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-2de8e737b6acc104d8810c0985f3cf7b
 
-# Tested at: 2026-09-06 17:12:11 | Response: 0.173s | IP: 104.28.152.155 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.229.170:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-662665fa6357ecbb8306171fa3d3138d
+# Tested at: 2026-09-06 19:57:01 | Response: 0.689s | IP: 2.27.205.59 | Country: 🇺🇸 United States - US
+vless://c21631d5-36c9-4664-b575-97eca17456be@neth8.lunariai.ru:443?host=neth8.lunariai.ru&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-d3305eda4159fdb8120d3bc86a155c8e
 
-# Tested at: 2026-09-06 17:12:45 | Response: 0.526s | IP: 2a0b:21c1:600e:5f75:0:30:0:2 | Country: 🇩🇪 Germany - DE
-vless://44573770-963a-41f5-a080-3cc11e4957a2@82.24.203.37:2087?path=%2F5c62e3c616d8&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-b597ee7b8a6e316ece80e8f002290fb1
+# Tested at: 2026-09-06 19:57:47 | Response: 0.134s | IP: 107.172.187.94 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.158.146:2052?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-22eb47e582a8620acca051b7243f5542
 
-# Tested at: 2026-09-06 17:12:45 | Response: 0.393s | IP: 104.28.160.7 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.39.218:2082?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-17a337ed27844e47d24333787ad8a24a
-
-# Tested at: 2026-09-06 17:12:46 | Response: 0.588s | IP: 179.61.138.124 | Country: 🇩🇪 Germany - DE
-vless://08125d23-5500-41ae-97ef-8398eaf70562@172.67.195.79:2052?host=uwu.blueknightnet.qzz.io&path=%2F%40BlueKnight_net--%40BlueKnight_net&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-d9e2e51187750248e8740a91c0b8ff03
-
-# Tested at: 2026-09-06 17:13:38 | Response: 0.803s | IP: 137.220.221.179 | Country: 🇯🇵 Japan - JP
+# Tested at: 2026-09-06 19:58:29 | Response: 1.084s | IP: 137.220.221.179 | Country: 🇯🇵 Japan - JP
 vless://a16a3336-c9ab-489f-9b85-c973f5e2cfa4@137.220.221.179:443?path=%2F#%F0%9F%87%AF%F0%9F%87%B5JP-d05964224904ed04e4bee9f463e21b5a
 
-# Tested at: 2026-09-06 17:16:15 | Response: 0.094s | IP: 2a09:bac1:76a0:1a98::26a:85 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.52.6:2082?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-a0cd5c40613b5c84d24515758e1d9e72
+# Tested at: 2026-09-06 20:00:03 | Response: 0.850s | IP: 205.186.76.237 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.229.170:2082?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-c3b732b67a93376adcbe7a86b0f67b1d
 
-# Tested at: 2026-09-06 17:16:15 | Response: 0.538s | IP: 193.23.194.167 | Country: 🇳🇱 The Netherlands - NL
-vless://32349ee8-8551-45fa-a265-8704cec72936@193.23.194.167:443?path=%2F&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-d36f2cd30e43afa41dcd449492467d82
+# Tested at: 2026-09-06 20:00:59 | Response: 0.099s | IP: 2a09:bac5:624b:281e::3ff:57 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.42.85:2052?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-9c715cbdc3fd19bb846a06b48d8b5735
 
-# Tested at: 2026-09-06 17:18:31 | Response: 0.095s | IP: 104.28.158.228 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.52.6:80?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-5557a458ed9657607b155f10afec0196
+# Tested at: 2026-09-06 20:01:00 | Response: 0.206s | IP: 104.28.166.33 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@108.162.198.178:2095?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-cdfd22ba0477bf35c73f567a223203b9
 
-# Tested at: 2026-09-06 17:18:33 | Response: 1.742s | IP: 45.144.28.39 | Country: 🇫🇷 France - FR
-vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@usejh2.neobo-tooth.ru:2096?host=usejh2.neobo-tooth.ru&path=%2F&sni=usejh2.neobo-tooth.ru&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-8da4045e0be2e4c5d6f9a9e3f25f681f
+# Tested at: 2026-09-06 20:03:17 | Response: 0.115s | IP: 104.28.158.224 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.34.14:2082?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-a33a1954b17ff2a27d836ebaf9f4d979
 
-# Tested at: 2026-09-06 17:20:08 | Response: 0.112s | IP: 205.186.76.237 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.24.131:80?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-0ba2ebb598fce2a0f3398f83d9f49132
+# Tested at: 2026-09-06 20:03:20 | Response: 0.119s | IP: 45.203.217.25 | Country: 🇸🇨 Seychelles - SC
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.38.127:2095?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%B8%F0%9F%87%A8SC-e2cf39b6e1358aced51ee58db19b07eb
 
-# Tested at: 2026-09-06 17:20:09 | Response: 0.449s | IP: 147.189.129.147 | Country: 🇺🇸 United States - US
-vless://090a3fa8-973f-4812-9b69-ed982082a933@147.189.129.155:2087?path=%2F4ad49ed0a3d5&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-0fe8b726e8c5918feddfc48605ec6086
+# Tested at: 2026-09-06 20:03:22 | Response: 0.107s | IP: 2a09:bac5:624b:281e::3ff:57 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.48.32:8080?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-98e75633a1ccef8740692642112578ba
 
-# Tested at: 2026-09-06 17:22:34 | Response: 0.233s | IP: 38.58.180.136 | Country: 🇺🇸 United States - US
-vless://5efabea4-f6d4-91fd-b8f0-17e004c89c60@node67.lunes.host:3116?host=node67.lunes.host&path=%2F%40s5gydl&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-f968e072a4e47a92f30b1b90b6e67424
+# Tested at: 2026-09-06 20:03:26 | Response: 0.645s | IP: 87.120.84.32 | Country: 🇩🇪 Germany - DE
+vless://93dac4b8-3879-4179-abdb-9666a9e2ca8d@87.120.84.32:8443?host=deproxy2.lckdwn.ru&path=%2F&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-2d1136eec8f1551fff14c4c9fc12f2aa
 
-# Tested at: 2026-09-06 17:22:42 | Response: 1.131s | IP: 66.93.128.123 | Country: 🇺🇸 United States - US
-vless://bf443e4a-aa9e-4509-abf0-d0f6828d57be@178.95.170.115:2087?host=Telegram-Leviko_v2ray&path=%2F4bc027a44532&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-ac411d52e694e3e7e1ae7f337129435a
+# Tested at: 2026-09-06 20:05:00 | Response: 0.174s | IP: 104.28.152.154 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.46.234:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-6594b17be10b57f8e0c97ea6a449c9d7
 
-# Tested at: 2026-09-06 17:23:22 | Response: 0.983s | IP: 89.36.161.222 | Country: 🇱🇻 Latvia - LV
+# Tested at: 2026-09-06 20:06:34 | Response: 0.085s | IP: 104.28.165.131 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.0.53:80?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-6a61a274bb6a9219849ddcf0ec1f2ded
+
+# Tested at: 2026-09-06 20:10:26 | Response: 0.610s | IP: 104.28.158.225 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.39.218:80?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-77b4a16c7d72a43e7e0f58c4ee4d500b
+
+# Tested at: 2026-09-06 20:11:17 | Response: 0.196s | IP: 104.28.158.225 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.42.85:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-627e8d639c63b644df06f64b86968c72
+
+# Tested at: 2026-09-06 20:11:19 | Response: 2.993s | IP: 51.158.236.122 | Country: 🇳🇱 The Netherlands - NL
+vless://11af1c47-865a-47c6-92ff-118013655d78@51.158.236.122:8080?path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-68f3dc1986e793f0c1a2e9cc94e0bc4a
+
+# Tested at: 2026-09-06 20:12:03 | Response: 1.071s | IP: 155.94.173.121 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.229.2:80?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-46e3e0ea6efb20bcf7084357ef528370
+
+# Tested at: 2026-09-06 20:12:13 | Response: 0.124s | IP: 104.28.158.106 | Country: 🇺🇸 United States - US
+vless://e5cc16a6-ea42-46b2-82ae-ad2157e1641b@172.64.150.28:2082?host=hhlfy.twiladaphne.ndjp.net&path=%2Ffp&sni=hhlfy.twiladaphne.ndjp.net&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-7f944a154794fd73af366616fb955f6b
+
+# Tested at: 2026-09-06 20:12:18 | Response: 0.096s | IP: 104.28.152.150 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.154.8:2052?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-e0c2b1653f0b8985da1321da9d7c6994
+
+# Tested at: 2026-09-06 20:13:45 | Response: 0.166s | IP: 104.28.152.152 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.47.113:8080?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-89912efc7d15a5d4848c32af1202bac7
+
+# Tested at: 2026-09-06 20:15:15 | Response: 0.575s | IP: 89.36.161.222 | Country: 🇱🇻 Latvia - LV
 vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@laoye.in-gect.fun:2096?host=laoye.in-gect.fun&path=%2F&sni=laoye.in-gect.fun&type=ws#%F0%9F%87%B1%F0%9F%87%BBLV-c23ada86409c7a4f611358677a5e2752
 
-# Tested at: 2026-09-06 17:25:54 | Response: 0.460s | IP: 104.28.165.130 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.39.218:8880?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-0e4a58fbd662e9948f6d4b46bc3c2ff7
+# Tested at: 2026-09-06 20:15:22 | Response: 0.690s | IP: 77.222.53.158 | Country: 🇷🇺 Russia - RU
+vless://6bd3e20b-4be0-41df-a1e0-5c147cc8fbfc@77.222.53.158:4100?host=live.ok.ru&path=%2Fv1&type=ws#%F0%9F%87%B7%F0%9F%87%BARU-e5540a8ddb548b978fd9c1f8be728112
 
-# Tested at: 2026-09-06 17:25:54 | Response: 0.429s | IP: 104.28.165.53 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.47.113:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-2afbe2b804e205ed028532e2c965940d
+# Tested at: 2026-09-06 20:15:23 | Response: 0.172s | IP: 104.28.152.128 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.154.8:2082?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-b05ac42edefcba9783c38874de11ed23
 
-# Tested at: 2026-09-06 17:27:29 | Response: 1.037s | IP: 94.183.209.59 | Country: 🇵🇱 Poland - PL
-vless://d23cb516-40db-4aa4-8142-6b45ff882f90@94.183.209.59:443?path=%2F&type=ws#%F0%9F%87%B5%F0%9F%87%B1PL-42364e47e48d7cd1f9584dea389d013f
+# Tested at: 2026-09-06 20:18:48 | Response: 0.362s | IP: 104.28.165.129 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.47.113:2082?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-1be98fbedf27c4561767b168069186ab
 
-# Tested at: 2026-09-06 17:29:03 | Response: 0.840s | IP: 104.28.158.224 | Country: 🇺🇸 United States - US
+# Tested at: 2026-09-06 20:19:28 | Response: 1.106s | IP: 84.235.244.108 | Country: 🇦🇪 United Arab Emirates - AE
+vless://39947382-3212-41c9-bc3a-589574ac8b23@84.235.244.108:22573?host=uae.unixzone.us&path=%2F&sni=uae.unixzone.us&type=ws#%F0%9F%87%A6%F0%9F%87%AAAE-fdda29e0024b4d44d108f815b6be6b6c
+
+# Tested at: 2026-09-06 20:19:37 | Response: 0.606s | IP: 104.28.152.131 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.38.127:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-bcf9889fb4fcdf5908e26ff1e7e1252d
+
+# Tested at: 2026-09-06 20:21:14 | Response: 0.141s | IP: 154.83.158.23 | Country: 🇸🇨 Seychelles - SC
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.47.113:2052?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%B8%F0%9F%87%A8SC-684571ef5678197b1afd411ff5957ca2
+
+# Tested at: 2026-09-06 20:21:53 | Response: 1.083s | IP: 162.221.196.52 | Country: 🇩🇪 Germany - DE
+vless://90da514d-8888-4a53-912e-ac2981c8c6ee@188.220.67.198:2087?path=%2F8f2690e2d016&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-02b761f5e6a407bbe2ac2efe92a984c8
+
+# Tested at: 2026-09-06 20:23:29 | Response: 0.242s | IP: 2a09:bac5:624b:2da5::48c:2d | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.32.103:2052?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-76b93b797bf9e1abc58681b72bda47dc
+
+# Tested at: 2026-09-06 20:23:30 | Response: 0.097s | IP: 2a09:bac5:624b:3141::4e8:6 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.52.6:8080?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-507a354fdcb9be060ddb2777a6464c66
+
+# Tested at: 2026-09-06 20:25:01 | Response: 0.742s | IP: 66.93.29.112 | Country: 🇺🇸 United States - US
+vless://90715c6b-6c65-4466-a50c-234660f1f531@82.24.203.70:2087?path=%2Fd51f7fbe4da2&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-f16d93da20f9f44591b9c364c4f326e5
+
+# Tested at: 2026-09-06 20:25:52 | Response: 0.289s | IP: 104.28.152.130 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.39.218:2052?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-656137a3678d28dfc1bd829ccb51f015
+
+# Tested at: 2026-09-06 20:26:39 | Response: 0.940s | IP: 94.183.170.248 | Country: 🇪🇪 Estonia - EE
+vless://9d9e3421-5652-4804-85ba-238355b948ab@94.183.170.248:443?path=%2F&type=ws#%F0%9F%87%AA%F0%9F%87%AAEE-91c3517db13b6ff5c650cf09270880ca
+
+# Tested at: 2026-09-06 20:29:05 | Response: 0.202s | IP: 104.28.167.60 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.229.170:2052?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-6b7ed98ed4ad49720363ceb1f3db098a
+
+# Tested at: 2026-09-06 20:29:59 | Response: 0.676s | IP: 170.101.109.52 | Country: 🇩🇪 Germany - DE
+vless://72c8ea26-8b77-4e31-a23f-79c19b3a2ef1@186.246.48.59:2200?path=%2Fv1&sni=rzd.ru&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-8110aeab441a846a355ac931b708d52a
+
+# Tested at: 2026-09-06 20:30:09 | Response: 0.188s | IP: 104.28.165.129 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.32.108:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-a2ac3c66c064604f03039cdec86bda2b
+
+# Tested at: 2026-09-06 20:30:44 | Response: 0.423s | IP: 2a09:bac5:624b:2da5::48c:5a | Country: 🇺🇸 United States - US
 vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.154.8:8880?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-44ca8e5eab0b477982a65b0cf708e7e7
 
-# Tested at: 2026-09-06 17:29:52 | Response: 1.751s | IP: 134.122.202.244 | Country: 🇯🇵 Japan - JP
+# Tested at: 2026-09-06 20:30:46 | Response: 0.210s | IP: 104.28.167.60 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.42.85:80?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-30bdbebf50a492dd8a1b9cda4fb23381
+
+# Tested at: 2026-09-06 20:32:27 | Response: 0.631s | IP: 104.28.152.130 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.46.234:8080?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-3a899534e8a4dc2824f81e7e3fcd658f
+
+# Tested at: 2026-09-06 20:34:01 | Response: 0.168s | IP: 2a09:bac5:624b:1173::1bd:11e | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.46.46:8080?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-71db4473f1c073d9a7b12f31cf6cb553
+
+# Tested at: 2026-09-06 20:34:10 | Response: 0.783s | IP: 189.74.97.47 | Country: 🇺🇿 Uzbekistan - UZ
+vless://894fe9f0-b998-49c0-8003-a5007de921e1@189.74.97.47:2087?path=%2F755276b33b6f&type=ws#%F0%9F%87%BA%F0%9F%87%BFUZ-abc002146dc87be0e4d73e6d44d96df2
+
+# Tested at: 2026-09-06 20:35:37 | Response: 0.626s | IP: 2a0b:21c1:600e:5f75:0:2e:0:2 | Country: 🇩🇪 Germany - DE
+vless://3165b4d0-40f7-4df0-9f59-4c89ccdac92d@82.24.203.2:2087?path=%2F3bfc3e3ed603&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-aa469381b5728485467c60518bb32e17
+
+# Tested at: 2026-09-06 20:36:41 | Response: 0.403s | IP: 152.69.195.67 | Country: 🇯🇵 Japan - JP
+vless://eb8613e3-8393-4cff-a3ad-6501fd4adc63@152.69.195.67:47878?sni=152.69.195.67#%F0%9F%87%AF%F0%9F%87%B5JP-f2ec95d575f0af2bef693582875a46fe
+
+# Tested at: 2026-09-06 20:37:15 | Response: 0.132s | IP: 104.28.165.129 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.46.46:80?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-26096a2f7dd5ce6780b52df3bf6db6ef
+
+# Tested at: 2026-09-06 20:37:23 | Response: 0.098s | IP: 2a09:bac5:624b:3141::4e8:7c | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@188.114.97.6:2082?host=zb1zi.s3nx.dyz.hh.vavava.kdns.fr&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-a0dc6ac0f27c7b5b36581e13f4367fef
+
+# Tested at: 2026-09-06 20:39:37 | Response: 0.358s | IP: 104.28.165.52 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.32.108:80?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-dc0fb5886904115d68151fbb23eca1bb
+
+# Tested at: 2026-09-06 20:39:50 | Response: 0.343s | IP: 104.28.166.252 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.39.218:2082?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-17a337ed27844e47d24333787ad8a24a
+
+# Tested at: 2026-09-06 20:42:13 | Response: 1.048s | IP: 91.107.190.175 | Country: 🇩🇪 Germany - DE
+vless://11af1c47-865a-47c6-92ff-118013655d78@91.107.190.175:8080?path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-dbba3c6d2d2817410ca3fc9ddca802d4
+
+# Tested at: 2026-09-06 20:45:17 | Response: 0.768s | IP: 162.221.196.52 | Country: 🇩🇪 Germany - DE
+vless://90da514d-8888-4a53-912e-ac2981c8c6ee@188.220.67.224:2087?path=%2F8f2690e2d016&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-da2377521c3851d9d0031dc89bc11e10
+
+# Tested at: 2026-09-06 20:46:50 | Response: 0.631s | IP: 162.221.196.52 | Country: 🇩🇪 Germany - DE
+vless://90da514d-8888-4a53-912e-ac2981c8c6ee@188.220.67.140:2087?path=%2F8f2690e2d016&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-9982cff3619ada30458a17ac97919a84
+
+# Tested at: 2026-09-06 20:46:51 | Response: 0.527s | IP: 162.221.196.52 | Country: 🇩🇪 Germany - DE
+vless://90da514d-8888-4a53-912e-ac2981c8c6ee@188.220.67.181:2087?path=%2F8f2690e2d016&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-cad974a10f81c8145720bedb5dbe2a3f
+
+# Tested at: 2026-09-06 20:47:51 | Response: 0.177s | IP: 104.28.165.130 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.0.169:8880?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-ce2dde0848264fa436959277dd065af0
+
+# Tested at: 2026-09-06 20:48:30 | Response: 0.099s | IP: 104.28.152.150 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.53.55:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-b74c14c3e67671929fc4378535faea07
+
+# Tested at: 2026-09-06 20:49:24 | Response: 0.268s | IP: 104.28.166.44 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@108.162.198.178:80?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-c99d67de5c7f69ca414c1f3d11cdd211
+
+# Tested at: 2026-09-06 20:51:45 | Response: 0.212s | IP: 104.28.165.129 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.48.32:80?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-a8595fcfe9abe9bc5e075294b40c1006
+
+# Tested at: 2026-09-06 20:54:04 | Response: 0.186s | IP: 104.28.165.132 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.39.218:2082?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-d4be7c53f65abcb1bafece39031fee82
+
+# Tested at: 2026-09-06 20:54:57 | Response: 0.148s | IP: 2a09:bac5:624b:281e::3ff:26 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.46.46:2082?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-4b789c6033b936f4a5603924da9b5ae8
+
+# Tested at: 2026-09-06 20:54:57 | Response: 0.498s | IP: 94.183.209.58 | Country: 🇵🇱 Poland - PL
+vless://78791f9e-fe09-4d4f-88ec-895764bae0d6@94.183.209.58:443?host=pl2.lckdwn.ru&path=%2F&type=ws#%F0%9F%87%B5%F0%9F%87%B1PL-3361b134f17d697b27da32bef17ce3cc
+
+# Tested at: 2026-09-06 20:55:01 | Response: 3.785s | IP: 179.255.185.132 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.0.169:80?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-7d5b118da7c5484a1bf4e417b6227ba0
+
+# Tested at: 2026-09-06 20:55:40 | Response: 0.185s | IP: 104.28.152.127 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.34.14:8880?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-01b5681f95e1f7d77f636e3a2c5d8bab
+
+# Tested at: 2026-09-06 20:56:27 | Response: 2.959s | IP: 143.14.11.236 | Country: 🇹🇭 Thailand - TH
+vless://de27291c-15a9-4256-9ba7-ad517569877e@18.239.134.69:80?host=d2e1v87ko56lyw.cloudfront.net%3Aassets.opensignal.com&path=%2F&type=ws#%F0%9F%87%B9%F0%9F%87%ADTH-c4ac5cf1ddc8aab331f090998acdb648
+
+# Tested at: 2026-09-06 20:56:31 | Response: 0.813s | IP: 77.222.53.218 | Country: 🇷🇺 Russia - RU
+vless://1cb011db-0211-4120-8984-13d8510a612b@77.222.53.218:2200?host=rzd.ru&path=%2Fv1&sni=rzd.ru&type=ws#%F0%9F%87%B7%F0%9F%87%BARU-ff37eb166cb76017b200d09d8f1b5462
+
+# Tested at: 2026-09-06 20:58:11 | Response: 0.146s | IP: 205.186.76.237 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.158.146:8880?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-aa6697c4d5655d82c56ae81ae81aad7c
+
+# Tested at: 2026-09-06 20:58:57 | Response: 0.095s | IP: 104.28.152.130 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.34.14:2052?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-21de3339710f9866691e06e8e8567e2c
+
+# Tested at: 2026-09-06 21:00:23 | Response: 0.155s | IP: 104.28.165.54 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.53.55:2095?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-8498fa15aeb189e6c5db485faae9af84
+
+# Tested at: 2026-09-06 21:00:24 | Response: 1.164s | IP: 151.241.215.109 | Country: 🇮🇹 Italy - IT
+vless://699ce9a1-abbb-4525-988e-b940381352e8@151.241.215.109:443?path=%2F&type=ws#%F0%9F%87%AE%F0%9F%87%B9IT-5b063c6ef7a6fa208bacdd89a5edd8fc
+
+# Tested at: 2026-09-06 21:02:49 | Response: 1.405s | IP: 94.183.170.135 | Country: 🇪🇪 Estonia - EE
+vless://06c4e938-2954-478f-a870-ca1b163e30e9@estproxy4.lockdwn.com:443?host=estproxy4.lockdwn.com&path=%2F&sni=estproxy4.lockdwn.com&type=ws#%F0%9F%87%AA%F0%9F%87%AAEE-7e8e5f00d74042d6095672700b148c7c
+
+# Tested at: 2026-09-06 21:03:46 | Response: 1.923s | IP: 2001:1af8:5301:133:1c00:efff:fe00:203e | Country: 🇳🇱 The Netherlands - NL
+vless://05caca6c-9e97-4c0f-8edf-7b88a6e572c5@85.17.145.65:12068?host=mypanel.unixzone.us&path=%2F&sni=mypanel.unixzone.us&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-77e3280ea6d99cde2f89387753614621
+
+# Tested at: 2026-09-06 21:04:22 | Response: 0.489s | IP: 104.28.167.60 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.48.32:2052?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-5793d0f63890a58877c88a129beaf523
+
+# Tested at: 2026-09-06 21:07:42 | Response: 0.087s | IP: 104.28.152.153 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.46.234:2052?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-5e3be211e1d278ff6d5fe99a7c1031d0
+
+# Tested at: 2026-09-06 21:08:30 | Response: 0.165s | IP: 104.28.152.153 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.229.2:8880?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-f5622a666bf32bb1e49c1f88f93b5164
+
+# Tested at: 2026-09-06 21:09:53 | Response: 0.375s | IP: 104.28.167.60 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.38.127:8880?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-4f99f366db9a662a6b7b1664204db788
+
+# Tested at: 2026-09-06 21:11:33 | Response: 0.488s | IP: 130.94.29.111 | Country: 🇰🇷 South Korea - KR
+vless://84da6391-1539-4583-a3d9-d6efd796b4d6@130.94.29.111:2087?path=%2Fe17586a75123&type=ws#%F0%9F%87%B0%F0%9F%87%B7KR-79db707c2f6671eb613e304927813b06
+
+# Tested at: 2026-09-06 21:12:20 | Response: 0.854s | IP: 89.36.161.222 | Country: 🇱🇻 Latvia - LV
+vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@89.36.161.222:2096?path=%2F&type=ws#%F0%9F%87%B1%F0%9F%87%BBLV-a79156a60838ec6da6380791bfdb5abb
+
+# Tested at: 2026-09-06 21:13:57 | Response: 0.705s | IP: 172.104.38.188 | Country: 🇸🇬 Singapore - SG
+vless://6aa028bc-08a9-41d1-a397-d60ce65df081@support.zoom.us:80?host=shalana.xyz&path=%2Fshalana&type=ws#%F0%9F%87%B8%F0%9F%87%ACSG-9ea62e0bc3c0c01923506040227d36d0
+
+# Tested at: 2026-09-06 21:13:58 | Response: 0.232s | IP: 149.248.36.183 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.38.127:2052?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-6076e252558233375aab556577f2e050
+
+# Tested at: 2026-09-06 21:14:07 | Response: 0.338s | IP: 134.122.202.244 | Country: 🇯🇵 Japan - JP
 vless://0ca45842-71e2-47fe-889f-9e75f93ea459@134.122.202.244:44915?path=%2F#%F0%9F%87%AF%F0%9F%87%B5JP-8e18423af24f0d946dc749837cc83969
 
-# Tested at: 2026-09-06 17:30:51 | Response: 0.175s | IP: 104.28.152.155 | Country: 🇺🇸 United States - US
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.46.46:80?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-26096a2f7dd5ce6780b52df3bf6db6ef
+# Tested at: 2026-09-06 21:14:08 | Response: 0.092s | IP: 104.28.165.131 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.229.170:8880?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-41c3f92d74e59b89e0f9020fd490ceb3
+
+# Tested at: 2026-09-06 21:15:36 | Response: 0.651s | IP: 141.144.198.50 | Country: 🇳🇱 The Netherlands - NL
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@141.144.198.50:62145?path=%2F#%F0%9F%87%B3%F0%9F%87%B1NL-15e39661050a133da3f65875650a172d
+
+# Tested at: 2026-09-06 21:16:27 | Response: 0.579s | IP: 193.23.194.167 | Country: 🇳🇱 The Netherlands - NL
+vless://32349ee8-8551-45fa-a265-8704cec72936@193.23.194.167:443?path=%2F&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-d36f2cd30e43afa41dcd449492467d82
+
+# Tested at: 2026-09-06 21:16:36 | Response: 0.132s | IP: 104.28.166.44 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@108.162.198.178:2082?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-5260943a312b67f501301ea8d5a350fe
+
+# Tested at: 2026-09-06 21:16:36 | Response: 0.530s | IP: 162.221.196.175 | Country: 🇩🇪 Germany - DE
+vless://3165b4d0-40f7-4df0-9f59-4c89ccdac92d@82.24.203.9:2087?path=%2F3bfc3e3ed603&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-dba246fa430b9700ccace49414887a06
+
+# Tested at: 2026-09-06 21:16:37 | Response: 0.325s | IP: 104.28.165.128 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.42.85:2082?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-5dc9e45802eb638bdc348b3cf58f4ea0
+
+# Tested at: 2026-09-06 21:18:20 | Response: 4.637s | IP: 2a0a:2b41:0:2fb:b592:47c1:8de6:5a30 | Country: 🇷🇺 Russia - RU
+vless://7ee53e03-96ed-4121-9da2-62f3d3374506@185.185.69.26:2200?host=rzd.ru&path=%2Fv1&type=ws#%F0%9F%87%B7%F0%9F%87%BARU-9b47c4ac4ac46ebde9da891b2c22eede
+
+# Tested at: 2026-09-06 21:18:53 | Response: 0.517s | IP: 104.28.152.129 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.24.131:8080?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-f5a130280683497d9e0ddb2351a1edae
+
+# Tested at: 2026-09-06 21:19:03 | Response: 0.712s | IP: 193.233.217.140 | Country: 🇷🇺 Russia - RU
+vless://19365fd3-d23c-4a9e-a2ef-543d230e65c4@193.233.217.140:2200?host=rzd.ru&path=%2Fv1&type=ws#%F0%9F%87%B7%F0%9F%87%BARU-f0a5c4b94e4ff8108fab81f725fdfde4
+
+# Tested at: 2026-09-06 21:20:30 | Response: 0.345s | IP: 104.28.165.56 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.229.2:2082?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-dcd0488d45189728abdb4781afcf07d4
+
+# Tested at: 2026-09-06 21:20:30 | Response: 0.688s | IP: 104.28.165.132 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.0.53:2095?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-7c6d32857fd3d9e01c561048e7bc9b69
+
+# Tested at: 2026-09-06 21:20:38 | Response: 0.352s | IP: 104.28.165.52 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.229.2:2052?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-4822684b8f583dce1af5cc3b526779e0
+
+# Tested at: 2026-09-06 21:20:38 | Response: 0.805s | IP: 189.74.97.43 | Country: 🇺🇿 Uzbekistan - UZ
+vless://10f7eb2d-d96d-4778-9d36-aff11e9d6629@189.74.97.43:2087?path=%2F73b6faea2d00&type=ws#%F0%9F%87%BA%F0%9F%87%BFUZ-9c9bfd7fe7d645fa425c56d373de0ac2
+
+# Tested at: 2026-09-06 21:22:01 | Response: 0.249s | IP: 104.28.165.129 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.43.187:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-2d975ec66a8cbb5925db95e7ef5db970
+
+# Tested at: 2026-09-06 21:22:14 | Response: 1.053s | IP: 162.221.196.52 | Country: 🇩🇪 Germany - DE
+vless://90da514d-8888-4a53-912e-ac2981c8c6ee@188.220.67.161:2087?path=%2F8f2690e2d016&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-e0141ffa51b52a7db39d2472d41933ea
+
+# Tested at: 2026-09-06 21:23:03 | Response: 0.675s | IP: 193.108.119.111 | Country: 🇩🇪 Germany - DE
+vless://307998ce-9dc2-473b-81bb-6c359817df5c@185.185.69.251:2200?host=rzd.ru&path=%2Fv1&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-98c5f991addcb8c40310ee9a81ecf9da
+
+# Tested at: 2026-09-06 21:23:38 | Response: 0.427s | IP: 149.130.188.248 | Country: 🇨🇴 Colombia - CO
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.188.248:62145?path=%2F#%F0%9F%87%A8%F0%9F%87%B4CO-578f92f1b4b4778a07ca4fc2801b8335
+
+# Tested at: 2026-09-06 21:24:39 | Response: 0.549s | IP: 87.120.84.32 | Country: 🇩🇪 Germany - DE
+vless://93dac4b8-3879-4179-abdb-9666a9e2ca8d@deproxy2.lckdwn.ru:8443?host=deproxy2.lckdwn.ru&path=%2F&sni=deproxy2.lckdwn.ru&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-c66c9d96f167f6d08b25124ce76afa75
+
+# Tested at: 2026-09-06 21:25:14 | Response: 0.534s | IP: 104.28.158.225 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.53.55:80?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-9fed71d1bd6907eee27aeb88152dd1ce
+
+# Tested at: 2026-09-06 21:25:15 | Response: 0.375s | IP: 104.28.165.129 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.43.187:80?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-e94122778a14df254459bd21a376fe44
+
+# Tested at: 2026-09-06 21:26:03 | Response: 0.906s | IP: 104.28.165.130 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.42.85:8080?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-cc0e74baf6af95ada10904587d32b113
+
+# Tested at: 2026-09-06 21:26:49 | Response: 0.845s | IP: 2a0b:21c1:600e:5f75:0:2e:0:2 | Country: 🇩🇪 Germany - DE
+vless://3165b4d0-40f7-4df0-9f59-4c89ccdac92d@82.24.203.10:2087?host=82.24.203.10&path=%2F3bfc3e3ed603&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-83dd3dde70d20d231d37e138d4aee4c1
+
+# Tested at: 2026-09-06 21:26:49 | Response: 0.472s | IP: 104.28.158.224 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.24.131:2052?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-01ce345ed6bd8cead7dcb101a326399f
+
+# Tested at: 2026-09-06 21:27:41 | Response: 0.122s | IP: 2a09:bac5:624b:1846::26b:80 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.38.127:2082?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-a3fac686d3ea2da1dd47a732c201df88
+
+# Tested at: 2026-09-06 21:28:28 | Response: 0.773s | IP: 66.93.128.123 | Country: 🇺🇸 United States - US
+vless://bf443e4a-aa9e-4509-abf0-d0f6828d57be@178.95.170.115:2087?host=Telegram-Leviko_v2ray&path=%2F4bc027a44532&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-ac411d52e694e3e7e1ae7f337129435a
+
+# Tested at: 2026-09-06 21:29:14 | Response: 0.307s | IP: 104.28.158.226 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.45.19:2082?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-4c43e925b03edb1e1b282940ed9eb7d2
+
+# Tested at: 2026-09-06 21:30:52 | Response: 0.848s | IP: 172.245.148.211 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.48.32:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-3f08f371e1a9660bb5c0d452c4ac20a0
+
+# Tested at: 2026-09-06 21:30:52 | Response: 0.165s | IP: 104.28.165.130 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.43.187:8080?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-286fcfeb9ebfd6f615e25e063b279774
+
+# Tested at: 2026-09-06 21:30:53 | Response: 0.516s | IP: 66.93.128.123 | Country: 🇺🇸 United States - US
+vless://bf443e4a-aa9e-4509-abf0-d0f6828d57be@178.95.170.83:2087?host=178.95.170.83&path=%2F4bc027a44532&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-6e6c7fc7c47b7ba65fca27a7962e592a
+
+# Tested at: 2026-09-06 21:32:28 | Response: 0.400s | IP: 104.28.152.150 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.47.113:2095?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-28bdbe3cf1df3627627d61296cc3fcca
+
+# Tested at: 2026-09-06 21:33:29 | Response: 0.091s | IP: 2a09:bac5:624b:183c::26a:d4 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.24.131:2082?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-0239fe3037d50bd82e966342b183977d
+
+# Tested at: 2026-09-06 21:38:09 | Response: 1.054s | IP: 104.28.165.52 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.52.6:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-837d7087a503e9a02228d9c5bf5eb314
+
+# Tested at: 2026-09-06 21:39:00 | Response: 0.904s | IP: 104.28.158.224 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.46.46:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-b7588b1a58a9bc5f64384f2cab844ce7
+
+# Tested at: 2026-09-06 21:39:46 | Response: 0.213s | IP: 104.28.165.52 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.24.131:8880?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-82518dd6037b584bcff0cfb150986aeb
+
+# Tested at: 2026-09-06 21:39:47 | Response: 0.916s | IP: 31.76.76.28 | Country: 🇳🇱 The Netherlands - NL
+vless://de5906f3-df38-4463-aa9d-2b01320cc6ea@neth4.lckdwn.ru:443?host=neth4.lckdwn.ru&path=%2F&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-ecf04bcc816294c8bd1c585b33338a7e
+
+# Tested at: 2026-09-06 21:39:47 | Response: 1.310s | IP: 193.23.194.167 | Country: 🇳🇱 The Netherlands - NL
+vless://32349ee8-8551-45fa-a265-8704cec72936@neth.lckdwn.ru:443?host=neth.lckdwn.ru&path=%2F&sni=neth.lckdwn.ru&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-3452c6a36c8c09102ebc5233424b745d
+
+# Tested at: 2026-09-06 21:39:47 | Response: 0.404s | IP: 147.189.129.147 | Country: 🇺🇸 United States - US
+vless://090a3fa8-973f-4812-9b69-ed982082a933@147.189.129.144:2087?path=%2F4ad49ed0a3d5&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-aca65ff5133c2531ecac44a45bf0a0ee
+
+# Tested at: 2026-09-06 21:41:31 | Response: 0.470s | IP: 172.245.148.211 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.0.169:8080?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-08fa868ce86087e5381ac1166c4429cb
+
+# Tested at: 2026-09-06 21:42:14 | Response: 0.485s | IP: 14.137.238.194 | Country: 🇯🇵 Japan - JP
+vless://8b92dfff-ddfd-4a37-841d-6f7bf7ab43b6@14.137.238.193:10000?path=%2F#%F0%9F%87%AF%F0%9F%87%B5JP-8e99645566f654124c3e35d757730b54
+
+# Tested at: 2026-09-06 21:44:46 | Response: 0.471s | IP: 94.183.209.43 | Country: 🇵🇱 Poland - PL
+vless://5e7ecc47-e424-4653-876e-c7515a2c82b4@94.183.209.43:443?path=%2F&type=ws#%F0%9F%87%B5%F0%9F%87%B1PL-f61f3d4c41356e04587c4ff73efbc936
+
+# Tested at: 2026-09-06 21:45:34 | Response: 0.909s | IP: 51.15.57.139 | Country: 🇳🇱 The Netherlands - NL
+vless://11af1c47-865a-47c6-92ff-118013655d78@51.15.57.139:8080?path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-f18262a15ce36f8a36560813f75f2105
+
+# Tested at: 2026-09-06 21:46:56 | Response: 0.702s | IP: 38.54.59.209 | Country: 🇪🇬 Egypt - EG
+vless://cd842ef8-9577-47f3-83ca-627147ed291b@38.54.59.209:2087?path=%2Fd1000b16fe76&type=ws#%F0%9F%87%AA%F0%9F%87%ACEG-40bdf29715eb4d071ad610c203701e90
+
+# Tested at: 2026-09-06 21:47:04 | Response: 0.113s | IP: 2a09:bac5:624b:1846::26b:dd | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.53.55:2052?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-e47fa7ee84025334a7d74e5c88a60e9a
+
+# Tested at: 2026-09-06 21:51:06 | Response: 0.906s | IP: 51.15.56.211 | Country: 🇳🇱 The Netherlands - NL
+vless://11af1c47-865a-47c6-92ff-118013655d78@51.15.56.211:8080?path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-e112cc53f14dd8b34fed154c0aee0bdb
+
+# Tested at: 2026-09-06 21:52:45 | Response: 0.516s | IP: 104.28.152.150 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.39.218:8880?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-86711b7a365871b9406814ac706ff488
+
+# Tested at: 2026-09-06 21:52:45 | Response: 0.693s | IP: 104.28.165.52 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.32.108:8880?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-7483b78d0708d1f71205831e3c6058f1
+
+# Tested at: 2026-09-06 21:53:35 | Response: 0.127s | IP: 2a09:bac5:624b:1173::1bd:fb | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.158.146:2082?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-2b131ed28e95683ff0f880b0291f0b9b
+
+# Tested at: 2026-09-06 21:54:22 | Response: 0.109s | IP: 2a09:bac5:624b:1173::1bd:c2 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.24.131:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-2d176f791d212d03d1268ada605f67cf
+
+# Tested at: 2026-09-06 21:55:07 | Response: 0.184s | IP: 104.28.158.203 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.32.103:2095?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-094cccea10a060be4aa4623d5126f16a
+
+# Tested at: 2026-09-06 21:55:09 | Response: 1.445s | IP: 91.107.190.63 | Country: 🇩🇪 Germany - DE
+vless://11af1c47-865a-47c6-92ff-118013655d78@91.107.190.63:8080?path=%2F&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-c85fc70a82a84d51aa6b844924d7a163
+
+# Tested at: 2026-09-06 21:56:05 | Response: 0.117s | IP: 107.172.187.94 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@188.114.97.6:2086?host=zb1zi.s3nx.dyz.hh.vavava.kdns.fr&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-9be0e40436d11151abc33f4bcf46f2dc
+
+# Tested at: 2026-09-06 21:56:11 | Response: 2.765s | IP: 192.145.31.5 | Country: 🇧🇬 Bulgaria - BG
+vless://9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a@neth9.lunariai.ru:443?sni=neth9.lunariai.ru&type=ws#%F0%9F%87%A7%F0%9F%87%ACBG-6d9e757a687ed43e8f18c2562ee094ff
+
+# Tested at: 2026-09-06 21:57:44 | Response: 0.144s | IP: 2a09:bac5:624b:2da5::48c:1a | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.43.187:8880?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-49cf60ae9a89725298e9e03c49b80c37
+
+# Tested at: 2026-09-06 22:00:08 | Response: 0.625s | IP: 144.31.219.116 | Country: 🇩🇪 Germany - DE
+vless://d4719d52-c3fc-4651-98e1-535dbd77dbcf@91.218.230.240:20443?type=raw#%F0%9F%87%A9%F0%9F%87%AADE-6a4b17534c25c8d9a90b1de400d3169a
+
+# Tested at: 2026-09-06 22:01:44 | Response: 0.181s | IP: 104.28.165.132 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.48.32:8880?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-08d17bc2dba17da14ea1f1d95aa5edf6
+
+# Tested at: 2026-09-06 22:01:47 | Response: 0.100s | IP: 104.28.165.132 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.46.46:2052?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-8c8d73346a914b3120da08e107f084b3
+
+# Tested at: 2026-09-06 22:02:26 | Response: 0.275s | IP: 104.28.152.155 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.32.108:2052?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-91aeea2eacbfc09260e1cd11c6274706
+
+# Tested at: 2026-09-06 22:02:27 | Response: 0.943s | IP: 45.144.28.39 | Country: 🇫🇷 France - FR
+vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@usejh2.neobo-tooth.ru:2096?host=usejh2.neobo-tooth.ru&path=%2F&sni=usejh2.neobo-tooth.ru&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-8da4045e0be2e4c5d6f9a9e3f25f681f
+
+# Tested at: 2026-09-06 22:02:27 | Response: 0.094s | IP: 2a09:bac5:624b:2da5::48c:58 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.39.218:2095?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-8a066c3ff9f0d7e6c046bbd706db3dbd
+
+# Tested at: 2026-09-06 22:03:14 | Response: 0.109s | IP: 104.28.158.198 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.154.8:2095?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-8d91f5627ebd3607c3723a6b356ccaea
+
+# Tested at: 2026-09-06 22:04:01 | Response: 0.549s | IP: 23.254.248.161 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.0.53:8080?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-d3ef9edc0ad35d5e550a79a4017a0a67
+
+# Tested at: 2026-09-06 22:04:51 | Response: 0.483s | IP: 23.251.51.252 | Country: 🇩🇪 Germany - DE
+vless://5fcdc9b7-e70f-4a5c-85c3-e018ad818326@82.24.203.20:2087?path=%2Ffd5ba98a3970&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-20774477185fbe1346c024a27a860a8d
+
+# Tested at: 2026-09-06 22:05:40 | Response: 1.187s | IP: 2001:1af8:5301:133:1c00:efff:fe00:203e | Country: 🇳🇱 The Netherlands - NL
+vless://05caca6c-9e97-4c0f-8edf-7b88a6e572c5@mypanel.unixzone.us:12068?path=%2F&sni=mypanel.unixzone.us&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-46491a26a145bfcaa0ef4bc728c11c27
+
+# Tested at: 2026-09-06 22:06:34 | Response: 0.382s | IP: 150.136.139.228 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.34.14:8080?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-26ccb59a4ae33cddd25f336448c23208
+
+# Tested at: 2026-09-06 22:08:03 | Response: 0.532s | IP: 104.28.152.174 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@108.162.198.178:8880?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-8b25a777df35b510811486a20bd2b5e4
+
+# Tested at: 2026-09-06 22:08:11 | Response: 4.182s | IP: 77.222.52.61 | Country: 🇷🇺 Russia - RU
+vless://d46b4fca-2352-4557-a6d5-e8c45b27618c@77.222.52.61:2200?host=rzd.ru&path=%2Fv1&type=ws#%F0%9F%87%B7%F0%9F%87%BARU-80d2bed4dc3602b5abbb8cfcf57e0675
+
+# Tested at: 2026-09-06 22:08:13 | Response: 0.701s | IP: 94.183.170.248 | Country: 🇪🇪 Estonia - EE
+vless://9d9e3421-5652-4804-85ba-238355b948ab@estproxy3.lockdwn.com:443?host=estproxy3.lockdwn.com&path=%2F&type=ws#%F0%9F%87%AA%F0%9F%87%AAEE-d03576569270ee32f8237b967e1edc47
+
+# Tested at: 2026-09-06 22:09:48 | Response: 0.099s | IP: 2a09:bac5:624b:183c::26a:53 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.46.234:2082?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-181715e11d6332ea4bbe2e0a220e5bdf
+
+# Tested at: 2026-09-06 22:14:28 | Response: 0.279s | IP: 2a09:bac5:624b:1846::26b:6 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.154.8:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-39506699783813a913e08df744adae01
+
+# Tested at: 2026-09-06 22:15:15 | Response: 0.501s | IP: 104.28.167.25 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.32.103:2082?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-b901962fcaec74b30d6ce65e42d9e6f5
+
+# Tested at: 2026-09-06 22:16:20 | Response: 0.820s | IP: 201.34.137.15 | Country: 🇷🇺 Russia - RU
+vless://716903b1-e6bf-4420-9e27-65e4451692e9@201.34.137.15:4100?host=live.ok.ru&path=%2Fv1&type=ws#%F0%9F%87%B7%F0%9F%87%BARU-9a19281f8c4cb3cbd7d82f10141a02ef
+
+# Tested at: 2026-09-06 22:17:44 | Response: 0.117s | IP: 2a09:bac5:624b:183c::26a:c1 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.0.53:8880?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-66529010cd1e41ee7fc24dd7a7d9ac68
+
+# Tested at: 2026-09-06 22:21:45 | Response: 0.675s | IP: 104.28.152.130 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.39.218:2095?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-8cbc7bd2294596a660431817ddfe79c0
+
+# Tested at: 2026-09-06 22:21:45 | Response: 0.142s | IP: 104.28.165.129 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.52.6:2082?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-a0cd5c40613b5c84d24515758e1d9e72
+
+# Tested at: 2026-09-06 22:21:46 | Response: 0.225s | IP: 104.28.158.197 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.0.53:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-0c3e09bc8d8d8b1676620ccb5a70e27c
+
+# Tested at: 2026-09-06 22:22:32 | Response: 0.438s | IP: 192.145.31.5 | Country: 🇧🇬 Bulgaria - BG
+vless://9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a@192.145.31.5:443?path=%2F&type=ws#%F0%9F%87%A7%F0%9F%87%ACBG-e146e16a2e282390d9dd268fd087dc04
+
+# Tested at: 2026-09-06 22:23:34 | Response: 0.608s | IP: 66.93.128.123 | Country: 🇺🇸 United States - US
+vless://bf443e4a-aa9e-4509-abf0-d0f6828d57be@178.95.170.98:2087?path=%2F4bc027a44532&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-efbed02b302b7fa4eb4a3855bf540824
+
+# Tested at: 2026-09-06 22:24:18 | Response: 0.498s | IP: 31.76.76.28 | Country: 🇳🇱 The Netherlands - NL
+vless://de5906f3-df38-4463-aa9d-2b01320cc6ea@31.76.76.28:443?path=%2F&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-c668e3f839dc0aa5a61db60b07864ea6
+
+# Tested at: 2026-09-06 22:28:56 | Response: 1.556s | IP: 84.235.244.108 | Country: 🇦🇪 United Arab Emirates - AE
+vless://39947382-3212-41c9-bc3a-589574ac8b23@uae.unixzone.us:22573?host=uae.unixzone.us&path=%2F&type=ws#%F0%9F%87%A6%F0%9F%87%AAAE-7869948e556911395079547ee4023795
+
+# Tested at: 2026-09-06 22:33:50 | Response: 0.201s | IP: 104.28.152.130 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.24.131:80?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-0ba2ebb598fce2a0f3398f83d9f49132
+
+# Tested at: 2026-09-06 22:33:50 | Response: 0.628s | IP: 104.28.158.226 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.48.32:2095?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-becbc955eee7a91b7af66f0cfb4e4515
+
+# Tested at: 2026-09-06 22:33:50 | Response: 0.508s | IP: 94.183.209.42 | Country: 🇵🇱 Poland - PL
+vless://84c898c4-6990-4121-ae51-27d989f5ce39@94.183.209.42:443?path=%2F&type=ws#%F0%9F%87%B5%F0%9F%87%B1PL-f9d76f518f8ce8dbf3ccf77bc771ccf3
+
+# Tested at: 2026-09-06 22:36:14 | Response: 0.677s | IP: 104.28.166.252 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.46.46:8880?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-dd70e925d6e4f861d4989f17471ddebe
+
+# Tested at: 2026-09-06 22:37:01 | Response: 0.450s | IP: 64.181.227.82 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.229.2:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-62b760ebcdf1fb0ebdbb031e1f777866
+
+# Tested at: 2026-09-06 22:38:48 | Response: 0.388s | IP: 45.144.28.39 | Country: 🇫🇷 France - FR
+vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@45.144.28.39:2096?host=usejh2.neobo-tooth.ru&path=%2F&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-b546ad75e28bd98bb6cfc74f67ae4b12
+
+# Tested at: 2026-09-06 22:39:39 | Response: 0.197s | IP: 104.28.165.53 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.24.131:2095?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-cf40cb8dc8b5d99ad39275e7b5835c06
+
+# Tested at: 2026-09-06 22:40:26 | Response: 0.172s | IP: 104.28.158.228 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.42.85:2095?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-a091214e74bd9b31a748e6788d02e980
+
+# Tested at: 2026-09-06 22:42:39 | Response: 0.430s | IP: 104.28.152.127 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.47.113:8880?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-899d18bab5cd34e3eec97494410d2af5
+
+# Tested at: 2026-09-06 22:45:11 | Response: 0.356s | IP: 204.216.216.23 | Country: 🇮🇹 Italy - IT
+vless://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?sni=%2F#%F0%9F%87%AE%F0%9F%87%B9IT-eb8d1ef0de5eac0461fdfeeef25f54bb
+
+# Tested at: 2026-09-06 22:45:48 | Response: 0.447s | IP: 104.28.158.206 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.52.6:8880?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-634e88c8b9a5d2f39dda52b69f486b33
+
+# Tested at: 2026-09-06 22:45:49 | Response: 0.252s | IP: 104.28.160.7 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.45.19:2052?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-d34116810c23fdaa1f118bfa9f50e606
+
+# Tested at: 2026-09-06 22:45:49 | Response: 0.241s | IP: 154.29.154.239 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.46.234:80?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-3d0ec570bbaf9036c4ec8ad6a69063be
+
+# Tested at: 2026-09-06 22:46:00 | Response: 0.169s | IP: 104.28.165.130 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.229.170:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-662665fa6357ecbb8306171fa3d3138d
+
+# Tested at: 2026-09-06 22:46:45 | Response: 0.505s | IP: 162.221.196.167 | Country: 🇩🇪 Germany - DE
+vless://44573770-963a-41f5-a080-3cc11e4957a2@82.24.203.37:2087?path=%2F5c62e3c616d8&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-b597ee7b8a6e316ece80e8f002290fb1
+
+# Tested at: 2026-09-06 22:49:14 | Response: 0.193s | IP: 104.28.158.226 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.39.218:2052?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-1cb59fa54435066e6d2adfedb9ce4567
+
+# Tested at: 2026-09-06 22:49:52 | Response: 0.085s | IP: 2a09:bac5:624b:1187::1bf:98 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.0.169:2095?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-b760d246d358c9aa8c7e22f35f30d399
+
+# Tested at: 2026-09-06 22:50:53 | Response: 0.173s | IP: 104.28.165.54 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.42.85:8880?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-8409365cc66260281426bf7ac82a9b19
+
+# Tested at: 2026-09-06 22:51:31 | Response: 0.132s | IP: 104.28.158.90 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.39.218:80?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-5f84f2a928950fb31fb751aec9bb685e
+
+# Tested at: 2026-09-06 22:53:10 | Response: 0.089s | IP: 104.28.165.53 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.229.170:8080?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-16295046d9ed8dd42c363312b4f84cc9
+
+# Tested at: 2026-09-06 22:53:19 | Response: 0.183s | IP: 104.28.158.225 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.45.19:80?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-4123cde61b84a541816ca544c5fbede1
+
+# Tested at: 2026-09-06 22:55:03 | Response: 4.697s | IP: 2a0a:2b41:0:2fb:b592:47c1:8de6:5a30 | Country: 🇷🇺 Russia - RU
+vless://7ee53e03-96ed-4121-9da2-62f3d3374506@185.185.69.26:4100?host=live.ok.ru&path=%2Fv1&type=ws#%F0%9F%87%B7%F0%9F%87%BARU-ba1ea79041431556ab63aa642134c545
+
+# Tested at: 2026-09-06 22:56:29 | Response: 0.094s | IP: 104.28.152.151 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.39.218:8880?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-0e4a58fbd662e9948f6d4b46bc3c2ff7
+
+# Tested at: 2026-09-06 22:57:20 | Response: 0.090s | IP: 104.28.152.128 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.39.218:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-e980452085e82cc09e976adff59141f3
+
+# Tested at: 2026-09-06 22:58:46 | Response: 0.821s | IP: 162.221.196.52 | Country: 🇩🇪 Germany - DE
+vless://90da514d-8888-4a53-912e-ac2981c8c6ee@188.220.67.245:2087?host=188.220.67.245&path=%2F8f2690e2d016&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-259c72f37714fc66e990eeddfd552e25
+
+# Tested at: 2026-09-06 22:58:46 | Response: 0.300s | IP: 104.28.158.106 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.34.14:2095?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-66c78922e3ef07570286134366a600fc
+
+# Tested at: 2026-09-06 22:58:57 | Response: 0.462s | IP: 91.107.154.19 | Country: 🇩🇪 Germany - DE
+vless://11af1c47-865a-47c6-92ff-118013655d78@91.107.154.19:8080?path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-fdcadb1055b2ac8fc6ba8291a4659812
+
+# Tested at: 2026-09-06 23:01:17 | Response: 0.148s | IP: 64.181.227.82 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.39.218:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-8002628fc20500179b683870c5b6b711
+
+# Tested at: 2026-09-06 23:03:26 | Response: 0.360s | IP: 104.28.152.152 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.46.234:2095?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-b024ea2b4fe389b246dc0404af0c9c40
+
+# Tested at: 2026-09-06 23:04:15 | Response: 0.906s | IP: 94.183.209.42 | Country: 🇵🇱 Poland - PL
+vless://84c898c4-6990-4121-ae51-27d989f5ce39@pl3.lckdwn.ru:443?host=pl3.lckdwn.ru&path=%2F&type=ws#%F0%9F%87%B5%F0%9F%87%B1PL-d19993afd8a08efc248dc514604c266c
+
+# Tested at: 2026-09-06 23:05:48 | Response: 0.676s | IP: 104.28.166.252 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.0.53:2082?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-9f6c98e8d64a27929b7f96154e393fac
+
+# Tested at: 2026-09-06 23:06:40 | Response: 0.329s | IP: 104.28.165.54 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.154.8:8080?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-fb3146555931374a977a41f18302c9af
+
+# Tested at: 2026-09-06 23:07:34 | Response: 0.189s | IP: 104.28.165.52 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.47.113:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-2afbe2b804e205ed028532e2c965940d
+
+# Tested at: 2026-09-06 23:07:43 | Response: 0.354s | IP: 104.28.165.56 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@188.114.97.6:2052?host=zb1zi.s3nx.dyz.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-fc928bd73145b0236a4606fd50907f49
+
+# Tested at: 2026-09-06 23:08:16 | Response: 0.694s | IP: 104.28.167.62 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.52.6:2052?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-827fa58cfb94ec0c92820fa278112802
+
+# Tested at: 2026-09-06 23:08:16 | Response: 0.411s | IP: 104.28.165.131 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.32.108:8080?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-bdd9eaebc7fe8bc60a15c93fd2ff0d6d
+
+# Tested at: 2026-09-06 23:09:55 | Response: 0.679s | IP: 151.243.182.249 | Country: 🇦🇪 United Arab Emirates - AE
+vless://98673856-cd6f-4aa0-b2c9-d2ec90c0f47b@151.243.182.249:443?path=%2F&type=ws#%F0%9F%87%A6%F0%9F%87%AAAE-a67f6475955f5248ac1a57ae3683c492
+
+# Tested at: 2026-09-06 23:11:43 | Response: 0.170s | IP: 104.28.165.131 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.0.169:2052?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-ed34e366d51c4edb763dc39f773652cf
+
+# Tested at: 2026-09-06 23:14:00 | Response: 0.772s | IP: 94.183.170.135 | Country: 🇪🇪 Estonia - EE
+vless://06c4e938-2954-478f-a870-ca1b163e30e9@94.183.170.135:443?host=estproxy4.lockdwn.com&path=%2F&type=ws#%F0%9F%87%AA%F0%9F%87%AAEE-8f34ff94942df75a39169bb7cc94e583
+
+# Tested at: 2026-09-06 23:14:01 | Response: 0.604s | IP: 94.183.209.59 | Country: 🇵🇱 Poland - PL
+vless://d23cb516-40db-4aa4-8142-6b45ff882f90@94.183.209.59:443?path=%2F&type=ws#%F0%9F%87%B5%F0%9F%87%B1PL-42364e47e48d7cd1f9584dea389d013f
+
+# Tested at: 2026-09-06 23:15:38 | Response: 0.115s | IP: 104.28.152.154 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.52.6:2095?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-b9f9fb418b279d41607e8c37845d37bb
+
+# Tested at: 2026-09-06 23:15:46 | Response: 0.384s | IP: 104.28.157.109 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@108.162.198.178:8080?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-ee6ebdf49e473203c1731fc5173dc7ed
+
+# Tested at: 2026-09-06 23:17:16 | Response: 0.865s | IP: 23.251.51.16 | Country: 🇩🇪 Germany - DE
+vless://56ba5d34-ef22-4ba6-8090-4188b807df54@163.8.195.241:2087?host=163.8.195.241&path=%2F29c8fed7ca22&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-99a0488cc0eedc35924487e5aa082636
+
+# Tested at: 2026-09-06 23:17:26 | Response: 0.570s | IP: 51.158.241.182 | Country: 🇳🇱 The Netherlands - NL
+vless://11af1c47-865a-47c6-92ff-118013655d78@51.158.241.182:8080?path=%2F&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-aab5bcb170ae64eb5a21c012431b4e6d
+
+# Tested at: 2026-09-06 23:19:05 | Response: 0.184s | IP: 104.28.160.7 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.45.19:2095?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-d365a5434978d2725059cf7aa386885c
+
+# Tested at: 2026-09-06 23:19:47 | Response: 2.321s | IP: 157.22.133.130 | Country: 🇺🇿 Uzbekistan - UZ
+vless://e6d369db-22be-4f30-8685-455c717aaa8c@157.22.133.130:2087?path=%2F5021201ef53f&type=ws#%F0%9F%87%BA%F0%9F%87%BFUZ-1cb2a1b913596db0671395a26a43a96d
+
+# Tested at: 2026-09-06 23:20:43 | Response: 0.094s | IP: 104.28.165.57 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.43.187:2082?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-5cb9a91806ea4c1df1f123274902b658
+
+# Tested at: 2026-09-06 23:20:45 | Response: 0.916s | IP: 51.158.238.49 | Country: 🇳🇱 The Netherlands - NL
+vless://11af1c47-865a-47c6-92ff-118013655d78@51.158.238.49:8080?path=%2F%3Fed%3D2048&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-a42afab82bf55517ef1087e389192c69
+
+# Tested at: 2026-09-06 23:21:22 | Response: 0.227s | IP: 104.28.152.129 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.158.146:2095?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-c9f1f5ee1b3f46aa833638d0df80b976
+
+# Tested at: 2026-09-06 23:21:24 | Response: 0.584s | IP: 103.75.119.126 | Country: 🇦🇺 Australia - AU
+vless://731f177e-00aa-480c-b935-661456139a32@103.75.119.126:2087?path=%2F7586c69d3dc9&type=ws#%F0%9F%87%A6%F0%9F%87%BAAU-07a40f82b46f43d9294e9417673f9ae9
+
+# Tested at: 2026-09-06 23:22:14 | Response: 0.244s | IP: 130.94.115.231 | Country: 🇨🇦 Canada - CA
+vless://8a51f3d9-30cc-44e6-8d31-700211a29066@130.94.115.231:2087?path=%2F721740e567c7&type=ws#%F0%9F%87%A8%F0%9F%87%A6CA-cdefcffc88470a82f0fb5193d067cddf
+
+# Tested at: 2026-09-06 23:23:11 | Response: 0.086s | IP: 2a09:bac5:624b:1187::1bf:cf | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.229.170:80?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-d42d6a76cd1f0ea3d574f15052f07e41
+
+# Tested at: 2026-09-06 23:23:47 | Response: 0.547s | IP: 104.28.165.56 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@104.18.47.113:80?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-0b0aae8957a334f48d687e7fe8adbb0b
+
+# Tested at: 2026-09-06 23:24:41 | Response: 0.271s | IP: 134.98.146.239 | Country: 🇳🇱 The Netherlands - NL
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@134.98.146.239:62145?path=%2F#%F0%9F%87%B3%F0%9F%87%B1NL-a658f717612cc7749d9e70e02ce6e928
+
+# Tested at: 2026-09-06 23:27:44 | Response: 0.608s | IP: 31.169.125.12 | Country: 🇺🇸 United States - US
+vless://170e1be8-e51b-4a82-a779-3ad27b78607c@us6.lunariai.ru:443?host=us6.lunariai.ru&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-47954446400dec72018a87eb170fe850
+
+# Tested at: 2026-09-06 23:28:31 | Response: 0.553s | IP: 2.27.205.59 | Country: 🇺🇸 United States - US
+vless://c21631d5-36c9-4664-b575-97eca17456be@2.27.205.59:443?host=neth8.lunariai.ru&path=%2F&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-16915019f6ab9bbea2050626049778a4
+
+# Tested at: 2026-09-06 23:29:18 | Response: 0.242s | IP: 104.28.152.170 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@108.162.198.178:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-d47450b75e3b1a84bed4b1622f0323db
+
+# Tested at: 2026-09-06 23:32:34 | Response: 1.176s | IP: 47.253.48.74 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.0.169:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-ea52054a019b5823846bb84aa45bd63a
+
+# Tested at: 2026-09-06 23:32:35 | Response: 0.141s | IP: 104.28.158.224 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.52.6:80?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-5557a458ed9657607b155f10afec0196
+
+# Tested at: 2026-09-06 23:32:42 | Response: 0.127s | IP: 2a09:bac5:624b:183c::26a:27 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.45.19:2086?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-559533af20dc4df64ff4f902de1150cd
+
+# Tested at: 2026-09-06 23:33:36 | Response: 0.448s | IP: 147.189.129.147 | Country: 🇺🇸 United States - US
+vless://090a3fa8-973f-4812-9b69-ed982082a933@147.189.129.155:2087?path=%2F4ad49ed0a3d5&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-0fe8b726e8c5918feddfc48605ec6086
+
+# Tested at: 2026-09-06 23:34:13 | Response: 0.649s | IP: 134.122.154.210 | Country: 🇸🇬 Singapore - SG
+vless://7f549a50-4655-46b6-962d-183cfc532fc9@134.122.154.210:443?path=%2F#%F0%9F%87%B8%F0%9F%87%ACSG-45463151bdefd574fe3c212b8880673a
+
+# Tested at: 2026-09-06 23:34:14 | Response: 0.293s | IP: 104.28.152.128 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.158.146:8080?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-fe5dc7fd0c5407f620d763fe455a3fff
+
+# Tested at: 2026-09-06 23:35:50 | Response: 1.210s | IP: 149.104.109.17 | Country: 🇵🇭 Philippines - PH
+vless://9ed3dcb3-b71a-4ae1-8210-95e33615d7e6@149.104.109.17:2087?path=%2F04461917b179&type=ws#%F0%9F%87%B5%F0%9F%87%ADPH-9c0eb121d347df0a5efc53930a176788
+
+# Tested at: 2026-09-06 23:36:42 | Response: 0.196s | IP: 104.28.165.129 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.39.218:8080?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-058cb9afdb7387bf6f02948d19884e0e
+
+# Tested at: 2026-09-06 23:36:46 | Response: 0.320s | IP: 92.5.225.187 | Country: 🇳🇱 The Netherlands - NL
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@92.5.225.187:62145?path=%2F#%F0%9F%87%B3%F0%9F%87%B1NL-af089d98330188a84f18bcb29adac119
+
+# Tested at: 2026-09-06 23:37:28 | Response: 0.735s | IP: 137.184.46.183 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.0.53:2052?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-980c5f6f372fa3da8ae3d82abf453185
+
+# Tested at: 2026-09-06 23:39:54 | Response: 0.618s | IP: 2a09:bac5:624b:1173::1bd:121 | Country: 🇺🇸 United States - US
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.32.103:8880?host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-305f4622f563c9b3681797d5846408a8
+
+# Tested at: 2026-09-06 23:39:56 | Response: 2.070s | IP: 38.60.168.98 | Country: 🇲🇾 Malaysia - MY
+vless://8a346b7c-5b95-4845-affa-0e5d9929e9ae@38.60.168.98:2087?path=%2Fdb55c40bbc75&type=ws#%F0%9F%87%B2%F0%9F%87%BEMY-2b17a59fabc40b0192916f784f449919
 
