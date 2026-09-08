@@ -25,18 +25,19 @@ jobs:
       with:
         go-version: '1.25.6'
 
-    - name: Install Xray
+    - name: Install sing-box
       run: |
-        echo "Installing Xray..."
-        # Download and install Xray
-        wget -q https://github.com/XTLS/Xray-core/releases/latest/download/Xray-linux-64.zip 
-        unzip -o -q Xray-linux-64.zip
-        chmod +x xray
-        sudo mv xray /usr/local/bin/
-        
+        echo "Installing sing-box..."
+        # Download and install sing-box (pinned v1.14.0 — config schema verified)
+        wget -q https://github.com/SagerNet/sing-box/releases/download/v1.14.0/sing-box-1.14.0-linux-amd64.tar.gz
+        tar xzf sing-box-1.14.0-linux-amd64.tar.gz
+        chmod +x sing-box-1.14.0-linux-amd64/sing-box
+        sudo mv sing-box-1.14.0-linux-amd64/sing-box /usr/local/bin/
+        sudo mv sing-box-1.14.0-linux-amd64/libcronet.so /usr/local/bin/ || true
+
         # Verify installation
-        xray -version
-        echo "Xray installed successfully"
+        sing-box version
+        echo "sing-box installed successfully"
 
     - name: Install Go dependencies
       run: |
