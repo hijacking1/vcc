@@ -276,9 +276,11 @@ func (pm *PortManager) cleanup() {
 }
 
 type NetworkTester struct {
-	timeout  time.Duration
-	testURLs []string
-	client   *http.Client
+	timeout   time.Duration
+	testURLs  []string
+	client    *http.Client
+	localIP   string
+	localOnce sync.Once
 }
 
 func NewNetworkTester(timeout time.Duration) *NetworkTester {
@@ -418,12 +420,26 @@ func getGeoInfoFromIPInfo(ip string, client *http.Client) (*GeoIPInfo, error) {
 }
 
 // Provider 5: from GeoIP mmdb
+var (
+	geoDB     *maxminddb.Reader
+	geoDBOnce sync.Once
+	geoDBErr  error
+)
+
+// openGeoDB opens the GeoIP mmdb once and caches the reader.
+// (기존에는 success마다 매번 open + 파일 없으면 log.Fatal로 전체 프로세스 종료)
+func openGeoDB() (*maxminddb.Reader, error) {
+	geoDBOnce.Do(func() {
+		geoDB, geoDBErr = maxminddb.Open("Country-without-asn.mmdb")
+	})
+	return geoDB, geoDBErr
+}
+
 func getGeoInfoFromGeoIP(ip_str string, client *http.Client) (*GeoIPInfo, error) {
-	db, err := maxminddb.Open("Country-without-asn.mmdb")
+	db, err := openGeoDB()
 	if err != nil {
-		log.Fatal(err)
+		return nil, fmt.Errorf("open GeoIP mmdb: %w", err)
 	}
-	defer db.Close()
 
 	var record struct {
 		Country struct {
@@ -534,6 +550,34 @@ func (nt *NetworkTester) isProxyResponsive(port int) bool {
 	return true
 }
 
+// ownPublicIP returns the machine's own public egress IP, queried once (no proxy).
+// Used to reject "success" results where the request leaked out directly.
+func (nt *NetworkTester) ownPublicIP() string {
+	nt.localOnce.Do(func() {
+		for _, u := range []string{
+			"https://api.ipify.org",
+			"https://icanhazip.com",
+			"https://checkip.amazonaws.com",
+		} {
+			resp, err := nt.client.Get(u)
+			if err != nil {
+				continue
+			}
+			body, err := io.ReadAll(resp.Body)
+			resp.Body.Close()
+			if err != nil {
+				continue
+			}
+			ip := strings.TrimSpace(string(body))
+			if net.ParseIP(ip) != nil {
+				nt.localIP = ip
+				return
+			}
+		}
+	})
+	return nt.localIP
+}
+
 func (nt *NetworkTester) singleTest(proxyPort int, testURL string) (bool, string, float64) {
 	startTime := time.Now()
 
@@ -583,11 +627,17 @@ func (nt *NetworkTester) singleTest(proxyPort int, testURL string) (bool, string
 		}
 	}
 
-	if net.ParseIP(ipText) != nil {
-		return true, ipText, responseTime
+	ip := net.ParseIP(ipText)
+	if ip == nil {
+		return false, "", responseTime
 	}
 
-	return false, "", responseTime
+	// 자기 공인 IP와 같으면 프록시를 안 타고 직접 나간 것(직접 누출)이므로 실패 처리.
+	if local := nt.ownPublicIP(); local != "" && ipText == local {
+		return false, "", responseTime
+	}
+
+	return true, ipText, responseTime
 }
 
 type XrayConfigGenerator struct {
@@ -834,17 +884,28 @@ func (pm *ProcessManager) KillProcess(pid int) error {
 		return fmt.Errorf("invalid process")
 	}
 
+	// 맵에서 먼저 제거: 이후 HasProcess()는 즉시 false를 반환하므로
+	// 호출부의 "대기" 루프가 거짓 성공하지 않는다.
+	pm.processes.Delete(pid)
+
 	if err := cmd.Process.Kill(); err != nil {
-		pm.processes.Delete(pid)
 		return fmt.Errorf("failed to kill process %d: %w", pid, err)
 	}
 
-	pm.processes.Delete(pid)
+	// 동기 대기: SIGKILL 후 reap까지 기다려야 포트가 실제로 반납된다.
+	// (기존 fire-and-forget Wait()가 포트 재사용 레이스의 원인이었음)
+	waitCh := make(chan struct{})
 	go func(c *exec.Cmd) {
-		c.Wait()
+		_ = c.Wait()
+		close(waitCh)
 	}(cmd)
 
-	return nil
+	select {
+	case <-waitCh:
+		return nil
+	case <-time.After(2 * time.Second):
+		return fmt.Errorf("timed out waiting for process %d to exit", pid)
+	}
 }
 
 func (pm *ProcessManager) Cleanup() {
@@ -1629,6 +1690,80 @@ func (pt *ProxyTester) getConfigHash(config *ProxyConfig) string {
 	return fmt.Sprintf("%x", hash)
 }
 
+// processAlive reports whether a PID currently exists (signal 0 probe).
+func processAlive(pid int) bool {
+	return syscall.Kill(pid, syscall.Signal(0)) == nil
+}
+
+// pidListeningOnPort returns the PID of the process whose socket is in LISTEN
+// state on 127.0.0.1:<port>. Returns 0 if none found. Linux-only (/proc).
+func pidListeningOnPort(port int) int {
+	inode := listenInodeForPort(port)
+	if inode == 0 {
+		return 0
+	}
+	return pidBySocketInode(inode)
+}
+
+func listenInodeForPort(port int) uint64 {
+	hexPort := fmt.Sprintf("%04X", port)
+	for _, f := range []string{"/proc/net/tcp", "/proc/net/tcp6"} {
+		data, err := os.ReadFile(f)
+		if err != nil {
+			continue
+		}
+		for _, line := range strings.Split(string(data), "\n") {
+			fields := strings.Fields(line)
+			if len(fields) < 10 {
+				continue
+			}
+			localAddr := fields[1] // "0100007F:1F90" (IPv4) or "0000...01000000:1F90" (IPv6)
+			state := fields[3]     // "0A" = LISTEN
+			parts := strings.SplitN(localAddr, ":", 2)
+			if len(parts) != 2 || !strings.EqualFold(parts[1], hexPort) || state != "0A" {
+				continue
+			}
+			addrHex := strings.ToLower(parts[0])
+			if addrHex != "0100007f" && addrHex != "00000000000000000000000001000000" {
+				continue
+			}
+			if inode, err := strconv.ParseUint(fields[9], 10, 64); err == nil && inode != 0 {
+				return inode
+			}
+		}
+	}
+	return 0
+}
+
+func pidBySocketInode(inode uint64) int {
+	entries, err := os.ReadDir("/proc")
+	if err != nil {
+		return 0
+	}
+	target := fmt.Sprintf("socket:[%d]", inode)
+	for _, e := range entries {
+		if !e.IsDir() {
+			continue
+		}
+		pid, err := strconv.Atoi(e.Name())
+		if err != nil {
+			continue
+		}
+		fdDir := fmt.Sprintf("/proc/%d/fd", pid)
+		fds, err := os.ReadDir(fdDir)
+		if err != nil {
+			continue
+		}
+		for _, fd := range fds {
+			link, err := os.Readlink(fmt.Sprintf("%s/%s", fdDir, fd.Name()))
+			if err == nil && link == target {
+				return pid
+			}
+		}
+	}
+	return 0
+}
+
 func (pt *ProxyTester) TestSingleConfig(config *ProxyConfig, batchID int) *TestResultData {
 	startTime := time.Now()
 	var proxyPort int
@@ -1690,16 +1825,44 @@ func (pt *ProxyTester) TestSingleConfig(config *ProxyConfig, batchID int) *TestR
 		pt.processManager.RegisterProcess(process.Process.Pid, process)
 	}
 
+	// 대기 + 검증: 이번 테스트가 띄운 xray PID가 실제로 포트에 bind 될 때까지.
+	// 단순 isProxyResponsive(로컬 TCP 연결 확인)는 이전 배치에서 새어나온 xray에
+	// 속을 수 있으므로 /proc 기반으로 "누가" 리슨하는지 PID까지 확인한다.
+	ourPID := 0
+	if process != nil && process.Process != nil {
+		ourPID = process.Process.Pid
+	}
+
+	bound := false
 	readyBy := time.Now().Add(3 * time.Second)
-	for !pt.networkTester.isProxyResponsive(proxyPort) && time.Now().Before(readyBy) {
+	for time.Now().Before(readyBy) {
+		if ourPID != 0 {
+			if pidListeningOnPort(proxyPort) == ourPID {
+				bound = true
+				break
+			}
+			// 우리 프로세스가 죽었으면 더 기다려도 소용없다.
+			if !processAlive(ourPID) {
+				break
+			}
+		} else if pt.networkTester.isProxyResponsive(proxyPort) {
+			bound = true
+			break
+		}
 		time.Sleep(100 * time.Millisecond)
 	}
 
-	if process.ProcessState != nil && process.ProcessState.Exited() {
-		result.Result = ResultConnectionError
-		result.ErrorMessage = "Xray process terminated"
-		if process.Process != nil {
-			pt.processManager.KillProcess(process.Process.Pid)
+	if !bound {
+		boundPID := pidListeningOnPort(proxyPort)
+		if boundPID != 0 && ourPID != 0 && boundPID != ourPID {
+			result.Result = ResultPortConflict
+			result.ErrorMessage = fmt.Sprintf("port %d is held by stale process %d (expected %d)", proxyPort, boundPID, ourPID)
+		} else {
+			result.Result = ResultConnectionError
+			result.ErrorMessage = "Xray failed to bind the configured port"
+		}
+		if ourPID != 0 {
+			pt.processManager.KillProcess(ourPID)
 		}
 		return result
 	}
@@ -1923,7 +2086,7 @@ func (pt *ProxyTester) createWorkingConfigLine(result *TestResultData) string {
 
 func (pt *ProxyTester) createConfigURL(result *TestResultData) string {
 	config := &result.Config
-    hash := md5.Sum([]byte(fmt.Sprintf("%s:%s:%s", config.Protocol, config.Server, config.Port)))
+    hash := md5.Sum([]byte(fmt.Sprintf("%s:%s:%d", config.Protocol, config.Server, config.Port)))
     hashString := hex.EncodeToString(hash[:])
 	remarks := result.CountryFlag+result.CountryCode+"-"+hashString
 
