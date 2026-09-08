@@ -1,9 +1,4 @@
 #!/usr/bin/env python3
-"""Regenerate the 'latest update' statistics block in README.md from the
-collect_summary.json / test_summary.json emitted by the Go pipeline.
-
-Used by .github/workflows/TestProxy.yml after `go run . collect` + `go run . test`.
-"""
 import datetime
 import json
 import os
@@ -11,27 +6,6 @@ import re
 
 START = "<!-- PROXY_STATS_START -->"
 END = "<!-- PROXY_STATS_END -->"
-
-PROTO_ORDER = [
-    "shadowsocks",
-    "shadowsocksr",
-    "vmess",
-    "vless",
-    "trojan",
-    "hysteria",
-    "hysteria2",
-    "tuic",
-]
-PROTO_DISPLAY = {
-    "shadowsocks": "Shadowsocks",
-    "shadowsocksr": "ShadowsocksR",
-    "vmess": "VMess",
-    "vless": "VLESS",
-    "trojan": "Trojan",
-    "hysteria": "Hysteria",
-    "hysteria2": "Hysteria2",
-    "tuic": "TUIC",
-}
 
 
 def load(path):
@@ -48,16 +22,14 @@ def g(d, key, default=0):
 def human_ts(collect, test):
     for d in (collect, test):
         if d and d.get("updated_at"):
-            ts = d["updated_at"]
-            return ts.replace("T", " ").replace("Z", " UTC")
+            return d["updated_at"].replace("T", " ").replace("Z", " UTC")
     return datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
 
 
 def build_block(collect, test):
     updated = human_ts(collect, test)
     lines = [START, ""]
-    lines.append("## 📊 최근 업데이트 현황")
-    lines.append("")
+
     lines.append("| 총 URL | 파싱 성공 URL | 파싱 실패 URL | 최종 업데이트 |")
     lines.append("|-------:|-------------:|-------------:|---------------|")
     lines.append(
@@ -69,6 +41,7 @@ def build_block(collect, test):
         )
     )
     lines.append("")
+
     lines.append("| 수집된 토탈 VPN | 중복제거 VPN | VPN 성공 | VPN 실패 |")
     lines.append("|---------------:|-------------:|--------:|--------:|")
     lines.append(
@@ -79,21 +52,26 @@ def build_block(collect, test):
             vpn_fail=g(test, "failed"),
         )
     )
-    lines.append("")
-    lines.append("### 프로토콜별 테스트")
-    lines.append("")
-    lines.append("| 프로토콜 | 성공 | 실패 |")
-    lines.append("|---------|-----:|-----:|")
+
+    # Protocol breakdown is derived directly from the latest per_protocol data
+    # — no fixed list, so new protocols appear automatically.
     pp = (test or {}).get("per_protocol", {})
-    for key in PROTO_ORDER:
-        s = pp.get(key, {})
-        lines.append(
-            "| {name} | {ok} | {fail} |".format(
-                name=PROTO_DISPLAY[key],
-                ok=g(s, "success"),
-                fail=g(s, "failed"),
+    if pp:
+        lines.append("")
+        lines.append("### 프로토콜별 테스트")
+        lines.append("")
+        lines.append("| 프로토콜 | 성공 | 실패 |")
+        lines.append("|---------|-----:|-----:|")
+        for key in sorted(pp.keys()):
+            s = pp[key] or {}
+            lines.append(
+                "| {name} | {ok} | {fail} |".format(
+                    name=key,
+                    ok=g(s, "success"),
+                    fail=g(s, "failed"),
+                )
             )
-        )
+
     lines.append("")
     lines.append(END)
     return "\n".join(lines)
@@ -107,9 +85,7 @@ def main():
         readme = f.read()
 
     block = build_block(collect, test)
-    pattern = re.compile(
-        re.escape(START) + r".*?" + re.escape(END), re.DOTALL
-    )
+    pattern = re.compile(re.escape(START) + r".*?" + re.escape(END), re.DOTALL)
     if pattern.search(readme):
         readme = pattern.sub(lambda _: block, readme, count=1)
     else:
