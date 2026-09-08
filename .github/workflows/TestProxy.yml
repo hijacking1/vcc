@@ -20,17 +20,6 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         fetch-depth: 0
 
-    - name: Set up Python 3.x
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.x'
-
-    - name: Install Python dependencies
-      run: |
-        echo "Installing required Python packages..."
-        pip install tenacity requests
-        echo "Python dependencies installed successfully"
-
     - name: Set up Go 1.25.6
       uses: actions/setup-go@v6
       with:
@@ -98,21 +87,15 @@ jobs:
         echo "Created directory structure:"
         find data -type d
       
-    - name: Execute Python proxy collector
-      id: python-collector
-      run: |
-        echo "Starting Python proxy collection..."
-        cd config_collector
-        python main.py
-        echo "Python proxy collection completed"
-      continue-on-error: true
-
-    - name: Execute Go proxy tester
+    - name: Execute Go proxy collector + tester
       id: go-proxy-tester
       run: |
-        echo "Starting Go proxy connectivity testing..."
+        echo "Starting Go proxy collection..."
         cd xray_test
-        go run proxy-tester.go || echo "Proxy tester completed (may have timed out)"
+        go run . collect
+        echo "Go proxy collection completed"
+        echo "Starting Go proxy connectivity testing..."
+        go run . test || echo "Proxy tester completed (may have timed out)"
         echo "Go proxy testing completed"
       continue-on-error: true
 
@@ -143,6 +126,12 @@ jobs:
           echo "Data folder not found!"
         fi
 
+    - name: Update README with latest statistics
+      run: |
+        echo "Updating README.md statistics..."
+        python3 scripts/update_readme.py
+        echo "README.md updated"
+
     - name: Configure git for automated commits
       run: |
         git config --global user.name 'github-actions[bot]'
@@ -152,8 +141,8 @@ jobs:
       run: |
         echo "Checking for changes in all data subdirectories..."
 
-        # Add all files in data/ first (before pull to avoid conflicts)
-        git add data/working_url || true
+        # Add results, README, and summary JSONs (before pull to avoid conflicts)
+        git add data/working_url README.md data/collect_summary.json data/test_summary.json || true
 
         # Check if there are changes to commit
         if git diff --cached --quiet; then
@@ -166,14 +155,12 @@ jobs:
 
         # Create commit message with execution summary
         TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M:%S UTC')
-        PYTHON_STATUS="${{ steps.python-collector.outcome }}"
         PROXY_STATUS="${{ steps.go-proxy-tester.outcome }}"
         RUN_ID="${{ github.run_id }}"
         GITHUB_REF_NAME="${{ github.ref_name }}"
 
         git commit -m "Automated proxy collection - ${TIMESTAMP}" \
-                   -m "Python Collector: ${PYTHON_STATUS}" \
-                   -m "Proxy Tester: ${PROXY_STATUS}" \
+                   -m "Go Collector + Tester: ${PROXY_STATUS}" \
                    -m "Workflow run: ${RUN_ID}"
 
         # Pull with rebase and push (handle conflicts gracefully)
@@ -217,8 +204,7 @@ jobs:
         echo "### Script Execution Status" >> $GITHUB_STEP_SUMMARY
         echo "| Script | Status |" >> $GITHUB_STEP_SUMMARY
         echo "|--------|--------|" >> $GITHUB_STEP_SUMMARY
-        echo "| Python Collector | ${{ steps.python-collector.outcome == 'success' && '✅ Success' || '❌ Failed' }} |" >> $GITHUB_STEP_SUMMARY
-        echo "| Go Proxy Tester | ${{ steps.go-proxy-tester.outcome == 'success' && '✅ Success' || '❌ Failed' }} |" >> $GITHUB_STEP_SUMMARY
+        echo "| Go Collector + Tester | ${{ steps.go-proxy-tester.outcome == 'success' && '✅ Success' || '❌ Failed' }} |" >> $GITHUB_STEP_SUMMARY
         echo "" >> $GITHUB_STEP_SUMMARY
 
         if [ -d "data" ]; then
