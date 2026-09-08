@@ -162,6 +162,11 @@ type ProxyConfig struct {
 	RawConfig  map[string]interface{} `json:"raw_config,omitempty"`
 	ConfigID   *int                   `json:"config_id,omitempty"`
 	LineNumber *int                   `json:"line_number,omitempty"`
+
+	// Reality (VLESS) parameters — needed to actually build a testable reality outbound.
+	RealityPublicKey string `json:"reality_public_key,omitempty"`
+	RealityShortID   string `json:"reality_short_id,omitempty"`
+	RealitySpiderX   string `json:"reality_spider_x,omitempty"`
 }
 
 type TestResultData struct {
@@ -879,6 +884,15 @@ func (xcg *XrayConfigGenerator) GenerateConfig(config *ProxyConfig, listenPort i
 		if config.TLS == "tls" {
 			streamSettings["tlsSettings"] = tlsSettings
 		} else if config.TLS == "reality" {
+			if config.RealityPublicKey != "" {
+				tlsSettings["publicKey"] = config.RealityPublicKey
+			}
+			if config.RealityShortID != "" {
+				tlsSettings["shortId"] = config.RealityShortID
+			}
+			if config.RealitySpiderX != "" {
+				tlsSettings["spiderX"] = config.RealitySpiderX
+			}
 			streamSettings["realitySettings"] = tlsSettings
 		}
 	}
@@ -1167,6 +1181,35 @@ func (pt *ProxyTester) LoadConfigsFromJSON(filePath string, protocol ProxyProtoc
 	}
 
 	return nil, fmt.Errorf("unsupported protocol: %s", protocol)
+}
+
+// LoadCanonicalConfigs reads a deduplicated_urls/{proto}.json file written by the
+// Go collector (a canonical []ProxyConfig array) and applies validation + dedup.
+func (pt *ProxyTester) LoadCanonicalConfigs(filePath string, protocol ProxyProtocol) ([]ProxyConfig, error) {
+	file, err := os.Open(filePath)
+	if err != nil {
+		return nil, err
+	}
+	defer file.Close()
+
+	var data []ProxyConfig
+	if err := json.NewDecoder(file).Decode(&data); err != nil {
+		return nil, err
+	}
+
+	seenHashes := make(map[string]bool)
+	var configs []ProxyConfig
+	for _, c := range data {
+		c.Protocol = protocol
+		if pt.isValidConfig(&c) {
+			hash := pt.getConfigHash(&c)
+			if !seenHashes[hash] {
+				seenHashes[hash] = true
+				configs = append(configs, c)
+			}
+		}
+	}
+	return configs, nil
 }
 
 func decodeJSONList[T any](r io.Reader) ([]T, error) {
@@ -2200,6 +2243,15 @@ func (pt *ProxyTester) createConfigURL(result *TestResultData) string {
 		if config.Fingerprint != "" {
 			params.Add("fp", config.Fingerprint)
 		}
+		if config.RealityPublicKey != "" {
+			params.Add("pbk", config.RealityPublicKey)
+		}
+		if config.RealityShortID != "" {
+			params.Add("sid", config.RealityShortID)
+		}
+		if config.RealitySpiderX != "" {
+			params.Add("spx", config.RealitySpiderX)
+		}
 		query := ""
 		if len(params) > 0 {
 			query = "?" + params.Encode()
@@ -2228,6 +2280,15 @@ func (pt *ProxyTester) createConfigURL(result *TestResultData) string {
 		}
 		if config.Fingerprint != "" {
 			params.Add("fp", config.Fingerprint)
+		}
+		if config.RealityPublicKey != "" {
+			params.Add("pbk", config.RealityPublicKey)
+		}
+		if config.RealityShortID != "" {
+			params.Add("sid", config.RealityShortID)
+		}
+		if config.RealitySpiderX != "" {
+			params.Add("spx", config.RealitySpiderX)
 		}
 		query := ""
 		if len(params) > 0 {
@@ -2661,6 +2722,61 @@ func (pt *ProxyTester) printFinalSummary(results []*TestResultData) {
 	}
 
 	log.Println("=" + strings.Repeat("=", 59))
+
+	pt.writeTestSummary()
+}
+
+// writeTestSummary persists overall + per-protocol success/fail stats as JSON
+// so the CI workflow can render the latest-update table into README.md.
+func (pt *ProxyTester) writeTestSummary() {
+	overall := map[string]int64{}
+	if v, ok := pt.stats.Load("overall"); ok {
+		for k, p := range v.(map[string]*int64) {
+			overall[k] = atomic.LoadInt64(p)
+		}
+	}
+
+	type protoStat struct {
+		Total   int64 `json:"total"`
+		Success int64 `json:"success"`
+		Failed  int64 `json:"failed"`
+	}
+	order := []ProxyProtocol{ProtocolShadowsocks, ProtocolShadowsocksR, ProtocolVMess, ProtocolVLESS, ProtocolTrojan, ProtocolHysteria, ProtocolHysteria2, ProtocolTUIC}
+	names := map[ProxyProtocol]string{
+		ProtocolShadowsocks:  "shadowsocks",
+		ProtocolShadowsocksR: "shadowsocksr",
+		ProtocolVMess:        "vmess",
+		ProtocolVLESS:        "vless",
+		ProtocolTrojan:       "trojan",
+		ProtocolHysteria:     "hysteria",
+		ProtocolHysteria2:    "hysteria2",
+		ProtocolTUIC:         "tuic",
+	}
+	perProtocol := map[string]protoStat{}
+	for _, proto := range order {
+		if v, ok := pt.stats.Load(proto); ok {
+			stats := v.(map[string]*int64)
+			perProtocol[names[proto]] = protoStat{
+				Total:   atomic.LoadInt64(stats["total"]),
+				Success: atomic.LoadInt64(stats["success"]),
+				Failed:  atomic.LoadInt64(stats["failed"]),
+			}
+		}
+	}
+
+	summary := map[string]interface{}{
+		"total":        overall["total"],
+		"success":      overall["success"],
+		"failed":       overall["failed"],
+		"updated_at":   time.Now().UTC().Format(time.RFC3339),
+		"per_protocol": perProtocol,
+	}
+	if err := writeSummaryJSON(pt.config.DataDir, "test_summary.json", summary); err != nil {
+		log.Printf("Failed to write test_summary.json: %v", err)
+		return
+	}
+	log.Printf("Wrote test_summary.json: total=%d success=%d failed=%d",
+		overall["total"], overall["success"], overall["failed"])
 }
 
 func (pt *ProxyTester) Cleanup() {
@@ -2707,7 +2823,7 @@ func init() {
 	rand.Seed(time.Now().UnixNano())
 }
 
-func main() {
+func runTest() {
 	config := NewDefaultConfig()
 
 	if err := setupDirectories(config); err != nil {
@@ -2746,7 +2862,7 @@ func main() {
 		log.Println(strings.Repeat("=", 70))
 
 		if _, err := os.Stat(filePath); err == nil {
-			configs, err := tester.LoadConfigsFromJSON(filePath, protocol)
+			configs, err := tester.LoadCanonicalConfigs(filePath, protocol)
 			if err != nil {
 				log.Printf("Failed to load %s configs: %v", protocol, err)
 				continue
