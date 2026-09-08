@@ -88,7 +88,7 @@ func NewDefaultConfig() *Config {
 	return &Config{
 		XrayPath:        getEnvOrDefault("XRAY_PATH", ""),
 		MaxWorkers:      getEnvIntOrDefault("PROXY_MAX_WORKERS", 200),
-		Timeout:         time.Duration(getEnvIntOrDefault("PROXY_TIMEOUT", 5)) * time.Second,
+		Timeout:         time.Duration(getEnvIntOrDefault("PROXY_TIMEOUT", 3)) * time.Second,
 		BatchSize:       getEnvIntOrDefault("PROXY_BATCH_SIZE", 400),
 		IncrementalSave: getEnvBoolOrDefault("PROXY_INCREMENTAL_SAVE", true),
 		DataDir:         dataDir,
@@ -287,14 +287,13 @@ func NewNetworkTester(timeout time.Duration) *NetworkTester {
 	return &NetworkTester{
 		timeout: timeout,
 		testURLs: []string{
-			"http://httpbin.org/ip",
-			"http://icanhazip.com",
-			"http://ifconfig.me/ip",
-			"http://api.ipify.org",
-			"http://ipinfo.io/ip",
-			"http://checkip.amazonaws.com",
-			"https://httpbin.org/ip",
+			"https://checkip.amazonaws.com",
+			"https://api.ipify.org",
 			"https://icanhazip.com",
+			"https://ifconfig.me/ip",
+			"https://www.cloudflare.com/cdn-cgi/trace",
+			"https://1.1.1.1/cdn-cgi/trace",
+			"https://myip.ipip.net",
 		},
 		client: &http.Client{Timeout: timeout},
 	}
@@ -520,10 +519,9 @@ func (nt *NetworkTester) TestProxyConnection(proxyPort int) (bool, string, float
 		return false, "", time.Since(startTime).Seconds()
 	}
 
-	testCount := 4
-	if len(nt.testURLs) < testCount {
-		testCount = len(nt.testURLs)
-	}
+	// 모든 검증 URL을 시도: 해외/중국 exit가 섞여 있으므로 일부만 뽑으면
+	// 도달 가능한 엔드포인트가 무작위로 빠져 정상 터널을 "dead"로 오판할 수 있다.
+	testCount := len(nt.testURLs)
 
 	shuffled := make([]string, len(nt.testURLs))
 	copy(shuffled, nt.testURLs)
@@ -578,6 +576,57 @@ func (nt *NetworkTester) ownPublicIP() string {
 	return nt.localIP
 }
 
+// ipv4Re matches the first IPv4 literal in arbitrary text (e.g. ipip.net
+// "当前 IP：1.2.3.4 来自于：..."). Used as a last-resort extractor.
+var ipv4Re = regexp.MustCompile(`(\d{1,3}\.){3}\d{1,3}`)
+
+// extractIP pulls the exit IP out of a response body, supporting four shapes:
+//   - plain IP ("1.2.3.4")                        -> bare-IP services
+//   - key=value trace with an "ip=" line           -> Cloudflare cdn-cgi/trace
+//   - JSON ({"origin":"1.2.3.4"} or {"ip":"..."})  -> defensive fallback
+//   - arbitrary text containing an IPv4             -> ipip.net etc.
+func extractIP(body []byte, contentType string) string {
+	text := strings.TrimSpace(string(body))
+	if text == "" {
+		return ""
+	}
+
+	// 1) bare IP
+	if net.ParseIP(text) != nil {
+		return text
+	}
+
+	// 2) trace / key=value: scan for "ip=" line (Cloudflare cdn-cgi/trace)
+	for _, line := range strings.Split(text, "\n") {
+		line = strings.TrimSpace(line)
+		if strings.HasPrefix(line, "ip=") {
+			if v := strings.TrimSpace(strings.TrimPrefix(line, "ip=")); net.ParseIP(v) != nil {
+				return v
+			}
+		}
+	}
+
+	// 3) JSON fallback
+	if strings.Contains(contentType, "json") || strings.HasPrefix(text, "{") {
+		var data map[string]interface{}
+		if json.Unmarshal(body, &data) == nil {
+			if origin, ok := data["origin"].(string); ok {
+				return origin
+			}
+			if ip, ok := data["ip"].(string); ok {
+				return ip
+			}
+		}
+	}
+
+	// 4) arbitrary text: first valid IPv4 (e.g. ipip.net "当前 IP：1.2.3.4 ...")
+	if m := ipv4Re.FindString(text); m != "" && net.ParseIP(m) != nil {
+		return m
+	}
+
+	return ""
+}
+
 func (nt *NetworkTester) singleTest(proxyPort int, testURL string) (bool, string, float64) {
 	startTime := time.Now()
 
@@ -614,21 +663,8 @@ func (nt *NetworkTester) singleTest(proxyPort int, testURL string) (bool, string
 	}
 
 	responseTime := time.Since(startTime).Seconds()
-	ipText := strings.TrimSpace(string(body))
-
-	if strings.Contains(resp.Header.Get("Content-Type"), "json") {
-		var data map[string]interface{}
-		if json.Unmarshal(body, &data) == nil {
-			if origin, ok := data["origin"].(string); ok {
-				ipText = origin
-			} else if ip, ok := data["ip"].(string); ok {
-				ipText = ip
-			}
-		}
-	}
-
-	ip := net.ParseIP(ipText)
-	if ip == nil {
+	ipText := extractIP(body, resp.Header.Get("Content-Type"))
+	if ipText == "" {
 		return false, "", responseTime
 	}
 
