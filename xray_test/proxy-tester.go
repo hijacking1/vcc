@@ -1839,18 +1839,11 @@ func processAlive(pid int) bool {
 	return syscall.Kill(pid, syscall.Signal(0)) == nil
 }
 
-// pidListeningOnPort returns the PID of the process whose socket is in LISTEN
-// state on 127.0.0.1:<port>. Returns 0 if none found. Linux-only (/proc).
-func pidListeningOnPort(port int) int {
-	inode := listenInodeForPort(port)
-	if inode == 0 {
-		return 0
-	}
-	return pidBySocketInode(inode)
-}
-
-func listenInodeForPort(port int) uint64 {
-	hexPort := fmt.Sprintf("%04X", port)
+// listenInodesByPort reads /proc/net/tcp{6} ONCE and returns a map of
+// 127.0.0.1 LISTEN port → socket inode. O(size of /proc/net/tcp), not
+// O(processes × fds).
+func listenInodesByPort() map[int]uint64 {
+	result := make(map[int]uint64, 32)
 	for _, f := range []string{"/proc/net/tcp", "/proc/net/tcp6"} {
 		data, err := os.ReadFile(f)
 		if err != nil {
@@ -1858,54 +1851,49 @@ func listenInodeForPort(port int) uint64 {
 		}
 		for _, line := range strings.Split(string(data), "\n") {
 			fields := strings.Fields(line)
-			if len(fields) < 10 {
+			if len(fields) < 10 || fields[3] != "0A" { // "0A" = LISTEN
 				continue
 			}
-			localAddr := fields[1] // "0100007F:1F90" (IPv4) or "0000...01000000:1F90" (IPv6)
-			state := fields[3]     // "0A" = LISTEN
-			parts := strings.SplitN(localAddr, ":", 2)
-			if len(parts) != 2 || !strings.EqualFold(parts[1], hexPort) || state != "0A" {
+			parts := strings.SplitN(fields[1], ":", 2)
+			if len(parts) != 2 {
 				continue
 			}
 			addrHex := strings.ToLower(parts[0])
 			if addrHex != "0100007f" && addrHex != "00000000000000000000000001000000" {
 				continue
 			}
+			port, err := strconv.ParseUint(parts[1], 16, 32)
+			if err != nil {
+				continue
+			}
 			if inode, err := strconv.ParseUint(fields[9], 10, 64); err == nil && inode != 0 {
-				return inode
+				result[int(port)] = inode
 			}
 		}
 	}
-	return 0
+	return result
 }
 
-func pidBySocketInode(inode uint64) int {
-	entries, err := os.ReadDir("/proc")
+// socketInodesForPID reads /proc/<pid>/fd ONCE and returns the set of socket
+// inodes owned by that pid. O(fds of one process), not O(all processes × fds).
+func socketInodesForPID(pid int) map[uint64]bool {
+	result := make(map[uint64]bool, 16)
+	fdDir := "/proc/" + strconv.Itoa(pid) + "/fd"
+	fds, err := os.ReadDir(fdDir)
 	if err != nil {
-		return 0
+		return result
 	}
-	target := fmt.Sprintf("socket:[%d]", inode)
-	for _, e := range entries {
-		if !e.IsDir() {
+	for _, fd := range fds {
+		link, err := os.Readlink(fdDir + "/" + fd.Name())
+		if err != nil || !strings.HasPrefix(link, "socket:[") {
 			continue
 		}
-		pid, err := strconv.Atoi(e.Name())
-		if err != nil {
-			continue
-		}
-		fdDir := fmt.Sprintf("/proc/%d/fd", pid)
-		fds, err := os.ReadDir(fdDir)
-		if err != nil {
-			continue
-		}
-		for _, fd := range fds {
-			link, err := os.Readlink(fmt.Sprintf("%s/%s", fdDir, fd.Name()))
-			if err == nil && link == target {
-				return pid
-			}
+		var inode uint64
+		if _, err := fmt.Sscanf(link, "socket:[%d]", &inode); err == nil {
+			result[inode] = true
 		}
 	}
-	return 0
+	return result
 }
 
 // tcpReachable performs a raw TCP dial to server:port. A failed dial means the
@@ -1967,38 +1955,61 @@ func (pt *ProxyTester) releasePorts(ports []int) {
 	}
 }
 
-// TestBatchConfigs tests a group of nodes through ONE xray process: each node
-// becomes a tagged outbound with its own local socks inbound port, isolated by
-// per-node routing. TCP-dead nodes are rejected before xray is ever spawned.
-func (pt *ProxyTester) TestBatchConfigs(configs []ProxyConfig, batchID int) []*TestResultData {
+// liveNode is a node that survived the TCP liveness pre-filter and is queued
+// for xray testing. idx is its position in the current batch's configs slice.
+type liveNode struct {
+	idx  int
+	cfg  ProxyConfig
+	port int
+}
+
+// preFilterLive dials every node's server:port to reject definitely-dead nodes
+// without spawning xray. Dialing is cheap I/O, so concurrency is bounded by
+// MaxWorkers — the "server alive/dead" check knob. Dead nodes get their result
+// written immediately; survivors are returned with their original idx.
+func (pt *ProxyTester) preFilterLive(configs []ProxyConfig, results []*TestResultData, batchID int) []liveNode {
 	tcpTimeout := time.Duration(getEnvIntOrDefault("PROXY_TCP_TIMEOUT", 800)) * time.Millisecond
-	results := make([]*TestResultData, len(configs))
-
-	type live struct {
-		idx  int
-		cfg  ProxyConfig
-		port int
+	maxWorkers := pt.config.MaxWorkers
+	if maxWorkers < 1 {
+		maxWorkers = 1
+	}
+	if maxWorkers > len(configs) {
+		maxWorkers = len(configs)
 	}
 
-	// ① TCP pre-filter: reject definitely-dead nodes without spawning xray.
-	var lives []live
+	var alive []liveNode
+	var mu sync.Mutex
+	var wg sync.WaitGroup
+	sem := make(chan struct{}, maxWorkers)
 	for i := range configs {
-		if !tcpReachable(configs[i].Server, configs[i].Port, tcpTimeout) {
-			results[i] = &TestResultData{
-				Config:       configs[i],
-				BatchID:      &batchID,
-				Result:       ResultConnectionError,
-				ErrorMessage: "TCP unreachable (pre-filter)",
+		wg.Add(1)
+		sem <- struct{}{}
+		go func(i int) {
+			defer wg.Done()
+			defer func() { <-sem }()
+			if !tcpReachable(configs[i].Server, configs[i].Port, tcpTimeout) {
+				results[i] = &TestResultData{
+					Config:       configs[i],
+					BatchID:      &batchID,
+					Result:       ResultConnectionError,
+					ErrorMessage: "TCP unreachable (pre-filter)",
+				}
+				pt.updateStats(results[i])
+				return
 			}
-			pt.updateStats(results[i])
-			continue
-		}
-		lives = append(lives, live{idx: i, cfg: configs[i]})
+			mu.Lock()
+			alive = append(alive, liveNode{idx: i, cfg: configs[i]})
+			mu.Unlock()
+		}(i)
 	}
+	wg.Wait()
+	return alive
+}
 
-	if len(lives) == 0 {
-		return results
-	}
+// testAliveChunk runs one xray process for a chunk of already-alive nodes and
+// tests each through its own local port, writing results back at original idx.
+func (pt *ProxyTester) testAliveChunk(chunk []liveNode, results []*TestResultData, batchID int) {
+	lives := chunk
 
 	// Acquire a distinct local port per live node.
 	acquired := make([]int, 0, len(lives))
@@ -2015,7 +2026,7 @@ func (pt *ProxyTester) TestBatchConfigs(configs []ProxyConfig, batchID int) []*T
 				}
 				pt.updateStats(results[lv.idx])
 			}
-			return results
+			return
 		}
 		lives[i].port = p
 		acquired = append(acquired, p)
@@ -2040,7 +2051,7 @@ func (pt *ProxyTester) TestBatchConfigs(configs []ProxyConfig, batchID int) []*T
 			}
 			pt.updateStats(results[lv.idx])
 		}
-		return results
+		return
 	}
 
 	configFile, err := pt.writeConfigToTempFile(xrayConfig)
@@ -2055,7 +2066,7 @@ func (pt *ProxyTester) TestBatchConfigs(configs []ProxyConfig, batchID int) []*T
 			}
 			pt.updateStats(results[lv.idx])
 		}
-		return results
+		return
 	}
 	defer os.Remove(configFile)
 
@@ -2072,7 +2083,7 @@ func (pt *ProxyTester) TestBatchConfigs(configs []ProxyConfig, batchID int) []*T
 			}
 			pt.updateStats(results[lv.idx])
 		}
-		return results
+		return
 	}
 
 	ourPID := 0
@@ -2089,15 +2100,22 @@ func (pt *ProxyTester) TestBatchConfigs(configs []ProxyConfig, batchID int) []*T
 			break
 		}
 		all := true
-		for _, lv := range lives {
-			if ourPID != 0 {
-				if pidListeningOnPort(lv.port) != ourPID {
+		if ourPID != 0 {
+			ourInodes := socketInodesForPID(ourPID)
+			listening := listenInodesByPort()
+			for _, lv := range lives {
+				inode, ok := listening[lv.port]
+				if !ok || !ourInodes[inode] {
 					all = false
 					break
 				}
-			} else if !pt.networkTester.isProxyResponsive(lv.port) {
-				all = false
-				break
+			}
+		} else {
+			for _, lv := range lives {
+				if !pt.networkTester.isProxyResponsive(lv.port) {
+					all = false
+					break
+				}
 			}
 		}
 		if all {
@@ -2127,14 +2145,14 @@ func (pt *ProxyTester) TestBatchConfigs(configs []ProxyConfig, batchID int) []*T
 			}
 			pt.updateStats(results[lv.idx])
 		}
-		return results
+		return
 	}
 
 	// Test every live node concurrently through its own local port.
 	var wg sync.WaitGroup
 	for _, lv := range lives {
 		wg.Add(1)
-		go func(lv live) {
+		go func(lv liveNode) {
 			defer wg.Done()
 			results[lv.idx] = pt.testNodeThroughPort(&lv.cfg, lv.port, batchID)
 			pt.updateStats(results[lv.idx])
@@ -2146,8 +2164,6 @@ func (pt *ProxyTester) TestBatchConfigs(configs []ProxyConfig, batchID int) []*T
 		pt.processManager.KillProcess(ourPID)
 	}
 	pt.releasePorts(acquired)
-
-	return results
 }
 
 func (pt *ProxyTester) writeConfigToTempFile(config map[string]interface{}) (string, error) {
@@ -2562,8 +2578,20 @@ func (pt *ProxyTester) TestConfigs(configs []ProxyConfig, batchID int) []*TestRe
 
 	log.Printf("Testing batch %d with %d configurations...", batchID, len(configs))
 
-	// Batch mode: N nodes share one xray process. BatchSize = nodes per xray,
-	// slots = concurrent xray processes. 8 slots x 25 nodes = 200 concurrent.
+	results := make([]*TestResultData, len(configs))
+
+	// Phase 1: TCP liveness pre-filter — MaxWorkers concurrent dials.
+	// This is the "server alive/dead" check: dead nodes get their result
+	// written immediately, survivors are returned with their original idx.
+	alive := pt.preFilterLive(configs, results, batchID)
+
+	if len(alive) == 0 {
+		log.Printf("Batch %d completed: 0/%d successful (0.0%%)", batchID, len(configs))
+		return results
+	}
+
+	// Phase 2: pack alive nodes into xray batches (N nodes per xray process),
+	// test with PROXY_XRAY_SLOTS concurrent xray processes.
 	batchSize := getEnvIntOrDefault("PROXY_XRAY_BATCH", 25)
 	slots := getEnvIntOrDefault("PROXY_XRAY_SLOTS", 8)
 	if batchSize < 1 {
@@ -2572,33 +2600,27 @@ func (pt *ProxyTester) TestConfigs(configs []ProxyConfig, batchID int) []*TestRe
 	if slots < 1 {
 		slots = 1
 	}
-	if slots > len(configs) {
-		slots = len(configs)
+	if slots > len(alive) {
+		slots = len(alive)
 	}
 
-	var chunks [][]ProxyConfig
-	for i := 0; i < len(configs); i += batchSize {
+	var chunks [][]liveNode
+	for i := 0; i < len(alive); i += batchSize {
 		end := i + batchSize
-		if end > len(configs) {
-			end = len(configs)
+		if end > len(alive) {
+			end = len(alive)
 		}
-		chunks = append(chunks, configs[i:end])
+		chunks = append(chunks, alive[i:end])
 	}
 
-	chunkChan := make(chan []ProxyConfig, len(chunks))
-	results := make([]*TestResultData, 0, len(configs))
-	var mu sync.Mutex
-
+	chunkChan := make(chan []liveNode, len(chunks))
 	var wg sync.WaitGroup
 	for i := 0; i < slots; i++ {
 		wg.Add(1)
 		go func() {
 			defer wg.Done()
 			for chunk := range chunkChan {
-				r := pt.TestBatchConfigs(chunk, batchID)
-				mu.Lock()
-				results = append(results, r...)
-				mu.Unlock()
+				pt.testAliveChunk(chunk, results, batchID)
 			}
 		}()
 	}
@@ -2611,7 +2633,7 @@ func (pt *ProxyTester) TestConfigs(configs []ProxyConfig, batchID int) []*TestRe
 
 	successCount := 0
 	for _, r := range results {
-		if r.Result == ResultSuccess {
+		if r != nil && r.Result == ResultSuccess {
 			successCount++
 		}
 	}
@@ -2640,7 +2662,8 @@ func (pt *ProxyTester) RunTests(configs []ProxyConfig) []*TestResultData {
 
 	totalConfigs := len(configs)
 	log.Printf("Starting comprehensive proxy testing for %d configurations", totalConfigs)
-	log.Printf("Settings: %d workers, %v timeout, batch size: %d", pt.config.MaxWorkers, pt.config.Timeout, pt.config.BatchSize)
+	log.Printf("Settings: %d pre-filter workers (alive/dead check), %v timeout, batch size: %d",
+		pt.config.MaxWorkers, pt.config.Timeout, pt.config.BatchSize)
 
 	var allResults []*TestResultData
 
