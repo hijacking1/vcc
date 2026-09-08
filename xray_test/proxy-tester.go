@@ -68,7 +68,7 @@ type GeoIPInfo struct {
 }
 
 type Config struct {
-	XrayPath        string
+	SingBoxPath     string
 	MaxWorkers      int
 	Timeout         time.Duration
 	BatchSize       int
@@ -86,7 +86,7 @@ func NewDefaultConfig() *Config {
 	logDir := getEnvOrDefault("PROXY_LOG_DIR", "../log")
 
 	return &Config{
-		XrayPath:        getEnvOrDefault("XRAY_PATH", ""),
+		SingBoxPath:     getEnvOrDefault("SINGBOX_PATH", ""),
 		MaxWorkers:      getEnvIntOrDefault("PROXY_MAX_WORKERS", 200),
 		Timeout:         time.Duration(getEnvIntOrDefault("PROXY_TIMEOUT", 3)) * time.Second,
 		BatchSize:       getEnvIntOrDefault("PROXY_BATCH_SIZE", 400),
@@ -688,19 +688,19 @@ func (nt *NetworkTester) singleTest(proxyPort int, testURL string) (bool, string
 	return true, ipText, responseTime
 }
 
-type XrayConfigGenerator struct {
-	xrayPath string
+type SingBoxConfigGenerator struct {
+	singBoxPath string
 }
 
-func NewXrayConfigGenerator(xrayPath string) *XrayConfigGenerator {
-	if xrayPath == "" {
-		xrayPath = findXrayExecutable()
+func NewSingBoxConfigGenerator(singBoxPath string) *SingBoxConfigGenerator {
+	if singBoxPath == "" {
+		singBoxPath = findSingBoxExecutable()
 	}
-	return &XrayConfigGenerator{xrayPath: xrayPath}
+	return &SingBoxConfigGenerator{singBoxPath: singBoxPath}
 }
 
-func findXrayExecutable() string {
-	paths := []string{"xray", "./xray", "/usr/local/bin/xray", "/usr/bin/xray"}
+func findSingBoxExecutable() string {
+	paths := []string{"sing-box", "./sing-box", "/usr/local/bin/sing-box", "/usr/bin/sing-box"}
 
 	for _, path := range paths {
 		if _, err := exec.LookPath(path); err == nil {
@@ -711,218 +711,190 @@ func findXrayExecutable() string {
 		}
 	}
 
-	return "xray"
+	return "sing-box"
 }
 
-func (xcg *XrayConfigGenerator) ValidateXray() error {
+func (sg *SingBoxConfigGenerator) ValidateSingBox() error {
 	ctx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
 	defer cancel()
 
-	cmd := exec.CommandContext(ctx, xcg.xrayPath, "version")
+	cmd := exec.CommandContext(ctx, sg.singBoxPath, "version")
 	output, err := cmd.Output()
 	if err != nil {
-		return fmt.Errorf("xray validation failed: %w", err)
+		return fmt.Errorf("sing-box validation failed: %w", err)
 	}
 
-	log.Printf("Xray version: %s", strings.TrimSpace(string(output)))
+	log.Printf("sing-box version: %s", strings.TrimSpace(string(output)))
 	return nil
 }
 
-func (xcg *XrayConfigGenerator) buildOutbound(config *ProxyConfig) (map[string]interface{}, error) {
+// buildTLS builds the sing-box TLS block for a node. The tester checks
+// connectivity, not certificate validity, and free proxies commonly use
+// self-signed or mismatched certs — so verification is always skipped
+// (insecure: true). This is the core fix for the "alive node reported dead"
+// false-negative on TLS protocols.
+func buildTLS(config *ProxyConfig) map[string]interface{} {
+	tls := map[string]interface{}{
+		"enabled":  true,
+		"insecure": true,
+	}
+
+	if config.SNI != "" {
+		tls["server_name"] = config.SNI
+	} else if config.Host != "" {
+		tls["server_name"] = config.Host
+	}
+
+	if config.ALPN != "" {
+		tls["alpn"] = strings.Split(config.ALPN, ",")
+	}
+
+	fingerprint := config.Fingerprint
+	if fingerprint == "" {
+		fingerprint = "chrome"
+	}
+
+	if config.TLS == "reality" {
+		// Reality requires uTLS; it supplies its own fingerprint.
+		tls["utls"] = map[string]interface{}{"enabled": true, "fingerprint": fingerprint}
+		reality := map[string]interface{}{"enabled": true}
+		if config.RealityPublicKey != "" {
+			reality["public_key"] = config.RealityPublicKey
+		}
+		if config.RealityShortID != "" {
+			reality["short_id"] = config.RealityShortID
+		}
+		tls["reality"] = reality
+	} else if config.Fingerprint != "" {
+		tls["utls"] = map[string]interface{}{"enabled": true, "fingerprint": config.Fingerprint}
+	}
+
+	return tls
+}
+
+// buildTransport builds the sing-box transport block for ws/h2/grpc.
+func buildTransport(config *ProxyConfig) map[string]interface{} {
+	switch config.Network {
+	case "ws":
+		t := map[string]interface{}{"type": "ws"}
+		if config.Path != "" {
+			t["path"] = config.Path
+		}
+		if config.Host != "" {
+			t["headers"] = map[string]interface{}{"Host": config.Host}
+		}
+		return t
+
+	case "h2":
+		t := map[string]interface{}{"type": "http"}
+		if config.Host != "" {
+			t["host"] = []string{config.Host}
+		}
+		if config.Path != "" {
+			t["path"] = config.Path
+		}
+		return t
+
+	case "grpc":
+		t := map[string]interface{}{"type": "grpc"}
+		if config.ServiceName != "" {
+			t["service_name"] = config.ServiceName
+		}
+		return t
+	}
+
+	return nil
+}
+
+// isTLSRequired reports whether a protocol mandates TLS regardless of whether
+// the share-link carried a tls=.../security=... flag.
+func isTLSRequired(p ProxyProtocol) bool {
+	return p == ProtocolHysteria || p == ProtocolHysteria2 || p == ProtocolTUIC
+}
+
+func (sg *SingBoxConfigGenerator) buildOutbound(config *ProxyConfig) (map[string]interface{}, error) {
 	outbound := map[string]interface{}{
-		"protocol": string(config.Protocol),
-		"settings": map[string]interface{}{},
-		"streamSettings": map[string]interface{}{
-			"sockopt": map[string]interface{}{
-				"tcpKeepAliveInterval": 30,
-				"tcpNoDelay":          true,
-			},
-		},
+		"type":        string(config.Protocol),
+		"server":      config.Server,
+		"server_port": config.Port,
 	}
 
 	switch config.Protocol {
 	case ProtocolShadowsocks:
-		outbound["settings"] = map[string]interface{}{
-			"servers": []map[string]interface{}{
-				{
-					"address":  config.Server,
-					"port":     config.Port,
-					"method":   config.Method,
-					"password": config.Password,
-					"level":    0,
-				},
-			},
-		}
+		outbound["method"] = config.Method
+		outbound["password"] = config.Password
 
 	case ProtocolShadowsocksR:
-		return nil, fmt.Errorf("shadowsocksr protocol is not supported by xray-core")
+		// sing-box removed SSR in 1.6.0; no modern core supports it.
+		return nil, fmt.Errorf("shadowsocksr removed in sing-box 1.6.0 (untestable)")
 
 	case ProtocolVMess:
-		outbound["settings"] = map[string]interface{}{
-			"vnext": []map[string]interface{}{
-				{
-					"address": config.Server,
-					"port":    config.Port,
-					"users": []map[string]interface{}{
-						{
-							"id":       config.UUID,
-							"alterId":  config.AlterID,
-							"security": config.Cipher,
-							"level":    0,
-						},
-					},
-				},
-			},
+		outbound["uuid"] = config.UUID
+		cipher := config.Cipher
+		if cipher == "" {
+			cipher = "auto"
 		}
+		outbound["security"] = cipher
+		outbound["alter_id"] = config.AlterID
 
 	case ProtocolVLESS:
-		// Xray only supports "none" for VLESS encryption; default empty to it.
-		encryption := config.Encrypt
-		if encryption == "" {
-			encryption = "none"
-		}
-		outbound["settings"] = map[string]interface{}{
-			"vnext": []map[string]interface{}{
-				{
-					"address": config.Server,
-					"port":    config.Port,
-					"users": []map[string]interface{}{
-						{
-							"id":         config.UUID,
-							"flow":       config.Flow,
-							"encryption": encryption,
-							"level":      0,
-						},
-					},
-				},
-			},
+		outbound["uuid"] = config.UUID
+		if config.Flow != "" {
+			outbound["flow"] = config.Flow
 		}
 
 	case ProtocolTrojan:
-		outbound["settings"] = map[string]interface{}{
-			"servers": []map[string]interface{}{
-				{
-					"address":  config.Server,
-					"port":     config.Port,
-					"password": config.Password,
-					"level":    0,
-				},
-			},
+		outbound["password"] = config.Password
+
+	case ProtocolHysteria:
+		upMbps, downMbps := config.UpMbps, config.DownMbps
+		if upMbps == 0 {
+			upMbps = 100
+		}
+		if downMbps == 0 {
+			downMbps = 100
+		}
+		outbound["up_mbps"] = upMbps
+		outbound["down_mbps"] = downMbps
+		outbound["auth_str"] = config.AuthStr
+		if config.Obfs != "" {
+			outbound["obfs"] = config.Obfs
 		}
 
-	case ProtocolHysteria, ProtocolHysteria2, ProtocolTUIC:
-		return nil, fmt.Errorf("%s protocol is not supported by xray-core", config.Protocol)
-	}
-
-	streamSettings := outbound["streamSettings"].(map[string]interface{})
-
-	if config.Network != "" && config.Network != "tcp" {
-		streamSettings["network"] = config.Network
-
-		switch config.Network {
-		case "ws":
-			wsSettings := map[string]interface{}{}
-			if config.Path != "" {
-				wsSettings["path"] = config.Path
+	case ProtocolHysteria2:
+		outbound["password"] = config.Password
+		if config.Obfs != "" {
+			obfs := map[string]interface{}{"type": config.Obfs}
+			if config.ObfsParam != "" {
+				obfs["password"] = config.ObfsParam
 			}
-			if config.Host != "" {
-				wsSettings["headers"] = map[string]interface{}{"Host": config.Host}
-			}
-			streamSettings["wsSettings"] = wsSettings
+			outbound["obfs"] = obfs
+		}
 
-		case "h2":
-			h2Settings := map[string]interface{}{}
-			if config.Path != "" {
-				h2Settings["path"] = config.Path
-			}
-			if config.Host != "" {
-				h2Settings["host"] = []string{config.Host}
-			}
-			streamSettings["httpSettings"] = h2Settings
-
-		case "grpc":
-			grpcSettings := map[string]interface{}{}
-			if config.ServiceName != "" {
-				grpcSettings["serviceName"] = config.ServiceName
-			}
-			streamSettings["grpcSettings"] = grpcSettings
+	case ProtocolTUIC:
+		outbound["uuid"] = config.UUID
+		outbound["password"] = config.Password
+		if config.CongestionCtrl != "" {
+			outbound["congestion_control"] = config.CongestionCtrl
 		}
 	}
 
-	if config.TLS != "" {
-		streamSettings["security"] = config.TLS
-		// Xray 26.x removed "allowInsecure" (migrated to pinnedPeerCertSha256);
-		// emitting it makes every TLS outbound fail to build. Skip verification
-		// via pinnedPeerCertSha256 is intentionally not set here: for a tester,
-		// default cert verification is the honest signal.
-		tlsSettings := map[string]interface{}{}
+	if transport := buildTransport(config); transport != nil {
+		outbound["transport"] = transport
+	}
 
-		if config.SNI != "" {
-			tlsSettings["serverName"] = config.SNI
-		} else if config.Host != "" {
-			tlsSettings["serverName"] = config.Host
-		}
-
-		if config.ALPN != "" {
-			tlsSettings["alpn"] = strings.Split(config.ALPN, ",")
-		}
-
-		if config.Fingerprint != "" {
-			tlsSettings["fingerprint"] = config.Fingerprint
-		}
-
-		if config.TLS == "tls" {
-			streamSettings["tlsSettings"] = tlsSettings
-		} else if config.TLS == "reality" {
-			if config.RealityPublicKey != "" {
-				tlsSettings["publicKey"] = config.RealityPublicKey
-			}
-			if config.RealityShortID != "" {
-				tlsSettings["shortId"] = config.RealityShortID
-			}
-			if config.RealitySpiderX != "" {
-				tlsSettings["spiderX"] = config.RealitySpiderX
-			}
-			streamSettings["realitySettings"] = tlsSettings
-		}
+	if config.TLS != "" || isTLSRequired(config.Protocol) {
+		outbound["tls"] = buildTLS(config)
 	}
 
 	return outbound, nil
 }
 
-func (xcg *XrayConfigGenerator) GenerateConfig(config *ProxyConfig, listenPort int) (map[string]interface{}, error) {
-	outbound, err := xcg.buildOutbound(config)
-	if err != nil {
-		return nil, err
-	}
-	return map[string]interface{}{
-		"log": map[string]interface{}{
-			"loglevel": "error",
-		},
-		"inbounds": []map[string]interface{}{
-			{
-				"port":     listenPort,
-				"listen":   "127.0.0.1",
-				"protocol": "socks",
-				"settings": map[string]interface{}{
-					"auth": "noauth",
-					"udp":  false,
-					"ip":   "127.0.0.1",
-				},
-				"sniffing": map[string]interface{}{
-					"enabled": false,
-				},
-			},
-		},
-		"outbounds": []map[string]interface{}{outbound},
-	}, nil
-}
-
-// GenerateBatchConfig packs multiple nodes into a single xray instance: each
-// node becomes a tagged outbound with its own local socks inbound port, and an
-// inboundTag->outboundTag routing rule keeps every node isolated from the rest.
-// This collapses N fork/exec into one.
-func (xcg *XrayConfigGenerator) GenerateBatchConfig(configs []ProxyConfig, ports []int) (map[string]interface{}, error) {
+// GenerateBatchConfig packs multiple nodes into a single sing-box instance:
+// each node becomes a tagged outbound with its own local socks inbound port,
+// and an inbound->outbound routing rule keeps every node isolated. This
+// collapses N fork/exec into one.
+func (sg *SingBoxConfigGenerator) GenerateBatchConfig(configs []ProxyConfig, ports []int) (map[string]interface{}, error) {
 	inbounds := make([]map[string]interface{}, 0, len(configs))
 	outbounds := make([]map[string]interface{}, 0, len(configs))
 	rules := make([]map[string]interface{}, 0, len(configs))
@@ -931,19 +903,13 @@ func (xcg *XrayConfigGenerator) GenerateBatchConfig(configs []ProxyConfig, ports
 		tag := fmt.Sprintf("p%d", i)
 
 		inbounds = append(inbounds, map[string]interface{}{
-			"tag":      tag,
-			"port":     ports[i],
-			"listen":   "127.0.0.1",
-			"protocol": "socks",
-			"settings": map[string]interface{}{
-				"auth": "noauth",
-				"udp":  false,
-				"ip":   "127.0.0.1",
-			},
-			"sniffing": map[string]interface{}{"enabled": false},
+			"type":        "socks",
+			"tag":         tag,
+			"listen":      "127.0.0.1",
+			"listen_port": ports[i],
 		})
 
-		outbound, err := xcg.buildOutbound(&configs[i])
+		outbound, err := sg.buildOutbound(&configs[i])
 		if err != nil {
 			return nil, fmt.Errorf("node %d: %w", i, err)
 		}
@@ -951,17 +917,16 @@ func (xcg *XrayConfigGenerator) GenerateBatchConfig(configs []ProxyConfig, ports
 		outbounds = append(outbounds, outbound)
 
 		rules = append(rules, map[string]interface{}{
-			"type":        "field",
-			"inboundTag":  []string{tag},
-			"outboundTag": tag,
+			"inbound":  []string{tag},
+			"outbound": tag,
 		})
 	}
 
 	return map[string]interface{}{
-		"log":       map[string]interface{}{"loglevel": "error"},
+		"log":       map[string]interface{}{"level": "error"},
 		"inbounds":  inbounds,
 		"outbounds": outbounds,
-		"routing":   map[string]interface{}{"rules": rules},
+		"route":     map[string]interface{}{"rules": rules},
 	}, nil
 }
 
@@ -1085,7 +1050,7 @@ type ProxyTester struct {
 	portManager       *PortManager
 	processManager    *ProcessManager
 	networkTester     *NetworkTester
-	configGenerator   *XrayConfigGenerator
+	configGenerator   *SingBoxConfigGenerator
 
 	outputFiles       map[ProxyProtocol]*os.File
 	urlFiles          map[ProxyProtocol]*os.File
@@ -1102,12 +1067,12 @@ func NewProxyTester(config *Config) (*ProxyTester, error) {
 		portManager:     NewPortManager(config.StartPort, config.EndPort),
 		processManager:  NewProcessManager(),
 		networkTester:   NewNetworkTester(config.Timeout),
-		configGenerator: NewXrayConfigGenerator(config.XrayPath),
+		configGenerator: NewSingBoxConfigGenerator(config.SingBoxPath),
 		outputFiles:     make(map[ProxyProtocol]*os.File),
 		urlFiles:        make(map[ProxyProtocol]*os.File),
 	}
 
-	if err := pt.configGenerator.ValidateXray(); err != nil {
+	if err := pt.configGenerator.ValidateSingBox(); err != nil {
 		return nil, err
 	}
 
@@ -1898,7 +1863,7 @@ func socketInodesForPID(pid int) map[uint64]bool {
 
 // tcpReachable performs a raw TCP dial to server:port. A failed dial means the
 // node is definitely dead (no false negatives: an alive proxy must accept TCP),
-// so we can skip spawning xray for it entirely.
+// so we can skip spawning sing-box for it entirely.
 func tcpReachable(server string, port int, timeout time.Duration) bool {
 	conn, err := net.DialTimeout("tcp", net.JoinHostPort(server, strconv.Itoa(port)), timeout)
 	if err != nil {
@@ -1909,7 +1874,7 @@ func tcpReachable(server string, port int, timeout time.Duration) bool {
 }
 
 // testNodeThroughPort runs the actual proxy connectivity test for a single node
-// whose xray outbound is already listening on proxyPort.
+// whose sing-box outbound is already listening on proxyPort.
 func (pt *ProxyTester) testNodeThroughPort(config *ProxyConfig, proxyPort int, batchID int) *TestResultData {
 	startTime := time.Now()
 	result := &TestResultData{
@@ -1956,7 +1921,7 @@ func (pt *ProxyTester) releasePorts(ports []int) {
 }
 
 // liveNode is a node that survived the TCP liveness pre-filter and is queued
-// for xray testing. idx is its position in the current batch's configs slice.
+// for sing-box testing. idx is its position in the current batch's configs slice.
 type liveNode struct {
 	idx  int
 	cfg  ProxyConfig
@@ -1964,7 +1929,7 @@ type liveNode struct {
 }
 
 // preFilterLive dials every node's server:port to reject definitely-dead nodes
-// without spawning xray. Dialing is cheap I/O, so concurrency is bounded by
+// without spawning sing-box. Dialing is cheap I/O, so concurrency is bounded by
 // MaxWorkers — the "server alive/dead" check knob. Dead nodes get their result
 // written immediately; survivors are returned with their original idx.
 func (pt *ProxyTester) preFilterLive(configs []ProxyConfig, results []*TestResultData, batchID int) []liveNode {
@@ -2006,7 +1971,7 @@ func (pt *ProxyTester) preFilterLive(configs []ProxyConfig, results []*TestResul
 	return alive
 }
 
-// testAliveChunk runs one xray process for a chunk of already-alive nodes and
+// testAliveChunk runs one sing-box process for a chunk of already-alive nodes and
 // tests each through its own local port, writing results back at original idx.
 func (pt *ProxyTester) testAliveChunk(chunk []liveNode, results []*TestResultData, batchID int) {
 	lives := chunk
@@ -2032,14 +1997,14 @@ func (pt *ProxyTester) testAliveChunk(chunk []liveNode, results []*TestResultDat
 		acquired = append(acquired, p)
 	}
 
-	// Build one xray config with N outbounds + per-node routing.
+	// Build one sing-box config with N outbounds + per-node routing.
 	cfgs := make([]ProxyConfig, len(lives))
 	ports := make([]int, len(lives))
 	for i, lv := range lives {
 		cfgs[i] = lv.cfg
 		ports[i] = lv.port
 	}
-	xrayConfig, err := pt.configGenerator.GenerateBatchConfig(cfgs, ports)
+	sbConfig, err := pt.configGenerator.GenerateBatchConfig(cfgs, ports)
 	if err != nil {
 		pt.releasePorts(acquired)
 		for _, lv := range lives {
@@ -2054,7 +2019,7 @@ func (pt *ProxyTester) testAliveChunk(chunk []liveNode, results []*TestResultDat
 		return
 	}
 
-	configFile, err := pt.writeConfigToTempFile(xrayConfig)
+	configFile, err := pt.writeConfigToTempFile(sbConfig)
 	if err != nil {
 		pt.releasePorts(acquired)
 		for _, lv := range lives {
@@ -2070,8 +2035,8 @@ func (pt *ProxyTester) testAliveChunk(chunk []liveNode, results []*TestResultDat
 	}
 	defer os.Remove(configFile)
 
-	// ③ No `xray -test` subprocess: spawn directly; detect early-exit for config errors.
-	process, err := pt.startXrayProcess(configFile)
+	// ③ No `sing-box check` subprocess: spawn directly; detect early-exit for config errors.
+	process, err := pt.startSingBoxProcess(configFile)
 	if err != nil {
 		pt.releasePorts(acquired)
 		for _, lv := range lives {
@@ -2092,7 +2057,7 @@ func (pt *ProxyTester) testAliveChunk(chunk []liveNode, results []*TestResultDat
 		pt.processManager.RegisterProcess(ourPID, process)
 	}
 
-	// Wait until every port is bound by OUR xray pid (or it dies early).
+	// Wait until every port is bound by OUR sing-box pid (or it dies early).
 	boundAll := false
 	readyBy := time.Now().Add(5 * time.Second)
 	for time.Now().Before(readyBy) {
@@ -2127,10 +2092,10 @@ func (pt *ProxyTester) testAliveChunk(chunk []liveNode, results []*TestResultDat
 
 	if !boundAll {
 		res := ResultConnectionError
-		msg := "xray failed to bind all ports"
+		msg := "sing-box failed to bind all ports"
 		if ourPID != 0 && !processAlive(ourPID) {
 			res = ResultSyntaxError
-			msg = "xray exited early (invalid config)"
+			msg = "sing-box exited early (invalid config)"
 		}
 		if ourPID != 0 {
 			pt.processManager.KillProcess(ourPID)
@@ -2167,7 +2132,7 @@ func (pt *ProxyTester) testAliveChunk(chunk []liveNode, results []*TestResultDat
 }
 
 func (pt *ProxyTester) writeConfigToTempFile(config map[string]interface{}) (string, error) {
-	tmpFile, err := os.CreateTemp("", "xray-config-*.json")
+	tmpFile, err := os.CreateTemp("", "singbox-config-*.json")
 	if err != nil {
 		return "", err
 	}
@@ -2183,8 +2148,8 @@ func (pt *ProxyTester) writeConfigToTempFile(config map[string]interface{}) (str
 	return tmpFile.Name(), nil
 }
 
-func (pt *ProxyTester) startXrayProcess(configFile string) (*exec.Cmd, error) {
-	cmd := exec.Command(pt.configGenerator.xrayPath, "run", "-config", configFile)
+func (pt *ProxyTester) startSingBoxProcess(configFile string) (*exec.Cmd, error) {
+	cmd := exec.Command(pt.configGenerator.singBoxPath, "run", "-c", configFile)
 
 	cmd.Stdout = io.Discard
 	cmd.Stderr = io.Discard
@@ -2590,10 +2555,10 @@ func (pt *ProxyTester) TestConfigs(configs []ProxyConfig, batchID int) []*TestRe
 		return results
 	}
 
-	// Phase 2: pack alive nodes into xray batches (N nodes per xray process),
-	// test with PROXY_XRAY_SLOTS concurrent xray processes.
-	batchSize := getEnvIntOrDefault("PROXY_XRAY_BATCH", 25)
-	slots := getEnvIntOrDefault("PROXY_XRAY_SLOTS", 8)
+	// Phase 2: pack alive nodes into sing-box batches (N nodes per sing-box process),
+	// test with PROXY_CORE_SLOTS concurrent sing-box processes.
+	batchSize := getEnvIntOrDefault("PROXY_CORE_BATCH", 25)
+	slots := getEnvIntOrDefault("PROXY_CORE_SLOTS", 8)
 	if batchSize < 1 {
 		batchSize = 1
 	}
@@ -2748,13 +2713,13 @@ func (pt *ProxyTester) getSystemMemoryUsage() (used uint64, total uint64, err er
 	return m.Alloc / 1024 / 1024, 0, nil
 }
 
-func (pt *ProxyTester) countXrayCoreProcesses() int {
+func (pt *ProxyTester) countSingBoxProcesses() int {
 	var cmd *exec.Cmd
 
 	if runtime.GOOS == "windows" {
-		cmd = exec.Command("powershell", "-Command", "(Get-Process -Name '*xray*' -ErrorAction SilentlyContinue | Measure-Object).Count")
+		cmd = exec.Command("powershell", "-Command", "(Get-Process -Name '*sing-box*' -ErrorAction SilentlyContinue | Measure-Object).Count")
 	} else {
-		cmd = exec.Command("sh", "-c", "ps aux | grep -i xray | grep -v grep | wc -l")
+		cmd = exec.Command("sh", "-c", "ps aux | grep -i sing-box | grep -v grep | wc -l")
 	}
 
 	output, err := cmd.Output()
@@ -2775,26 +2740,26 @@ func (pt *ProxyTester) cleanupBetweenBatches() {
 	log.Println(" Cleaning up resources before next batch...")
 
 	trackedProcessesBefore := pt.processManager.GetProcessCount()
-	systemProcessesBefore := pt.countXrayCoreProcesses()
+	systemProcessesBefore := pt.countSingBoxProcesses()
 	log.Printf("   Tracked processes: %d", trackedProcessesBefore)
-	log.Printf("   System xray-core processes: %d", systemProcessesBefore)
+	log.Printf("   System sing-box processes: %d", systemProcessesBefore)
 
-	log.Println("   Force killing all tracked xray processes...")
+	log.Println("   Force killing all tracked sing-box processes...")
 	killedCount := pt.processManager.ForceCleanupAll()
 
 	log.Println("  ⏳ Waiting for processes to terminate...")
 	time.Sleep(2 * time.Second)
 
 	trackedProcessesAfter := pt.processManager.GetProcessCount()
-	systemProcessesAfter := pt.countXrayCoreProcesses()
+	systemProcessesAfter := pt.countSingBoxProcesses()
 
 	log.Printf("   Tracked processes killed: %d", killedCount)
 	log.Printf("   Tracked processes remaining: %d", trackedProcessesAfter)
 
 	if systemProcessesAfter == 0 {
-		log.Printf("   System xray-core processes cleaned: %d", systemProcessesBefore)
+		log.Printf("   System sing-box processes cleaned: %d", systemProcessesBefore)
 	} else {
-		log.Printf("    System xray-core processes still running: %d", systemProcessesAfter)
+		log.Printf("    System sing-box processes still running: %d", systemProcessesAfter)
 	}
 
 	log.Println("   Releasing all used ports...")
@@ -2840,8 +2805,8 @@ func (pt *ProxyTester) reportSystemStatus(batchID int) {
 		log.Printf(" RAM Usage: Unable to retrieve (Error: %v)", err)
 	}
 
-	processCount := pt.countXrayCoreProcesses()
-	log.Printf("🔧 Xray-core Processes: %d", processCount)
+	processCount := pt.countSingBoxProcesses()
+	log.Printf("🔧 sing-box Processes: %d", processCount)
 
 	log.Println(strings.Repeat("=", 70))
 }
