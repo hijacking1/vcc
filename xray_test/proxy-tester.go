@@ -534,7 +534,14 @@ func (nt *NetworkTester) TestProxyConnection(proxyPort int) (bool, string, float
 		shuffled[i], shuffled[j] = shuffled[j], shuffled[i]
 	})
 
+	// 총 시간 예산: handshake는 성공했지만 exit 라우팅이 죽은 노드(드물지만 존재)가
+	// 모든 URL을 3s씩 물고 있는 최악 케이스를 2×timeout으로 제한.
+	overallDeadline := time.Now().Add(2 * nt.timeout)
+
 	for i := 0; i < testCount; i++ {
+		if time.Now().After(overallDeadline) {
+			break
+		}
 		success, ip, responseTime := nt.singleTest(proxyPort, shuffled[i])
 		if success {
 			return true, ip, responseTime
@@ -721,41 +728,17 @@ func (xcg *XrayConfigGenerator) ValidateXray() error {
 	return nil
 }
 
-func (xcg *XrayConfigGenerator) GenerateConfig(config *ProxyConfig, listenPort int) (map[string]interface{}, error) {
-	xrayConfig := map[string]interface{}{
-		"log": map[string]interface{}{
-			"loglevel": "error",
-		},
-		"inbounds": []map[string]interface{}{
-			{
-				"port":     listenPort,
-				"listen":   "127.0.0.1",
-				"protocol": "socks",
-				"settings": map[string]interface{}{
-					"auth": "noauth",
-					"udp":  false,
-					"ip":   "127.0.0.1",
-				},
-				"sniffing": map[string]interface{}{
-					"enabled": false,
-				},
-			},
-		},
-		"outbounds": []map[string]interface{}{
-			{
-				"protocol": string(config.Protocol),
-				"settings": map[string]interface{}{},
-				"streamSettings": map[string]interface{}{
-					"sockopt": map[string]interface{}{
-						"tcpKeepAliveInterval": 30,
-						"tcpNoDelay":          true,
-					},
-				},
+func (xcg *XrayConfigGenerator) buildOutbound(config *ProxyConfig) (map[string]interface{}, error) {
+	outbound := map[string]interface{}{
+		"protocol": string(config.Protocol),
+		"settings": map[string]interface{}{},
+		"streamSettings": map[string]interface{}{
+			"sockopt": map[string]interface{}{
+				"tcpKeepAliveInterval": 30,
+				"tcpNoDelay":          true,
 			},
 		},
 	}
-
-	outbound := xrayConfig["outbounds"].([]map[string]interface{})[0]
 
 	switch config.Protocol {
 	case ProtocolShadowsocks:
@@ -793,6 +776,11 @@ func (xcg *XrayConfigGenerator) GenerateConfig(config *ProxyConfig, listenPort i
 		}
 
 	case ProtocolVLESS:
+		// Xray only supports "none" for VLESS encryption; default empty to it.
+		encryption := config.Encrypt
+		if encryption == "" {
+			encryption = "none"
+		}
 		outbound["settings"] = map[string]interface{}{
 			"vnext": []map[string]interface{}{
 				{
@@ -802,7 +790,7 @@ func (xcg *XrayConfigGenerator) GenerateConfig(config *ProxyConfig, listenPort i
 						{
 							"id":         config.UUID,
 							"flow":       config.Flow,
-							"encryption": config.Encrypt,
+							"encryption": encryption,
 							"level":      0,
 						},
 					},
@@ -863,9 +851,11 @@ func (xcg *XrayConfigGenerator) GenerateConfig(config *ProxyConfig, listenPort i
 
 	if config.TLS != "" {
 		streamSettings["security"] = config.TLS
-		tlsSettings := map[string]interface{}{
-			"allowInsecure": true,
-		}
+		// Xray 26.x removed "allowInsecure" (migrated to pinnedPeerCertSha256);
+		// emitting it makes every TLS outbound fail to build. Skip verification
+		// via pinnedPeerCertSha256 is intentionally not set here: for a tester,
+		// default cert verification is the honest signal.
+		tlsSettings := map[string]interface{}{}
 
 		if config.SNI != "" {
 			tlsSettings["serverName"] = config.SNI
@@ -897,7 +887,82 @@ func (xcg *XrayConfigGenerator) GenerateConfig(config *ProxyConfig, listenPort i
 		}
 	}
 
-	return xrayConfig, nil
+	return outbound, nil
+}
+
+func (xcg *XrayConfigGenerator) GenerateConfig(config *ProxyConfig, listenPort int) (map[string]interface{}, error) {
+	outbound, err := xcg.buildOutbound(config)
+	if err != nil {
+		return nil, err
+	}
+	return map[string]interface{}{
+		"log": map[string]interface{}{
+			"loglevel": "error",
+		},
+		"inbounds": []map[string]interface{}{
+			{
+				"port":     listenPort,
+				"listen":   "127.0.0.1",
+				"protocol": "socks",
+				"settings": map[string]interface{}{
+					"auth": "noauth",
+					"udp":  false,
+					"ip":   "127.0.0.1",
+				},
+				"sniffing": map[string]interface{}{
+					"enabled": false,
+				},
+			},
+		},
+		"outbounds": []map[string]interface{}{outbound},
+	}, nil
+}
+
+// GenerateBatchConfig packs multiple nodes into a single xray instance: each
+// node becomes a tagged outbound with its own local socks inbound port, and an
+// inboundTag->outboundTag routing rule keeps every node isolated from the rest.
+// This collapses N fork/exec into one.
+func (xcg *XrayConfigGenerator) GenerateBatchConfig(configs []ProxyConfig, ports []int) (map[string]interface{}, error) {
+	inbounds := make([]map[string]interface{}, 0, len(configs))
+	outbounds := make([]map[string]interface{}, 0, len(configs))
+	rules := make([]map[string]interface{}, 0, len(configs))
+
+	for i := range configs {
+		tag := fmt.Sprintf("p%d", i)
+
+		inbounds = append(inbounds, map[string]interface{}{
+			"tag":      tag,
+			"port":     ports[i],
+			"listen":   "127.0.0.1",
+			"protocol": "socks",
+			"settings": map[string]interface{}{
+				"auth": "noauth",
+				"udp":  false,
+				"ip":   "127.0.0.1",
+			},
+			"sniffing": map[string]interface{}{"enabled": false},
+		})
+
+		outbound, err := xcg.buildOutbound(&configs[i])
+		if err != nil {
+			return nil, fmt.Errorf("node %d: %w", i, err)
+		}
+		outbound["tag"] = tag
+		outbounds = append(outbounds, outbound)
+
+		rules = append(rules, map[string]interface{}{
+			"type":        "field",
+			"inboundTag":  []string{tag},
+			"outboundTag": tag,
+		})
+	}
+
+	return map[string]interface{}{
+		"log":       map[string]interface{}{"loglevel": "error"},
+		"inbounds":  inbounds,
+		"outbounds": outbounds,
+		"routing":   map[string]interface{}{"rules": rules},
+	}, nil
 }
 
 type ProcessManager struct {
@@ -1843,108 +1908,30 @@ func pidBySocketInode(inode uint64) int {
 	return 0
 }
 
-func (pt *ProxyTester) TestSingleConfig(config *ProxyConfig, batchID int) *TestResultData {
-	startTime := time.Now()
-	var proxyPort int
-	var process *exec.Cmd
-	var configFile string
-
-	result := &TestResultData{
-		Config:  *config,
-		BatchID: &batchID,
+// tcpReachable performs a raw TCP dial to server:port. A failed dial means the
+// node is definitely dead (no false negatives: an alive proxy must accept TCP),
+// so we can skip spawning xray for it entirely.
+func tcpReachable(server string, port int, timeout time.Duration) bool {
+	conn, err := net.DialTimeout("tcp", net.JoinHostPort(server, strconv.Itoa(port)), timeout)
+	if err != nil {
+		return false
 	}
+	conn.Close()
+	return true
+}
 
+// testNodeThroughPort runs the actual proxy connectivity test for a single node
+// whose xray outbound is already listening on proxyPort.
+func (pt *ProxyTester) testNodeThroughPort(config *ProxyConfig, proxyPort int, batchID int) *TestResultData {
+	startTime := time.Now()
+	result := &TestResultData{
+		Config:    *config,
+		BatchID:   &batchID,
+		ProxyPort: &proxyPort,
+	}
 	defer func() {
 		result.TestTime = time.Since(startTime).Seconds()
-
-		if configFile != "" {
-			os.Remove(configFile)
-		}
-		if proxyPort > 0 {
-			pt.portManager.ReleasePort(proxyPort)
-		}
 	}()
-
-	var ok bool
-	proxyPort, ok = pt.portManager.GetAvailablePort()
-	if !ok || proxyPort == 0 {
-		result.Result = ResultPortConflict
-		return result
-	}
-	result.ProxyPort = &proxyPort
-
-	xrayConfig, err := pt.configGenerator.GenerateConfig(config, proxyPort)
-	if err != nil {
-		result.Result = ResultInvalidConfig
-		result.ErrorMessage = err.Error()
-		return result
-	}
-
-	configFile, err = pt.writeConfigToTempFile(xrayConfig)
-	if err != nil {
-		result.Result = ResultInvalidConfig
-		result.ErrorMessage = err.Error()
-		return result
-	}
-
-	if err := pt.testConfigSyntax(configFile); err != nil {
-		result.Result = ResultSyntaxError
-		result.ErrorMessage = err.Error()
-		return result
-	}
-
-	process, err = pt.startXrayProcess(configFile)
-	if err != nil {
-		result.Result = ResultConnectionError
-		result.ErrorMessage = err.Error()
-		return result
-	}
-
-	if process.Process != nil {
-		pt.processManager.RegisterProcess(process.Process.Pid, process)
-	}
-
-	// 대기 + 검증: 이번 테스트가 띄운 xray PID가 실제로 포트에 bind 될 때까지.
-	// 단순 isProxyResponsive(로컬 TCP 연결 확인)는 이전 배치에서 새어나온 xray에
-	// 속을 수 있으므로 /proc 기반으로 "누가" 리슨하는지 PID까지 확인한다.
-	ourPID := 0
-	if process != nil && process.Process != nil {
-		ourPID = process.Process.Pid
-	}
-
-	bound := false
-	readyBy := time.Now().Add(3 * time.Second)
-	for time.Now().Before(readyBy) {
-		if ourPID != 0 {
-			if pidListeningOnPort(proxyPort) == ourPID {
-				bound = true
-				break
-			}
-			// 우리 프로세스가 죽었으면 더 기다려도 소용없다.
-			if !processAlive(ourPID) {
-				break
-			}
-		} else if pt.networkTester.isProxyResponsive(proxyPort) {
-			bound = true
-			break
-		}
-		time.Sleep(100 * time.Millisecond)
-	}
-
-	if !bound {
-		boundPID := pidListeningOnPort(proxyPort)
-		if boundPID != 0 && ourPID != 0 && boundPID != ourPID {
-			result.Result = ResultPortConflict
-			result.ErrorMessage = fmt.Sprintf("port %d is held by stale process %d (expected %d)", proxyPort, boundPID, ourPID)
-		} else {
-			result.Result = ResultConnectionError
-			result.ErrorMessage = "Xray failed to bind the configured port"
-		}
-		if ourPID != 0 {
-			pt.processManager.KillProcess(ourPID)
-		}
-		return result
-	}
 
 	success, externalIP, responseTime := pt.networkTester.TestProxyConnection(proxyPort)
 	if success {
@@ -1958,9 +1945,6 @@ func (pt *ProxyTester) TestSingleConfig(config *ProxyConfig, batchID int) *TestR
 				result.CountryCode = geoInfo.CountryCode
 				result.CountryName = geoInfo.CountryName
 				result.CountryFlag = geoInfo.CountryFlag
-				log.Printf("Country detected: %s %s", geoInfo.CountryFlag, geoInfo.CountryName)
-			} else {
-				log.Printf("GeoIP lookup failed: %v", err)
 			}
 		}
 
@@ -1974,15 +1958,196 @@ func (pt *ProxyTester) TestSingleConfig(config *ProxyConfig, batchID int) *TestR
 		result.ErrorMessage = "Network test failed"
 	}
 
-	if process != nil && process.Process != nil {
-		_ = pt.processManager.KillProcess(process.Process.Pid)
-		waitDeadline := time.Now().Add(2 * time.Second)
-		for pt.processManager.HasProcess(process.Process.Pid) && time.Now().Before(waitDeadline) {
-			time.Sleep(50 * time.Millisecond)
-		}
+	return result
+}
+
+func (pt *ProxyTester) releasePorts(ports []int) {
+	for _, p := range ports {
+		pt.portManager.ReleasePort(p)
+	}
+}
+
+// TestBatchConfigs tests a group of nodes through ONE xray process: each node
+// becomes a tagged outbound with its own local socks inbound port, isolated by
+// per-node routing. TCP-dead nodes are rejected before xray is ever spawned.
+func (pt *ProxyTester) TestBatchConfigs(configs []ProxyConfig, batchID int) []*TestResultData {
+	tcpTimeout := time.Duration(getEnvIntOrDefault("PROXY_TCP_TIMEOUT", 800)) * time.Millisecond
+	results := make([]*TestResultData, len(configs))
+
+	type live struct {
+		idx  int
+		cfg  ProxyConfig
+		port int
 	}
 
-	return result
+	// ① TCP pre-filter: reject definitely-dead nodes without spawning xray.
+	var lives []live
+	for i := range configs {
+		if !tcpReachable(configs[i].Server, configs[i].Port, tcpTimeout) {
+			results[i] = &TestResultData{
+				Config:       configs[i],
+				BatchID:      &batchID,
+				Result:       ResultConnectionError,
+				ErrorMessage: "TCP unreachable (pre-filter)",
+			}
+			pt.updateStats(results[i])
+			continue
+		}
+		lives = append(lives, live{idx: i, cfg: configs[i]})
+	}
+
+	if len(lives) == 0 {
+		return results
+	}
+
+	// Acquire a distinct local port per live node.
+	acquired := make([]int, 0, len(lives))
+	for i := range lives {
+		p, ok := pt.portManager.GetAvailablePort()
+		if !ok || p == 0 {
+			pt.releasePorts(acquired)
+			for _, lv := range lives[i:] {
+				results[lv.idx] = &TestResultData{
+					Config:       lv.cfg,
+					BatchID:      &batchID,
+					Result:       ResultPortConflict,
+					ErrorMessage: "no available local port",
+				}
+				pt.updateStats(results[lv.idx])
+			}
+			return results
+		}
+		lives[i].port = p
+		acquired = append(acquired, p)
+	}
+
+	// Build one xray config with N outbounds + per-node routing.
+	cfgs := make([]ProxyConfig, len(lives))
+	ports := make([]int, len(lives))
+	for i, lv := range lives {
+		cfgs[i] = lv.cfg
+		ports[i] = lv.port
+	}
+	xrayConfig, err := pt.configGenerator.GenerateBatchConfig(cfgs, ports)
+	if err != nil {
+		pt.releasePorts(acquired)
+		for _, lv := range lives {
+			results[lv.idx] = &TestResultData{
+				Config:       lv.cfg,
+				BatchID:      &batchID,
+				Result:       ResultInvalidConfig,
+				ErrorMessage: err.Error(),
+			}
+			pt.updateStats(results[lv.idx])
+		}
+		return results
+	}
+
+	configFile, err := pt.writeConfigToTempFile(xrayConfig)
+	if err != nil {
+		pt.releasePorts(acquired)
+		for _, lv := range lives {
+			results[lv.idx] = &TestResultData{
+				Config:       lv.cfg,
+				BatchID:      &batchID,
+				Result:       ResultInvalidConfig,
+				ErrorMessage: err.Error(),
+			}
+			pt.updateStats(results[lv.idx])
+		}
+		return results
+	}
+	defer os.Remove(configFile)
+
+	// ③ No `xray -test` subprocess: spawn directly; detect early-exit for config errors.
+	process, err := pt.startXrayProcess(configFile)
+	if err != nil {
+		pt.releasePorts(acquired)
+		for _, lv := range lives {
+			results[lv.idx] = &TestResultData{
+				Config:       lv.cfg,
+				BatchID:      &batchID,
+				Result:       ResultConnectionError,
+				ErrorMessage: err.Error(),
+			}
+			pt.updateStats(results[lv.idx])
+		}
+		return results
+	}
+
+	ourPID := 0
+	if process != nil && process.Process != nil {
+		ourPID = process.Process.Pid
+		pt.processManager.RegisterProcess(ourPID, process)
+	}
+
+	// Wait until every port is bound by OUR xray pid (or it dies early).
+	boundAll := false
+	readyBy := time.Now().Add(5 * time.Second)
+	for time.Now().Before(readyBy) {
+		if ourPID != 0 && !processAlive(ourPID) {
+			break
+		}
+		all := true
+		for _, lv := range lives {
+			if ourPID != 0 {
+				if pidListeningOnPort(lv.port) != ourPID {
+					all = false
+					break
+				}
+			} else if !pt.networkTester.isProxyResponsive(lv.port) {
+				all = false
+				break
+			}
+		}
+		if all {
+			boundAll = true
+			break
+		}
+		time.Sleep(100 * time.Millisecond)
+	}
+
+	if !boundAll {
+		res := ResultConnectionError
+		msg := "xray failed to bind all ports"
+		if ourPID != 0 && !processAlive(ourPID) {
+			res = ResultSyntaxError
+			msg = "xray exited early (invalid config)"
+		}
+		if ourPID != 0 {
+			pt.processManager.KillProcess(ourPID)
+		}
+		pt.releasePorts(acquired)
+		for _, lv := range lives {
+			results[lv.idx] = &TestResultData{
+				Config:       lv.cfg,
+				BatchID:      &batchID,
+				Result:       res,
+				ErrorMessage: msg,
+			}
+			pt.updateStats(results[lv.idx])
+		}
+		return results
+	}
+
+	// Test every live node concurrently through its own local port.
+	var wg sync.WaitGroup
+	for _, lv := range lives {
+		wg.Add(1)
+		go func(lv live) {
+			defer wg.Done()
+			results[lv.idx] = pt.testNodeThroughPort(&lv.cfg, lv.port, batchID)
+			pt.updateStats(results[lv.idx])
+		}(lv)
+	}
+	wg.Wait()
+
+	if ourPID != 0 {
+		pt.processManager.KillProcess(ourPID)
+	}
+	pt.releasePorts(acquired)
+
+	return results
 }
 
 func (pt *ProxyTester) writeConfigToTempFile(config map[string]interface{}) (string, error) {
@@ -2000,19 +2165,6 @@ func (pt *ProxyTester) writeConfigToTempFile(config map[string]interface{}) (str
 	}
 
 	return tmpFile.Name(), nil
-}
-
-func (pt *ProxyTester) testConfigSyntax(configFile string) error {
-	ctx, cancel := context.WithTimeout(context.Background(), 3*time.Second)
-	defer cancel()
-
-	cmd := exec.CommandContext(ctx, pt.configGenerator.xrayPath, "run", "-test", "-config", configFile)
-	output, err := cmd.CombinedOutput()
-	if err != nil {
-		return fmt.Errorf("syntax test failed: %s", strings.TrimSpace(string(output)))
-	}
-
-	return nil
 }
 
 func (pt *ProxyTester) startXrayProcess(configFile string) (*exec.Cmd, error) {
@@ -2410,43 +2562,56 @@ func (pt *ProxyTester) TestConfigs(configs []ProxyConfig, batchID int) []*TestRe
 
 	log.Printf("Testing batch %d with %d configurations...", batchID, len(configs))
 
-	maxWorkers := pt.config.MaxWorkers
-	if len(configs) < maxWorkers {
-		maxWorkers = len(configs)
+	// Batch mode: N nodes share one xray process. BatchSize = nodes per xray,
+	// slots = concurrent xray processes. 8 slots x 25 nodes = 200 concurrent.
+	batchSize := getEnvIntOrDefault("PROXY_XRAY_BATCH", 25)
+	slots := getEnvIntOrDefault("PROXY_XRAY_SLOTS", 8)
+	if batchSize < 1 {
+		batchSize = 1
+	}
+	if slots < 1 {
+		slots = 1
+	}
+	if slots > len(configs) {
+		slots = len(configs)
 	}
 
-	configChan := make(chan ProxyConfig, len(configs))
-	resultChan := make(chan *TestResultData, len(configs))
+	var chunks [][]ProxyConfig
+	for i := 0; i < len(configs); i += batchSize {
+		end := i + batchSize
+		if end > len(configs) {
+			end = len(configs)
+		}
+		chunks = append(chunks, configs[i:end])
+	}
+
+	chunkChan := make(chan []ProxyConfig, len(chunks))
+	results := make([]*TestResultData, 0, len(configs))
+	var mu sync.Mutex
 
 	var wg sync.WaitGroup
-	for i := 0; i < maxWorkers; i++ {
+	for i := 0; i < slots; i++ {
 		wg.Add(1)
 		go func() {
 			defer wg.Done()
-			for config := range configChan {
-				result := pt.TestSingleConfig(&config, batchID)
-				pt.updateStats(result)
-				resultChan <- result
+			for chunk := range chunkChan {
+				r := pt.TestBatchConfigs(chunk, batchID)
+				mu.Lock()
+				results = append(results, r...)
+				mu.Unlock()
 			}
 		}()
 	}
 
-	for _, config := range configs {
-		configChan <- config
+	for _, c := range chunks {
+		chunkChan <- c
 	}
-	close(configChan)
+	close(chunkChan)
+	wg.Wait()
 
-	go func() {
-		wg.Wait()
-		close(resultChan)
-	}()
-
-	var results []*TestResultData
 	successCount := 0
-
-	for result := range resultChan {
-		results = append(results, result)
-		if result.Result == ResultSuccess {
+	for _, r := range results {
+		if r.Result == ResultSuccess {
 			successCount++
 		}
 	}
@@ -2499,9 +2664,6 @@ func (pt *ProxyTester) RunTests(configs []ProxyConfig) []*TestResultData {
 
 		if end < totalConfigs {
 			pt.cleanupBetweenBatches()
-
-			log.Printf("⏸️  Resting for 10 seconds before next batch...")
-			time.Sleep(10 * time.Second)
 		}
 	}
 
