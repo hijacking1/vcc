@@ -785,7 +785,7 @@ func buildTransport(config *ProxyConfig) map[string]interface{} {
 		}
 		return t
 
-	case "h2":
+	case "h2", "http":
 		t := map[string]interface{}{"type": "http"}
 		if config.Host != "" {
 			t["host"] = []string{config.Host}
@@ -795,10 +795,26 @@ func buildTransport(config *ProxyConfig) map[string]interface{} {
 		}
 		return t
 
+	case "httpupgrade":
+		t := map[string]interface{}{"type": "httpupgrade"}
+		if config.Host != "" {
+			t["host"] = config.Host
+		}
+		if config.Path != "" {
+			t["path"] = config.Path
+		}
+		return t
+
 	case "grpc":
 		t := map[string]interface{}{"type": "grpc"}
-		if config.ServiceName != "" {
-			t["service_name"] = config.ServiceName
+		sn := config.ServiceName
+		if sn == "" {
+			// vmess share links store the gRPC serviceName in "path"
+			// (v2rayN format), not in a dedicated serviceName field.
+			sn = config.Path
+		}
+		if sn != "" {
+			t["service_name"] = sn
 		}
 		return t
 	}
@@ -809,6 +825,15 @@ func buildTransport(config *ProxyConfig) map[string]interface{} {
 // isTLSRequired reports whether a protocol mandates TLS regardless of whether
 // the share-link carried a tls=.../security=... flag.
 func isTLSRequired(p ProxyProtocol) bool {
+	return p == ProtocolHysteria || p == ProtocolHysteria2 || p == ProtocolTUIC
+}
+
+// isUDPBased reports whether a protocol runs over QUIC (UDP) transport. A TCP
+// dial cannot establish liveness for these: the server listens on UDP, not TCP,
+// so the TCP pre-filter would wrongly reject every node (hysteria/hysteria2/tuic
+// would collapse to 0). Such nodes must skip the pre-filter and go straight to
+// sing-box, whose QUIC handshake is the real liveness probe.
+func isUDPBased(p ProxyProtocol) bool {
 	return p == ProtocolHysteria || p == ProtocolHysteria2 || p == ProtocolTUIC
 }
 
@@ -1952,7 +1977,7 @@ func (pt *ProxyTester) preFilterLive(configs []ProxyConfig, results []*TestResul
 		go func(i int) {
 			defer wg.Done()
 			defer func() { <-sem }()
-			if !tcpReachable(configs[i].Server, configs[i].Port, tcpTimeout) {
+			if !isUDPBased(configs[i].Protocol) && !tcpReachable(configs[i].Server, configs[i].Port, tcpTimeout) {
 				results[i] = &TestResultData{
 					Config:       configs[i],
 					BatchID:      &batchID,
