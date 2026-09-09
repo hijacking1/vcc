@@ -33,21 +33,109 @@ import (
 
 var uuidRegexp = regexp.MustCompile(`^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$`)
 
+// vmess security (cipher) values sing-box 1.14.0 accepts; "" means "auto".
+var validVMessSecurity = map[string]bool{
+	"": true, "auto": true, "aes-128-gcm": true, "chacha20-poly1305": true,
+	"none": true, "zero": true, "aes-128-cfb": true,
+}
+
+// normalizeTLS maps the free-form tls/security flag to sing-box's three values
+// ("", "tls", "reality"). "false"/"none" mean non-TLS; anything else ("auto",
+// "xtls", query-string leakage) is garbage and rejected.
+func normalizeTLS(t string) (string, bool) {
+	switch t {
+	case "", "tls", "reality":
+		return t, true
+	case "false", "none":
+		return "", true
+	default:
+		return "", false
+	}
+}
+
+// normalizeVLESSFlow strips the Xray "-udp443" suffix (UDP-over-443 flag,
+// irrelevant to a TCP connectivity probe) and maps "none" to no-flow, so real
+// vision nodes survive instead of being dropped. sing-box 1.14.0 accepts only
+// "" and "xtls-rprx-vision".
+func normalizeVLESSFlow(f string) string {
+	f = strings.TrimSpace(f)
+	if f == "none" {
+		return ""
+	}
+	for strings.HasSuffix(f, "-udp443") {
+		f = strings.TrimSuffix(f, "-udp443")
+	}
+	return f
+}
+
+// validRealityPublicKey reports whether pk is a 32-byte base64url-encoded
+// reality public key (43 chars, no padding). sing-box rejects anything else.
+func validRealityPublicKey(pk string) bool {
+	raw, err := base64.RawURLEncoding.DecodeString(pk)
+	return err == nil && len(raw) == 32
+}
+
+// validRealityShortID: short_id is optional; when present it must be even-length hex.
+func validRealityShortID(sid string) bool {
+	if sid == "" {
+		return true
+	}
+	_, err := hex.DecodeString(sid)
+	return err == nil
+}
+
 func validNode(c *ProxyConfig) bool {
 	if c.Server == "" || c.Port <= 0 || c.Port > 65535 {
 		return false
 	}
 	switch c.Protocol {
-	case ProtocolShadowsocks, ProtocolShadowsocksR:
+	case ProtocolShadowsocks:
+		return c.Method != "" && c.Password != "" && validSSMethods[strings.TrimSpace(c.Method)]
+	case ProtocolShadowsocksR:
 		return c.Method != "" && c.Password != ""
-	case ProtocolVMess, ProtocolVLESS:
-		return uuidRegexp.MatchString(c.UUID)
+	case ProtocolVMess:
+		if !uuidRegexp.MatchString(c.UUID) {
+			return false
+		}
+		return validVMessSecurity[c.Cipher]
+	case ProtocolVLESS:
+		if !uuidRegexp.MatchString(c.UUID) {
+			return false
+		}
+		tls, ok := normalizeTLS(c.TLS)
+		if !ok {
+			return false
+		}
+		c.TLS = tls
+		if f := normalizeVLESSFlow(c.Flow); f != "" && f != "xtls-rprx-vision" {
+			return false
+		} else if f != c.Flow {
+			c.Flow = f
+		}
+		if c.TLS == "reality" {
+			if !validRealityPublicKey(c.RealityPublicKey) {
+				return false
+			}
+			if !validRealityShortID(c.RealityShortID) {
+				return false
+			}
+		}
+		return true
 	case ProtocolTrojan:
 		return c.Password != ""
 	case ProtocolHysteria:
 		return c.AuthStr != ""
 	case ProtocolHysteria2:
-		return c.Password != ""
+		if c.Password == "" {
+			return false
+		}
+		if c.Obfs == "none" {
+			c.Obfs = "" // "none" means no obfs, not an obfs type
+		}
+		if c.Obfs != "" && (c.Obfs != "salamander" || c.ObfsParam == "") {
+			return false
+		}
+		return true
 	case ProtocolTUIC:
 		return c.UUID != "" && c.Password != ""
 	}
@@ -274,6 +362,32 @@ func parseSourceBody(body string) []ProxyConfig {
 	}
 
 	return out
+}
+
+// validSSMethods is the exhaustive set of shadowsocks ciphers sing-box 1.14.0
+// actually accepts (verified via `sing-box check`). Anything else — mojibake from
+// broken base64, the scheme name "ss" leaking into the method field, misspelled
+// or non-existent ciphers — can never run, so it is dropped at collect time
+// instead of polluting the test set.
+var validSSMethods = map[string]bool{
+	"aes-128-gcm":                   true,
+	"aes-192-gcm":                   true,
+	"aes-256-gcm":                   true,
+	"chacha20-ietf-poly1305":        true,
+	"xchacha20-ietf-poly1305":       true,
+	"aes-128-cfb":                   true,
+	"aes-192-cfb":                   true,
+	"aes-256-cfb":                   true,
+	"aes-128-ctr":                   true,
+	"aes-192-ctr":                   true,
+	"aes-256-ctr":                   true,
+	"chacha20-ietf":                 true,
+	"xchacha20":                     true,
+	"rc4-md5":                       true,
+	"none":                          true,
+	"2022-blake3-aes-128-gcm":       true,
+	"2022-blake3-aes-256-gcm":       true,
+	"2022-blake3-chacha20-poly1305": true,
 }
 
 var protoFiles = map[ProxyProtocol]string{
