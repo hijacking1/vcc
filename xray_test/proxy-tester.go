@@ -87,9 +87,9 @@ func NewDefaultConfig() *Config {
 
 	return &Config{
 		SingBoxPath:     getEnvOrDefault("SINGBOX_PATH", ""),
-		MaxWorkers:      getEnvIntOrDefault("PROXY_MAX_WORKERS", 200),
+		MaxWorkers:      getEnvIntOrDefault("PROXY_MAX_WORKERS", 400),
 		Timeout:         time.Duration(getEnvIntOrDefault("PROXY_TIMEOUT", 3)) * time.Second,
-		BatchSize:       getEnvIntOrDefault("PROXY_BATCH_SIZE", 400),
+		BatchSize:       getEnvIntOrDefault("PROXY_BATCH_SIZE", 800),
 		IncrementalSave: getEnvBoolOrDefault("PROXY_INCREMENTAL_SAVE", true),
 		DataDir:         dataDir,
 		ConfigDir:       configDir,
