@@ -224,3 +224,112 @@ func TestWriteTestSummary(t *testing.T) {
 		t.Fatalf("vless mismatch: %+v", vl)
 	}
 }
+
+func TestValidNodeSSMethodWhitelist(t *testing.T) {
+	valid := []string{
+		"aes-256-gcm", "aes-128-gcm", "chacha20-ietf-poly1305",
+		"2022-blake3-aes-256-gcm", "2022-blake3-chacha20-poly1305",
+		"rc4-md5", "none", "aes-256-cfb", "chacha20-ietf", "xchacha20",
+	}
+	for _, m := range valid {
+		c := &ProxyConfig{Protocol: ProtocolShadowsocks, Method: m, Password: "p", Server: "s", Port: 8388}
+		if !validNode(c) {
+			t.Errorf("valid SS method %q rejected", m)
+		}
+	}
+
+	garbage := []string{"ss", "telegram", "chacha20-poly1305", "AES-256-GCM", "u\ufffd", "", "2022-blake3-chacha20"}
+	for _, m := range garbage {
+		c := &ProxyConfig{Protocol: ProtocolShadowsocks, Method: m, Password: "p", Server: "s", Port: 8388}
+		if validNode(c) {
+			t.Errorf("garbage SS method %q not rejected", m)
+		}
+	}
+
+	// non-SS protocols must not be affected by the SS whitelist
+	if !validNode(&ProxyConfig{Protocol: ProtocolVLESS, UUID: "b831381d-6324-4d53-ad4f-8cda48b30811", Server: "s", Port: 443}) {
+		t.Errorf("valid vless node rejected")
+	}
+	if !validNode(&ProxyConfig{Protocol: ProtocolTrojan, Password: "p", Server: "s", Port: 443}) {
+		t.Errorf("valid trojan node rejected")
+	}
+}
+
+func TestValidNodeProtocolWhitelists(t *testing.T) {
+	const uuid = "b831381d-6324-4d53-ad4f-8cda48b30811"
+	// 32 zero bytes → valid 43-char base64url reality public key
+	const validPK = "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+
+	// --- vmess security ---
+	for _, ciph := range []string{"auto", "aes-128-gcm", "chacha20-poly1305", "none", "zero", "aes-128-cfb", ""} {
+		if !validNode(&ProxyConfig{Protocol: ProtocolVMess, UUID: uuid, Cipher: ciph, Server: "s", Port: 443}) {
+			t.Errorf("valid vmess security %q rejected", ciph)
+		}
+	}
+	for _, ciph := range []string{"null", "tls", "aes-256-gcm", "chacha20-ietf-poly1305"} {
+		if validNode(&ProxyConfig{Protocol: ProtocolVMess, UUID: uuid, Cipher: ciph, Server: "s", Port: 443}) {
+			t.Errorf("garbage vmess security %q not rejected", ciph)
+		}
+	}
+
+	// --- vless flow ---
+	if !validNode(&ProxyConfig{Protocol: ProtocolVLESS, UUID: uuid, Flow: "xtls-rprx-vision", Server: "s", Port: 443}) {
+		t.Errorf("valid vless flow rejected")
+	}
+	c := &ProxyConfig{Protocol: ProtocolVLESS, UUID: uuid, Flow: "xtls-rprx-vision-udp443", Server: "s", Port: 443}
+	if !validNode(c) || c.Flow != "xtls-rprx-vision" {
+		t.Errorf("flow -udp443 not normalized: %q", c.Flow)
+	}
+	for _, f := range []string{"xtls-rprx-direct", "xtls-rprx-splice", "xtls-rprx-origin", "xtxts-rprx-vision", "xtls-rprx-direct-udp443"} {
+		if validNode(&ProxyConfig{Protocol: ProtocolVLESS, UUID: uuid, Flow: f, Server: "s", Port: 443}) {
+			t.Errorf("garbage vless flow %q not rejected", f)
+		}
+	}
+
+	// --- vless reality ---
+	reality := func(pk, sid string) *ProxyConfig {
+		return &ProxyConfig{Protocol: ProtocolVLESS, UUID: uuid, TLS: "reality", Flow: "xtls-rprx-vision", RealityPublicKey: pk, RealityShortID: sid, Server: "s", Port: 443}
+	}
+	if !validNode(reality(validPK, "6aa44564cda562bc")) {
+		t.Errorf("valid reality node rejected")
+	}
+	if validNode(reality("", "6aa44564cda562bc")) {
+		t.Errorf("reality with missing public_key not rejected")
+	}
+	if validNode(reality("abc123", "6aa44564cda562bc")) {
+		t.Errorf("reality with malformed public_key not rejected")
+	}
+	if validNode(reality(validPK, "abc")) {
+		t.Errorf("reality with odd-length short_id not rejected")
+	}
+
+	// --- vless tls normalization ---
+	c = &ProxyConfig{Protocol: ProtocolVLESS, UUID: uuid, TLS: "false", Server: "s", Port: 443}
+	if !validNode(c) || c.TLS != "" {
+		t.Errorf("tls=false not normalized to empty: %q", c.TLS)
+	}
+	if validNode(&ProxyConfig{Protocol: ProtocolVLESS, UUID: uuid, TLS: "auto", Server: "s", Port: 443}) {
+		t.Errorf("garbage vless tls=auto not rejected")
+	}
+
+	// --- hysteria2 obfs ---
+	h2 := func(obfs, param string) *ProxyConfig {
+		return &ProxyConfig{Protocol: ProtocolHysteria2, Password: "p", Obfs: obfs, ObfsParam: param, Server: "s", Port: 443}
+	}
+	if !validNode(h2("", "")) {
+		t.Errorf("hysteria2 without obfs rejected")
+	}
+	c = h2("none", "")
+	if !validNode(c) || c.Obfs != "" {
+		t.Errorf("hysteria2 obfs=none not normalized: %q", c.Obfs)
+	}
+	if !validNode(h2("salamander", "pw")) {
+		t.Errorf("hysteria2 salamander+password rejected")
+	}
+	if validNode(h2("salamander", "")) {
+		t.Errorf("hysteria2 salamander without password not rejected")
+	}
+	if validNode(h2("fake", "pw")) {
+		t.Errorf("hysteria2 unknown obfs type not rejected")
+	}
+}
