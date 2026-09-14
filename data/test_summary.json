@@ -1,48 +1,48 @@
 {
-  "failed": 297863,
+  "failed": 299830,
   "per_protocol": {
     "hysteria": {
       "total": 59,
-      "success": 3,
-      "failed": 56
+      "success": 2,
+      "failed": 57
     },
     "hysteria2": {
-      "total": 4081,
-      "success": 80,
+      "total": 4084,
+      "success": 83,
       "failed": 4001
     },
     "shadowsocks": {
-      "total": 20278,
-      "success": 254,
-      "failed": 20024
+      "total": 20287,
+      "success": 240,
+      "failed": 20047
     },
     "shadowsocksr": {
-      "total": 9646,
+      "total": 9714,
       "success": 0,
-      "failed": 9646
+      "failed": 9714
     },
     "trojan": {
-      "total": 35348,
-      "success": 77,
-      "failed": 35271
+      "total": 35406,
+      "success": 24,
+      "failed": 35382
     },
     "tuic": {
-      "total": 136,
+      "total": 127,
       "success": 0,
-      "failed": 136
+      "failed": 127
     },
     "vless": {
-      "total": 190133,
-      "success": 3487,
-      "failed": 186646
+      "total": 189880,
+      "success": 1392,
+      "failed": 188488
     },
     "vmess": {
-      "total": 42214,
-      "success": 131,
-      "failed": 42083
+      "total": 42102,
+      "success": 88,
+      "failed": 42014
     }
   },
-  "success": 4032,
-  "total": 301895,
-  "updated_at": "2026-09-14T06:03:08Z"
+  "success": 1829,
+  "total": 301659,
+  "updated_at": "2026-09-14T16:33:32Z"
 }
