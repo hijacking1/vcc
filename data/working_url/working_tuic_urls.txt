@@ -1,7 +1,28 @@
 # Working TUIC Configurations (URL Format)
-# Generated at: 2026-10-01 15:20:24
+# Generated at: 2026-10-01 20:57:26
 # Format: Each line contains one working configuration as URL
 
-# Tested at: 2026-10-01 16:58:28 | Response: 1.107s | IP: 118.168.196.136 | Country: 🇹🇼 Taiwan - TW
+# Tested at: 2026-10-01 22:47:33 | Response: 0.255s | IP: 198.46.215.223 | Country: 🇺🇸 United States - US
+tuic://6346ee2b-aefa-4a58-963a-bb851ed08f41:0b628b17@198.46.215.223:4444?allow_insecure=1&alpn=h3&congestion_control=bbr&sni=proxy.bingtao.xyz#%F0%9F%87%BA%F0%9F%87%B8US-67f8fb0082606fe4f4b5f9cd734a3200
+
+# Tested at: 2026-10-01 22:47:33 | Response: 0.513s | IP: 2600:3c18:e002:4210:fb82:cdc8:ec39:887f | Country: 🇯🇵 Japan - JP
+tuic://cd1b0ae0-4010-11ee-953a-f23c9164ca5d:cd1b0ae0-4010-11ee-953a-f23c9164ca5d@de0bc027-teisg0-thtg7i-1lkt0.jp5.hyhuawei.com:443?alpn=h3&congestion_control=bbr&sni=de0bc027-teisg0-thtg7i-1lkt0.jp5.hyhuawei.com#%F0%9F%87%AF%F0%9F%87%B5JP-995e6bad33f757346edfc63a8ce63a66
+
+# Tested at: 2026-10-01 22:47:33 | Response: 0.595s | IP: 146.235.16.130 | Country: 🇸🇬 Singapore - SG
+tuic://2d1ad594-80a4-4bfb-87a6-038e39701f51:2d1ad594-80a4-4bfb-87a6-038e39701f51@146.235.16.130:33738?alpn=h3&congestion_control=bbr&sni=sg2-8sb.6121999.dpdns.org#%F0%9F%87%B8%F0%9F%87%ACSG-4427193ba8daeccc370a9fa26dea6ff2
+
+# Tested at: 2026-10-01 22:47:39 | Response: 0.539s | IP: 118.168.196.136 | Country: 🇹🇼 Taiwan - TW
+tuic://8A9905B7-801B-41AF-BFC9-2034212770F6:8A9905B7-801B-41AF-BFC9-2034212770F6@tw3.dexlos.com:8080?alpn=h3&congestion_control=bbr&sni=tw3.dexlos.com#%F0%9F%87%B9%F0%9F%87%BCTW-dfc8333cfb9f36bf90f668dac8d24049
+
+# Tested at: 2026-10-01 22:47:39 | Response: 0.545s | IP: 118.168.196.136 | Country: 🇹🇼 Taiwan - TW
 tuic://D7286728-678E-443B-B76B-B699654C66DD:D7286728-678E-443B-B76B-B699654C66DD@tw3.dexlos.com:8080?alpn=h3&congestion_control=bbr&sni=tw3.dexlos.com#%F0%9F%87%B9%F0%9F%87%BCTW-dfc8333cfb9f36bf90f668dac8d24049
+
+# Tested at: 2026-10-01 22:47:40 | Response: 0.676s | IP: 146.235.16.130 | Country: 🇸🇬 Singapore - SG
+tuic://2d1ad594-80a4-4bfb-87a6-038e39701f51:2d1ad594-80a4-4bfb-87a6-038e39701f51@sg2-8sb.6121999.dpdns.org:33738?alpn=h3&congestion_control=bbr&sni=sg2-8sb.6121999.dpdns.org#%F0%9F%87%B8%F0%9F%87%ACSG-2e0d51db5adefc037ac26923cc79c3ae
+
+# Tested at: 2026-10-01 22:47:40 | Response: 0.782s | IP: 216.183.230.2 | Country: 🇺🇸 United States - US
+tuic://56d8a8fd-68b8-47f8-8c7f-98cc675902db:56d8a8fd-68b8-47f8-8c7f-98cc675902db@us02.uzifan.monster:8443?allow_insecure=1&alpn=h3&congestion_control=bbr&sni=www.bing.com#%F0%9F%87%BA%F0%9F%87%B8US-4055398f8343a4effded6b5dbd56395b
+
+# Tested at: 2026-10-01 22:47:40 | Response: 0.904s | IP: 36.227.195.138 | Country: 🇹🇼 Taiwan - TW
+tuic://D7286728-678E-443B-B76B-B699654C66DD:D7286728-678E-443B-B76B-B699654C66DD@tw1.dexlos.com:8080?alpn=h3&congestion_control=bbr&sni=tw1.dexlos.com#%F0%9F%87%B9%F0%9F%87%BCTW-4e45ba58f38909f3829c5f4c2907af4d
 
