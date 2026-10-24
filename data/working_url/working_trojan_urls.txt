@@ -1,175 +1,187 @@
 # Working TROJAN Configurations (URL Format)
-# Generated at: 2026-10-24 12:35:21
+# Generated at: 2026-10-24 18:42:53
 # Format: Each line contains one working configuration as URL
 
-# Tested at: 2026-10-24 13:59:38 | Response: 0.655s | IP: 212.47.240.106 | Country: 🇫🇷 France - FR
-trojan://humanity@104.16.72.2:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-c5348167a07bd37518f814560b9e69b8
-
-# Tested at: 2026-10-24 13:59:39 | Response: 1.621s | IP: 51.15.125.150 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@104.16.6.70:443?host=www.pleadcourt.org&path=%2Fassignment&security=tls&sni=www.pleadcourt.org&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-258fe033e9b5212d22686709fede5dbd
-
-# Tested at: 2026-10-24 13:59:41 | Response: 0.683s | IP: 212.47.240.106 | Country: 🇫🇷 France - FR
-trojan://humanity@104.17.147.22:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-4171578131c54b2a095f8896b32af8e7
-
-# Tested at: 2026-10-24 13:59:42 | Response: 0.724s | IP: 212.47.240.106 | Country: 🇫🇷 France - FR
-trojan://humanity@104.17.121.9:443?alpn=http%2F1.1&fp=chrome&host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-27ca1663ea7f430c4ccf7b88da186b7d
-
-# Tested at: 2026-10-24 13:59:42 | Response: 0.786s | IP: 212.47.240.106 | Country: 🇫🇷 France - FR
-trojan://humanity@104.17.121.71:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-b35eb0dda4446fd7dc44f211b01a5217
-
-# Tested at: 2026-10-24 13:59:43 | Response: 0.673s | IP: 212.47.240.106 | Country: 🇫🇷 France - FR
-trojan://humanity@104.16.72.41:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-7ac9afe3d086735db1fe2ba9be57f83e
-
-# Tested at: 2026-10-24 13:59:44 | Response: 0.724s | IP: 212.47.240.106 | Country: 🇫🇷 France - FR
-trojan://humanity@104.17.121.43:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-8538c665ff7040fa9a4c6cc3b74fc807
-
-# Tested at: 2026-10-24 13:59:44 | Response: 0.736s | IP: 212.47.240.106 | Country: 🇫🇷 France - FR
+# Tested at: 2026-10-24 20:06:16 | Response: 2.185s | IP: 163.172.155.19 | Country: 🇫🇷 France - FR
 trojan://humanity@104.16.72.50:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-87ccf0a5c1e2ed2d762b24636a01fa5d
 
-# Tested at: 2026-10-24 14:00:10 | Response: 2.913s | IP: 51.15.125.150 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@104.18.24.120:443?fp=chrome&host=www.pleadcourt.org&path=%2Fassignment&security=tls&sni=www.pleadcourt.org&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-2595a20530313898914fb708154bdda7
+# Tested at: 2026-10-24 20:06:18 | Response: 1.617s | IP: 163.172.155.19 | Country: 🇫🇷 France - FR
+trojan://humanity@104.17.121.43:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-8538c665ff7040fa9a4c6cc3b74fc807
 
-# Tested at: 2026-10-24 14:00:16 | Response: 0.731s | IP: 212.47.240.106 | Country: 🇫🇷 France - FR
+# Tested at: 2026-10-24 20:06:19 | Response: 1.638s | IP: 163.172.155.19 | Country: 🇫🇷 France - FR
+trojan://humanity@104.16.72.2:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-c5348167a07bd37518f814560b9e69b8
+
+# Tested at: 2026-10-24 20:06:20 | Response: 2.595s | IP: 163.172.155.19 | Country: 🇫🇷 France - FR
+trojan://humanity@104.16.72.41:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-7ac9afe3d086735db1fe2ba9be57f83e
+
+# Tested at: 2026-10-24 20:06:23 | Response: 2.573s | IP: 163.172.155.19 | Country: 🇫🇷 France - FR
+trojan://humanity@104.17.121.9:443?alpn=http%2F1.1&host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-27ca1663ea7f430c4ccf7b88da186b7d
+
+# Tested at: 2026-10-24 20:06:24 | Response: 2.215s | IP: 163.172.155.19 | Country: 🇫🇷 France - FR
+trojan://humanity@104.17.121.71:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-b35eb0dda4446fd7dc44f211b01a5217
+
+# Tested at: 2026-10-24 20:06:24 | Response: 1.167s | IP: 163.172.155.19 | Country: 🇫🇷 France - FR
+trojan://humanity@104.17.147.22:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-4171578131c54b2a095f8896b32af8e7
+
+# Tested at: 2026-10-24 20:06:42 | Response: 1.239s | IP: 149.112.84.49 | Country: 🇺🇸 United States - US
+trojan://5504eaa8-1395-402f-8e0e-75ecd762e627@104.18.66.57:443?host=nat3.xxai.dpdns.org&path=%2Fanyway&security=tls&sni=nat3.xxai.dpdns.org&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-0be5ff5db7730656c9f29ba3e40c2394
+
+# Tested at: 2026-10-24 20:06:54 | Response: 2.672s | IP: 163.172.155.19 | Country: 🇫🇷 France - FR
 trojan://humanity@104.19.229.21:443?host=www.calmlunch.com&path=%2F%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-c38f6c6cdd400065c4d13d8bebe5a3b7
 
-# Tested at: 2026-10-24 14:00:17 | Response: 0.721s | IP: 212.47.240.106 | Country: 🇫🇷 France - FR
+# Tested at: 2026-10-24 20:06:55 | Response: 1.506s | IP: 163.172.155.19 | Country: 🇫🇷 France - FR
 trojan://humanity@104.19.64.105:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-5638476995bbbf37d0871bd7a045e1bb
 
-# Tested at: 2026-10-24 14:01:34 | Response: 0.917s | IP: 212.47.240.106 | Country: 🇫🇷 France - FR
+# Tested at: 2026-10-24 20:06:58 | Response: 1.094s | IP: 163.172.155.19 | Country: 🇫🇷 France - FR
+trojan://humanity@104.21.13.204:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-46c8d4605bd356e76ac4b40f68cdf3a2
+
+# Tested at: 2026-10-24 20:08:08 | Response: 0.882s | IP: 163.172.155.19 | Country: 🇫🇷 France - FR
 trojan://humanity@141.101.115.104:443?alpn=http%2F1.1&host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-531fdb3cc5b736ff06ecff6aaa185e6a
 
-# Tested at: 2026-10-24 14:01:40 | Response: 0.703s | IP: 212.47.240.106 | Country: 🇫🇷 France - FR
+# Tested at: 2026-10-24 20:08:14 | Response: 0.762s | IP: 163.172.155.19 | Country: 🇫🇷 France - FR
 trojan://humanity@141.193.213.172:443?fp=android&host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-7280ec906ef737ee4ecc0152785b1704
 
-# Tested at: 2026-10-24 14:01:43 | Response: 0.667s | IP: 139.180.146.200 | Country: 🇸🇬 Singapore - SG
+# Tested at: 2026-10-24 20:08:18 | Response: 0.965s | IP: 139.180.146.200 | Country: 🇸🇬 Singapore - SG
 trojan://e26a229d-e8f2-4ff9-8c7d-58a9d83ee437@139.180.146.200:8886?security=tls&sni=139.180.146.200#%F0%9F%87%B8%F0%9F%87%ACSG-91cd59c72220a81121f99480e991a405
 
-# Tested at: 2026-10-24 14:02:26 | Response: 0.249s | IP: 155.138.138.2 | Country: 🇨🇦 Canada - CA
+# Tested at: 2026-10-24 20:08:59 | Response: 0.314s | IP: 155.138.138.2 | Country: 🇨🇦 Canada - CA
 trojan://Trojan@82164024@155.138.138.2:443?fp=firefox&security=tls&sni=ca.tronsg.com#%F0%9F%87%A8%F0%9F%87%A6CA-83f45c6e72d29c991f0901ce689bec13
 
-# Tested at: 2026-10-24 14:02:27 | Response: 0.790s | IP: 154.90.62.70 | Country: 🇰🇷 South Korea - KR
+# Tested at: 2026-10-24 20:08:59 | Response: 0.615s | IP: 154.90.62.70 | Country: 🇰🇷 South Korea - KR
 trojan://p5jTPcffLgi4gaNOJd2KUTb9YEPBBD5B@154.90.62.70:56127?fp=chrome&security=tls&sni=154.90.62.70#%F0%9F%87%B0%F0%9F%87%B7KR-93949dffe9fe9fc38f6452f147f804ba
 
-# Tested at: 2026-10-24 14:02:44 | Response: 0.869s | IP: 51.15.125.150 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-10-24 20:09:04 | Response: 1.104s | IP: 51.159.179.233 | Country: 🇫🇷 France - FR
+trojan://humanity@155.103.71.142:443?alpn=http%2F1.1&host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-6d9521666ae32795066937ca30bd88ea
+
+# Tested at: 2026-10-24 20:09:17 | Response: 1.751s | IP: 51.15.114.164 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@162.159.133.152:443?alpn=http%2F1.1&host=www.pleadcourt.org&path=%2Fassignment&security=tls&sni=www.pleadcourt.org&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-b1c8fbeac5d71b1c8ff6e99e5ae4b160
 
-# Tested at: 2026-10-24 14:02:56 | Response: 0.748s | IP: 212.47.240.106 | Country: 🇫🇷 France - FR
+# Tested at: 2026-10-24 20:09:25 | Response: 0.827s | IP: 163.172.155.19 | Country: 🇫🇷 France - FR
 trojan://humanity@162.159.244.91:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-63fcd2a6821de125ae019617801a212d
 
-# Tested at: 2026-10-24 14:03:10 | Response: 0.791s | IP: 212.47.240.106 | Country: 🇫🇷 France - FR
+# Tested at: 2026-10-24 20:09:25 | Response: 0.818s | IP: 163.172.155.19 | Country: 🇫🇷 France - FR
+trojan://humanity@162.159.91.211:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-87961d8dd5ede607036b9c2b0112ea16
+
+# Tested at: 2026-10-24 20:09:25 | Response: 0.835s | IP: 163.172.155.19 | Country: 🇫🇷 France - FR
 trojan://humanity@165.215.250.14:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-9f8046beda93b108033cb8c946fdbe06
 
-# Tested at: 2026-10-24 14:03:11 | Response: 0.661s | IP: 212.47.240.106 | Country: 🇫🇷 France - FR
+# Tested at: 2026-10-24 20:09:39 | Response: 0.806s | IP: 163.172.155.19 | Country: 🇫🇷 France - FR
 trojan://humanity@172.64.152.23:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-a477b52373947b1f11829400d6fca37d
 
-# Tested at: 2026-10-24 14:03:15 | Response: 0.695s | IP: 51.15.125.150 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-10-24 20:09:41 | Response: 1.647s | IP: 95.216.219.126 | Country: 🇫🇮 Finland - FI
+trojan://5504eaa8-1395-402f-8e0e-75ecd762e627@172.64.152.241:443?host=server41.9966338.xyz&path=%2Fangles&security=tls&sni=server41.9966338.xyz&type=ws#%F0%9F%87%AB%F0%9F%87%AEFI-5378b961e2994e7dc0cfcaf4ff178b56
+
+# Tested at: 2026-10-24 20:09:43 | Response: 1.717s | IP: 51.15.114.164 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@172.64.190.13:443?host=www.pleadcourt.org&path=%2Fassignment&security=tls&sni=www.pleadcourt.org&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-1c9502c9c7621ba4c68bbc19ebb90353
 
-# Tested at: 2026-10-24 14:03:17 | Response: 1.984s | IP: 2a12:bec4:1821:1ed::a | Country: 🇳🇱 The Netherlands - NL
-trojan://5504eaa8-1395-402f-8e0e-75ecd762e627@172.64.152.241:443?host=server41.9966338.xyz&path=%2Fangles&security=tls&sni=server41.9966338.xyz&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-5378b961e2994e7dc0cfcaf4ff178b56
+# Tested at: 2026-10-24 20:09:57 | Response: 0.803s | IP: 51.15.124.122 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@172.66.40.99:443?alpn=http%2F1.1&fp=firefox&host=www.trusteeforward.com&path=%2Fassignment&security=tls&sni=www.trusteeforward.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-b074f1d3a8c4192d9db849c1a3daa2e5
 
-# Tested at: 2026-10-24 14:03:32 | Response: 2.873s | IP: 51.15.125.150 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-10-24 20:09:57 | Response: 0.707s | IP: 51.15.114.164 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@172.66.1.36:443?alpn=http%2F1.1&host=www.pleadcourt.org&path=%2Fassignment&security=tls&sni=www.pleadcourt.org&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-5406a8545ae4ea51fead2bf7c491c59d
 
-# Tested at: 2026-10-24 14:03:33 | Response: 0.622s | IP: 51.15.125.45 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@172.66.40.99:443?alpn=http%2F1.1&host=www.trusteeforward.com&path=%2Fassignment&security=tls&sni=www.trusteeforward.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-b074f1d3a8c4192d9db849c1a3daa2e5
-
-# Tested at: 2026-10-24 14:03:45 | Response: 0.670s | IP: 212.47.240.106 | Country: 🇫🇷 France - FR
+# Tested at: 2026-10-24 20:10:04 | Response: 0.962s | IP: 163.172.155.19 | Country: 🇫🇷 France - FR
 trojan://humanity@172.67.200.219:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-d875bdc69e16f31ee053a83b364dd49c
 
-# Tested at: 2026-10-24 14:03:45 | Response: 0.880s | IP: 212.47.240.106 | Country: 🇫🇷 France - FR
+# Tested at: 2026-10-24 20:10:14 | Response: 0.826s | IP: 163.172.155.19 | Country: 🇫🇷 France - FR
 trojan://humanity@172.67.231.254:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-01f6ca22004d32b8b0b26c268e670e8d
 
-# Tested at: 2026-10-24 14:04:12 | Response: 0.965s | IP: 51.158.99.112 | Country: 🇫🇷 France - FR
-trojan://humanity@185.114.72.31:2053?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-85f033a1e1a21a26b50e4291ce093d00
-
-# Tested at: 2026-10-24 14:04:12 | Response: 0.766s | IP: 212.47.240.106 | Country: 🇫🇷 France - FR
-trojan://humanity@185.18.250.252:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-b8f6f3f496394a702e131b64d6b0c92b
-
-# Tested at: 2026-10-24 14:04:24 | Response: 0.657s | IP: 212.47.240.106 | Country: 🇫🇷 France - FR
+# Tested at: 2026-10-24 20:10:55 | Response: 2.602s | IP: 163.172.155.19 | Country: 🇫🇷 France - FR
 trojan://humanity@188.114.96.3:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-15ca987a240592069253df4dc2c21086
 
-# Tested at: 2026-10-24 14:04:30 | Response: 0.983s | IP: 212.47.233.11 | Country: 🇫🇷 France - FR
-trojan://humanity@185.255.179.166:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-71fd844811722ee103c2995b992ecb7e
-
-# Tested at: 2026-10-24 14:04:45 | Response: 0.933s | IP: 51.159.167.67 | Country: 🇫🇷 France - FR
-trojan://humanity@191.96.94.226:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-9eb054da498a5d84f612a518dce05391
-
-# Tested at: 2026-10-24 14:04:47 | Response: 0.687s | IP: 51.15.125.150 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-10-24 20:11:14 | Response: 0.830s | IP: 51.15.114.164 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@190.93.245.148:443?host=www.pleadcourt.org&path=%2Fassignment&security=tls&sni=www.pleadcourt.org&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-ffa81cb446d7eaf3373fac22d0149aec
 
-# Tested at: 2026-10-24 14:05:09 | Response: 0.835s | IP: 2.27.109.179 | Country: 🇭🇰 Hong Kong - HK
+# Tested at: 2026-10-24 20:11:15 | Response: 0.893s | IP: 51.159.167.67 | Country: 🇫🇷 France - FR
+trojan://humanity@191.96.94.226:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-9eb054da498a5d84f612a518dce05391
+
+# Tested at: 2026-10-24 20:11:41 | Response: 1.437s | IP: 2.27.109.179 | Country: 🇭🇰 Hong Kong - HK
 trojan://XuMweB2PWs@2.27.109.179:45464?security=tls&sni=2.27.109.179.sslip.io#%F0%9F%87%AD%F0%9F%87%B0HK-d627a1b17a33dcb4fd57d0b3bd446cb2
 
-# Tested at: 2026-10-24 14:05:26 | Response: 0.055s | IP: 216.106.186.60 | Country: 🇺🇸 United States - US
-trojan://dba20dcb635e430fa4d3bfc303a149d2@216.106.186.32:443?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-88ca8d477dce40fc995c100dffa1d8cc
+# Tested at: 2026-10-24 20:11:57 | Response: 0.143s | IP: 216.106.186.155 | Country: 🇺🇸 United States - US
+trojan://dba20dcb635e430fa4d3bfc303a149d2@216.106.186.32:443?security=tls&sni=blog.findlocaljobnetworkandbuildcommunityconnections.com#%F0%9F%87%BA%F0%9F%87%B8US-88ca8d477dce40fc995c100dffa1d8cc
 
-# Tested at: 2026-10-24 14:05:26 | Response: 0.106s | IP: 216.106.186.66 | Country: 🇺🇸 United States - US
+# Tested at: 2026-10-24 20:11:57 | Response: 0.149s | IP: 216.106.186.32 | Country: 🇺🇸 United States - US
 trojan://f0eb8c92ce8946aaba856569cff1a16b@216.106.186.33:443?security=tls&sni=resources.findlocaljobnetworkandbuildcommunityconnections.com#%F0%9F%87%BA%F0%9F%87%B8US-d798f11532ec28845f3ae3adb91d5ff3
 
-# Tested at: 2026-10-24 14:05:26 | Response: 0.759s | IP: 212.47.240.106 | Country: 🇫🇷 France - FR
-trojan://humanity@212.183.88.136:443?host=www.calmlunch.com&path=%2F%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-a310abdbfc70ca260c54cc125511225e
-
-# Tested at: 2026-10-24 14:06:16 | Response: 0.884s | IP: 43.156.36.253 | Country: 🇸🇬 Singapore - SG
+# Tested at: 2026-10-24 20:12:47 | Response: 0.722s | IP: 43.156.36.253 | Country: 🇸🇬 Singapore - SG
 trojan://WvH8ooM9hom4KOOJHFJz1x5umE0aV4R0@43.156.36.253:443?security=tls#%F0%9F%87%B8%F0%9F%87%ACSG-4ac5e2e51be67ab60d2e864269b8df3b
 
-# Tested at: 2026-10-24 14:06:29 | Response: 0.674s | IP: 212.47.240.106 | Country: 🇫🇷 France - FR
-trojan://humanity@45.130.125.75:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-d845e43a9456498425b09098ca518ce0
+# Tested at: 2026-10-24 20:12:58 | Response: 0.667s | IP: 51.15.114.164 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@45.131.4.38:443?alpn=http%2F1.1&fp=android&host=www.pleadcourt.org&path=%2Fassignment&security=tls&sni=www.pleadcourt.org&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-8bcbc6da5ed0dce8a5e88e8090d6f6c4
 
-# Tested at: 2026-10-24 14:06:29 | Response: 0.770s | IP: 212.47.240.106 | Country: 🇫🇷 France - FR
+# Tested at: 2026-10-24 20:12:58 | Response: 1.529s | IP: 163.172.155.19 | Country: 🇫🇷 France - FR
 trojan://humanity@45.130.125.69:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-d785864fbd754ba6c4a7c10be574b8d8
 
-# Tested at: 2026-10-24 14:06:29 | Response: 0.774s | IP: 212.47.240.106 | Country: 🇫🇷 France - FR
-trojan://humanity@45.130.125.160:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-736b3f485c7edc44dc5d9a01fbae3fed
+# Tested at: 2026-10-24 20:13:02 | Response: 1.890s | IP: 163.172.155.19 | Country: 🇫🇷 France - FR
+trojan://humanity@45.130.125.190:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-bcc52c56ec064742b52cacc097e87002
 
-# Tested at: 2026-10-24 14:06:45 | Response: 0.904s | IP: 51.159.179.93 | Country: 🇫🇷 France - FR
+# Tested at: 2026-10-24 20:13:10 | Response: 0.872s | IP: 51.159.179.93 | Country: 🇫🇷 France - FR
 trojan://humanity@45.87.41.18:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-6161aa0320412cc9fdcb062f683261bd
 
-# Tested at: 2026-10-24 14:07:35 | Response: 0.365s | IP: 66.23.203.18 | Country: 🇺🇸 United States - US
+# Tested at: 2026-10-24 20:13:29 | Response: 2.647s | IP: 51.15.130.70 | Country: 🇫🇷 France - FR
+trojan://humanity@5.44.46.142:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-174c818c512a85d3767daf140451811e
+
+# Tested at: 2026-10-24 20:13:30 | Response: 0.878s | IP: 51.158.99.112 | Country: 🇫🇷 France - FR
+trojan://humanity@5.253.189.238:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-a766ca208e50dc43c5f5e18dd1755a18
+
+# Tested at: 2026-10-24 20:13:57 | Response: 0.268s | IP: 174.138.187.118 | Country: 🇺🇸 United States - US
+trojan://nwilryafgkyvuxauc8pz@69.164.240.85:50875?fp=chrome&security=tls#%F0%9F%87%BA%F0%9F%87%B8US-c13f35647033d4370c946dba9a0b57c8
+
+# Tested at: 2026-10-24 20:13:57 | Response: 0.307s | IP: 66.23.203.18 | Country: 🇺🇸 United States - US
 trojan://ae7eb4dwyaz25pxwgq59@66.23.203.21:59689?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-1684648b11e000f61d3457b1a1c57be8
 
-# Tested at: 2026-10-24 14:08:07 | Response: 0.841s | IP: 51.159.178.70 | Country: 🇫🇷 France - FR
+# Tested at: 2026-10-24 20:14:23 | Response: 0.963s | IP: 51.158.99.112 | Country: 🇫🇷 France - FR
+trojan://humanity@85.31.102.163:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-3c3969dbd4c61fe49f3fbd33c158088c
+
+# Tested at: 2026-10-24 20:14:26 | Response: 1.671s | IP: 51.15.114.164 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@88.216.69.253:443?alpn=http%2F1.1&host=www.pleadcourt.org&path=%2Fassignment&security=tls&sni=www.pleadcourt.org&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-5b97471f0d43254478f81269cd0a7484
+
+# Tested at: 2026-10-24 20:14:27 | Response: 0.729s | IP: 86.38.247.109 | Country: 🇸🇬 Singapore - SG
+trojan://sshs8_6481354771@86.38.247.109:2087?fp=chrome&security=tls&sni=ul-singapore1.09vpn.com#%F0%9F%87%B8%F0%9F%87%ACSG-dc18f4a9749e8a0664beaff6d45b07e7
+
+# Tested at: 2026-10-24 20:14:27 | Response: 0.766s | IP: 51.159.178.70 | Country: 🇫🇷 France - FR
 trojan://humanity@89.150.34.41:2053?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-4ffdda732274c65219f9a06a0b27b3f5
 
-# Tested at: 2026-10-24 14:08:23 | Response: 1.103s | IP: 51.15.72.15 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-10-24 20:14:41 | Response: 1.907s | IP: 51.15.72.15 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@94.158.219.126:443?host=www.pleadcourt.org&path=%2Fassignment&security=tls&sni=www.pleadcourt.org&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-20b47112d4c0da454effd06811832e95
 
-# Tested at: 2026-10-24 14:08:24 | Response: 1.212s | IP: 2a0a:8c42::164 | Country: 🇵🇱 Poland - PL
-trojan://Trojan@82164024@92.118.150.146:443?fp=chrome&security=tls&sni=pl.tronsg.com#%F0%9F%87%B5%F0%9F%87%B1PL-8010e7efac056951b279a142d6a428d7
-
-# Tested at: 2026-10-24 14:08:47 | Response: 0.348s | IP: 155.138.138.2 | Country: 🇨🇦 Canada - CA
+# Tested at: 2026-10-24 20:15:06 | Response: 0.303s | IP: 155.138.138.2 | Country: 🇨🇦 Canada - CA
 trojan://Trojan@82164024@ca.tronsg.com:443?security=tls#%F0%9F%87%A8%F0%9F%87%A6CA-4210b270520c2765f1c4064262a5527b
 
-# Tested at: 2026-10-24 14:09:33 | Response: 1.061s | IP: 139.84.132.62 | Country: 🇮🇳 India - IN
-trojan://Trojan@82164024@in.tronsg.com:443?security=tls&sni=in.tronsg.com#%F0%9F%87%AE%F0%9F%87%B3IN-100e0c79917b81d694289b8e47d64857
+# Tested at: 2026-10-24 20:15:18 | Response: 0.825s | IP: 179.254.115.76 | Country: 🇩🇪 Germany - DE
+trojan://happybirthdaydaniel@de-bots4.h1cloud.net:25267?security=tls&sni=t.me%2FFuckTheWall#%F0%9F%87%A9%F0%9F%87%AADE-b1fc67053baf88cd051bfca665a6a896
 
-# Tested at: 2026-10-24 14:10:01 | Response: 0.653s | IP: 211.76.176.119 | Country: 🇹🇼 Taiwan - TW
+# Tested at: 2026-10-24 20:16:07 | Response: 0.202s | IP: 165.1.67.134 | Country: 🇺🇸 United States - US
+trojan://ee844c5ef7504bcf@jus134.pacemakere.com:20017?security=tls&sni=jus134.pacemakere.com#%F0%9F%87%BA%F0%9F%87%B8US-3ea9f1f2010afc8ec44cecf3b612964e
+
+# Tested at: 2026-10-24 20:16:18 | Response: 0.753s | IP: 211.76.176.119 | Country: 🇹🇼 Taiwan - TW
 trojan://00a72bf349e6479b@kw119.zxmm.eu.org:20031?fp=chrome&security=tls&sni=kw119.zxmm.eu.org#%F0%9F%87%B9%F0%9F%87%BCTW-d6c5eb9c3a48dcae49e36a571081aa75
 
-# Tested at: 2026-10-24 14:10:53 | Response: 1.324s | IP: 82.158.91.175 | Country: 🇺🇸 United States - US
-trojan://7343dd3d00b74cd2@uis175.pacemakere.com:20005?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-012995fa11738f4e9ddcecae13f8b7be
+# Tested at: 2026-10-24 20:16:28 | Response: 0.204s | IP: 216.106.186.155 | Country: 🇺🇸 United States - US
+trojan://f0eb8c92ce8946aaba856569cff1a16b@resources.findlocaljobnetworkandbuildcommunityconnections.com:443?security=tls&sni=resources.findlocaljobnetworkandbuildcommunityconnections.com#%F0%9F%87%BA%F0%9F%87%B8US-e8e0319e98ae959e1307647b8f10010d
 
-# Tested at: 2026-10-24 14:10:55 | Response: 1.507s | IP: 46.235.231.114 | Country: 🇬🇧 United Kingdom - GB
-trojan://5504eaa8-1395-402f-8e0e-75ecd762e627@uk8.998998.best:443?host=server41.9966338.xyz&path=%2Fangles&security=tls&sni=server41.9966338.xyz&type=ws#%F0%9F%87%AC%F0%9F%87%A7GB-6cfd83c3b2329ddd8b12d7501efed304
+# Tested at: 2026-10-24 20:16:50 | Response: 0.250s | IP: 64.50.181.160 | Country: 🇺🇸 United States - US
+trojan://29086912-33e4-4e06-ba2b-60f1a195864f@tjmg2.m2k699.com:24999?security=tls&sni=www.itunes.com#%F0%9F%87%BA%F0%9F%87%B8US-b9e0adb88c7b17679185c31ff0bd3ba5
 
-# Tested at: 2026-10-24 14:11:05 | Response: 1.460s | IP: 179.61.138.124 | Country: 🇩🇪 Germany - DE
-trojan://av7fquzvuc99xcs9@uwu.blueknightnet.qzz.io:2087?host=uwu.dianaw.cc.cd&path=%2F%40BlueKnight_net--%40BlueKnight_net--%40BlueKnight_net&security=tls&sni=uwu.dianaw.cc.cd&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-c72e0faa9ac53162a5b11238248f5dd0
+# Tested at: 2026-10-24 20:16:50 | Response: 0.597s | IP: 61.37.18.100 | Country: 🇰🇷 South Korea - KR
+trojan://29086912-33e4-4e06-ba2b-60f1a195864f@tjhg.m2k699.com:24999?security=tls&sni=www.itunes.com#%F0%9F%87%B0%F0%9F%87%B7KR-b4c2571e46e5989dd4b424bb80e533ba
 
-# Tested at: 2026-10-24 14:11:06 | Response: 1.606s | IP: 2602:f9f3:1:0:5054:ff:fe4c:4f10 | Country: 🇺🇸 United States - US
+# Tested at: 2026-10-24 20:16:50 | Response: 0.600s | IP: 188.253.7.44 | Country: 🇹🇼 Taiwan - TW
+trojan://29086912-33e4-4e06-ba2b-60f1a195864f@tjtw.m2k699.com:24999?security=tls&sni=www.itunes.com#%F0%9F%87%B9%F0%9F%87%BCTW-567dd728832dc8aa48dbbc9e076473cd
+
+# Tested at: 2026-10-24 20:16:51 | Response: 1.017s | IP: 140.245.63.155 | Country: 🇸🇬 Singapore - SG
+trojan://29086912-33e4-4e06-ba2b-60f1a195864f@tjxjp.m2k699.com:24999?security=tls&sni=www.itunes.com#%F0%9F%87%B8%F0%9F%87%ACSG-ebdc4f37c81599d248ade41c7f646b63
+
+# Tested at: 2026-10-24 20:17:03 | Response: 1.304s | IP: 2602:f9f3:1:0:5054:ff:fe4c:4f10 | Country: 🇺🇸 United States - US
 trojan://5504eaa8-1395-402f-8e0e-75ecd762e627@us3-2.998998.best:443?host=nat3.xxai.dpdns.org&path=%2Fanyway&security=tls&sni=nat3.xxai.dpdns.org&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-f10717f01a77334144473dbc4ab56c35
 
-# Tested at: 2026-10-24 14:11:14 | Response: 0.252s | IP: 186.241.105.213 | Country: 🇺🇸 United States - US
-trojan://va3E77I9fZCnCVcGKkxBCfz5@vpn.liumr.top:443?security=tls&sni=vpn.liumr.top#%F0%9F%87%BA%F0%9F%87%B8US-b49e44cd2408441b17adedd53506e357
+# Tested at: 2026-10-24 20:17:04 | Response: 2.235s | IP: 159.69.108.193 | Country: 🇩🇪 Germany - DE
+trojan://5504eaa8-1395-402f-8e0e-75ecd762e627@uk8.998998.best:443?host=server41.9966338.xyz&path=%2Fangles&security=tls&sni=server41.9966338.xyz&type=ws#%F0%9F%87%A9%F0%9F%87%AADE-6cfd83c3b2329ddd8b12d7501efed304
 
-# Tested at: 2026-10-24 14:11:15 | Response: 0.497s | IP: 216.106.186.32 | Country: 🇺🇸 United States - US
-trojan://242a3d8eee5e4ed1a6bfa4141d549a25@www.findlocaljobnetworkandbuildcommunityconnections.com:443?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-79fa01ea076fdf4e7d7b8cf21af4342d
+# Tested at: 2026-10-24 20:17:26 | Response: 0.855s | IP: 163.172.155.19 | Country: 🇫🇷 France - FR
+trojan://humanity@www.calmlunch.com:443?path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-92e3b0af9dd041138b260608d5efd9f5
 
-# Tested at: 2026-10-24 14:11:15 | Response: 0.733s | IP: 212.47.240.106 | Country: 🇫🇷 France - FR
+# Tested at: 2026-10-24 20:17:26 | Response: 0.868s | IP: 163.172.155.19 | Country: 🇫🇷 France - FR
 trojan://humanity@www.speedtest.net:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-f7fb7c2482fe513fc606b94ee6d417c9
-
-# Tested at: 2026-10-24 14:11:15 | Response: 0.656s | IP: 212.47.240.106 | Country: 🇫🇷 France - FR
-trojan://humanity@www.calmlunch.com:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-92e3b0af9dd041138b260608d5efd9f5
-
-# Tested at: 2026-10-24 14:11:23 | Response: 2.752s | IP: 51.15.125.150 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@www.pleadcourt.org:443?fp=chrome&path=%2Fassignment&security=tls&sni=www.pleadcourt.org&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-5ced7a242b20a1f2ec4885e3cd750575
 
