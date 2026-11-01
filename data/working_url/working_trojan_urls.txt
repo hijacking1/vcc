@@ -1,667 +1,754 @@
 # Working TROJAN Configurations (URL Format)
-# Generated at: 2026-10-31 19:52:46
+# Generated at: 2026-10-31 23:16:50
 # Format: Each line contains one working configuration as URL
 
-# Tested at: 2026-10-31 21:17:12 | Response: 1.870s | IP: 51.15.130.70 | Country: 🇫🇷 France - FR
-trojan://humanity@104.16.0.1:443?alpn=http%2F1.1&fp=chrome&host=www.calmlunch.com&path=%2F%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-4766a0e517e3c14dfab25d3724ceb829
+# Tested at: 2026-11-01 00:38:08 | Response: 0.552s | IP: 51.158.239.241 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@104.16.144.215:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-cb319c70e4418eec1c2388a3f1a18e57
 
-# Tested at: 2026-10-31 21:17:26 | Response: 0.653s | IP: 51.15.74.254 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@104.16.223.61:443?fp=chrome&host=www.trusteeforward.com&path=%2Fassignment&security=tls&sni=www.trusteeforward.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-3e710e9f303d9f51b63bca011a04c294
-
-# Tested at: 2026-10-31 21:17:26 | Response: 0.806s | IP: 51.15.74.254 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@104.16.34.14:443?alpn=http%2F1.1&host=www.trusteeforward.com&path=%2Fassignment&security=tls&sni=www.trusteeforward.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-fdaf0b6ba07ae634eb0fcf59b0cb1ec4
-
-# Tested at: 2026-10-31 21:17:27 | Response: 0.762s | IP: 51.158.236.235 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@104.16.251.219:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-ac95437ef828bd790d4c706dbd83f04b
-
-# Tested at: 2026-10-31 21:17:27 | Response: 0.824s | IP: 51.15.130.70 | Country: 🇫🇷 France - FR
-trojan://humanity@104.17.0.1:443?alpn=http%2F1.1&fp=chrome&host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-de27c3ff3603fd5dd6a717876a7a81da
-
-# Tested at: 2026-10-31 21:17:27 | Response: 0.831s | IP: 51.15.130.70 | Country: 🇫🇷 France - FR
-trojan://humanity@104.16.72.2:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-c5348167a07bd37518f814560b9e69b8
-
-# Tested at: 2026-10-31 21:17:27 | Response: 0.668s | IP: 51.158.236.235 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:38:24 | Response: 0.539s | IP: 51.158.239.241 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@104.16.240.177:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-a60d851b97298af5ff4fad306a4c5fe8
 
-# Tested at: 2026-10-31 21:17:28 | Response: 0.712s | IP: 51.158.236.235 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@104.16.65.1:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-7b7f965e027d924b0281b734ccfdd18b
+# Tested at: 2026-11-01 00:38:24 | Response: 0.598s | IP: 51.159.155.154 | Country: 🇫🇷 France - FR
+trojan://humanity@104.16.72.2:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-c5348167a07bd37518f814560b9e69b8
 
-# Tested at: 2026-10-31 21:17:28 | Response: 0.800s | IP: 51.158.236.235 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:38:24 | Response: 0.527s | IP: 51.15.74.254 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@104.16.223.61:443?fp=chrome&host=www.trusteeforward.com&path=%2Fassignment&security=tls&sni=www.trusteeforward.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-3e710e9f303d9f51b63bca011a04c294
+
+# Tested at: 2026-11-01 00:38:24 | Response: 0.565s | IP: 51.15.74.254 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@104.16.34.14:443?alpn=http%2F1.1&host=www.trusteeforward.com&path=%2Fassignment&security=tls&sni=www.trusteeforward.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-fdaf0b6ba07ae634eb0fcf59b0cb1ec4
+
+# Tested at: 2026-11-01 00:38:24 | Response: 0.409s | IP: 104.28.152.252 | Country: 🇺🇸 United States - US
+trojan://45c47cfa-67da-47e0-b20b-5efa674e6a9b@104.16.72.70:443?host=unnes.ac.id.r3xxe.eu.cc&path=%2Fus-gllc&security=tls&sni=unnes.ac.id.r3xxe.eu.cc&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-b5faa41d43c983bb8c176a474ce9882d
+
+# Tested at: 2026-11-01 00:38:24 | Response: 0.585s | IP: 51.158.239.241 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@104.16.244.188:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-b0621cbe167440033084fd6afa61b8e9
 
-# Tested at: 2026-10-31 21:17:29 | Response: 0.936s | IP: 51.15.130.70 | Country: 🇫🇷 France - FR
+# Tested at: 2026-11-01 00:38:24 | Response: 0.571s | IP: 51.158.239.241 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@104.16.65.1:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-7b7f965e027d924b0281b734ccfdd18b
+
+# Tested at: 2026-11-01 00:38:24 | Response: 0.662s | IP: 51.158.239.241 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@104.16.251.219:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-ac95437ef828bd790d4c706dbd83f04b
+
+# Tested at: 2026-11-01 00:38:25 | Response: 0.660s | IP: 51.159.155.154 | Country: 🇫🇷 France - FR
+trojan://humanity@104.17.0.1:443?alpn=http%2F1.1&fp=chrome&host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-de27c3ff3603fd5dd6a717876a7a81da
+
+# Tested at: 2026-11-01 00:38:27 | Response: 0.619s | IP: 51.159.155.154 | Country: 🇫🇷 France - FR
 trojan://humanity@104.17.121.43:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-8538c665ff7040fa9a4c6cc3b74fc807
 
-# Tested at: 2026-10-31 21:17:32 | Response: 1.582s | IP: 51.15.130.70 | Country: 🇫🇷 France - FR
-trojan://humanity@104.17.147.22:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-4171578131c54b2a095f8896b32af8e7
-
-# Tested at: 2026-10-31 21:17:32 | Response: 1.618s | IP: 51.15.130.70 | Country: 🇫🇷 France - FR
-trojan://humanity@104.17.148.22:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-ab9bf40c163bcde0b9f323e59c75023b
-
-# Tested at: 2026-10-31 21:17:34 | Response: 0.774s | IP: 51.158.236.235 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@104.17.159.71:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-85bcd35cb79e8533b14b03bbaf1cedf8
-
-# Tested at: 2026-10-31 21:17:34 | Response: 0.799s | IP: 51.158.236.235 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:38:29 | Response: 0.535s | IP: 51.158.239.241 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@104.17.145.43:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-b819c897dad479b15e76debc39955a34
 
-# Tested at: 2026-10-31 21:17:34 | Response: 0.609s | IP: 51.158.236.235 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@104.17.17.238:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-06d04ca482d7d4f278a5ffc4a4a95b27
+# Tested at: 2026-11-01 00:38:30 | Response: 0.553s | IP: 51.159.155.154 | Country: 🇫🇷 France - FR
+trojan://humanity@104.17.147.22:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-4171578131c54b2a095f8896b32af8e7
 
-# Tested at: 2026-10-31 21:17:35 | Response: 0.876s | IP: 51.15.130.70 | Country: 🇫🇷 France - FR
+# Tested at: 2026-11-01 00:38:30 | Response: 0.515s | IP: 51.159.155.154 | Country: 🇫🇷 France - FR
+trojan://humanity@104.17.148.22:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-ab9bf40c163bcde0b9f323e59c75023b
+
+# Tested at: 2026-11-01 00:38:31 | Response: 0.551s | IP: 51.159.155.154 | Country: 🇫🇷 France - FR
 trojan://humanity@104.17.175.201:443?fp=chrome&host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-4613a83c96cc52ae992071a13c12451f
 
-# Tested at: 2026-10-31 21:17:42 | Response: 0.680s | IP: 51.158.236.235 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@104.17.191.193:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-3047be4846ba2b81480cad1625911992
+# Tested at: 2026-11-01 00:38:31 | Response: 0.585s | IP: 51.158.239.241 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@104.17.159.71:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-85bcd35cb79e8533b14b03bbaf1cedf8
 
-# Tested at: 2026-10-31 21:17:43 | Response: 0.937s | IP: 51.15.74.254 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:38:41 | Response: 0.556s | IP: 51.15.74.254 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@104.17.206.147:443?alpn=http%2F1.1&fp=chrome&host=www.trusteeforward.com&path=%2Fassignment&security=tls&sni=www.trusteeforward.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-12e491b1ae0cbf8d0775643846901927
 
-# Tested at: 2026-10-31 21:17:44 | Response: 0.749s | IP: 51.158.236.235 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:38:41 | Response: 0.547s | IP: 51.158.239.241 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@104.17.191.193:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-3047be4846ba2b81480cad1625911992
+
+# Tested at: 2026-11-01 00:38:41 | Response: 0.569s | IP: 51.158.239.241 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@104.17.28.254:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-95e8d84613f67d33e715a0f68c68aae8
 
-# Tested at: 2026-10-31 21:17:49 | Response: 0.765s | IP: 51.158.236.235 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@104.18.39.55:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-1c98c4c1a11255b1b5dce9efe5e19763
+# Tested at: 2026-11-01 00:38:43 | Response: 0.576s | IP: 51.158.239.241 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@104.18.189.153:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-81399d29529772b1209dcc4d22b93439
 
-# Tested at: 2026-10-31 21:17:49 | Response: 0.833s | IP: 51.15.130.70 | Country: 🇫🇷 France - FR
-trojan://humanity@104.18.33.97:443?host=www.calmlunch.com&path=%2F%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-720f53aaaec86a903a9fede3de16cc2f
+# Tested at: 2026-11-01 00:38:44 | Response: 0.237s | IP: 2a09:bac5:918f:2d2::48:df | Country: 🇺🇸 United States - US
+trojan://123456@104.17.234.157:2096?host=321dfbc6.uir-9i6.pages.dev&path=%2F&security=tls&sni=321dfbc6.uir-9i6.pages.dev&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-8f2f4a1d98fd208a2faef949793eeebf
 
-# Tested at: 2026-10-31 21:18:02 | Response: 1.170s | IP: 51.15.130.70 | Country: 🇫🇷 France - FR
-trojan://humanity@104.19.229.21:443?host=www.calmlunch.com&path=%2F%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-c38f6c6cdd400065c4d13d8bebe5a3b7
+# Tested at: 2026-11-01 00:38:45 | Response: 0.251s | IP: 104.28.161.127 | Country: 🇺🇸 United States - US
+trojan://123456@104.18.35.86:2096?host=321dfbc6.uir-9i6.pages.dev&path=%2F&security=tls&sni=321dfbc6.uir-9i6.pages.dev&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-04d163b8e98e6c34d524328c99926ac9
 
-# Tested at: 2026-10-31 21:18:02 | Response: 1.028s | IP: 51.158.236.235 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@104.19.43.102:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-7d8c2b13d42469780afe4624356254ed
+# Tested at: 2026-11-01 00:38:46 | Response: 0.623s | IP: 51.15.74.254 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@104.18.37.127:443?host=www.trusteeforward.com&path=%2Fassignment&security=tls&sni=www.trusteeforward.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-075264a9193d71562e9c3dcafd716cd8
 
-# Tested at: 2026-10-31 21:18:02 | Response: 0.866s | IP: 51.15.130.70 | Country: 🇫🇷 France - FR
+# Tested at: 2026-11-01 00:38:49 | Response: 0.517s | IP: 51.158.239.241 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@104.18.46.59:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-375ad4c15b46747f20c8cd7e1b497b6f
+
+# Tested at: 2026-11-01 00:38:58 | Response: 0.578s | IP: 51.159.155.154 | Country: 🇫🇷 France - FR
 trojan://humanity@104.18.9.83:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-017ddbbc3c2976a57e2dcbc14218a9c3
 
-# Tested at: 2026-10-31 21:18:04 | Response: 2.709s | IP: 51.15.130.70 | Country: 🇫🇷 France - FR
-trojan://humanity@104.19.64.105:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-5638476995bbbf37d0871bd7a045e1bb
+# Tested at: 2026-11-01 00:38:58 | Response: 0.627s | IP: 51.159.155.154 | Country: 🇫🇷 France - FR
+trojan://humanity@104.18.8.83:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-a733693913d1be9f50bf8f68494f160b
 
-# Tested at: 2026-10-31 21:18:16 | Response: 1.187s | IP: 51.15.130.70 | Country: 🇫🇷 France - FR
+# Tested at: 2026-11-01 00:38:59 | Response: 0.636s | IP: 51.159.155.154 | Country: 🇫🇷 France - FR
+trojan://humanity@104.19.229.21:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-c38f6c6cdd400065c4d13d8bebe5a3b7
+
+# Tested at: 2026-11-01 00:38:59 | Response: 0.670s | IP: 51.158.239.241 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@104.19.43.102:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-7d8c2b13d42469780afe4624356254ed
+
+# Tested at: 2026-11-01 00:39:00 | Response: 0.538s | IP: 51.159.155.154 | Country: 🇫🇷 France - FR
+trojan://humanity@104.19.95.153:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-7df1a65bdacf2d3e25b69a5ce5648ae3
+
+# Tested at: 2026-11-01 00:39:12 | Response: 0.530s | IP: 51.15.74.254 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@104.20.55.137:443?alpn=http%2F1.1&fp=chrome&host=www.trusteeforward.com&path=%2Fassignment&security=tls&sni=www.trusteeforward.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-ddff51e6c3420a887ad4b2291b080c2d
+
+# Tested at: 2026-11-01 00:39:18 | Response: 0.704s | IP: 51.159.155.154 | Country: 🇫🇷 France - FR
 trojan://humanity@104.21.13.204:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-46c8d4605bd356e76ac4b40f68cdf3a2
 
-# Tested at: 2026-10-31 21:18:36 | Response: 1.992s | IP: 51.15.126.204 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@104.25.10.54:443?alpn=http%2F1.1&host=www.pleadcourt.org&path=%2Fassignment&security=tls&sni=www.pleadcourt.org&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-042dc666ebf4030e1ddaef23cf9c4795
+# Tested at: 2026-11-01 00:39:32 | Response: 0.891s | IP: 162.243.115.21 | Country: 🇺🇸 United States - US
+trojan://70756c73-0000-4000-8000-650000000000@104.234.239.139:443?fp=chrome&host=parsa-panel-u48we.wotic15356.workers.dev&path=%2Fpulse&security=tls&sni=parsa-panel-u48we.wotic15356.workers.dev&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-747afadc3e35f75f3e541d08dad24dec
 
-# Tested at: 2026-10-31 21:18:37 | Response: 2.017s | IP: 51.15.130.70 | Country: 🇫🇷 France - FR
-trojan://humanity@104.25.124.54:443?alpn=http%2F1.1&host=www.calmlunch.com&path=%2F%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-0061dc6934c594a3d9a99b7ceeb52a60
-
-# Tested at: 2026-10-31 21:18:37 | Response: 1.725s | IP: 51.15.130.70 | Country: 🇫🇷 France - FR
+# Tested at: 2026-11-01 00:39:32 | Response: 0.590s | IP: 51.159.155.154 | Country: 🇫🇷 France - FR
 trojan://humanity@104.26.0.1:443?alpn=http%2F1.1&fp=chrome&host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-f6a02c4d55d9c36f86b5e7da71090b15
 
-# Tested at: 2026-10-31 21:18:38 | Response: 0.699s | IP: 51.158.236.235 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:39:32 | Response: 0.596s | IP: 51.159.155.154 | Country: 🇫🇷 France - FR
+trojan://humanity@104.25.124.54:443?alpn=http%2F1.1&host=www.calmlunch.com&path=%2F%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-0061dc6934c594a3d9a99b7ceeb52a60
+
+# Tested at: 2026-11-01 00:39:33 | Response: 0.532s | IP: 51.158.239.241 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@104.26.3.162:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-1852fe888afc39affbbb2cd2810fd25d
 
-# Tested at: 2026-10-31 21:18:40 | Response: 0.778s | IP: 51.15.126.204 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:39:34 | Response: 0.608s | IP: 51.158.171.210 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@104.27.201.80:443?host=www.pleadcourt.org&path=%2Fassignment&security=tls&sni=www.pleadcourt.org&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-e6c63dd4945d1fa28dce863c638d56d7
+
+# Tested at: 2026-11-01 00:39:35 | Response: 0.581s | IP: 51.158.171.210 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@104.27.203.207:443?alpn=http%2F1.1&host=www.pleadcourt.org&path=%2Fassignment&security=tls&sni=www.pleadcourt.org&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-3df765167f719cc55d5a5aa1cb697fcf
+
+# Tested at: 2026-11-01 00:39:36 | Response: 0.580s | IP: 51.158.171.210 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@108.162.194.134:443?host=www.pleadcourt.org&path=%2Fassignment&security=tls&sni=www.pleadcourt.org&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-3cf86abda740e41dfb7cd85440ab74e2
 
-# Tested at: 2026-10-31 21:18:54 | Response: 1.880s | IP: 51.158.240.82 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:39:46 | Response: 0.467s | IP: 217.69.5.173 | Country: 🇫🇷 France - FR
+trojan://5t6i121em5lkmsmk@108.61.177.57:16778?fp=chrome&security=tls&sni=fr001.zestapp778.com#%F0%9F%87%AB%F0%9F%87%B7FR-ca09e4845308b75a33eb90dc14b2b4dc
+
+# Tested at: 2026-11-01 00:39:48 | Response: 1.655s | IP: 51.158.240.82 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@109.248.170.245:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-983fcd4a7fcbc6fc264d3e1451a967ce
 
-# Tested at: 2026-10-31 21:19:13 | Response: 0.198s | IP: 130.94.19.95 | Country: 🇺🇸 United States - US
+# Tested at: 2026-11-01 00:40:07 | Response: 0.164s | IP: 130.94.19.95 | Country: 🇺🇸 United States - US
 trojan://5t6i121em5lkmsmk@130.94.19.95:57277?fp=firefox&security=tls&sni=us001.zestapp778.com#%F0%9F%87%BA%F0%9F%87%B8US-420ddd168a4fd7e8553e1d170d75a94c
 
-# Tested at: 2026-10-31 21:19:13 | Response: 0.519s | IP: 130.94.77.169 | Country: 🇬🇧 United Kingdom - GB
+# Tested at: 2026-11-01 00:40:08 | Response: 0.425s | IP: 130.94.77.169 | Country: 🇬🇧 United Kingdom - GB
 trojan://5t6i121em5lkmsmk@130.94.77.169:29813?security=tls&sni=en001.zestapp778.com#%F0%9F%87%AC%F0%9F%87%A7GB-85a756b90845c2c50b22911403c8cd74
 
-# Tested at: 2026-10-31 21:19:14 | Response: 1.008s | IP: 130.94.52.157 | Country: 🇵🇭 Philippines - PH
+# Tested at: 2026-11-01 00:40:08 | Response: 1.065s | IP: 130.94.52.157 | Country: 🇵🇭 Philippines - PH
 trojan://5t6i121em5lkmsmk@130.94.52.157:46298?security=tls&sni=ph001.zestapp778.com#%F0%9F%87%B5%F0%9F%87%ADPH-fceb1bd2c74307824791ecbbf9088792
 
-# Tested at: 2026-10-31 21:19:32 | Response: 1.082s | IP: 51.15.130.70 | Country: 🇫🇷 France - FR
-trojan://humanity@141.193.213.172:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-7280ec906ef737ee4ecc0152785b1704
+# Tested at: 2026-11-01 00:40:17 | Response: 0.571s | IP: 138.124.38.131 | Country: 🇨🇭 Switzerland - CH
+trojan://j-YJhArVLCWqX2Qmkm71gMvKVcPyK9@138.124.38.131:443?fp=firefox&security=tls#%F0%9F%87%A8%F0%9F%87%ADCH-f78011b1cbe5ce7b81aca4a95fd18918
 
-# Tested at: 2026-10-31 21:19:32 | Response: 0.739s | IP: 139.180.146.200 | Country: 🇸🇬 Singapore - SG
+# Tested at: 2026-11-01 00:40:24 | Response: 0.691s | IP: 51.159.155.154 | Country: 🇫🇷 France - FR
+trojan://humanity@141.193.213.172:443?fp=android&host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-7280ec906ef737ee4ecc0152785b1704
+
+# Tested at: 2026-11-01 00:40:27 | Response: 1.019s | IP: 139.180.146.200 | Country: 🇸🇬 Singapore - SG
 trojan://e26a229d-e8f2-4ff9-8c7d-58a9d83ee437@139.180.146.200:8886?security=tls&sni=139.180.146.200#%F0%9F%87%B8%F0%9F%87%ACSG-91cd59c72220a81121f99480e991a405
 
-# Tested at: 2026-10-31 21:19:34 | Response: 0.869s | IP: 51.158.236.235 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@141.133.174.88:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-8172f586ac5266bc2985640e3cea6277
-
-# Tested at: 2026-10-31 21:19:35 | Response: 1.324s | IP: 139.84.145.241 | Country: 🇮🇳 India - IN
+# Tested at: 2026-11-01 00:40:27 | Response: 1.368s | IP: 139.84.145.241 | Country: 🇮🇳 India - IN
 trojan://5t6i121em5lkmsmk@139.84.210.39:42733?fp=chrome&security=tls&sni=in002.zestapp778.com#%F0%9F%87%AE%F0%9F%87%B3IN-2c683e0432ff384748640c8e530d5287
 
-# Tested at: 2026-10-31 21:19:44 | Response: 0.945s | IP: 51.158.239.241 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:40:36 | Response: 0.874s | IP: 51.158.239.241 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@143.198.106.68:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-b00e6b29a58fd0b8bf560afa4a86b737
 
-# Tested at: 2026-10-31 21:19:50 | Response: 0.234s | IP: 149.104.87.33 | Country: 🇲🇽 Mexico - MX
+# Tested at: 2026-11-01 00:40:36 | Response: 1.121s | IP: 5.83.218.80 | Country: 🇬🇧 United Kingdom - GB
+trojan://MiTiVPN@146.75.57.120:443?host=mitivpn--mitivpn-mitivpn.ac.ir&path=%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2FNLSus---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN&security=tls&sni=firefox.com&type=ws#%F0%9F%87%AC%F0%9F%87%A7GB-aebcd184f707b835d8c4797e6a4f52fe
+
+# Tested at: 2026-11-01 00:40:38 | Response: 0.529s | IP: 144.31.129.241 | Country: 🇱🇻 Latvia - LV
+trojan://FK2sTEXzZ1KwLBVtxS7vbKSnXAVpgrxd@144.31.129.231:443?fp=firefox&security=tls&sni=144.31.129.231#%F0%9F%87%B1%F0%9F%87%BBLV-0fc7190155f71311d5c39d23295a9637
+
+# Tested at: 2026-11-01 00:40:39 | Response: 0.730s | IP: 51.158.239.186 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@141.98.233.6:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-65c239a98c89831df15c434f0b447545
+
+# Tested at: 2026-11-01 00:40:40 | Response: 0.388s | IP: 149.104.87.33 | Country: 🇲🇽 Mexico - MX
 trojan://5t6i121em5lkmsmk@149.104.87.33:15083?security=tls&sni=mx001.zestapp778.com#%F0%9F%87%B2%F0%9F%87%BDMX-35dc834b9964f85008a0db1ae278ff41
 
-# Tested at: 2026-10-31 21:20:02 | Response: 0.975s | IP: 57.128.178.42 | Country: 🇫🇷 France - FR
-trojan://MiTiVPN@151.101.36.120:443?host=mitivpn-mitivpn-mitivpn.ac.ir&path=%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2FNLSus---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN&security=tls&sni=firefox.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-3477394e22403436d7bbc253fa983243
+# Tested at: 2026-11-01 00:40:51 | Response: 0.898s | IP: 194.37.82.144 | Country: 🇬🇧 United Kingdom - GB
+trojan://MiTiVPN@151.101.36.120:443?alpn=http%2F1.1&fp=chrome&host=mitivpn-mitivpn-mitivpn.ac.ir&security=tls&sni=community.fastly.steamstatic.com&type=ws#%F0%9F%87%AC%F0%9F%87%A7GB-3477394e22403436d7bbc253fa983243
 
-# Tested at: 2026-10-31 21:20:18 | Response: 0.654s | IP: 154.90.62.70 | Country: 🇰🇷 South Korea - KR
-trojan://p5jTPcffLgi4gaNOJd2KUTb9YEPBBD5B@154.90.62.70:56127?security=tls#%F0%9F%87%B0%F0%9F%87%B7KR-93949dffe9fe9fc38f6452f147f804ba
-
-# Tested at: 2026-10-31 21:20:18 | Response: 0.758s | IP: 51.15.126.204 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:41:07 | Response: 0.623s | IP: 51.158.171.210 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@154.81.141.42:443?host=www.pleadcourt.org&path=%2Fassignment&security=tls&sni=www.pleadcourt.org&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-e2bb6a55d125a53ab418c688a6512aa8
 
-# Tested at: 2026-10-31 21:20:19 | Response: 1.140s | IP: 51.159.179.233 | Country: 🇫🇷 France - FR
+# Tested at: 2026-11-01 00:41:07 | Response: 0.913s | IP: 154.90.62.70 | Country: 🇰🇷 South Korea - KR
+trojan://p5jTPcffLgi4gaNOJd2KUTb9YEPBBD5B@154.90.62.70:56127?security=tls#%F0%9F%87%B0%F0%9F%87%B7KR-93949dffe9fe9fc38f6452f147f804ba
+
+# Tested at: 2026-11-01 00:41:08 | Response: 0.994s | IP: 51.159.179.233 | Country: 🇫🇷 France - FR
 trojan://humanity@155.103.71.142:443?alpn=http%2F1.1&host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-6d9521666ae32795066937ca30bd88ea
 
-# Tested at: 2026-10-31 21:20:34 | Response: 0.738s | IP: 158.247.255.150 | Country: 🇰🇷 South Korea - KR
+# Tested at: 2026-11-01 00:41:23 | Response: 0.631s | IP: 158.247.255.150 | Country: 🇰🇷 South Korea - KR
 trojan://5t6i121em5lkmsmk@158.247.255.150:48851?security=tls&sni=kr002.zestapp778.com#%F0%9F%87%B0%F0%9F%87%B7KR-28f7fa65b3b79547851348fc67649ccc
 
-# Tested at: 2026-10-31 21:20:39 | Response: 1.951s | IP: 51.158.238.250 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:41:27 | Response: 1.989s | IP: 51.158.238.250 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@161.118.196.58:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-a715c6a5073882a915e3dcd0803bafd7
 
-# Tested at: 2026-10-31 21:20:48 | Response: 0.758s | IP: 51.158.236.235 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:41:35 | Response: 0.528s | IP: 51.158.239.241 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@162.159.128.253:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-145827d09501efecb46d1fc473e858b5
 
-# Tested at: 2026-10-31 21:20:51 | Response: 0.686s | IP: 51.15.130.70 | Country: 🇫🇷 France - FR
-trojan://humanity@162.159.236.79:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-3c08f75a69d6fb0111e4ec77f078ff14
+# Tested at: 2026-11-01 00:41:37 | Response: 0.567s | IP: 51.158.171.210 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@162.159.228.224:443?alpn=http%2F1.1&host=www.pleadcourt.org&path=%2Fassignment&security=tls&sni=www.pleadcourt.org&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-2de19f2fa1f4c3764fc0e21025660fb8
 
-# Tested at: 2026-10-31 21:20:52 | Response: 0.768s | IP: 51.158.236.235 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:41:38 | Response: 0.559s | IP: 51.158.239.241 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@162.159.58.65:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-b7dd9460e10c8c91a7b0c95f1cfa89c4
 
-# Tested at: 2026-10-31 21:20:53 | Response: 1.052s | IP: 51.15.74.254 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:41:38 | Response: 0.548s | IP: 51.15.74.254 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@162.159.84.189:443?alpn=http%2F1.1&host=www.trusteeforward.com&path=%2Fassignment&security=tls&sni=www.trusteeforward.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-9aef0d53d75f017df9d0123ba8f84bf6
 
-# Tested at: 2026-10-31 21:21:03 | Response: 0.487s | IP: 167.179.108.225 | Country: 🇯🇵 Japan - JP
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@167.179.108.225:443?security=tls&sni=discoverparttimepositionsandsupplementyourincomeguide.com#%F0%9F%87%AF%F0%9F%87%B5JP-15ee336d5558f4709b0fb99cfad17c6a
-
-# Tested at: 2026-10-31 21:21:04 | Response: 1.948s | IP: 51.158.169.153 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:41:48 | Response: 0.811s | IP: 51.158.169.153 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@164.92.200.68:443?alpn=http%2F1.1&host=www.pleadcourt.org&path=%2Fassignment&security=tls&sni=www.pleadcourt.org&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-f0a620c88781f4052fca58559beb6758
 
-# Tested at: 2026-10-31 21:21:05 | Response: 0.210s | IP: 167.88.61.198 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@167.88.61.20:443?security=tls&sni=api.browseseniorrolesandenhanceyourcareertoday.com#%F0%9F%87%BA%F0%9F%87%B8US-57fa40d476d2c9ff364d53cde0628ccb
+# Tested at: 2026-11-01 00:41:50 | Response: 1.062s | IP: 159.65.19.63 | Country: 🇬🇧 United Kingdom - GB
+trojan://MiTiVPN@167.82.64.120:443?alpn=http%2F1.1&fp=chrome&host=mitivpn--mitivpn-mitivpn.ac.ir&security=tls&sni=community.fastly.steamstatic.com&type=ws#%F0%9F%87%AC%F0%9F%87%A7GB-bc327e81366e7d69e3f762d7a2a8d5f7
 
-# Tested at: 2026-10-31 21:21:05 | Response: 0.209s | IP: 167.88.61.175 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@167.88.61.193:443?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-1598377853e6d63285710ef4d4bac619
+# Tested at: 2026-11-01 00:41:51 | Response: 0.096s | IP: 170.101.101.237 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@170.101.101.19:443?fp=chrome&security=tls&sni=learn.explorecreativejobsandenhanceyourcareerportfolio.com#%F0%9F%87%BA%F0%9F%87%B8US-f1e05ecd08db9627227fb0ecf584379d
 
-# Tested at: 2026-10-31 21:21:05 | Response: 0.214s | IP: 167.88.61.20 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@167.88.61.85:443?security=tls&sni=resources.browseseniorrolesandenhanceyourcareertoday.com#%F0%9F%87%BA%F0%9F%87%B8US-217714509aba8175d2493ea3788ac110
+# Tested at: 2026-11-01 00:41:51 | Response: 0.111s | IP: 170.101.101.67 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@170.101.101.131:443?security=tls&sni=blog.explorecreativejobsandenhanceyourcareerportfolio.com#%F0%9F%87%BA%F0%9F%87%B8US-e31b4b29efd45a89439c1c1ee1c17690
 
-# Tested at: 2026-10-31 21:21:05 | Response: 0.280s | IP: 167.88.61.159 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@167.88.61.198:443?security=tls&sni=cdn.browseseniorrolesandenhanceyourcareertoday.com#%F0%9F%87%BA%F0%9F%87%B8US-fd7008818ad6666a24bd1c646efae0df
-
-# Tested at: 2026-10-31 21:21:05 | Response: 0.359s | IP: 167.88.61.193 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@167.88.61.175:443?security=tls&sni=blog.browseseniorrolesandenhanceyourcareertoday.com#%F0%9F%87%BA%F0%9F%87%B8US-5b63d0d34ef85acbe13381069d7034f3
-
-# Tested at: 2026-10-31 21:21:05 | Response: 0.144s | IP: 170.101.101.112 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@170.101.101.67:443?security=tls&sni=courses.explorecreativejobsandenhanceyourcareerportfolio.com#%F0%9F%87%BA%F0%9F%87%B8US-25b512dbed03cf7c657c15797ce0fb51
-
-# Tested at: 2026-10-31 21:21:05 | Response: 0.147s | IP: 170.101.101.237 | Country: 🇺🇸 United States - US
+# Tested at: 2026-11-01 00:41:51 | Response: 0.134s | IP: 170.101.101.207 | Country: 🇺🇸 United States - US
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@170.101.101.211:443?security=tls&sni=api.explorecreativejobsandenhanceyourcareerportfolio.com#%F0%9F%87%BA%F0%9F%87%B8US-bb1d394e276aa637863569d9e54f2245
 
-# Tested at: 2026-10-31 21:21:05 | Response: 0.202s | IP: 169.197.140.214 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@169.197.140.218:443?security=tls&sni=learn.discoverfreshgraduatejobsstartyourprofessionaljourney.com#%F0%9F%87%BA%F0%9F%87%B8US-4a46986e9360dc880f1075861ae64b17
+# Tested at: 2026-11-01 00:41:51 | Response: 0.166s | IP: 170.101.101.207 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@170.101.101.67:443?security=tls&sni=courses.explorecreativejobsandenhanceyourcareerportfolio.com#%F0%9F%87%BA%F0%9F%87%B8US-25b512dbed03cf7c657c15797ce0fb51
 
-# Tested at: 2026-10-31 21:21:05 | Response: 0.207s | IP: 169.197.140.226 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@169.197.140.214:443?security=tls&sni=courses.discoverfreshgraduatejobsstartyourprofessionaljourney.com#%F0%9F%87%BA%F0%9F%87%B8US-991ac262e353bebd9122fd5a368d3866
-
-# Tested at: 2026-10-31 21:21:05 | Response: 0.208s | IP: 170.101.101.237 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@170.101.101.53:443?security=tls&sni=www.explorecreativejobsandenhanceyourcareerportfolio.com#%F0%9F%87%BA%F0%9F%87%B8US-a7c980a4060333a571caded4484c5b4d
-
-# Tested at: 2026-10-31 21:21:05 | Response: 0.209s | IP: 169.197.140.169 | Country: 🇺🇸 United States - US
+# Tested at: 2026-11-01 00:41:51 | Response: 0.183s | IP: 169.197.140.224 | Country: 🇺🇸 United States - US
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@169.197.140.224:443?security=tls&sni=resources.discoverfreshgraduatejobsstartyourprofessionaljourney.com#%F0%9F%87%BA%F0%9F%87%B8US-d1b1737c431f9ba2a375a9cb0bf6cb58
 
-# Tested at: 2026-10-31 21:21:05 | Response: 0.210s | IP: 169.197.140.218 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@169.197.140.169:443?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-41cb5e5736e8a52a54d17aa7298c64dd
+# Tested at: 2026-11-01 00:41:51 | Response: 0.186s | IP: 169.197.140.218 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@169.197.140.218:443?security=tls&sni=learn.discoverfreshgraduatejobsstartyourprofessionaljourney.com#%F0%9F%87%BA%F0%9F%87%B8US-4a46986e9360dc880f1075861ae64b17
 
-# Tested at: 2026-10-31 21:21:05 | Response: 0.212s | IP: 170.101.101.67 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@170.101.101.131:443?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-e31b4b29efd45a89439c1c1ee1c17690
-
-# Tested at: 2026-10-31 21:21:05 | Response: 0.223s | IP: 170.101.101.112 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@170.101.101.19:443?security=tls&sni=learn.explorecreativejobsandenhanceyourcareerportfolio.com#%F0%9F%87%BA%F0%9F%87%B8US-f1e05ecd08db9627227fb0ecf584379d
-
-# Tested at: 2026-10-31 21:21:05 | Response: 0.289s | IP: 169.197.140.208 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@169.197.140.171:443?security=tls&sni=cdn.discoverfreshgraduatejobsstartyourprofessionaljourney.com#%F0%9F%87%BA%F0%9F%87%B8US-765fecbf40ac6d1163c628654fda8a6f
-
-# Tested at: 2026-10-31 21:21:05 | Response: 0.163s | IP: 170.101.101.207 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@170.101.101.112:443?security=tls&sni=resources.explorecreativejobsandenhanceyourcareerportfolio.com#%F0%9F%87%BA%F0%9F%87%B8US-b3065fbe2796a8d6f7a9d2e4c81b4c85
-
-# Tested at: 2026-10-31 21:21:05 | Response: 0.203s | IP: 169.197.140.224 | Country: 🇺🇸 United States - US
+# Tested at: 2026-11-01 00:41:51 | Response: 0.186s | IP: 169.197.140.214 | Country: 🇺🇸 United States - US
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@169.197.140.245:443?security=tls&sni=www.discoverfreshgraduatejobsstartyourprofessionaljourney.com#%F0%9F%87%BA%F0%9F%87%B8US-3d36862aa3eec47896e0dfabbabdb157
 
-# Tested at: 2026-10-31 21:21:06 | Response: 1.062s | IP: 51.158.238.250 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:41:51 | Response: 0.190s | IP: 169.197.140.226 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@169.197.140.171:443?security=tls&sni=cdn.discoverfreshgraduatejobsstartyourprofessionaljourney.com#%F0%9F%87%BA%F0%9F%87%B8US-765fecbf40ac6d1163c628654fda8a6f
+
+# Tested at: 2026-11-01 00:41:51 | Response: 0.193s | IP: 169.197.140.169 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@169.197.140.169:443?security=tls&sni=api.discoverfreshgraduatejobsstartyourprofessionaljourney.com#%F0%9F%87%BA%F0%9F%87%B8US-41cb5e5736e8a52a54d17aa7298c64dd
+
+# Tested at: 2026-11-01 00:41:51 | Response: 0.211s | IP: 170.101.101.19 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@170.101.101.112:443?security=tls&sni=resources.explorecreativejobsandenhanceyourcareerportfolio.com#%F0%9F%87%BA%F0%9F%87%B8US-b3065fbe2796a8d6f7a9d2e4c81b4c85
+
+# Tested at: 2026-11-01 00:41:51 | Response: 0.211s | IP: 170.101.101.131 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@170.101.101.53:443?security=tls&sni=www.explorecreativejobsandenhanceyourcareerportfolio.com#%F0%9F%87%BA%F0%9F%87%B8US-a7c980a4060333a571caded4484c5b4d
+
+# Tested at: 2026-11-01 00:41:51 | Response: 0.222s | IP: 167.88.61.85 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@167.88.61.52:443?fp=chrome&security=tls&sni=courses.browseseniorrolesandenhanceyourcareertoday.com#%F0%9F%87%BA%F0%9F%87%B8US-df8f4618400bc4f7a00917447a9b3892
+
+# Tested at: 2026-11-01 00:41:51 | Response: 0.223s | IP: 167.88.61.159 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@167.88.61.198:443?security=tls&sni=cdn.browseseniorrolesandenhanceyourcareertoday.com#%F0%9F%87%BA%F0%9F%87%B8US-fd7008818ad6666a24bd1c646efae0df
+
+# Tested at: 2026-11-01 00:41:51 | Response: 0.229s | IP: 167.88.61.193 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@167.88.61.193:443?security=tls&sni=browseseniorrolesandenhanceyourcareertoday.com#%F0%9F%87%BA%F0%9F%87%B8US-1598377853e6d63285710ef4d4bac619
+
+# Tested at: 2026-11-01 00:41:51 | Response: 0.232s | IP: 167.88.61.198 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@167.88.61.175:443?security=tls&sni=blog.browseseniorrolesandenhanceyourcareertoday.com#%F0%9F%87%BA%F0%9F%87%B8US-5b63d0d34ef85acbe13381069d7034f3
+
+# Tested at: 2026-11-01 00:41:51 | Response: 0.247s | IP: 169.197.140.224 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@169.197.140.214:443?security=tls&sni=courses.discoverfreshgraduatejobsstartyourprofessionaljourney.com#%F0%9F%87%BA%F0%9F%87%B8US-991ac262e353bebd9122fd5a368d3866
+
+# Tested at: 2026-11-01 00:41:51 | Response: 0.264s | IP: 167.88.61.52 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@167.88.61.20:443?security=tls&sni=api.browseseniorrolesandenhanceyourcareertoday.com#%F0%9F%87%BA%F0%9F%87%B8US-57fa40d476d2c9ff364d53cde0628ccb
+
+# Tested at: 2026-11-01 00:41:51 | Response: 0.267s | IP: 167.88.61.175 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@167.88.61.85:443?security=tls&sni=resources.browseseniorrolesandenhanceyourcareertoday.com#%F0%9F%87%BA%F0%9F%87%B8US-217714509aba8175d2493ea3788ac110
+
+# Tested at: 2026-11-01 00:41:51 | Response: 0.548s | IP: 167.179.108.225 | Country: 🇯🇵 Japan - JP
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@167.179.108.225:443?security=tls&sni=discoverparttimepositionsandsupplementyourincomeguide.com#%F0%9F%87%AF%F0%9F%87%B5JP-15ee336d5558f4709b0fb99cfad17c6a
+
+# Tested at: 2026-11-01 00:41:52 | Response: 0.933s | IP: 51.158.238.250 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@168.143.108.38:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-bca9714e518ecca2ab5a72950413c5f3
 
-# Tested at: 2026-10-31 21:21:07 | Response: 2.223s | IP: 51.158.240.82 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:41:55 | Response: 2.068s | IP: 51.158.240.82 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@165.22.102.89:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-b2f636ebd3337d4944547fafd176c494
 
-# Tested at: 2026-10-31 21:21:09 | Response: 1.800s | IP: 51.158.239.241 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@172.104.81.253:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-2fac2ba7c1e8970d8f20745db25217c1
-
-# Tested at: 2026-10-31 21:21:09 | Response: 1.008s | IP: 168.110.119.243 | Country: 🇰🇷 South Korea - KR
+# Tested at: 2026-11-01 00:41:55 | Response: 1.054s | IP: 168.110.119.243 | Country: 🇰🇷 South Korea - KR
 trojan://dc9e33c7a6df4164@168.110.119.243:20039?security=tls&sni=ikr100a.zxom.eu.org#%F0%9F%87%B0%F0%9F%87%B7KR-7d9c4ee2c8768d1a456b015c482545dd
 
-# Tested at: 2026-10-31 21:21:10 | Response: 2.009s | IP: 51.158.239.186 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:41:55 | Response: 1.628s | IP: 51.158.239.241 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@172.104.81.253:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-2fac2ba7c1e8970d8f20745db25217c1
+
+# Tested at: 2026-11-01 00:41:56 | Response: 1.941s | IP: 51.158.239.186 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@168.144.41.69:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-63b439fe7fd1181f25b1aa22d762ddf8
 
-# Tested at: 2026-10-31 21:21:11 | Response: 1.965s | IP: 51.158.238.250 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:41:56 | Response: 1.832s | IP: 51.158.244.35 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@172.237.0.160:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-d0ef2a004ee4cdd63003eacd1466093f
+
+# Tested at: 2026-11-01 00:41:56 | Response: 1.972s | IP: 51.158.238.250 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@172.104.185.40:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-b32380e59931ab8a5cc89ce74149bcc1
 
-# Tested at: 2026-10-31 21:21:18 | Response: 0.707s | IP: 51.158.236.235 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@172.64.229.7:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-3cc2ee41aa6beda3e416ef1350debbe5
-
-# Tested at: 2026-10-31 21:21:18 | Response: 0.722s | IP: 51.15.126.204 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@172.64.145.133:443?host=www.pleadcourt.org&path=%2Fassignment&security=tls&sni=www.pleadcourt.org&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-34ce0da87a2222aab067ead25e4c7b44
-
-# Tested at: 2026-10-31 21:21:18 | Response: 0.718s | IP: 51.15.130.70 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.152.23:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-a477b52373947b1f11829400d6fca37d
-
-# Tested at: 2026-10-31 21:21:18 | Response: 0.769s | IP: 51.158.236.235 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@172.64.154.144:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-c21bd03e60d9950e1cb3d74acf3d9a17
-
-# Tested at: 2026-10-31 21:21:24 | Response: 0.641s | IP: 51.158.236.235 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@172.64.151.20:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-f5633fd2185f4ee5b3f03a94c4a06576
-
-# Tested at: 2026-10-31 21:21:24 | Response: 0.792s | IP: 51.15.130.70 | Country: 🇫🇷 France - FR
-trojan://humanity@172.64.150.28:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-37ca91c16820a5f66c08971e80e3a1e1
-
-# Tested at: 2026-10-31 21:21:24 | Response: 0.781s | IP: 51.15.126.204 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@172.64.190.13:443?host=www.pleadcourt.org&path=%2Fassignment&security=tls&sni=www.pleadcourt.org&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-1c9502c9c7621ba4c68bbc19ebb90353
-
-# Tested at: 2026-10-31 21:21:26 | Response: 0.850s | IP: 51.158.236.235 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:42:04 | Response: 0.579s | IP: 51.158.239.241 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@172.64.153.224:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-73e3ca939a4a112d5a744b9e5ff02082
 
-# Tested at: 2026-10-31 21:21:27 | Response: 0.646s | IP: 51.15.126.204 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:42:04 | Response: 0.607s | IP: 51.159.155.154 | Country: 🇫🇷 France - FR
+trojan://humanity@172.64.150.28:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-37ca91c16820a5f66c08971e80e3a1e1
+
+# Tested at: 2026-11-01 00:42:04 | Response: 0.589s | IP: 51.158.239.241 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@172.64.151.20:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-f5633fd2185f4ee5b3f03a94c4a06576
+
+# Tested at: 2026-11-01 00:42:04 | Response: 0.661s | IP: 51.159.155.154 | Country: 🇫🇷 France - FR
+trojan://humanity@172.64.152.23:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-a477b52373947b1f11829400d6fca37d
+
+# Tested at: 2026-11-01 00:42:04 | Response: 0.764s | IP: 51.158.171.210 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@172.64.145.133:443?host=www.pleadcourt.org&path=%2Fassignment&security=tls&sni=www.pleadcourt.org&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-34ce0da87a2222aab067ead25e4c7b44
+
+# Tested at: 2026-11-01 00:42:04 | Response: 0.285s | IP: 2a09:bac1:76c0:fb0::48:62 | Country: 🇺🇸 United States - US
+trojan://xhl549341@172.64.145.158:443?alpn=h3&host=tro.baiyi.cloudns.org&path=%2F%3Fed%3D2560&security=tls&sni=tro.baiyi.cloudns.org&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-72b3715d12f5f93a1483962ae0e0d516
+
+# Tested at: 2026-11-01 00:42:05 | Response: 0.694s | IP: 51.158.239.241 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@172.64.154.144:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-c21bd03e60d9950e1cb3d74acf3d9a17
+
+# Tested at: 2026-11-01 00:42:10 | Response: 0.551s | IP: 51.158.239.241 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@172.64.229.7:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-3cc2ee41aa6beda3e416ef1350debbe5
+
+# Tested at: 2026-11-01 00:42:10 | Response: 0.622s | IP: 51.158.171.210 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@172.66.1.36:443?alpn=http%2F1.1&host=www.pleadcourt.org&path=%2Fassignment&security=tls&sni=www.pleadcourt.org&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-5406a8545ae4ea51fead2bf7c491c59d
 
-# Tested at: 2026-10-31 21:21:29 | Response: 1.454s | IP: 51.15.74.254 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:42:10 | Response: 0.748s | IP: 51.158.171.210 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@172.64.190.13:443?host=www.pleadcourt.org&path=%2Fassignment&security=tls&sni=www.pleadcourt.org&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-1c9502c9c7621ba4c68bbc19ebb90353
+
+# Tested at: 2026-11-01 00:42:11 | Response: 0.635s | IP: 51.15.74.254 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@172.66.40.99:443?alpn=http%2F1.1&fp=firefox&host=www.trusteeforward.com&path=%2Fassignment&security=tls&sni=www.trusteeforward.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-b074f1d3a8c4192d9db849c1a3daa2e5
 
-# Tested at: 2026-10-31 21:21:39 | Response: 0.853s | IP: 51.15.130.70 | Country: 🇫🇷 France - FR
-trojan://humanity@172.67.156.116:443?alpn=http%2F1.1&host=www.calmlunch.com&path=%2F%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-6b9bb159b9e3e57bba4c019cce2a2d28
+# Tested at: 2026-11-01 00:42:25 | Response: 0.579s | IP: 51.159.155.154 | Country: 🇫🇷 France - FR
+trojan://humanity@172.67.156.116:443?host=www.calmlunch.com&path=%2F%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-6b9bb159b9e3e57bba4c019cce2a2d28
 
-# Tested at: 2026-10-31 21:21:45 | Response: 0.754s | IP: 51.158.236.235 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@172.67.74.177:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-4ebfef04b9f0c0a7486e7f5641711ef7
-
-# Tested at: 2026-10-31 21:21:46 | Response: 0.706s | IP: 51.158.236.235 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:42:26 | Response: 0.513s | IP: 51.158.239.241 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@172.67.89.103:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-50f959d8e939be0bf04c70d1be02c731
 
-# Tested at: 2026-10-31 21:21:47 | Response: 1.036s | IP: 51.158.236.156 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:42:27 | Response: 0.569s | IP: 51.158.239.241 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@172.67.74.177:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-4ebfef04b9f0c0a7486e7f5641711ef7
+
+# Tested at: 2026-11-01 00:42:33 | Response: 0.891s | IP: 51.158.236.156 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@173.242.51.189:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-f8f04dd903fd0c03bdb8f131b1982f2e
 
-# Tested at: 2026-10-31 21:21:57 | Response: 0.770s | IP: 51.158.239.186 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@179.255.99.31:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-096b97377b2ff92fd0a675d7ef584f4d
-
-# Tested at: 2026-10-31 21:21:57 | Response: 0.838s | IP: 51.158.239.8 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@179.255.115.39:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-945c792022ba56756941a83caa04bbf0
-
-# Tested at: 2026-10-31 21:21:57 | Response: 0.896s | IP: 51.158.244.35 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@179.255.157.247:8443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-b166bd5be5872fce198e8e86082a1263
-
-# Tested at: 2026-10-31 21:21:57 | Response: 0.882s | IP: 51.158.239.154 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@178.104.197.49:2053?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-5c73029cd73c11ae304f31efa019abb9
-
-# Tested at: 2026-10-31 21:21:57 | Response: 0.900s | IP: 51.158.244.53 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@179.255.115.22:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-9da27ea320852aa42daf1a2e2d567dd1
-
-# Tested at: 2026-10-31 21:21:57 | Response: 0.862s | IP: 51.158.239.154 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@179.255.127.92:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-f6084789682d9ab54f575e2f7429503f
-
-# Tested at: 2026-10-31 21:21:57 | Response: 0.866s | IP: 51.158.239.154 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@179.255.127.209:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-a12be5c0618340815b1fea56629e2225
-
-# Tested at: 2026-10-31 21:21:57 | Response: 1.021s | IP: 51.158.240.195 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@179.255.136.143:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-cd6f47def8d768dfb5b94984222b0f4d
-
-# Tested at: 2026-10-31 21:21:57 | Response: 1.022s | IP: 51.158.237.119 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@179.255.126.253:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-383fa8a44c9bb0f688a728e9a42efd17
-
-# Tested at: 2026-10-31 21:21:57 | Response: 1.093s | IP: 51.158.236.158 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:42:43 | Response: 0.829s | IP: 51.158.236.158 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@179.253.241.115:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-195d2307299f6a6a5e62014f50149d45
 
-# Tested at: 2026-10-31 21:21:58 | Response: 1.096s | IP: 51.158.240.91 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@179.255.111.93:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-ddd7b8756b5d458a709437a60db94b16
+# Tested at: 2026-11-01 00:42:43 | Response: 0.818s | IP: 51.158.239.154 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@179.255.127.92:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-f6084789682d9ab54f575e2f7429503f
 
-# Tested at: 2026-10-31 21:21:58 | Response: 1.101s | IP: 51.158.239.241 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@179.255.132.69:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-4fb71ef402b40af1a2aef695b9fbc279
+# Tested at: 2026-11-01 00:42:43 | Response: 0.874s | IP: 51.158.240.195 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@179.255.136.143:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-cd6f47def8d768dfb5b94984222b0f4d
 
-# Tested at: 2026-10-31 21:21:59 | Response: 2.544s | IP: 51.158.240.91 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:42:43 | Response: 0.879s | IP: 51.158.239.186 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@179.255.99.31:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-096b97377b2ff92fd0a675d7ef584f4d
+
+# Tested at: 2026-11-01 00:42:43 | Response: 0.892s | IP: 51.158.239.154 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@178.104.197.49:2053?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-5c73029cd73c11ae304f31efa019abb9
+
+# Tested at: 2026-11-01 00:42:43 | Response: 0.868s | IP: 51.158.237.119 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@179.255.126.253:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-383fa8a44c9bb0f688a728e9a42efd17
+
+# Tested at: 2026-11-01 00:42:43 | Response: 0.938s | IP: 51.158.244.53 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@179.255.115.22:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-9da27ea320852aa42daf1a2e2d567dd1
+
+# Tested at: 2026-11-01 00:42:43 | Response: 0.935s | IP: 51.158.240.91 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@179.255.102.54:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-258713b8622ae21c4ff2ffa9c8e9a399
 
-# Tested at: 2026-10-31 21:22:08 | Response: 1.017s | IP: 51.158.238.250 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:42:43 | Response: 0.988s | IP: 51.158.239.8 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@179.255.115.39:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-945c792022ba56756941a83caa04bbf0
+
+# Tested at: 2026-11-01 00:42:53 | Response: 0.667s | IP: 51.158.238.250 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@185.114.72.31:8443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-c8a91a4145c94e6ece40e36ff4e9ff42
 
-# Tested at: 2026-10-31 21:22:17 | Response: 0.466s | IP: 186.241.105.213 | Country: 🇺🇸 United States - US
+# Tested at: 2026-11-01 00:43:01 | Response: 0.270s | IP: 104.28.167.107 | Country: 🇺🇸 United States - US
+trojan://vP!XvZBNdw.e*ddSgmH!@188.114.96.0:2096?alpn=http%2F1.1&fp=chrome&host=n0q4xprj2d4x4prcq29l8jkczd0.pages.dev&path=%2Ftr%2FlqCTAonDgcErIZylZuNyy%3Fed%3D2560&security=tls&sni=N0Q4xprJ2d4X4pRCQ29l8JkcZd0.paGES.DeV&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-7ba03d244f5c22cc52725d26a244dbd2
+
+# Tested at: 2026-11-01 00:43:01 | Response: 0.257s | IP: 2a09:bac1:76e0:fb0::48:99 | Country: 🇺🇸 United States - US
+trojan://e7TTceggMwUMg+aFN:F4@188.114.97.0:443?alpn=http%2F1.1&fp=android&host=apkd964o1oghltghht0l0of.pages.dev&path=%2Ftr%2FK6yFgCX8e93ySqOO4K%3Fed%3D2560&security=tls&sni=Apkd964o1oghltGhhT0L0oF.PAGEs.DeV&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-63b7c5a70429fa9651c7089251d12bf5
+
+# Tested at: 2026-11-01 00:43:02 | Response: 0.712s | IP: 51.158.171.210 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@188.114.97.1:443?alpn=http%2F1.1&fp=chrome&host=www.pleadcourt.org&path=%2Fassignment&security=tls&sni=www.pleadcourt.org&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-95311403e8c9c2d9435de8a82b600372
+
+# Tested at: 2026-11-01 00:43:04 | Response: 0.230s | IP: 2a09:bac5:918f:2d2::48:d5 | Country: 🇺🇸 United States - US
+trojan://vP!XvZBNdw.e*ddSgmH!@188.114.96.3:2096?alpn=http%2F1.1&fp=chrome&host=n0q4xprj2d4x4prcq29l8jkczd0.pages.dev&path=%2Ftr%2FZFttmjSqvda5ohOQ%3Fed%3D2560&security=tls&sni=n0q4XPrJ2D4X4PRCQ29L8JKCZd0.pAGES.dev&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-c44369482887d667ad7ccb83c9559cd1
+
+# Tested at: 2026-11-01 00:43:06 | Response: 0.282s | IP: 186.241.105.213 | Country: 🇺🇸 United States - US
 trojan://va3E77I9fZCnCVcGKkxBCfz5@186.241.105.213:443?security=tls&sni=vpn.liumr.top#%F0%9F%87%BA%F0%9F%87%B8US-6e7eb03d8ce4ada28740d483e4cceca9
 
-# Tested at: 2026-10-31 21:22:24 | Response: 1.008s | IP: 51.158.239.154 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:43:07 | Response: 0.882s | IP: 51.159.162.83 | Country: 🇫🇷 France - FR
+trojan://humanity@185.225.68.232:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-f34c1faae07e49ccb8fe6dea48487228
+
+# Tested at: 2026-11-01 00:43:07 | Response: 0.903s | IP: 51.158.239.154 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@185.82.218.224:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-e400628e45e78714a54ce08ae4421466
 
-# Tested at: 2026-10-31 21:22:24 | Response: 1.627s | IP: 51.158.236.235 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:43:07 | Response: 0.959s | IP: 212.47.233.11 | Country: 🇫🇷 France - FR
+trojan://humanity@185.255.179.166:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-71fd844811722ee103c2995b992ecb7e
+
+# Tested at: 2026-11-01 00:43:08 | Response: 1.415s | IP: 51.158.236.235 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@185.234.114.165:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-69a932862ceddf56bf2124fa3a8bb5ed
 
-# Tested at: 2026-10-31 21:22:37 | Response: 1.347s | IP: 51.158.239.8 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:43:17 | Response: 0.631s | IP: 51.158.171.210 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@190.93.245.148:443?host=www.pleadcourt.org&path=%2Fassignment&security=tls&sni=www.pleadcourt.org&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-ffa81cb446d7eaf3373fac22d0149aec
+
+# Tested at: 2026-11-01 00:43:17 | Response: 1.013s | IP: 51.158.239.8 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@188.255.156.209:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-98fa1d93bfc94404c57b41af35135e5d
 
-# Tested at: 2026-10-31 21:22:42 | Response: 0.617s | IP: 193.108.119.96 | Country: 🇩🇪 Germany - DE
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@193.108.119.96:443?security=tls&sni=learn.iloverussia2026.com#%F0%9F%87%A9%F0%9F%87%AADE-f5e37e6cfce5c69a0c5cf0d5c5505319
+# Tested at: 2026-11-01 00:43:23 | Response: 0.919s | IP: 51.158.181.51 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@192.145.30.27:443?fp=android&host=www.pleadcourt.org&path=%2Fassignment&security=tls&sni=www.pleadcourt.org&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-972bda07e6e299d01bf87399e2b89535
 
-# Tested at: 2026-10-31 21:22:43 | Response: 0.594s | IP: 193.108.119.134 | Country: 🇩🇪 Germany - DE
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@193.108.119.15:443?security=tls&sni=courses.iloverussia2026.com#%F0%9F%87%A9%F0%9F%87%AADE-3b35a06009005908d603fe449d9040c4
-
-# Tested at: 2026-10-31 21:22:46 | Response: 1.659s | IP: 193.108.119.34 | Country: 🇩🇪 Germany - DE
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@193.108.119.29:443?security=tls&sni=blog.iloverussia2026.com#%F0%9F%87%A9%F0%9F%87%AADE-48f1d63f1e882b1a48310ae7e87dde1b
-
-# Tested at: 2026-10-31 21:22:54 | Response: 0.822s | IP: 51.159.167.67 | Country: 🇫🇷 France - FR
-trojan://humanity@194.147.149.54:443?fp=chrome&host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-29e1b03adc94a3e034b17f7ecfb8807a
-
-# Tested at: 2026-10-31 21:22:54 | Response: 0.944s | IP: 51.15.114.164 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@193.23.202.65:443?host=www.pleadcourt.org&path=%2Fassignment&security=tls&sni=www.pleadcourt.org&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-597f895e8f138f43be6d7bb312063760
-
-# Tested at: 2026-10-31 21:22:55 | Response: 0.818s | IP: 51.158.236.235 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:43:32 | Response: 0.551s | IP: 51.158.239.241 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@198.41.216.1:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-d2e63f7284213423147103059e9ece79
 
-# Tested at: 2026-10-31 21:23:01 | Response: 1.384s | IP: 51.158.237.31 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:43:36 | Response: 0.845s | IP: 51.159.167.67 | Country: 🇫🇷 France - FR
+trojan://humanity@194.147.149.54:443?fp=firefox&host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-29e1b03adc94a3e034b17f7ecfb8807a
+
+# Tested at: 2026-11-01 00:43:38 | Response: 0.687s | IP: 82.39.213.181 | Country: 🇺🇸 United States - US
+trojan://70756c73-0000-4000-8000-650000000000@199.181.197.99:443?fp=edge&host=parsa-panel-u48we.wotic15356.workers.dev&path=%2Fpulse&security=tls&sni=parsa-panel-u48we.wotic15356.workers.dev&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-c35eb52685bb690c9e49b2e6bd10f855
+
+# Tested at: 2026-11-01 00:43:39 | Response: 1.329s | IP: 51.158.237.31 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@194.135.119.82:2053?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-8ca6d5e323bff648e7a689e0bd6a85a7
 
-# Tested at: 2026-10-31 21:23:02 | Response: 0.763s | IP: 51.158.238.250 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@199.119.137.32:8443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-d33d8d0580601569b8024d38c4df8f37
-
-# Tested at: 2026-10-31 21:23:02 | Response: 2.080s | IP: 51.158.236.230 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:43:40 | Response: 1.955s | IP: 51.158.236.230 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@194.114.138.162:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-4745a3e09257e50f4f1faa744eb21cc4
 
-# Tested at: 2026-10-31 21:23:14 | Response: 0.887s | IP: 51.158.236.230 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@202.50.55.76:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-98bf0f15f2b16af037022d9843e82d72
-
-# Tested at: 2026-10-31 21:23:14 | Response: 1.611s | IP: 45.32.180.58 | Country: 🇬🇧 United Kingdom - GB
-trojan://MiTiVPN@199.232.78.120:443?host=mitivpn-mitivpn-mitivpn.ac.ir&path=%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2FNLSus---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN&security=tls&sni=firefox.com&type=ws#%F0%9F%87%AC%F0%9F%87%A7GB-104a8d5f5d6ad3e9f6b7515d21d9167b
-
-# Tested at: 2026-10-31 21:23:14 | Response: 0.997s | IP: 51.158.240.82 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:43:48 | Response: 0.794s | IP: 51.158.240.82 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@202.61.198.53:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-858d8ec6f7e398de65577c0c0e473ac3
 
-# Tested at: 2026-10-31 21:23:14 | Response: 1.160s | IP: 51.158.237.31 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:43:48 | Response: 0.818s | IP: 57.128.177.22 | Country: 🇫🇷 France - FR
+trojan://MiTiVPN@199.232.78.120:443?alpn=http%2F1.1&fp=chrome&host=mitivpn-mitivpn-mitivpn.ac.ir&path=%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2FNLSus---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN&security=tls&sni=community.fastly.steamstatic.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-104a8d5f5d6ad3e9f6b7515d21d9167b
+
+# Tested at: 2026-11-01 00:43:49 | Response: 0.933s | IP: 51.158.237.31 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@202.61.226.121:8443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-ee7ff641fcd5470c63bc15c992f65dd3
 
-# Tested at: 2026-10-31 21:23:15 | Response: 1.608s | IP: 51.158.236.158 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@206.223.244.33:8443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-8941f3470d49a2134a0663f168996c20
+# Tested at: 2026-11-01 00:43:58 | Response: 0.107s | IP: 216.152.155.158 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.155.54:443?security=tls&sni=learn.nextjobopportunityandclaimyouridealrole.com#%F0%9F%87%BA%F0%9F%87%B8US-f5ee8ded0ff19b1ea9b5d1cecc34da0a
 
-# Tested at: 2026-10-31 21:23:24 | Response: 0.873s | IP: 208.69.78.29 | Country: 🇨🇭 Switzerland - CH
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@208.69.78.158:443?fp=chrome&security=tls&sni=api.yourultimateprofessionalcareerhub.com#%F0%9F%87%A8%F0%9F%87%ADCH-8a0a05be0b65144f4413d05466c89ecb
+# Tested at: 2026-11-01 00:43:58 | Response: 0.116s | IP: 216.152.147.152 | Country: 🇨🇦 Canada - CA
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.79:443?security=tls&sni=blog.connectingpeoplewithgreatjobs.com#%F0%9F%87%A8%F0%9F%87%A6CA-0eb04c3a95f2855f5eb780dbc042de08
 
-# Tested at: 2026-10-31 21:23:25 | Response: 0.950s | IP: 51.158.122.35 | Country: 🇫🇷 France - FR
-trojan://humanity@212.227.90.142:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-2346d763dda4ec3fe73cd32f57c0fc04
-
-# Tested at: 2026-10-31 21:23:25 | Response: 1.009s | IP: 51.158.239.8 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@208.68.180.204:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-f96ad438c6b70c8708f7af3858663321
-
-# Tested at: 2026-10-31 21:23:25 | Response: 0.116s | IP: 216.152.155.23 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.155.158:443?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-6f1492534ac0d1a44c2aa63c05bb0a2d
-
-# Tested at: 2026-10-31 21:23:25 | Response: 0.122s | IP: 216.152.155.54 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.155.54:443?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-f5ee8ded0ff19b1ea9b5d1cecc34da0a
-
-# Tested at: 2026-10-31 21:23:25 | Response: 0.166s | IP: 216.152.155.176 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.155.59:443?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-878878febf7f6c9c326a7d4c052432f1
-
-# Tested at: 2026-10-31 21:23:26 | Response: 0.149s | IP: 216.152.155.158 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.155.176:443?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-00b89f2b7fc7aa2421c5c2711e922715
-
-# Tested at: 2026-10-31 21:23:27 | Response: 0.534s | IP: 216.152.156.212 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.156.212:443?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-d56af928c6c68e0adf23d3066cc06d4d
-
-# Tested at: 2026-10-31 21:23:27 | Response: 2.144s | IP: 51.158.236.230 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@207.57.123.112:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-8fe3eb9fccc72c48043c9c84b71cd658
-
-# Tested at: 2026-10-31 21:23:27 | Response: 1.000s | IP: 51.158.71.64 | Country: 🇫🇷 France - FR
-trojan://humanity@212.24.104.79:2053?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-1c0773a1dd250fabd1b8bb0adc0b333c
-
-# Tested at: 2026-10-31 21:23:27 | Response: 1.173s | IP: 216.152.155.63 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.155.23:443?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-12006abb71300bcff78e985590c14e1c
-
-# Tested at: 2026-10-31 21:23:28 | Response: 2.067s | IP: 51.158.240.91 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@209.97.165.213:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-95a49161dd7b5040017cc4dcdd19c795
-
-# Tested at: 2026-10-31 21:23:29 | Response: 0.179s | IP: 216.152.147.74 | Country: 🇨🇦 Canada - CA
+# Tested at: 2026-11-01 00:43:58 | Response: 0.119s | IP: 216.152.147.89 | Country: 🇨🇦 Canada - CA
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.74:443?security=tls&sni=api.connectingpeoplewithgreatjobs.com#%F0%9F%87%A8%F0%9F%87%A6CA-4a853605045be7deac634b913715bc32
 
-# Tested at: 2026-10-31 21:23:29 | Response: 0.186s | IP: 216.152.156.212 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.156.42:443?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-a18ee226040332e62ac70a72375d03c6
-
-# Tested at: 2026-10-31 21:23:29 | Response: 0.185s | IP: 216.152.156.219 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.156.49:443?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-995eeb89e857ca879132e8c93c77ce49
-
-# Tested at: 2026-10-31 21:23:29 | Response: 0.190s | IP: 216.152.147.89 | Country: 🇨🇦 Canada - CA
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.152:443?security=tls&sni=learn.connectingpeoplewithgreatjobs.com#%F0%9F%87%A8%F0%9F%87%A6CA-d28ddf98f912eb3ecb36d29d5a5fcbdc
-
-# Tested at: 2026-10-31 21:23:29 | Response: 0.191s | IP: 216.106.186.124 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.106.186.46:443?security=tls&sni=cdn.findlocaljobnetworkandbuildcommunityconnections.com#%F0%9F%87%BA%F0%9F%87%B8US-cbcaeb8f9aa2ce39ad44ba316edda9e1
-
-# Tested at: 2026-10-31 21:23:29 | Response: 0.190s | IP: 216.106.186.82 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.106.186.66:443?fp=chrome&security=tls&sni=www.findlocaljobnetworkandbuildcommunityconnections.com#%F0%9F%87%BA%F0%9F%87%B8US-fc5cd81df7caafd0294ad1236a037783
-
-# Tested at: 2026-10-31 21:23:29 | Response: 0.190s | IP: 216.152.156.65 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.156.65:443?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-b25d8bffe459af09a2f50cce0cda5e27
-
-# Tested at: 2026-10-31 21:23:29 | Response: 0.191s | IP: 216.152.156.49 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.156.81:443?security=tls&sni=www.healthcarejobshubenhancemedicalprofessionalskillstoday.com#%F0%9F%87%BA%F0%9F%87%B8US-b7dc2fdd6dba064687d6ea1171f7430c
-
-# Tested at: 2026-10-31 21:23:29 | Response: 0.191s | IP: 216.106.186.66 | Country: 🇺🇸 United States - US
-trojan://f0eb8c92ce8946aaba856569cff1a16b@216.106.186.33:443?security=tls&sni=resources.findlocaljobnetworkandbuildcommunityconnections.com#%F0%9F%87%BA%F0%9F%87%B8US-d798f11532ec28845f3ae3adb91d5ff3
-
-# Tested at: 2026-10-31 21:23:29 | Response: 0.180s | IP: 216.152.147.74 | Country: 🇨🇦 Canada - CA
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.93:443?security=tls&sni=connectingpeoplewithgreatjobs.com#%F0%9F%87%A8%F0%9F%87%A6CA-0b6a3892f8f6017c1a62e12f4bc20fd7
-
-# Tested at: 2026-10-31 21:23:29 | Response: 0.184s | IP: 216.152.147.48 | Country: 🇨🇦 Canada - CA
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.79:443?security=tls#%F0%9F%87%A8%F0%9F%87%A6CA-0eb04c3a95f2855f5eb780dbc042de08
-
-# Tested at: 2026-10-31 21:23:29 | Response: 0.186s | IP: 216.106.186.66 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.106.186.82:443?fp=chrome&security=tls&sni=courses.findlocaljobnetworkandbuildcommunityconnections.com#%F0%9F%87%BA%F0%9F%87%B8US-243e79fc968885a9d658c1d619ecf561
-
-# Tested at: 2026-10-31 21:23:29 | Response: 0.191s | IP: 216.238.80.100 | Country: 🇲🇽 Mexico - MX
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.238.80.100:443?security=tls#%F0%9F%87%B2%F0%9F%87%BDMX-bd72e97813ad6d852609fc23a873f0ab
-
-# Tested at: 2026-10-31 21:23:29 | Response: 0.192s | IP: 216.152.147.201 | Country: 🇨🇦 Canada - CA
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.89:443?security=tls#%F0%9F%87%A8%F0%9F%87%A6CA-7c01eef66a8e715a788b7eaebc7c840e
-
-# Tested at: 2026-10-31 21:23:29 | Response: 0.208s | IP: 216.152.147.152 | Country: 🇨🇦 Canada - CA
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.48:443?security=tls&sni=courses.connectingpeoplewithgreatjobs.com#%F0%9F%87%A8%F0%9F%87%A6CA-722fb0b333a5c591796d5ea18236fe6d
-
-# Tested at: 2026-10-31 21:23:29 | Response: 0.270s | IP: 216.106.186.82 | Country: 🇺🇸 United States - US
-trojan://242a3d8eee5e4ed1a6bfa4141d549a25@216.106.186.66:443?security=tls&sni=www.findlocaljobnetworkandbuildcommunityconnections.com#%F0%9F%87%BA%F0%9F%87%B8US-fc5cd81df7caafd0294ad1236a037783
-
-# Tested at: 2026-10-31 21:23:29 | Response: 0.439s | IP: 216.106.186.155 | Country: 🇺🇸 United States - US
-trojan://dba20dcb635e430fa4d3bfc303a149d2@216.106.186.32:443?security=tls&sni=blog.findlocaljobnetworkandbuildcommunityconnections.com#%F0%9F%87%BA%F0%9F%87%B8US-88ca8d477dce40fc995c100dffa1d8cc
-
-# Tested at: 2026-10-31 21:23:30 | Response: 1.227s | IP: 216.152.147.93 | Country: 🇨🇦 Canada - CA
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.85:443?security=tls&sni=cdn.connectingpeoplewithgreatjobs.com#%F0%9F%87%A8%F0%9F%87%A6CA-8363448bd587bf207748991665029bdf
-
-# Tested at: 2026-10-31 21:23:30 | Response: 1.249s | IP: 149.248.50.252 | Country: 🇨🇦 Canada - CA
+# Tested at: 2026-11-01 00:43:58 | Response: 0.125s | IP: 149.248.50.252 | Country: 🇨🇦 Canada - CA
 trojan://5t6i121em5lkmsmk@216.128.185.90:46977?fp=firefox&security=tls&sni=ca001.zestapp778.com#%F0%9F%87%A8%F0%9F%87%A6CA-4a82b029154d3a642fc48bf0a9359556
 
-# Tested at: 2026-10-31 21:23:30 | Response: 1.631s | IP: 51.158.239.8 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@212.2.227.187:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-db0dfd4423de8002e74dfacfc1da2079
+# Tested at: 2026-11-01 00:43:58 | Response: 0.121s | IP: 216.152.155.176 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.155.131:443?security=tls&sni=www.nextjobopportunityandclaimyouridealrole.com#%F0%9F%87%BA%F0%9F%87%B8US-83381bd4e68a49d6c6b9ae3e289390d2
 
-# Tested at: 2026-10-31 21:23:31 | Response: 0.940s | IP: 51.158.237.31 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@213.165.55.4:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-df0243c6dda4ba721737e2ea46cfbdfd
+# Tested at: 2026-11-01 00:43:58 | Response: 0.123s | IP: 216.152.147.93 | Country: 🇨🇦 Canada - CA
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.93:443?security=tls&sni=connectingpeoplewithgreatjobs.com#%F0%9F%87%A8%F0%9F%87%A6CA-0b6a3892f8f6017c1a62e12f4bc20fd7
 
-# Tested at: 2026-10-31 21:23:31 | Response: 0.996s | IP: 216.128.169.78 | Country: 🇧🇷 Brazil - BR
-trojan://5t6i121em5lkmsmk@216.238.116.204:39533?fp=chrome&security=tls&sni=br001.zestapp778.com#%F0%9F%87%A7%F0%9F%87%B7BR-e936f0eba9cea0b590dbd727595f6ac1
+# Tested at: 2026-11-01 00:43:58 | Response: 0.140s | IP: 216.152.147.74 | Country: 🇨🇦 Canada - CA
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.48:443?security=tls&sni=courses.connectingpeoplewithgreatjobs.com#%F0%9F%87%A8%F0%9F%87%A6CA-722fb0b333a5c591796d5ea18236fe6d
 
-# Tested at: 2026-10-31 21:23:31 | Response: 0.997s | IP: 216.238.104.154 | Country: 🇧🇷 Brazil - BR
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.238.104.154:443?security=tls#%F0%9F%87%A7%F0%9F%87%B7BR-1ad75733a8a97addda0a10f5f9eb7f50
-
-# Tested at: 2026-10-31 21:23:31 | Response: 1.371s | IP: 51.158.237.112 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@213.238.182.13:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-60f9a14a044fd689a74112b5983b661c
-
-# Tested at: 2026-10-31 21:23:31 | Response: 0.218s | IP: 216.152.147.74 | Country: 🇨🇦 Canada - CA
+# Tested at: 2026-11-01 00:43:58 | Response: 0.172s | IP: 216.152.147.89 | Country: 🇨🇦 Canada - CA
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.201:443?security=tls&sni=resources.connectingpeoplewithgreatjobs.com#%F0%9F%87%A8%F0%9F%87%A6CA-af05ea7c07cec487087c6ecf7502d27e
 
-# Tested at: 2026-10-31 21:23:31 | Response: 2.738s | IP: 51.158.240.82 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:43:58 | Response: 0.175s | IP: 216.152.155.176 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.155.176:443?security=tls&sni=blog.nextjobopportunityandclaimyouridealrole.com#%F0%9F%87%BA%F0%9F%87%B8US-00b89f2b7fc7aa2421c5c2711e922715
+
+# Tested at: 2026-11-01 00:43:58 | Response: 0.182s | IP: 216.152.155.23 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.155.158:443?security=tls&sni=resources.nextjobopportunityandclaimyouridealrole.com#%F0%9F%87%BA%F0%9F%87%B8US-6f1492534ac0d1a44c2aa63c05bb0a2d
+
+# Tested at: 2026-11-01 00:43:58 | Response: 0.191s | IP: 216.152.155.50 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.155.59:443?security=tls&sni=api.nextjobopportunityandclaimyouridealrole.com#%F0%9F%87%BA%F0%9F%87%B8US-878878febf7f6c9c326a7d4c052432f1
+
+# Tested at: 2026-11-01 00:43:59 | Response: 0.613s | IP: 51.159.155.154 | Country: 🇫🇷 France - FR
+trojan://humanity@212.183.88.136:443?host=www.calmlunch.com&path=%2F%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-a310abdbfc70ca260c54cc125511225e
+
+# Tested at: 2026-11-01 00:43:59 | Response: 0.876s | IP: 51.158.239.8 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@208.68.180.204:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-f96ad438c6b70c8708f7af3858663321
+
+# Tested at: 2026-11-01 00:43:59 | Response: 0.887s | IP: 51.158.71.64 | Country: 🇫🇷 France - FR
+trojan://humanity@212.24.104.79:2053?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-1c0773a1dd250fabd1b8bb0adc0b333c
+
+# Tested at: 2026-11-01 00:43:59 | Response: 1.252s | IP: 208.69.78.33 | Country: 🇨🇭 Switzerland - CH
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@208.69.78.208:443?security=tls&sni=resources.yourultimateprofessionalcareerhub.com#%F0%9F%87%A8%F0%9F%87%ADCH-ea7c2fee947f24a0a0249a503837b931
+
+# Tested at: 2026-11-01 00:43:59 | Response: 1.329s | IP: 208.69.78.208 | Country: 🇨🇭 Switzerland - CH
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@208.69.78.60:443?security=tls&sni=cdn.yourultimateprofessionalcareerhub.com#%F0%9F%87%A8%F0%9F%87%ADCH-a51d3900dba545ba794905720d284173
+
+# Tested at: 2026-11-01 00:43:59 | Response: 1.299s | IP: 208.69.78.158 | Country: 🇨🇭 Switzerland - CH
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@208.69.78.29:443?security=tls&sni=learn.yourultimateprofessionalcareerhub.com#%F0%9F%87%A8%F0%9F%87%ADCH-9471a2c9db872b363ad9864c58862a84
+
+# Tested at: 2026-11-01 00:44:00 | Response: 1.436s | IP: 208.69.78.60 | Country: 🇨🇭 Switzerland - CH
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@208.69.78.222:443?fp=chrome&security=tls&sni=yourultimateprofessionalcareerhub.com#%F0%9F%87%A8%F0%9F%87%ADCH-95d32917b60baaa7ee78799c54924c9e
+
+# Tested at: 2026-11-01 00:44:00 | Response: 1.587s | IP: 208.69.78.60 | Country: 🇨🇭 Switzerland - CH
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@208.69.78.19:443?security=tls&sni=www.yourultimateprofessionalcareerhub.com#%F0%9F%87%A8%F0%9F%87%ADCH-97fac617958bd82f1c41afeee909c260
+
+# Tested at: 2026-11-01 00:44:00 | Response: 2.182s | IP: 208.69.78.33 | Country: 🇨🇭 Switzerland - CH
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@208.69.78.158:443?fp=chrome&security=tls&sni=api.yourultimateprofessionalcareerhub.com#%F0%9F%87%A8%F0%9F%87%ADCH-8a0a05be0b65144f4413d05466c89ecb
+
+# Tested at: 2026-11-01 00:44:01 | Response: 0.170s | IP: 216.152.147.89 | Country: 🇨🇦 Canada - CA
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.152:443?security=tls&sni=learn.connectingpeoplewithgreatjobs.com#%F0%9F%87%A8%F0%9F%87%A6CA-d28ddf98f912eb3ecb36d29d5a5fcbdc
+
+# Tested at: 2026-11-01 00:44:01 | Response: 0.214s | IP: 216.152.147.74 | Country: 🇨🇦 Canada - CA
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.85:443?security=tls&sni=cdn.connectingpeoplewithgreatjobs.com#%F0%9F%87%A8%F0%9F%87%A6CA-8363448bd587bf207748991665029bdf
+
+# Tested at: 2026-11-01 00:44:02 | Response: 0.139s | IP: 216.152.156.159 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.156.65:443?security=tls&sni=learn.healthcarejobshubenhancemedicalprofessionalskillstoday.com#%F0%9F%87%BA%F0%9F%87%B8US-b25d8bffe459af09a2f50cce0cda5e27
+
+# Tested at: 2026-11-01 00:44:02 | Response: 0.169s | IP: 216.152.147.152 | Country: 🇨🇦 Canada - CA
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.89:443?security=tls&sni=www.connectingpeoplewithgreatjobs.com#%F0%9F%87%A8%F0%9F%87%A6CA-7c01eef66a8e715a788b7eaebc7c840e
+
+# Tested at: 2026-11-01 00:44:02 | Response: 0.177s | IP: 216.152.156.159 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.156.49:443?security=tls&sni=cdn.healthcarejobshubenhancemedicalprofessionalskillstoday.com#%F0%9F%87%BA%F0%9F%87%B8US-995eeb89e857ca879132e8c93c77ce49
+
+# Tested at: 2026-11-01 00:44:02 | Response: 0.207s | IP: 216.106.186.124 | Country: 🇺🇸 United States - US
+trojan://dba20dcb635e430fa4d3bfc303a149d2@216.106.186.32:443?security=tls&sni=blog.findlocaljobnetworkandbuildcommunityconnections.com#%F0%9F%87%BA%F0%9F%87%B8US-88ca8d477dce40fc995c100dffa1d8cc
+
+# Tested at: 2026-11-01 00:44:02 | Response: 0.240s | IP: 216.106.186.82 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.106.186.82:443?fp=chrome&security=tls&sni=courses.findlocaljobnetworkandbuildcommunityconnections.com#%F0%9F%87%BA%F0%9F%87%B8US-243e79fc968885a9d658c1d619ecf561
+
+# Tested at: 2026-11-01 00:44:02 | Response: 0.258s | IP: 216.106.186.155 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.106.186.46:443?security=tls&sni=cdn.findlocaljobnetworkandbuildcommunityconnections.com#%F0%9F%87%BA%F0%9F%87%B8US-cbcaeb8f9aa2ce39ad44ba316edda9e1
+
+# Tested at: 2026-11-01 00:44:02 | Response: 0.274s | IP: 216.106.186.155 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.106.186.66:443?fp=chrome&security=tls&sni=www.findlocaljobnetworkandbuildcommunityconnections.com#%F0%9F%87%BA%F0%9F%87%B8US-fc5cd81df7caafd0294ad1236a037783
+
+# Tested at: 2026-11-01 00:44:02 | Response: 0.157s | IP: 216.152.156.242 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.156.81:443?security=tls&sni=www.healthcarejobshubenhancemedicalprofessionalskillstoday.com#%F0%9F%87%BA%F0%9F%87%B8US-b7dc2fdd6dba064687d6ea1171f7430c
+
+# Tested at: 2026-11-01 00:44:02 | Response: 0.161s | IP: 216.152.156.42 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.156.212:443?security=tls&sni=courses.healthcarejobshubenhancemedicalprofessionalskillstoday.com#%F0%9F%87%BA%F0%9F%87%B8US-d56af928c6c68e0adf23d3066cc06d4d
+
+# Tested at: 2026-11-01 00:44:02 | Response: 0.163s | IP: 216.152.156.49 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.156.42:443?security=tls&sni=blog.healthcarejobshubenhancemedicalprofessionalskillstoday.com#%F0%9F%87%BA%F0%9F%87%B8US-a18ee226040332e62ac70a72375d03c6
+
+# Tested at: 2026-11-01 00:44:02 | Response: 0.167s | IP: 216.152.155.50 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.155.23:443?security=tls&sni=courses.nextjobopportunityandclaimyouridealrole.com#%F0%9F%87%BA%F0%9F%87%B8US-12006abb71300bcff78e985590c14e1c
+
+# Tested at: 2026-11-01 00:44:03 | Response: 0.209s | IP: 216.106.186.155 | Country: 🇺🇸 United States - US
+trojan://242a3d8eee5e4ed1a6bfa4141d549a25@216.106.186.66:443?security=tls&sni=www.findlocaljobnetworkandbuildcommunityconnections.com#%F0%9F%87%BA%F0%9F%87%B8US-fc5cd81df7caafd0294ad1236a037783
+
+# Tested at: 2026-11-01 00:44:03 | Response: 0.374s | IP: 216.106.186.33 | Country: 🇺🇸 United States - US
+trojan://f0eb8c92ce8946aaba856569cff1a16b@216.106.186.33:443?security=tls&sni=resources.findlocaljobnetworkandbuildcommunityconnections.com#%F0%9F%87%BA%F0%9F%87%B8US-d798f11532ec28845f3ae3adb91d5ff3
+
+# Tested at: 2026-11-01 00:44:03 | Response: 0.256s | IP: 216.238.80.100 | Country: 🇲🇽 Mexico - MX
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.238.80.100:443?fp=chrome&security=tls&sni=connectwithtopemployersandfindidealjobs.com#%F0%9F%87%B2%F0%9F%87%BDMX-bd72e97813ad6d852609fc23a873f0ab
+
+# Tested at: 2026-11-01 00:44:05 | Response: 1.467s | IP: 51.158.239.8 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@212.2.227.187:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-db0dfd4423de8002e74dfacfc1da2079
+
+# Tested at: 2026-11-01 00:44:05 | Response: 1.760s | IP: 51.158.236.230 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@207.57.123.112:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-8fe3eb9fccc72c48043c9c84b71cd658
+
+# Tested at: 2026-11-01 00:44:05 | Response: 0.615s | IP: 216.238.104.154 | Country: 🇧🇷 Brazil - BR
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.238.104.154:443?security=tls&sni=findtemporaryworkandfreelancerprojectsonlineplatform.com#%F0%9F%87%A7%F0%9F%87%B7BR-1ad75733a8a97addda0a10f5f9eb7f50
+
+# Tested at: 2026-11-01 00:44:05 | Response: 0.618s | IP: 216.128.169.78 | Country: 🇧🇷 Brazil - BR
+trojan://5t6i121em5lkmsmk@216.238.116.204:39533?fp=chrome&security=tls&sni=br001.zestapp778.com#%F0%9F%87%A7%F0%9F%87%B7BR-e936f0eba9cea0b590dbd727595f6ac1
+
+# Tested at: 2026-11-01 00:44:05 | Response: 2.354s | IP: 51.158.240.91 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@209.97.165.213:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-95a49161dd7b5040017cc4dcdd19c795
+
+# Tested at: 2026-11-01 00:44:06 | Response: 2.883s | IP: 51.158.240.82 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@207.57.132.189:8443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-6a8f94cf6225bc4250692b933795d796
 
-# Tested at: 2026-10-31 21:23:42 | Response: 1.000s | IP: 51.158.237.112 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:44:18 | Response: 0.878s | IP: 51.158.237.112 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@23.246.154.144:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-89019aa49d33ecc3ad5af862a417fb35
 
-# Tested at: 2026-10-31 21:23:54 | Response: 1.722s | IP: 51.158.239.8 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:44:19 | Response: 1.693s | IP: 51.158.239.8 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@3.112.41.210:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-c361e9c0ab8b54775c04336bbedb266c
 
-# Tested at: 2026-10-31 21:24:15 | Response: 0.408s | IP: 38.102.234.153 | Country: 🇺🇸 United States - US
+# Tested at: 2026-11-01 00:44:49 | Response: 0.183s | IP: 38.102.234.153 | Country: 🇺🇸 United States - US
 trojan://lk59gDrTm2@38.102.234.153:18603?security=tls&sni=www.777061.xyz#%F0%9F%87%BA%F0%9F%87%B8US-4901e6d7217370f9b70174f487184874
 
-# Tested at: 2026-10-31 21:24:16 | Response: 1.196s | IP: 51.158.237.122 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:44:49 | Response: 0.780s | IP: 51.158.237.122 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@35.241.172.224:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-8b8e58f605be91db5f8eb3e4240a79c3
 
-# Tested at: 2026-10-31 21:24:16 | Response: 1.251s | IP: 51.158.240.195 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@38.180.100.80:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-24597b446cc174ab28866a475cb1dbfb
-
-# Tested at: 2026-10-31 21:24:26 | Response: 0.589s | IP: 43.167.186.78 | Country: 🇯🇵 Japan - JP
-trojan://9646699a-18b0-4ebc-9f53-453cc1c8e637@43.167.186.78:8443?security=tls&sni=43.167.186.78#%F0%9F%87%AF%F0%9F%87%B5JP-4581a8f9b63d83b7d5e43c801a8a19f6
-
-# Tested at: 2026-10-31 21:24:26 | Response: 0.771s | IP: 51.15.130.70 | Country: 🇫🇷 France - FR
-trojan://humanity@45.130.125.190:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-bcc52c56ec064742b52cacc097e87002
-
-# Tested at: 2026-10-31 21:24:26 | Response: 0.815s | IP: 51.15.130.70 | Country: 🇫🇷 France - FR
-trojan://humanity@45.130.125.126:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-5724b6eca6c6061fcd42d0d9b789c001
-
-# Tested at: 2026-10-31 21:24:26 | Response: 0.880s | IP: 38.60.200.237 | Country: 🇹🇭 Thailand - TH
-trojan://5t6i121em5lkmsmk@38.60.200.237:33079?security=tls&sni=th001.zestapp778.com#%F0%9F%87%B9%F0%9F%87%ADTH-fdae23b6f932d4d6b2c689b46c1775e3
-
-# Tested at: 2026-10-31 21:24:26 | Response: 1.167s | IP: 51.158.244.35 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:44:49 | Response: 0.824s | IP: 51.158.244.35 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@38.180.225.247:2053?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-5327080461ec5ab71683897dbca0dd2b
 
-# Tested at: 2026-10-31 21:24:27 | Response: 0.753s | IP: 51.15.130.70 | Country: 🇫🇷 France - FR
-trojan://humanity@45.130.125.69:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-d785864fbd754ba6c4a7c10be574b8d8
+# Tested at: 2026-11-01 00:44:50 | Response: 1.033s | IP: 51.158.240.195 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@38.180.100.80:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-24597b446cc174ab28866a475cb1dbfb
 
-# Tested at: 2026-10-31 21:24:28 | Response: 0.720s | IP: 51.15.126.204 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:45:00 | Response: 0.599s | IP: 51.159.155.154 | Country: 🇫🇷 France - FR
+trojan://humanity@45.130.125.190:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-bcc52c56ec064742b52cacc097e87002
+
+# Tested at: 2026-11-01 00:45:00 | Response: 0.645s | IP: 51.15.74.254 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@45.128.76.242:443?alpn=http%2F1.1&host=www.trusteeforward.com&path=%2Fassignment&security=tls&sni=www.trusteeforward.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-2beddb50f798ec21810d910f3b5691b9
+
+# Tested at: 2026-11-01 00:45:00 | Response: 0.732s | IP: 43.167.186.78 | Country: 🇯🇵 Japan - JP
+trojan://9646699a-18b0-4ebc-9f53-453cc1c8e637@43.167.186.78:8443?security=tls&sni=43.167.186.78#%F0%9F%87%AF%F0%9F%87%B5JP-4581a8f9b63d83b7d5e43c801a8a19f6
+
+# Tested at: 2026-11-01 00:45:02 | Response: 0.704s | IP: 51.158.171.210 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@45.131.4.38:443?alpn=http%2F1.1&host=www.pleadcourt.org&path=%2Fassignment&security=tls&sni=www.pleadcourt.org&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-8bcbc6da5ed0dce8a5e88e8090d6f6c4
 
-# Tested at: 2026-10-31 21:24:38 | Response: 0.499s | IP: 45.32.52.173 | Country: 🇯🇵 Japan - JP
+# Tested at: 2026-11-01 00:45:14 | Response: 0.560s | IP: 45.32.52.173 | Country: 🇯🇵 Japan - JP
 trojan://e26a229d-e8f2-4ff9-8c7d-58a9d83ee437@45.32.52.173:8886?security=tls&sni=45.32.52.173#%F0%9F%87%AF%F0%9F%87%B5JP-5450970ee3e277b48c17a90248fcb355
 
-# Tested at: 2026-10-31 21:24:38 | Response: 0.649s | IP: 45.32.157.84 | Country: 🇩🇪 Germany - DE
-trojan://Tg3RnK7Xp8B1@45.32.157.84:443?security=tls&sni=ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.kailib.com#%F0%9F%87%A9%F0%9F%87%AADE-e1517b42fde1cdc9c201645b8c929bad
-
-# Tested at: 2026-10-31 21:24:38 | Response: 0.674s | IP: 45.63.30.142 | Country: 🇦🇺 Australia - AU
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@45.63.30.142:443?security=tls&sni=connectwithemployerstohireyouridealteam.com#%F0%9F%87%A6%F0%9F%87%BAAU-63841bbfa1fa750657c53e667b6fb147
-
-# Tested at: 2026-10-31 21:24:39 | Response: 1.469s | IP: 51.158.179.253 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:45:14 | Response: 0.590s | IP: 51.158.179.253 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@45.38.3.25:443?alpn=http%2F1.1&fp=android&host=www.pleadcourt.org&path=%2Fassignment&security=tls&sni=www.pleadcourt.org&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-64468c0825a3cac992fff0a84ed15ca2
 
-# Tested at: 2026-10-31 21:24:55 | Response: 2.680s | IP: 47.250.84.25 | Country: 🇨🇳 China - CN
+# Tested at: 2026-11-01 00:45:14 | Response: 0.637s | IP: 2a05:f480:1800:3572:5400:6ff:fef6:9b5c | Country: 🇩🇪 Germany - DE
+trojan://Tg3RnK7Xp8B1@45.32.157.84:443?fp=chrome&security=tls&sni=ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.kailib.com#%F0%9F%87%A9%F0%9F%87%AADE-e1517b42fde1cdc9c201645b8c929bad
+
+# Tested at: 2026-11-01 00:45:14 | Response: 0.697s | IP: 45.63.30.142 | Country: 🇦🇺 Australia - AU
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@45.63.30.142:443?security=tls&sni=connectwithemployerstohireyouridealteam.com#%F0%9F%87%A6%F0%9F%87%BAAU-63841bbfa1fa750657c53e667b6fb147
+
+# Tested at: 2026-11-01 00:45:14 | Response: 0.749s | IP: 51.159.179.93 | Country: 🇫🇷 France - FR
+trojan://humanity@45.87.41.18:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-6161aa0320412cc9fdcb062f683261bd
+
+# Tested at: 2026-11-01 00:45:31 | Response: 1.118s | IP: 47.250.84.25 | Country: 🇨🇳 China - CN
 trojan://5931134d1cde66bf83a54acdfebe7ab2@47.250.84.25:443?security=tls&sni=moltbot.doctoroyy.net#%F0%9F%87%A8%F0%9F%87%B3CN-1bd404891ee8217c023a5e960b29ec99
 
-# Tested at: 2026-10-31 21:25:07 | Response: 1.687s | IP: 51.158.240.82 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:45:44 | Response: 1.809s | IP: 51.158.240.82 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@52.194.44.56:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-4b002c75a37d3a880f1c830ef4a08ef5
 
-# Tested at: 2026-10-31 21:25:27 | Response: 1.008s | IP: 51.158.238.250 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:46:03 | Response: 0.763s | IP: 51.158.238.250 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@62.182.198.47:8443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-e55e039251094df680db3019d47f2a05
 
-# Tested at: 2026-10-31 21:25:36 | Response: 0.107s | IP: 66.23.203.18 | Country: 🇺🇸 United States - US
-trojan://ae7eb4dwyaz25pxwgq59@66.23.203.21:59689?security=tls&sni=66.23.203.21#%F0%9F%87%BA%F0%9F%87%B8US-1684648b11e000f61d3457b1a1c57be8
-
-# Tested at: 2026-10-31 21:25:36 | Response: 0.101s | IP: 66.163.114.245 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.114.126:443?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-9a3624c1bcc19a24cc10df0e2f41af5a
-
-# Tested at: 2026-10-31 21:25:36 | Response: 0.116s | IP: 66.163.114.166 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.114.132:443?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-15b403bbe841ac77605b274935a7fad0
-
-# Tested at: 2026-10-31 21:25:36 | Response: 0.192s | IP: 66.163.122.30 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.122.25:443?security=tls&sni=cdn.searchnationwidecareerchangehelperandguidancetoday.com#%F0%9F%87%BA%F0%9F%87%B8US-262ed5fd6d85b2a3e55836a7dfb244b1
-
-# Tested at: 2026-10-31 21:25:36 | Response: 0.204s | IP: 66.163.112.13 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.76:443?security=tls&sni=api.unlockyourfuturefindyourperfectcareer.com#%F0%9F%87%BA%F0%9F%87%B8US-edd50f789f692236c9fdbfb68fb6a2a1
-
-# Tested at: 2026-10-31 21:25:36 | Response: 0.206s | IP: 66.163.112.31 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.31:443?security=tls&sni=unlockyourfuturefindyourperfectcareer.com#%F0%9F%87%BA%F0%9F%87%B8US-02a3a5fd552f791e548f761ee35aab59
-
-# Tested at: 2026-10-31 21:25:36 | Response: 0.208s | IP: 66.163.122.81 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.122.81:443?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-24e4dd6f7527e1e5807b8e9550a89703
-
-# Tested at: 2026-10-31 21:25:36 | Response: 0.212s | IP: 66.163.112.142 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.147:443?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-35559eb20c9c0efa5229d19461465795
-
-# Tested at: 2026-10-31 21:25:36 | Response: 0.217s | IP: 66.163.112.242 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.242:443?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-035454875b52db3aaafb1e54707e09da
-
-# Tested at: 2026-10-31 21:25:36 | Response: 0.200s | IP: 66.163.112.31 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.121:443?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-a8de9367712b34f6e962100ab59d5871
-
-# Tested at: 2026-10-31 21:25:36 | Response: 0.201s | IP: 66.163.112.76 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.13:443?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-008651933dcd62908da59911ef339741
-
-# Tested at: 2026-10-31 21:25:36 | Response: 0.221s | IP: 66.163.122.165 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.122.7:443?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-048ad079f5d0c82203084545595c1db8
-
-# Tested at: 2026-10-31 21:25:36 | Response: 0.208s | IP: 66.163.112.242 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.142:443?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-c1db4920eadae722b4d2316faceb9154
-
-# Tested at: 2026-10-31 21:25:36 | Response: 0.235s | IP: 66.163.122.26 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.122.113:443?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-34510eb18586b1f2962db321bac0dd65
-
-# Tested at: 2026-10-31 21:25:36 | Response: 0.229s | IP: 66.163.114.126 | Country: 🇺🇸 United States - US
+# Tested at: 2026-11-01 00:46:13 | Response: 0.118s | IP: 66.163.114.126 | Country: 🇺🇸 United States - US
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.114.166:443?security=tls&sni=blog.findconnectwithemployersandbuildprofessionalnetwork.com#%F0%9F%87%BA%F0%9F%87%B8US-17caf864b75cc34b98834e3b02d88235
 
-# Tested at: 2026-10-31 21:25:36 | Response: 0.092s | IP: 66.163.114.124 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.114.114:443?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-c16cdf2796c555899be5c1b9b8b7b8be
+# Tested at: 2026-11-01 00:46:13 | Response: 0.137s | IP: 66.163.114.45 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.114.126:443?security=tls&sni=resources.findconnectwithemployersandbuildprofessionalnetwork.com#%F0%9F%87%BA%F0%9F%87%B8US-9a3624c1bcc19a24cc10df0e2f41af5a
 
-# Tested at: 2026-10-31 21:25:36 | Response: 0.093s | IP: 66.163.114.132 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.114.245:443?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-c373dbcd335cc7794a12ffd809f4c576
+# Tested at: 2026-11-01 00:46:13 | Response: 0.148s | IP: 66.163.114.126 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.114.45:443?security=tls&sni=cdn.findconnectwithemployersandbuildprofessionalnetwork.com#%F0%9F%87%BA%F0%9F%87%B8US-d1096b82c2c5331aecb19c18a13c2cb7
 
-# Tested at: 2026-10-31 21:25:36 | Response: 0.235s | IP: 66.163.114.124 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.114.45:443?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-d1096b82c2c5331aecb19c18a13c2cb7
-
-# Tested at: 2026-10-31 21:25:36 | Response: 0.237s | IP: 66.163.114.132 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.114.106:443?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-9892e3c698172e4483c6547cab0866cc
-
-# Tested at: 2026-10-31 21:25:36 | Response: 0.278s | IP: 66.163.112.147 | Country: 🇺🇸 United States - US
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.171:443?security=tls&sni=learn.unlockyourfuturefindyourperfectcareer.com#%F0%9F%87%BA%F0%9F%87%B8US-3e00ac5097cccba480f55effd7df1c6b
-
-# Tested at: 2026-10-31 21:25:36 | Response: 0.646s | IP: 64.176.163.182 | Country: 🇮🇱 Israel - IL
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@64.176.163.182:443?security=tls&sni=exploreeducationsectoropportunitiestodayandadvancecareers.com#%F0%9F%87%AE%F0%9F%87%B1IL-6757d3ca5cd52a5c27a07f6d34379e89
-
-# Tested at: 2026-10-31 21:25:37 | Response: 1.176s | IP: 66.163.118.251 | Country: 🇪🇸 Spain - ES
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.251:443?security=tls&sni=resources.discovergreatjobsandadvanceyourcareer.com#%F0%9F%87%AA%F0%9F%87%B8ES-5085c9b1f17e200fb73b8a47bb0fbf69
-
-# Tested at: 2026-10-31 21:25:37 | Response: 1.199s | IP: 66.163.118.62 | Country: 🇪🇸 Spain - ES
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.244:443?security=tls&sni=api.discovergreatjobsandadvanceyourcareer.com#%F0%9F%87%AA%F0%9F%87%B8ES-e4882b9830e47d3de65015b54459674c
-
-# Tested at: 2026-10-31 21:25:37 | Response: 0.202s | IP: 174.138.187.118 | Country: 🇺🇸 United States - US
+# Tested at: 2026-11-01 00:46:13 | Response: 0.130s | IP: 174.138.187.118 | Country: 🇺🇸 United States - US
 trojan://nwilryafgkyvuxauc8pz@69.164.240.85:50875?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-c13f35647033d4370c946dba9a0b57c8
 
-# Tested at: 2026-10-31 21:25:38 | Response: 0.778s | IP: 66.163.118.166 | Country: 🇪🇸 Spain - ES
+# Tested at: 2026-11-01 00:46:13 | Response: 0.154s | IP: 66.163.122.113 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.122.113:443?security=tls&sni=api.searchnationwidecareerchangehelperandguidancetoday.com#%F0%9F%87%BA%F0%9F%87%B8US-34510eb18586b1f2962db321bac0dd65
+
+# Tested at: 2026-11-01 00:46:13 | Response: 0.142s | IP: 66.23.203.18 | Country: 🇺🇸 United States - US
+trojan://ae7eb4dwyaz25pxwgq59@66.23.203.21:59689?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-1684648b11e000f61d3457b1a1c57be8
+
+# Tested at: 2026-11-01 00:46:13 | Response: 0.182s | IP: 66.163.114.124 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.114.132:443?fp=chrome&security=tls&sni=courses.findconnectwithemployersandbuildprofessionalnetwork.com#%F0%9F%87%BA%F0%9F%87%B8US-15b403bbe841ac77605b274935a7fad0
+
+# Tested at: 2026-11-01 00:46:13 | Response: 0.174s | IP: 66.163.122.165 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.122.7:443?security=tls&sni=www.searchnationwidecareerchangehelperandguidancetoday.com#%F0%9F%87%BA%F0%9F%87%B8US-048ad079f5d0c82203084545595c1db8
+
+# Tested at: 2026-11-01 00:46:13 | Response: 0.171s | IP: 66.163.122.25 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.122.25:443?security=tls&sni=cdn.searchnationwidecareerchangehelperandguidancetoday.com#%F0%9F%87%BA%F0%9F%87%B8US-262ed5fd6d85b2a3e55836a7dfb244b1
+
+# Tested at: 2026-11-01 00:46:13 | Response: 0.201s | IP: 66.163.122.25 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.122.81:443?security=tls&sni=courses.searchnationwidecareerchangehelperandguidancetoday.com#%F0%9F%87%BA%F0%9F%87%B8US-24e4dd6f7527e1e5807b8e9550a89703
+
+# Tested at: 2026-11-01 00:46:13 | Response: 0.211s | IP: 66.163.112.242 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.171:443?security=tls&sni=learn.unlockyourfuturefindyourperfectcareer.com#%F0%9F%87%BA%F0%9F%87%B8US-3e00ac5097cccba480f55effd7df1c6b
+
+# Tested at: 2026-11-01 00:46:13 | Response: 0.221s | IP: 66.163.112.31 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.76:443?security=tls&sni=api.unlockyourfuturefindyourperfectcareer.com#%F0%9F%87%BA%F0%9F%87%B8US-edd50f789f692236c9fdbfb68fb6a2a1
+
+# Tested at: 2026-11-01 00:46:13 | Response: 0.223s | IP: 66.163.112.76 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.242:443?security=tls&sni=resources.unlockyourfuturefindyourperfectcareer.com#%F0%9F%87%BA%F0%9F%87%B8US-035454875b52db3aaafb1e54707e09da
+
+# Tested at: 2026-11-01 00:46:13 | Response: 0.249s | IP: 66.163.114.166 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.114.114:443?security=tls&sni=learn.findconnectwithemployersandbuildprofessionalnetwork.com#%F0%9F%87%BA%F0%9F%87%B8US-c16cdf2796c555899be5c1b9b8b7b8be
+
+# Tested at: 2026-11-01 00:46:13 | Response: 0.251s | IP: 66.163.114.132 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.114.245:443?security=tls&sni=findconnectwithemployersandbuildprofessionalnetwork.com#%F0%9F%87%BA%F0%9F%87%B8US-c373dbcd335cc7794a12ffd809f4c576
+
+# Tested at: 2026-11-01 00:46:13 | Response: 0.259s | IP: 66.163.114.114 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.114.106:443?security=tls&sni=www.findconnectwithemployersandbuildprofessionalnetwork.com#%F0%9F%87%BA%F0%9F%87%B8US-9892e3c698172e4483c6547cab0866cc
+
+# Tested at: 2026-11-01 00:46:13 | Response: 0.251s | IP: 66.163.112.171 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.13:443?security=tls&sni=blog.unlockyourfuturefindyourperfectcareer.com#%F0%9F%87%BA%F0%9F%87%B8US-008651933dcd62908da59911ef339741
+
+# Tested at: 2026-11-01 00:46:13 | Response: 0.307s | IP: 66.163.112.142 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.142:443?security=tls&sni=cdn.unlockyourfuturefindyourperfectcareer.com#%F0%9F%87%BA%F0%9F%87%B8US-c1db4920eadae722b4d2316faceb9154
+
+# Tested at: 2026-11-01 00:46:14 | Response: 0.313s | IP: 66.163.112.147 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.121:443?security=tls&sni=www.unlockyourfuturefindyourperfectcareer.com#%F0%9F%87%BA%F0%9F%87%B8US-a8de9367712b34f6e962100ab59d5871
+
+# Tested at: 2026-11-01 00:46:14 | Response: 0.318s | IP: 66.163.112.242 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.31:443?security=tls&sni=unlockyourfuturefindyourperfectcareer.com#%F0%9F%87%BA%F0%9F%87%B8US-02a3a5fd552f791e548f761ee35aab59
+
+# Tested at: 2026-11-01 00:46:14 | Response: 0.364s | IP: 66.163.112.31 | Country: 🇺🇸 United States - US
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.147:443?security=tls&sni=courses.unlockyourfuturefindyourperfectcareer.com#%F0%9F%87%BA%F0%9F%87%B8US-35559eb20c9c0efa5229d19461465795
+
+# Tested at: 2026-11-01 00:46:14 | Response: 0.584s | IP: 66.163.118.166 | Country: 🇪🇸 Spain - ES
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.62:443?security=tls&sni=courses.discovergreatjobsandadvanceyourcareer.com#%F0%9F%87%AA%F0%9F%87%B8ES-7506949cde03ae9affeba80ca5a86d30
 
-# Tested at: 2026-10-31 21:25:53 | Response: 0.663s | IP: 70.34.252.255 | Country: 🇵🇱 Poland - PL
+# Tested at: 2026-11-01 00:46:14 | Response: 0.604s | IP: 64.176.163.182 | Country: 🇮🇱 Israel - IL
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@64.176.163.182:443?security=tls&sni=exploreeducationsectoropportunitiestodayandadvancecareers.com#%F0%9F%87%AE%F0%9F%87%B1IL-6757d3ca5cd52a5c27a07f6d34379e89
+
+# Tested at: 2026-11-01 00:46:14 | Response: 0.607s | IP: 66.163.118.40 | Country: 🇪🇸 Spain - ES
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.251:443?security=tls&sni=resources.discovergreatjobsandadvanceyourcareer.com#%F0%9F%87%AA%F0%9F%87%B8ES-5085c9b1f17e200fb73b8a47bb0fbf69
+
+# Tested at: 2026-11-01 00:46:17 | Response: 0.482s | IP: 70.34.207.14 | Country: 🇸🇪 Sweden - SE
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@70.34.207.14:443?security=tls&sni=searchhealthcarejobsandbuildmedicalcareerpathway.com#%F0%9F%87%B8%F0%9F%87%AASE-01bb4b65fa997e2629911aef9b2892b0
+
+# Tested at: 2026-11-01 00:46:17 | Response: 0.513s | IP: 70.34.252.255 | Country: 🇵🇱 Poland - PL
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@70.34.252.255:443?security=tls&sni=browseexecutivejobopeningsandenhanceleadershipcareer.com#%F0%9F%87%B5%F0%9F%87%B1PL-121b0aec8bf0719c51a957fad806f4b5
 
-# Tested at: 2026-10-31 21:25:54 | Response: 1.510s | IP: 51.158.236.235 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:46:28 | Response: 0.834s | IP: 51.158.240.91 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@78.40.209.33:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-6793ad005016465e483201fdd3bb9ad7
+
+# Tested at: 2026-11-01 00:46:28 | Response: 1.057s | IP: 51.158.236.235 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@77.221.139.114:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-46bae9628b56be8c71e910ab654da4fa
 
-# Tested at: 2026-10-31 21:25:57 | Response: 1.814s | IP: 51.15.126.204 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@8.47.69.0:443?alpn=http%2F1.1&fp=chrome&host=www.pleadcourt.org&path=%2Fassignment&security=tls&sni=www.pleadcourt.org&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-8dc8621cd307b1d0e046052d9f0b8cff
+# Tested at: 2026-11-01 00:46:33 | Response: 0.680s | IP: 51.15.114.164 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@83.217.222.170:443?fp=chrome&host=www.pleadcourt.org&path=%2Fassignment&security=tls&sni=www.pleadcourt.org&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-f44d09edbc6b0a6fc5db7ef645ef62a8
 
-# Tested at: 2026-10-31 21:25:58 | Response: 0.930s | IP: 212.47.233.11 | Country: 🇫🇷 France - FR
-trojan://humanity@81.22.132.136:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-45f227fe10ed7bfe7892253bdc269aaa
+# Tested at: 2026-11-01 00:46:33 | Response: 1.016s | IP: 51.158.239.186 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@82.26.198.25:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-0061d29f25c75fd9e1fcde0089ea9f8a
 
-# Tested at: 2026-10-31 21:26:08 | Response: 0.867s | IP: 51.158.237.119 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@85.235.64.69:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-80d59105b492155c2e0e5922734a06b6
-
-# Tested at: 2026-10-31 21:26:09 | Response: 1.036s | IP: 51.15.126.204 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:46:45 | Response: 0.669s | IP: 51.158.171.210 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@88.216.69.253:443?alpn=http%2F1.1&host=www.pleadcourt.org&path=%2Fassignment&security=tls&sni=www.pleadcourt.org&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-5b97471f0d43254478f81269cd0a7484
 
-# Tested at: 2026-10-31 21:26:09 | Response: 1.302s | IP: 51.158.239.8 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@89.36.137.173:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-3b3e96801a6f196ce952e0c4135d36a2
+# Tested at: 2026-11-01 00:46:45 | Response: 0.759s | IP: 51.158.237.119 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@85.235.64.69:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-80d59105b492155c2e0e5922734a06b6
 
-# Tested at: 2026-10-31 21:26:09 | Response: 1.280s | IP: 51.158.238.250 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:46:45 | Response: 0.839s | IP: 51.158.240.91 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@91.196.32.217:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-d491d95c4059bd12ef5a40a024dd2aef
+
+# Tested at: 2026-11-01 00:46:45 | Response: 0.843s | IP: 86.38.247.109 | Country: 🇸🇬 Singapore - SG
+trojan://sshs8_6481354771@86.38.247.109:2087?security=tls&sni=ul-singapore1.09vpn.com#%F0%9F%87%B8%F0%9F%87%ACSG-dc18f4a9749e8a0664beaff6d45b07e7
+
+# Tested at: 2026-11-01 00:46:45 | Response: 1.013s | IP: 51.158.238.250 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@91.250.248.151:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-cc5c5f277eb3aef7cbd8953632aa42b7
 
-# Tested at: 2026-10-31 21:26:09 | Response: 1.724s | IP: 51.158.239.8 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@87.76.190.244:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-e667c6bc599019f8a9e84dc7a1b286cd
+# Tested at: 2026-11-01 00:46:45 | Response: 1.081s | IP: 51.158.239.8 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@89.36.137.173:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-3b3e96801a6f196ce952e0c4135d36a2
 
-# Tested at: 2026-10-31 21:26:09 | Response: 1.752s | IP: 51.158.239.241 | Country: 🇳🇱 The Netherlands - NL
+# Tested at: 2026-11-01 00:46:46 | Response: 1.684s | IP: 51.158.239.241 | Country: 🇳🇱 The Netherlands - NL
 trojan://humanity@88.218.92.205:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-a3144a6029833492237f98a0bd77b8be
 
-# Tested at: 2026-10-31 21:26:20 | Response: 1.290s | IP: 51.158.238.250 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@93.85.236.9:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-35262cb6b586b5815ce7264c3dda0089
+# Tested at: 2026-11-01 00:46:46 | Response: 1.839s | IP: 51.158.239.8 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@87.76.190.244:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-e667c6bc599019f8a9e84dc7a1b286cd
 
-# Tested at: 2026-10-31 21:26:20 | Response: 1.292s | IP: 51.158.238.250 | Country: 🇳🇱 The Netherlands - NL
-trojan://humanity@93.86.12.49:443?host=www.cordweave.com&path=%2Fassignment&security=tls&sni=www.cordweave.com&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-9606fa95d1e288b77df5449f89acb185
-
-# Tested at: 2026-10-31 21:27:03 | Response: 0.591s | IP: 130.94.77.169 | Country: 🇬🇧 United Kingdom - GB
+# Tested at: 2026-11-01 00:47:33 | Response: 0.494s | IP: 130.94.77.169 | Country: 🇬🇧 United Kingdom - GB
 trojan://5t6i121em5lkmsmk@en001.zestapp778.com:29813?security=tls&sni=en001.zestapp778.com#%F0%9F%87%AC%F0%9F%87%A7GB-e24d11ab8bc51fa088a2237eec742344
 
-# Tested at: 2026-10-31 21:27:25 | Response: 0.975s | IP: 177.201.232.135 | Country: 🇭🇰 Hong Kong - HK
+# Tested at: 2026-11-01 00:47:44 | Response: 0.462s | IP: 217.69.5.173 | Country: 🇫🇷 France - FR
+trojan://5t6i121em5lkmsmk@fr001.zestapp778.com:16778?security=tls#%F0%9F%87%AB%F0%9F%87%B7FR-fdff771f1aa0b9a35927ca8bdeffafdd
+
+# Tested at: 2026-11-01 00:47:56 | Response: 1.087s | IP: 177.201.232.135 | Country: 🇭🇰 Hong Kong - HK
 trojan://778f5385b4254495@hik160.pacemakere.com:20014?security=tls#%F0%9F%87%AD%F0%9F%87%B0HK-63babb1ff37b13cf307ac908b7592843
 
-# Tested at: 2026-10-31 21:28:09 | Response: 0.254s | IP: 216.106.186.124 | Country: 🇺🇸 United States - US
-trojan://f0eb8c92ce8946aaba856569cff1a16b@resources.findlocaljobnetworkandbuildcommunityconnections.com:443?security=tls#%F0%9F%87%BA%F0%9F%87%B8US-e8e0319e98ae959e1307647b8f10010d
+# Tested at: 2026-11-01 00:48:05 | Response: 0.347s | IP: 104.28.167.107 | Country: 🇺🇸 United States - US
+trojan://TsX0XJKMa2h$CbKr0k@idb8onmvbntuyt5t7t6cejfw8vlrb.pages.dev:443?alpn=http%2F1.1&fp=chrome&host=idb8onmvbntuyt5t7t6cejfw8vlrb.pages.dev&path=%2Ftr%2F60XnEWrAQkStT4oTTwmkao9a4sc&security=tls&sni=iDB8onmvBnTuyt5T7T6CejfW8vlRb.PagES.DeV&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-e41f027d204c4a9f97426827c56b12fd
 
-# Tested at: 2026-10-31 21:28:43 | Response: 0.269s | IP: 130.94.19.95 | Country: 🇺🇸 United States - US
-trojan://5t6i121em5lkmsmk@us001.zestapp778.com:57277?security=tls&sni=us001.zestapp778.com#%F0%9F%87%BA%F0%9F%87%B8US-708c8f7fedc58f9fd6ac3ebe5e2cb038
+# Tested at: 2026-11-01 00:48:18 | Response: 0.644s | IP: 158.247.255.150 | Country: 🇰🇷 South Korea - KR
+trojan://5t6i121em5lkmsmk@kr002.zestapp778.com:48851?security=tls&sni=kr002.zestapp778.com#%F0%9F%87%B0%F0%9F%87%B7KR-ae44aa67e7f9077bf27978e8d18eac31
 
-# Tested at: 2026-10-31 21:28:54 | Response: 0.929s | IP: 51.15.130.70 | Country: 🇫🇷 France - FR
+# Tested at: 2026-11-01 00:48:30 | Response: 1.039s | IP: 130.94.52.157 | Country: 🇵🇭 Philippines - PH
+trojan://5t6i121em5lkmsmk@ph001.zestapp778.com:46298?security=tls&sni=ph001.zestapp778.com#%F0%9F%87%B5%F0%9F%87%ADPH-206416f6d773a4ca9cf5da3dc353ad57
+
+# Tested at: 2026-11-01 00:48:39 | Response: 0.271s | IP: 216.106.186.124 | Country: 🇺🇸 United States - US
+trojan://f0eb8c92ce8946aaba856569cff1a16b@resources.findlocaljobnetworkandbuildcommunityconnections.com:443?security=tls&sni=resources.findlocaljobnetworkandbuildcommunityconnections.com#%F0%9F%87%BA%F0%9F%87%B8US-e8e0319e98ae959e1307647b8f10010d
+
+# Tested at: 2026-11-01 00:49:03 | Response: 0.989s | IP: 38.60.200.237 | Country: 🇹🇭 Thailand - TH
+trojan://5t6i121em5lkmsmk@th001.zestapp778.com:33079?fp=chrome&security=tls&sni=th001.zestapp778.com#%F0%9F%87%B9%F0%9F%87%ADTH-b2551ace44f4b921eabf89f2dd80ad72
+
+# Tested at: 2026-11-01 00:49:13 | Response: 0.127s | IP: 108.61.119.63 | Country: 🇺🇸 United States - US
+trojan://5t6i121em5lkmsmk@us007.zestapp778.com:42314?security=tls&sni=us007.zestapp778.com#%F0%9F%87%BA%F0%9F%87%B8US-1b3f22394c19a43a4e46cfb221b53f42
+
+# Tested at: 2026-11-01 00:49:13 | Response: 0.170s | IP: 130.94.19.95 | Country: 🇺🇸 United States - US
+trojan://5t6i121em5lkmsmk@us001.zestapp778.com:57277?fp=chrome&security=tls&sni=us001.zestapp778.com#%F0%9F%87%BA%F0%9F%87%B8US-708c8f7fedc58f9fd6ac3ebe5e2cb038
+
+# Tested at: 2026-11-01 00:49:23 | Response: 0.265s | IP: 104.28.161.59 | Country: 🇺🇸 United States - US
+trojan://uFepQ5r4JSusbY@www.speedtest.net:2083?alpn=http%2F1.1&fp=chrome&host=floral-grass-aa1e.dianawpewpek1.workers.dev&path=%2F%3Fed%3D2048&security=tls&sni=floral-grass-aa1e.dianawpewpek1.workers.dev&type=ws#%F0%9F%87%BA%F0%9F%87%B8US-3922f420584cb7b246f3df911d4de9e7
+
+# Tested at: 2026-11-01 00:49:23 | Response: 0.298s | IP: 216.106.186.32 | Country: 🇺🇸 United States - US
+trojan://242a3d8eee5e4ed1a6bfa4141d549a25@www.findlocaljobnetworkandbuildcommunityconnections.com:443?security=tls&sni=www.findlocaljobnetworkandbuildcommunityconnections.com#%F0%9F%87%BA%F0%9F%87%B8US-79fa01ea076fdf4e7d7b8cf21af4342d
+
+# Tested at: 2026-11-01 00:49:23 | Response: 0.520s | IP: 51.159.155.154 | Country: 🇫🇷 France - FR
 trojan://humanity@www.speedtest.net:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-f7fb7c2482fe513fc606b94ee6d417c9
+
+# Tested at: 2026-11-01 00:49:23 | Response: 0.573s | IP: 51.159.155.154 | Country: 🇫🇷 France - FR
+trojan://humanity@www.calmlunch.com:443?fp=chrome&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#%F0%9F%87%AB%F0%9F%87%B7FR-92e3b0af9dd041138b260608d5efd9f5
+
+# Tested at: 2026-11-01 00:49:24 | Response: 0.626s | IP: 51.158.171.210 | Country: 🇳🇱 The Netherlands - NL
+trojan://humanity@www.pleadcourt.org:443?fp=chrome&path=%2Fassignment&security=tls&sni=www.pleadcourt.org&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-5ced7a242b20a1f2ec4885e3cd750575
+
+# Tested at: 2026-11-01 00:49:24 | Response: 0.807s | IP: 185.239.68.163 | Country: 🇳🇱 The Netherlands - NL
+trojan://uFepQ5r4JSusbY@www.speedtest.net:8443?alpn=http%2F1.1&fp=chrome&host=floral-grass-aa1e.dianawpewpek1.workers.dev&path=%2F%3Fed%3D2048&security=tls&sni=floral-grass-aa1e.dianawpewpek1.workers.dev&type=ws#%F0%9F%87%B3%F0%9F%87%B1NL-d841c624247f38d71d6fd1e604efc5f5
+
+# Tested at: 2026-11-01 00:49:24 | Response: 0.372s | IP: 186.241.105.213 | Country: 🇺🇸 United States - US
+trojan://va3E77I9fZCnCVcGKkxBCfz5@vpn.liumr.top:443?fp=chrome&security=tls&sni=vpn.liumr.top#%F0%9F%87%BA%F0%9F%87%B8US-b49e44cd2408441b17adedd53506e357
 
